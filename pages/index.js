@@ -11,7 +11,10 @@ export default function Home() {
 
       <main>
         <h1 className="text-2xl text-white">
-        Sustainable Progress Equality Collective
+          Sustainable Progress Equality Collective
+        </h1>
+        <h1 className="text-2xl text-white">
+          🚧 This website is currently under construction 🚧
         </h1>
 
         <p className="description">
