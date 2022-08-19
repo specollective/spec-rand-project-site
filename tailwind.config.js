@@ -10,6 +10,9 @@ module.exports = {
         'spec-blue': {
           600: '#1C303D',
         },
+        'spec-teal': {
+          600: '#507E82',
+        },
       }
     },
   },
