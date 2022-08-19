@@ -1,44 +1,32 @@
-import Image from 'next/image'
-import passionPic from '../../public/passion.svg'
+import Overview from './overview';
 import Article from './article';
+import Projects from './projects';
+import MeetRAs from './meet-ras';
+import ByTheNumbers from './by-the-numbers';
+import WhereNow from './where-are-they-now';
+import Testimonials from './testimonials';
 
 export default function SpecXRandPage() {
   return (
-    <div className="container mx-auto">
+    <div className="">
       <div>"nav bar"</div>
-      <h1 className="text-4xl font-bold">SPEC x Center to Advance Racial Equity Policy</h1>
-      <div className="grid grid-cols-3">
-
-        <div id="col-span-1 text-descriptions">
-          <p id="partnersihp-explanation" >
-            Ut venenatis nunc nisl vitae commodo a sit ligula. Integer felis viverra justo, augue metus risus, faucibus in maecenas. Sollicitudin morbi tempus, montes, diam. Vitae semper integer eu, ultricies aliquet mauris. Venenatis massa, amet, nullam arcu sagittis urna. Non viverra eget diam suspendisse enim.
-          </p>
-          <p id="spec-description">
-            The center's work is focused on three key components.
-            <br />
-            I. <strong>Methods and action:</strong> Identifying the most effective combination of approaches that can have enduring impact on systemic racism
-            <p className="font-weight-medium">(Sustainability through systems thinking).</p>
-            <br />
-            II. <strong>Dialogue and change:</strong> Changing the narrative around how we talk about racial equity in systems and policies.
-            <br />
-            III. <strong>Policy leadership:</strong> Preparing policy leaders and those that influence them to debate, design, and address racial equity going forward.
-          </p>
-        </div>
-
-        <div className="col-span-2">
-          <Image
-            src={passionPic}
-            className="object-position-right"
-            alt="passion-led-us-here" 
-            width={100}
-            height={100}
-          />
-        </div>
-
-      </div>
-      <div>Footer!</div>
+      <Overview />
       <Article />
+      <Projects />
+      <MeetRAs />
+      <ByTheNumbers />
+      <WhereNow />
+      <Testimonials />
+      <footer className="bg-spec-yellow-600">
+        <a
+          href="https://vercel.com?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          Powered by{' '}
+          <img src="/vercel.svg" alt="Vercel" className="logo" />
+        </a>
+      </footer>
     </div>
-
   );
 }
