@@ -5,11 +5,12 @@ import MeetRAs from './meet-ras';
 import ByTheNumbers from './by-the-numbers';
 import WhereNow from './where-are-they-now';
 import Testimonials from './testimonials';
+import NavBar from './navbar'
 
 export default function SpecXRandPage() {
   return (
     <div className="">
-      <div>"nav bar"</div>
+      <NavBar />
       <Overview />
       <Article />
       <Projects />
