@@ -5,13 +5,11 @@ import MeetRAs from './meet-ras';
 import ByTheNumbers from './by-the-numbers';
 import WhereNow from './where-are-they-now';
 import Testimonials from './testimonials';
-import NavBar from './navbar'
-import Footer from './footer'
 
 export default function SpecXRandPage() {
   return (
     <div className="">
-      <NavBar />
+      <div>"nav bar"</div>
       <Overview />
       <Article />
       <Projects />
@@ -19,7 +17,16 @@ export default function SpecXRandPage() {
       <ByTheNumbers />
       <WhereNow />
       <Testimonials />
-      <Footer />
+      <footer className="bg-spec-yellow-600">
+        <a
+          href="https://vercel.com?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          Powered by{' '}
+          <img src="/vercel.svg" alt="Vercel" className="logo" />
+        </a>
+      </footer>
     </div>
   );
 }
