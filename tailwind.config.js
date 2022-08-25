@@ -11,14 +11,17 @@ module.exports = {
   theme: {
     extend: {
       colors: {
-        'spec-blue': {
-          600: '#1C303D',
+        "spec-blue": {
+          600: "#1C303D",
         },
-        'spec-teal': {
-          600: '#507E82',
+        "spec-teal": {
+          600: "#507E82",
         },
-      }
+        "spec-yellow": {
+          600: "#F4BE4F",
+        },
+      },
     },
   },
   plugins: [],
-}
+};
