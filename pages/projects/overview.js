@@ -5,9 +5,14 @@ export default function Overview(){
   return (
     <>
       <div className="bg-spec-blue-600 text-white">
-        <h1 className="text-4xl font-bold">SPEC x Center to Advance Racial Equity Policy</h1>
-        <div className="rid grid-cols-3">
-          <div id="col-span-1 text-descriptions">
+        <div className="flex justify-center p-5">
+          <h1 className="block text-4xl font-bold">
+            SPEC x Center to Advance Racial Equity Policy
+            <h6 className="flex flex-row-reverse text-base font-extralight">@ RAND</h6>
+          </h1>
+        </div>
+        <div className="flex justify-center">
+          <div id=" text-descriptions">
             <p id="partnersihp-explanation" >
               Ut venenatis nunc nisl vitae commodo a sit ligula. Integer felis viverra justo, augue metus risus, faucibus in maecenas. Sollicitudin morbi tempus, montes, diam. Vitae semper integer eu, ultricies aliquet mauris. Venenatis massa, amet, nullam arcu sagittis urna. Non viverra eget diam suspendisse enim.
             </p>
@@ -23,7 +28,7 @@ export default function Overview(){
             </div>
           </div>
 
-          <div className="col-span-2">
+          <div className="">
             <Image
               src={passionPic}
               className="object-position-right"
