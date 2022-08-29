@@ -19,7 +19,7 @@ export default function Navbar() {
               <FontAwesomeIcon icon={faCaretDown} />
             </span>
           </a>
-          <ul className="dropdown-menu min-w-max absolute hidden bg-white">
+          <ul className="dropdown-menu min-w-max absolute hidden bg-white text-base z-50 float-left py-2 list-none text-left rounded-lg shadow-lg mt-1 m-0 bg-clip-padding border-none">
             <li>
               <a
                 className="

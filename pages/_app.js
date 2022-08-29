@@ -1,9 +1,6 @@
 import '../styles/global.css'
 import css from 'tw-elements/dist/css/index.min.css' 
-
 import React, { useState, useEffect } from 'react';
-
-
 
 export default function MyApp({ Component, pageProps }) {
   useEffect(() => {
@@ -12,9 +9,6 @@ export default function MyApp({ Component, pageProps }) {
         };
         use();
       }, []);
-
-
-      
 
   return <Component {...pageProps} />
 }
