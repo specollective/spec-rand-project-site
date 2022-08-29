@@ -3,6 +3,7 @@ import wordCloud from '../../public/article_word_cloud.svg'
 import Link from 'next/link'
 
 
+
 export default function Article() {
     return (
         <>

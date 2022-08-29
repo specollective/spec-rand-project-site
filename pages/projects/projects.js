@@ -46,19 +46,18 @@ export default function Projects() {
               </p>
             </p>
             <div className="flex flex-row p-0 relative">
-              <img
+              <Image
                 src={marcus.src}
                 alt="projects-impact"
-                width={66}
-                height={33}
+                width={100}
+                height={50}
                 className="absolute left-[0px]"
               />
 
               <img
                 src={nan.src}
                 alt="projects-impact"
-                width={66}
-                height={33}
+                
                 className="absolute left-[60px]"
               />
 
@@ -121,7 +120,7 @@ export default function Projects() {
             <p className="text-sm mt-6 mb-6">
               This project kicked off: December 2021
             </p>
-            <div class="flex flex-row p-0">
+            <div className="flex flex-row p-0">
               <div>
                 <Image
                   src={yoline}
