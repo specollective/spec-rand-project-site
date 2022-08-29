@@ -20,6 +20,12 @@ module.exports = {
         "spec-yellow": {
           600: "#F4BE4F",
         },
+        "spec-turq": {
+          600: "#0C9FAA",
+        },
+        "spec-white": {
+          600: "#FEFFF",
+        },
       },
     },
   },
