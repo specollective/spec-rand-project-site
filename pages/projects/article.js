@@ -1,5 +1,5 @@
 import Image from "next/image"
-import wordCloud from '../../public/article-word-cloud.svg'
+import wordCloud from '../../public/article_word_cloud.svg'
 import Link from 'next/link'
 
 

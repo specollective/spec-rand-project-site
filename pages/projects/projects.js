@@ -10,6 +10,7 @@ import joe from "/public/joe_g_sm_bubble.svg";
 import nan from "/public/nan_sm_bubble.svg";
 import menoukha from "/public/menoukha_sm_bubble.svg";
 import marcus from "/public/marcus_sm_bubble.svg";
+import alicia from "/public/alicia_sm_bubble.svg"
 
 import Link from "next/link";
 
@@ -44,43 +45,65 @@ export default function Projects() {
                 This project kicked off: November 2021
               </p>
             </p>
-            <div class="flex flex-row p-0">
-              <div>
-                <Image
-                src={marcus}
+            <div className="flex flex-row p-0 relative">
+              <img
+                src={marcus.src}
                 alt="projects-impact"
-                width={100}
-                height={50}
-                className=""
+                width={66}
+                height={33}
+                className="absolute left-[0px]"
               />
-              </div>
-              <div>
-              <Image
-                src={nan}
+
+              <img
+                src={nan.src}
                 alt="projects-impact"
-                width={100}
-                height={50}
-                className=""
+                width={66}
+                height={33}
+                className="absolute left-[60px]"
               />
-              </div>
-              <div>
-              <Image
-                src={joe}
+
+              <img
+                src={alicia.src}
                 alt="projects-impact"
-                width={100}
-                height={50}
-                className=""
+                width={66}
+                height={33}
+                className="absolute left-[120px]"
               />
-              </div>
-              <div>
-              <Image
-                src={menoukha}
+              <img
+                src={menoukha.src}
                 alt="projects-impact"
-                width={100}
-                height={50}
-                className=""
+                width={66}
+                height={33}
+                className="absolute left-[180px]"
               />
-              </div>
+              <img
+                src={joe.src}
+                alt="projects-impact"
+                width={66}
+                height={33}
+                className="absolute left-[240px]"
+              />
+              <img
+                src={crystal.src}
+                alt="projects-impact"
+                width={66}
+                height={33}
+                className="absolute left-[300px]"
+              />
+              <img
+                src={yoline.src}
+                alt="projects-impact"
+                width={66}
+                height={33}
+                className="absolute left-[360px]"
+              />
+              <img
+                src={victoria.src}
+                alt="projects-impact"
+                width={66}
+                height={33}
+                className="absolute left-[420px]"
+              />
             </div>
           </div>
           <div className="container mx-auto px-10 mt-10 mb-10">
@@ -101,39 +124,39 @@ export default function Projects() {
             <div class="flex flex-row p-0">
               <div>
                 <Image
-                src={yoline}
-                alt="projects-impact"
-                width={100}
-                height={50}
-                className=""
-              />
+                  src={yoline}
+                  alt="projects-impact"
+                  width={66}
+                  height={33}
+                  className=""
+                />
               </div>
               <div>
-              <Image
-                src={victoria}
-                alt="projects-impact"
-                width={100}
-                height={50}
-                className=""
-              />
+                <Image
+                  src={victoria}
+                  alt="projects-impact"
+                  width={66}
+                  height={33}
+                  className=""
+                />
               </div>
               <div>
-              <Image
-                src={crystal}
-                alt="projects-impact"
-                width={100}
-                height={50}
-                className=""
-              />
+                <Image
+                  src={crystal}
+                  alt="projects-impact"
+                  width={66}
+                  height={33}
+                  className=""
+                />
               </div>
               <div>
-              <Image
-                src={ilia}
-                alt="projects-impact"
-                width={100}
-                height={50}
-                className=""
-              />
+                <Image
+                  src={ilia}
+                  alt="projects-impact"
+                  width={66}
+                  height={33}
+                  className=""
+                />
               </div>
             </div>
           </div>
@@ -173,8 +196,8 @@ export default function Projects() {
                 <Image
                   src={yoline}
                   alt="projects-impact"
-                  width={100}
-                  height={50}
+                  width={66}
+                  height={33}
                   className=""
                 />
               </p>
