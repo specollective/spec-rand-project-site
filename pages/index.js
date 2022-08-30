@@ -1,5 +1,5 @@
 import Head from 'next/head'
-
+import css from 'tw-elements/dist/css/index.min.css' 
 
 export default function Home() {
   return (

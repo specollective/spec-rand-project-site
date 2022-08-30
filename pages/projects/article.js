@@ -1,5 +1,5 @@
 import Image from "next/image"
-import wordCloud from '../../public/article-word-cloud.svg'
+import wordCloud from '../../public/article_word_cloud.svg'
 import Link from 'next/link'
 import SectionContent from '../../components/section-content'
 
@@ -8,6 +8,8 @@ function SectionHeader({ children }) {
         <h1 className="text-4xl font-bold"> { children } </h1>
     )
 }
+
+
 
 export default function Article() {
     return (
