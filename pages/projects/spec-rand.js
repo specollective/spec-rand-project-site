@@ -8,10 +8,22 @@ import Testimonials from './testimonials';
 import NavBar from './navbar'
 import Footer from './footer'
 
+function Layout({ children }) {
+  return (
+    <div>
+      <NavBar />
+      <main className="">
+        { children }
+      </main>
+      <Footer />
+    </div>
+
+  )
+}
+
 export default function SpecXRandPage() {
   return (
-    <div className="">
-      <NavBar />
+    <Layout>
       <Overview />
       <Article />
       <Projects />
@@ -19,7 +31,6 @@ export default function SpecXRandPage() {
       <ByTheNumbers />
       <WhereNow />
       <Testimonials />
-      <Footer />
-    </div>
+    </Layout>
   );
 }

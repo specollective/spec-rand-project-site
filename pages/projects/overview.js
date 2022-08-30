@@ -1,10 +1,11 @@
 import Image from 'next/image'
 import passionPic from '../../public/passion.svg'
+import SectionContent from '../../components/section-content.js'
 
-export default function Overview(){
+export default function Overview() {
   return (
-    <>
-      <div className="bg-spec-blue-600 text-white">
+    <SectionContent>
+      <div className="">
         <h1 className="text-4xl font-bold">SPEC x Center to Advance Racial Equity Policy</h1>
         <div className="rid grid-cols-3">
           <div id="col-span-1 text-descriptions">
@@ -35,6 +36,6 @@ export default function Overview(){
 
         </div>
       </div>
-    </>
+    </SectionContent>
   )
 }
