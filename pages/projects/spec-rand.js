@@ -8,18 +8,31 @@ import Testimonials from './testimonials';
 import NavBar from './navbar'
 import Footer from './footer'
 
-export default function SpecXRandPage() {
+function Layout({ children }) {
   return (
-    <div className="">
+    <div>
       <NavBar />
-      <Overview />
-      <Article />
-      <Projects />
-      <MeetRAs />
-      <ByTheNumbers />
-      <WhereNow />
-      <Testimonials />
+      <main className="">
+        { children }
+      </main>
       <Footer />
     </div>
+
+  )
+}
+
+export default function SpecXRandPage() {
+  return (
+    <>
+      <Layout >
+        <Overview />
+        <Article />
+        <Projects />
+        <MeetRAs />
+        <ByTheNumbers />
+        <WhereNow />
+        <Testimonials />
+      </Layout>
+    </>
   );
 }
