@@ -23,14 +23,16 @@ function Layout({ children }) {
 
 export default function SpecXRandPage() {
   return (
-    <Layout>
-      <Overview />
-      <Article />
-      <Projects />
-      <MeetRAs />
-      <ByTheNumbers />
-      <WhereNow />
-      <Testimonials />
-    </Layout>
+    <>
+      <Layout >
+        <Overview />
+        <Article />
+        <Projects />
+        <MeetRAs />
+        <ByTheNumbers />
+        <WhereNow />
+        <Testimonials />
+      </Layout>
+    </>
   );
 }

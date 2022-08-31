@@ -41,9 +41,9 @@ export default function Projects() {
               aim of expanding access to education in the areas of diversity,
               equity, inclusion (DEI), mass atrocity prevention, game-based
               learning, and professional development.
-              <p className="text-sm mt-6">
-                This project kicked off: November 2021
-              </p>
+            </p>
+            <p className="text-sm mt-6">
+              This project kicked off: November 2021
             </p>
             <div className="flex flex-row p-0 relative">
               <Image
@@ -188,18 +188,18 @@ export default function Projects() {
               aim of expanding access to education in the areas of diversity,
               equity, inclusion (DEI), mass atrocity prevention, game-based
               learning, and professional development.
-              <p className="text-sm mt-6 mb-6">
-                This project kicked off: August 2022
-              </p>
-              <p className="">
-                <Image
-                  src={yoline}
-                  alt="projects-impact"
-                  width={66}
-                  height={33}
-                  className=""
-                />
-              </p>
+            </p>
+            <p className="text-sm mt-6 mb-6">
+              This project kicked off: August 2022
+            </p>
+            <p className="">
+              <Image
+                src={yoline}
+                alt="projects-impact"
+                width={66}
+                height={33}
+                className=""
+              />
             </p>
           </div>
         </div>
