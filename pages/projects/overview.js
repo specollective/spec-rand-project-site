@@ -1,7 +1,8 @@
 import Image from 'next/image'
-import specLogo from '../../public/spec-logo.svg';
-import caerpLogo from '../../public/caerp.svg';
 import SectionContent from '../../components/section-content';
+import TextContent from '../../components/text';
+import caerpLogo from '../../public/caerp.svg';
+import specLogo from '../../public/spec-logo.svg';
 
 export default function Overview() {
   return (
@@ -15,7 +16,7 @@ export default function Overview() {
           </div>
         </div>
         
-        <div className="">
+        <TextContent className="">
           <div className="mb-5">
             Odio aliquam duis semper habitasse at luctus rhoncus egestas in. 
             Aliquam arcu fringilla dui commodo. Dolor, eu donec ornare varius nam adipiscing purus dui, sit. 
@@ -28,7 +29,7 @@ export default function Overview() {
             Id mi pretium rutrum molestie eget eget. Purus lobortis adipiscing felis at mauris. 
             Praesent netus augue at adipiscing in ipsum morbi neque aliquet. 
           </div>
-        </div>
+        </TextContent>
 
         <div className="grid grid-cols-2 p-12">
           
