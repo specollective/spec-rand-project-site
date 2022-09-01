@@ -5,6 +5,7 @@ import SubHeader from "../../components/sub-header";
 import TextContent from "../../components/text";
 import joe_g from "../../public/joe_g_sm_bubble.svg";
 import nan from "../../public/nan_sm_bubble.svg";
+import meepleBullet from "../../public/meeple_bullet.svg";
 
 export default function JoerPage() {
     return (
@@ -15,9 +16,13 @@ export default function JoerPage() {
                 
                 This issue also features student collaborations. Students from the Pardee RAND Graduate School discuss the ways in which the diversity, equity, and inclusion movement has suffered from its own form of colonization. Wabash College has offered a paper written by their Democracy and Public Discourse Fellows, who have refined a process for engaging in structured deliberative conversation to help navigate the challenging environment for political discourse  
             </TextContent>
-            <GridContainer>
-                
-            </GridContainer>
+            <div className="grid grid-cols-3 mt-10 mb-10">
+                <Image
+                    src={meepleBullet}
+                    alt="joer-issue-one"
+                />
+            </div>
+
         </div>
     )
 }
