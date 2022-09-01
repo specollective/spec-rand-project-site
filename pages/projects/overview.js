@@ -1,19 +1,18 @@
 import Image from 'next/image'
 import specLogo from '../../public/spec-logo.svg';
 import caerpLogo from '../../public/caerp.svg';
+import SectionContent from '../../components/section-content';
 
 export default function Overview() {
   return (
-    <>
-      <div className="bg-spec-blue-600 text-white pb-10">
-        
-        <div className="flex justify-center p-5">
-          <h1 className="block text-4xl font-bold">
+    <SectionContent>        
+        <div className="flex pb-10">
+          <div className="flex flex-col text-align text-4xl font-bold">
             SPEC x Center to Advance Racial Equity Policy
-            <h6 className="flex flex-row-reverse text-base font-extralight">
+            <div className="flex flex-row-reverse font-extralight text-sm pr-6">
               @ RAND
-            </h6>
-          </h1>
+            </div>
+          </div>
         </div>
         
         <div className="">
@@ -65,7 +64,6 @@ export default function Overview() {
                 diversity, equity, inclusion and reciprocity are the means to get there.
               </div>
             </div>
->>>>>>> b943e27e506cec19e7d79bb1c9eb45083d58e0b1
           </div>
         </div>
 
@@ -137,8 +135,6 @@ export default function Overview() {
 
           </div>
         </div>
-
-      </div>
     </SectionContent>
   )
 }
