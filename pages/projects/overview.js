@@ -31,80 +31,91 @@ export default function Overview() {
             Praesent netus augue at adipiscing in ipsum morbi neque aliquet. 
           </div>
         </TextContent>
+        
+        <div className="flex justify-between py-10">
+          {/* SPEC */}
 
-        <div className="grid grid-cols-5 py-10 bg-gray">
-          
-          <div className="col-start-1 col-end-3 justify-center">
-            <div className="h-44 relative">
-                <Image
-                  src={specLogo}
-                  alt="spec-logo"
-                  layout="fill" 
-                  objectFit="contain"
-                />
-            </div>           
-            <div className="pt-7 text-2xl">Sustainable Progress & Equality Collective</div>
-            <div className="pt-14">
-              <div>Spec's core values & operating principles:</div>
-              <div className="text-bold">
-                <a className="text-red-600">Sustainability through Systems Thinking</a> : 
-                Using critical awareness when building systems, 
-                seeking solutions that usher in improvement locally and globally 
-                and applying a variety of research and development methods.
-              </div>
-              <div>
-                <a className="text-red-600"> Progress through Open Collaboration</a> : 
-                Striving for openess in our research and communications. 
-                Seeking to understand the world by trying to create transformative change through 
-                collaboration,research and critical reflection.
-              </div>
-              <div>
-                <a className="text-red-600"> Equality through Mutual Reciprocity</a> : 
-                Treat everyone in our communities with compassion, mutual respect and accountability.
-                Equality is the end goal; 
-                diversity, equity, inclusion and reciprocity are the means to get there.
+          <div className="basis-5/12">
+            <div className="grid justify-center">
+              <div className="py-7 text-xl text-center">Sustainable Progress & Equality Collective</div>
+              <div className="h-40 relative order-first">
+                  <Image
+                    src={specLogo}
+                    alt="spec-logo"
+                    layout="fill" 
+                    objectFit="contain"
+                  />
+              </div>  
+              <div className="flex grow-zero shrink-0"> Spec's core values & operating principles:</div>
+              <div className="mt-7 space-y-7">
+                <div className="text-bold">
+                  <a className="text-red-600">Sustainability through Systems Thinking</a>: 
+                  Using critical awareness when building systems, 
+                  seeking solutions that usher in improvement locally and globally 
+                  and applying a variety of research and development methods.
+                </div>
+                <div>
+                  <a className="text-red-600"> Progress through Open Collaboration</a>: 
+                  Striving for openess in our research and communications. 
+                  Seeking to understand the world by trying to create transformative change through 
+                  collaboration,research and critical reflection.
+                </div>
+                <div>
+                  <a className="text-red-600"> Equality through Mutual Reciprocity</a>: 
+                  Treat everyone in our communities with compassion, mutual respect and accountability.
+                  Equality is the end goal; 
+                  diversity, equity, inclusion and reciprocity are the means to get there.
+                </div>
               </div>
             </div>
           </div>
 
-          {/* <div className="grid col-start-3">
-            <Image 
-            src={specLogo}
-            alt="spec-logo"
-            />
-          </div> */}
-
-          <div className="col-start-4 col-end-6 justify-center ">
-            <div className="h-44 relative">
-                <Image
-                  src={caerpLogo}
-                  alt="caerp-logo"
-                  layout="fill"
-                  objectFit="contain"
-                />
+          {/* LINE */}
+          <div className="basis-1/12">
+            <div className="grid">
+              <Image 
+              src={specLogo}
+              alt="spec-logo"
+              />
             </div>
-            <div className="pt-7 text-2xl">Center to Advance Racial Equity Policy</div>
-            <div className="pt-14">
-              <div classNam="">The Center's Work is focused on three key components:</div>
-              <div className="text-bold">
-                <a className="text-spec-yellow-600">Pillar I. Methods and actions</a> : 
-                Identifying the most effective combination of approaches 
-                that can have enduring impact on systemic racism.
-              </div>
-              <div>
-                <a className="text-spec-yellow-600"> Pillar II. Dialogue and change</a> : 
-                Changing the narrative around how we talk about racial equity in systems and policies.
-              </div>
-              <div>
-                <a className="text-spec-yellow-600"> Pillar III. Policy leadership</a> : 
-                Preparing policy leaders and those that influence them to debate, design, 
-                and address racial equity going forward.
-              </div>
-            </div>
+          </div>
 
+          {/* CAERP */}
+          <div className="basis-5/12">
+            <div className="grid justify-center">
+              <h1 className="py-7 text-xl text-center">Center to Advance Racial Equity Policy</h1>
+             
+              <div className="h-40 relative order-first">
+                  <Image
+                    src={caerpLogo}
+                    alt="caerp-logo"
+                    layout="fill"
+                    objectFit="contain"
+                  />
+              </div>
+              <div className="flex grow-zero">The Center's Work is focused on three key components:</div>
+              <div className="mt-7 space-y-7">
+                <div className="text-bold">
+                  <a className="text-spec-yellow-600">Pillar I. Methods and actions</a>: 
+                  Identifying the most effective combination of approaches 
+                  that can have enduring impact on systemic racism.
+                </div>
+                <div>
+                  <a className="text-spec-yellow-600"> Pillar II. Dialogue and change</a>: 
+                  Changing the narrative around how we talk about racial equity in systems and policies.
+                </div>
+                <div>
+                  <a className="text-spec-yellow-600"> Pillar III. Policy leadership</a>: 
+                  Preparing policy leaders and those that influence them to debate, design, 
+                  and address racial equity going forward.
+                </div>
+              </div>
+
+            </div>
           </div>
 
         </div>
+
     </SectionContent>
   )
 }
