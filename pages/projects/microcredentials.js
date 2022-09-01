@@ -5,6 +5,7 @@ import TextContent from "../../components/text";
 import SubHeader from "../../components/sub-header";
 import Microcred from "../../public/microcredential_dev_img.svg"
 import GridContainer from "../../components/grid-container";
+import marcus from "../../public/marcus_sm_bubble.svg";
 
 export default function Microcredentials() {
     return (
@@ -33,6 +34,9 @@ export default function Microcredentials() {
                 </TextContent>
             </div>
         </GridContainer>
+
+        <div id="page-divider" className="border-spec-yellow-600 border-t-4 width-10"></div>
+
         <GridContainer>
             <div>
                 <SubHeader className="font-bold"> Project Goals & Objectives:</SubHeader>
@@ -77,19 +81,103 @@ export default function Microcredentials() {
         <SubHeader className="font-bold"> At a Glance:</SubHeader>
 
         <GridContainer>
-            <div>
-                <SubHeader className="font-bold"> Introduction:</SubHeader>
+            <span>
+                <SubHeader className="text-spec-teal-600 text-4xl font-bold">1</SubHeader>
                 <TextContent>
-                    Morbi facilisis semper ornare nunc. Amet aenean porttitor et est auctor proin. Elementum ut gravida aliquet nibh orci, sodales. Sit volutpat aliquet tincidunt vestibulum in. Mauris, diam sed consectetur non hendrerit et. Aliquet ac ullamcorper ultrices facilisi. Dolor, diam duis porta leo nunc malesuada mattis euismod augue. Augue malesuada adipiscing elit at quisque. Mattis facilisis lectus justo, nibh consequat tortor vel amet lectus. Magna tristique adipiscing felis ante nisl. Id adipiscing nisi netus purus mi facilisi. Purus sed viverra neque, turpis bibendum diam pharetra lacus dui.
+                    Learning Management System (LMS)
                 </TextContent >
-            </div>
-            <div>
-                <SubHeader className="font-bold"> Introduction:</SubHeader>
+            </span>
+            <span>
+                <SubHeader className="text-spec-teal-600 text-4xl font-bold">41</SubHeader>
                 <TextContent>
-                    Morbi facilisis semper ornare nunc. Amet aenean porttitor et est auctor proin. Elementum ut gravida aliquet nibh orci, sodales. Sit volutpat aliquet tincidunt vestibulum in. Mauris, diam sed consectetur non hendrerit et. Aliquet ac ullamcorper ultrices facilisi. Dolor, diam duis porta leo nunc malesuada mattis euismod augue. Augue malesuada adipiscing elit at quisque. Mattis facilisis lectus justo, nibh consequat tortor vel amet lectus. Magna tristique adipiscing felis ante nisl. Id adipiscing nisi netus purus mi facilisi. Purus sed viverra neque, turpis bibendum diam pharetra lacus dui.
+                    participants enrolled in courses
                 </TextContent >
-            </div>
+            </span>
         </GridContainer>
+
+        <GridContainer>
+            <span>
+                <SubHeader className="text-spec-teal-600 text-4xl font-bold">12</SubHeader>
+                <TextContent>
+                    RAs worked on this project 
+                </TextContent >
+            </span>
+            <span>
+                <SubHeader className="text-spec-teal-600 text-4xl font-bold">6500+</SubHeader>
+                <TextContent>
+                    Data points collected
+                </TextContent >
+            </span>
+        </GridContainer>
+
+        <GridContainer>
+            <span>
+                <SubHeader className="text-spec-teal-600 text-4xl font-bold">6</SubHeader>
+                <TextContent>
+                    Microcredentials created:
+                    <ul className="list-disc">
+                        <li>Cultural Mediation</li>
+                        <li>Intro to Moodle for Learners</li>
+                        <li>Anti-Racism 1.0</li>
+                        <li>Intercultural Competency 1.0</li>
+                        <li>Office Street Smarts</li>
+                        <li>Mentoring</li>
+                    </ul> 
+                </TextContent >
+            </span>
+        </GridContainer>
+
+        <SubHeader className="font-bold"> The Team:</SubHeader>
+        <span>
+            <Image
+                src={marcus}
+                alt="marcus"
+            />
+        </span>
+        <span>
+            <Image
+                src={marcus}
+                alt="marcus"
+            />
+        </span>
+        <span>
+            <Image
+                src={marcus}
+                alt="marcus"
+            />
+        </span>
+        <span>
+            <Image
+                src={marcus}
+                alt="marcus"
+            />
+        </span>
+        <span>
+            <Image
+                src={marcus}
+                alt="marcus"
+            />
+        </span>
+        <span>
+            <Image
+                src={marcus}
+                alt="marcus"
+            />
+        </span>
+        <span>
+            <Image
+                src={marcus}
+                alt="marcus"
+            />
+        </span>
+        <span>
+            <Image
+                src={marcus}
+                alt="marcus"
+            />
+        </span>
+        
+
 
     </div>
 
