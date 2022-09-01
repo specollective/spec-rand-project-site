@@ -1,6 +1,7 @@
 import Image from 'next/image'
 import SectionContent from '../../components/section-content';
 import TextContent from '../../components/text';
+import GridContainer from '../../components/grid-container';
 import caerpLogo from '../../public/caerp.svg';
 import specLogo from '../../public/spec-logo.svg';
 
@@ -31,20 +32,19 @@ export default function Overview() {
           </div>
         </TextContent>
 
-        <div className="grid grid-cols-2 p-12">
+        <div className="grid grid-cols-5 py-10 bg-gray">
           
-          <div className="grid justify-center">
-            <div className="grid justify-center">
+          <div className="col-start-1 col-end-3 justify-center">
+            <div className="h-44 relative">
                 <Image
                   src={specLogo}
                   alt="spec-logo"
-                  className=""
-                  width={130}
-                  height={130}
+                  layout="fill" 
+                  objectFit="contain"
                 />
-              <span className="mt-2 mb-10 text-2xl">Sustainable Progress & Equality Collective</span>
             </div>           
-            <div className="block space-y-5">
+            <div className="pt-7 text-2xl">Sustainable Progress & Equality Collective</div>
+            <div className="pt-14">
               <div>Spec's core values & operating principles:</div>
               <div className="text-bold">
                 <a className="text-red-600">Sustainability through Systems Thinking</a> : 
@@ -66,58 +66,26 @@ export default function Overview() {
               </div>
             </div>
           </div>
-        </div>
 
-        <div className="grid grid-cols-2 p-12">
-          
-          <div className="grid justify-center">
-            <div className="grid justify-center">
-                <Image
-                  src={specLogo}
-                  alt="spec-logo"
-                  className=""
-                  width={130}
-                  height={130}
-                />
-              <span className="mt-2 mb-10 text-2xl">Sustainable Progress & Equality Collective</span>
-            </div>           
-            <div className="block space-y-5">
-              <div>Spec's core values & operating principles:</div>
-              <div className="text-bold">
-                <a className="text-red-600">Sustainability through Systems Thinking</a> : 
-                Using critical awareness when building systems, 
-                seeking solutions that usher in improvement locally and globally 
-                and applying a variety of research and development methods.
-              </div>
-              <div>
-                <a className="text-red-600"> Progress through Open Collaboration</a> : 
-                Striving for openess in our research and communications. 
-                Seeking to understand the world by trying to create transformative change through 
-                collaboration,research and critical reflection.
-              </div>
-              <div>
-                <a className="text-red-600"> Equality through Mutual Reciprocity</a> : 
-                Treat everyone in our communities with compassion, mutual respect and accountability.
-                Equality is the end goal; 
-                diversity, equity, inclusion and reciprocity are the means to get there.
-              </div>
-            </div>
-          </div>
- 
-          <div className="grid justify-center">
-            <div className="grid justify-center">
+          {/* <div className="grid col-start-3">
+            <Image 
+            src={specLogo}
+            alt="spec-logo"
+            />
+          </div> */}
+
+          <div className="col-start-4 col-end-6 justify-center ">
+            <div className="h-44 relative">
                 <Image
                   src={caerpLogo}
                   alt="caerp-logo"
-                  className=""
-                  width={130}
-                  height={130}
+                  layout="fill"
+                  objectFit="contain"
                 />
-              <span className="mt-2 mb-10 text-2xl">Center to Advance Racial Equity Policy</span>
             </div>
-            
-            <div className="block space-y-5">
-              <div>The Center's Work is focused on three key components:</div>
+            <div className="pt-7 text-2xl">Center to Advance Racial Equity Policy</div>
+            <div className="pt-14">
+              <div classNam="">The Center's Work is focused on three key components:</div>
               <div className="text-bold">
                 <a className="text-spec-yellow-600">Pillar I. Methods and actions</a> : 
                 Identifying the most effective combination of approaches 
@@ -128,13 +96,14 @@ export default function Overview() {
                 Changing the narrative around how we talk about racial equity in systems and policies.
               </div>
               <div>
-                <a className="text-spec-yellow-600"> Pillar III. Policy leadership:</a> : 
+                <a className="text-spec-yellow-600"> Pillar III. Policy leadership</a> : 
                 Preparing policy leaders and those that influence them to debate, design, 
                 and address racial equity going forward.
               </div>
             </div>
 
           </div>
+
         </div>
     </SectionContent>
   )
