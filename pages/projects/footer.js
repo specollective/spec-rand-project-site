@@ -23,36 +23,44 @@ export default function Footer() {
         </div>
         <div className="grid grid-cols-4 gap-1">
           <Link href="https://www.facebook.com/specollective">
-            <Image
-              src={facebook}
-              alt="facebook"
-              className=""
-            />
+            <a>
+              <Image
+                src={facebook}
+                alt="facebook"
+                className=""
+              />
+            </a>
           </Link>
           <Link href="https://twitter.com/specollective">
+          <a>
             <Image
               src={twitter}
               alt="twitter"
               className=""
             />
+          </a>
           </Link>
           <Link href="https://linkedin.com/company/specollective/">
+          <a>
             <Image
               src={linkedin}
               alt="linkedin"
               className=""
             />
+          </a>
           </Link>
           <Link href="https://github.com/specollective">
+          <a>
             <Image
               src={github}
               alt="github"
               className=""
             />
+          </a>
           </Link>
         </div>
       </div>
-      <div class="w-2/3 grid content-center pl-5">
+      <div className="w-2/3 grid content-center pl-5">
         <div className="grid grid-rows-3 grid-cols-3 leading-10">
           <div><Link href="/">About Us</Link></div>
           <div><Link href="/">Blog</Link></div>
