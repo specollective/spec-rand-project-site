@@ -6,6 +6,16 @@ import SubHeader from "../../components/sub-header";
 import Microcred from "../../public/microcredential_dev_img.svg"
 import GridContainer from "../../components/grid-container";
 import marcus from "../../public/marcus_sm_bubble.svg";
+import nan from "../../public/nan_sm_bubble.svg";
+import alicia from "../../public/alicia_sm_bubble.svg";
+import menoukha from "../../public/menoukha_sm_bubble.svg";
+import joe_g from "../../public/joe_g_sm_bubble.svg";
+import crystal from "../../public/crystal_sm_bubble.svg";
+import yoline from "../../public/yoline_sm_bubble.svg";
+import victoria from "../../public/victoria_sm_bubble.svg";
+
+
+
 
 export default function Microcredentials() {
     return (
@@ -136,44 +146,44 @@ export default function Microcredentials() {
         </span>
         <span>
             <Image
-                src={marcus}
-                alt="marcus"
+                src={nan}
+                alt="nan"
             />
         </span>
         <span>
             <Image
-                src={marcus}
-                alt="marcus"
+                src={alicia}
+                alt="alicia"
             />
         </span>
         <span>
             <Image
-                src={marcus}
-                alt="marcus"
+                src={menoukha}
+                alt="menoukha"
             />
         </span>
         <span>
             <Image
-                src={marcus}
-                alt="marcus"
+                src={joe_g}
+                alt="joe_g"
             />
         </span>
         <span>
             <Image
-                src={marcus}
-                alt="marcus"
+                src={crystal}
+                alt="crystal"
             />
         </span>
         <span>
             <Image
-                src={marcus}
-                alt="marcus"
+                src={yoline}
+                alt="yoline"
             />
         </span>
         <span>
             <Image
-                src={marcus}
-                alt="marcus"
+                src={victoria}
+                alt="victoria"
             />
         </span>
         
