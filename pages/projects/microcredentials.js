@@ -19,8 +19,8 @@ import victoria from "../../public/victoria_sm_bubble.svg";
 
 export default function Microcredentials() {
     return (
-    <div className="bg-spec-blue-600 text-slate-100 font-medium px-44 pt-12">
-        <SectionHeader className="content-center">Microcredential Development Project</SectionHeader>
+    <div className="bg-spec-blue-600 justify-center text-slate-100 font-medium px-44 pt-12">
+        <SectionHeader className="text-center">Microcredential Development Project</SectionHeader>
         <div className="text-center">
             <Image
                 src={Microcred}
@@ -45,7 +45,7 @@ export default function Microcredentials() {
             </div>
         </GridContainer>
 
-        <div id="page-divider" className="border-spec-yellow-600 border-t-4 width-10"></div>
+        <div id="page-divider" className="flex justify-center border-center border-spec-yellow-600 border-t-4 w-3/5"></div>
 
         <GridContainer>
             <div>
@@ -92,13 +92,13 @@ export default function Microcredentials() {
 
         <GridContainer>
             <span>
-                <SubHeader className="text-spec-teal-600 text-4xl font-bold">1</SubHeader>
+                <h3 className="text-spec-teal-600 text-4xl font-bold">1</h3>
                 <TextContent>
                     Learning Management System (LMS)
                 </TextContent >
             </span>
             <span>
-                <SubHeader className="text-spec-teal-600 text-4xl font-bold">41</SubHeader>
+                <h3 className="text-spec-teal-600 text-4xl font-bold">41</h3>
                 <TextContent>
                     participants enrolled in courses
                 </TextContent >
@@ -107,13 +107,13 @@ export default function Microcredentials() {
 
         <GridContainer>
             <span>
-                <SubHeader className="text-spec-teal-600 text-4xl font-bold">12</SubHeader>
+                <h3 className="text-spec-teal-600 text-4xl font-bold">12</h3>
                 <TextContent>
                     RAs worked on this project 
                 </TextContent >
             </span>
             <span>
-                <SubHeader className="text-spec-teal-600 text-4xl font-bold">6500+</SubHeader>
+                <h3 className="text-spec-teal-600 text-4xl font-bold">6500+</h3>
                 <TextContent>
                     Data points collected
                 </TextContent >
@@ -122,7 +122,7 @@ export default function Microcredentials() {
 
         <GridContainer>
             <span>
-                <SubHeader className="text-spec-teal-600 text-4xl font-bold">6</SubHeader>
+                <h3 className="text-spec-teal-600 text-4xl font-bold">6</h3>
                 <TextContent>
                     Microcredentials created:
                     <ul className="list-disc">
@@ -187,8 +187,6 @@ export default function Microcredentials() {
             />
         </span>
         
-
-
     </div>
 
     )
