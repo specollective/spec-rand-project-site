@@ -7,6 +7,7 @@ import WhereNow from './where-are-they-now';
 import Testimonials from './testimonials';
 import NavBar from './navbar'
 import Footer from './footer'
+import Footnote from '../../components/foot-note';
 
 function Layout({ children }) {
   return (
@@ -32,6 +33,7 @@ export default function SpecXRandPage() {
         <ByTheNumbers />
         <WhereNow />
         <Testimonials />
+        <Footnote />
       </Layout>
     </>
   );
