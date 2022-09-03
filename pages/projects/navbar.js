@@ -5,7 +5,7 @@ export default function Navbar() {
   return (
     <div className="flex w-full items-center bg-spec-blue-600 text-white">
       <div className="">
-        <img src="/spec-logo.svg" alt="Spec Logo" className="inline" />
+        <img src="/spec_logo.svg" alt="Spec Logo" className="inline" />
         SPEC
       </div>
       <div className={`flex ml-auto space-x-3`}>
