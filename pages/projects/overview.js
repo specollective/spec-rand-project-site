@@ -32,9 +32,7 @@ export default function Overview() {
           </div>
         </TextContent>
         
-        <div className="flex justify-between py-10">
-          {/* SPEC */}
-
+        <div className="flex sm:flex-col md:flex-row justify-between py-10">
           <div className="basis-5/12">
             <div className="grid justify-center">
               <div className="py-7 text-xl text-center">Sustainable Progress & Equality Collective</div>
@@ -70,17 +68,10 @@ export default function Overview() {
             </div>
           </div>
 
-          {/* LINE */}
-          <div className="basis-1/12">
-            <div className="grid">
-              <Image 
-              src={specLogo}
-              alt="spec-logo"
-              />
-            </div>
+          <div className="basis-1/12 relative">
+            <div className="absolute left-1/2 -ml-0.5 w-0.5 h-52 bg-white my-44"></div>
           </div>
 
-          {/* CAERP */}
           <div className="basis-5/12">
             <div className="grid justify-center">
               <h1 className="py-7 text-xl text-center">Center to Advance Racial Equity Policy</h1>
@@ -110,7 +101,6 @@ export default function Overview() {
                   and address racial equity going forward.
                 </div>
               </div>
-
             </div>
           </div>
 
