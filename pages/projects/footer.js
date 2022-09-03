@@ -5,7 +5,7 @@ import facebook from '../../public/facebook.svg';
 import twitter from '../../public/twitter.svg';
 import linkedin from '../../public/linkedin.svg';
 import github from '../../public/github.svg';
-import specLogo from '../../public/spec-logo.svg';
+import specLogo from '../../public/spec_logo.svg';
 import Link from 'next/link'
 
 export default function Footer() {

@@ -3,7 +3,7 @@ import SectionContent from '../../components/section-content';
 import TextContent from '../../components/text';
 import GridContainer from '../../components/grid-container';
 import caerpLogo from '../../public/caerp.svg';
-import specLogo from '../../public/spec-logo.svg';
+import specLogo from '../../public/spec_logo.svg';
 
 export default function Overview() {
   return (
@@ -39,7 +39,7 @@ export default function Overview() {
               <div className="h-40 relative order-first">
                   <Image
                     src={specLogo}
-                    alt="spec-logo"
+                    alt="spec_logo"
                     layout="fill" 
                     objectFit="contain"
                   />
