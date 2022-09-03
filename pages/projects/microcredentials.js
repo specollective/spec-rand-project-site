@@ -5,6 +5,7 @@ import TextContent from "../../components/text";
 import SubHeader from "../../components/sub-header";
 import Microcred from "../../public/microcredential_dev_img.svg"
 import GridContainer from "../../components/grid-container";
+import Footnote from "../../components/foot-note";
 import marcus from "../../public/marcus_sm_bubble.svg";
 import nan from "../../public/nan_sm_bubble.svg";
 import alicia from "../../public/alicia_sm_bubble.svg";
@@ -19,9 +20,9 @@ import victoria from "../../public/victoria_sm_bubble.svg";
 
 export default function Microcredentials() {
     return (
-    <div className="bg-spec-blue-600 justify-center text-slate-100 font-medium px-44 pt-12">
+    <div className="bg-spec-blue-600 justify-center content-center text-slate-100 font-medium px-44 pt-12">
         <SectionHeader className="text-center">Microcredential Development Project</SectionHeader>
-        <div className="text-center">
+        <div className="text-center p-8">
             <Image
                 src={Microcred}
                 alt="microcredentials"
@@ -45,7 +46,7 @@ export default function Microcredentials() {
             </div>
         </GridContainer>
 
-        <div id="page-divider" className="flex justify-center border-center border-spec-yellow-600 border-t-4 w-3/5"></div>
+        <div id="page-divider" className="flex justify-center border-spec-yellow-600 border-t-4 w-3/5"></div>
 
         <GridContainer>
             <div>
@@ -90,39 +91,33 @@ export default function Microcredentials() {
 
         <SubHeader className="font-bold"> At a Glance:</SubHeader>
 
-        <GridContainer>
-            <span>
-                <h3 className="text-spec-teal-600 text-4xl font-bold">1</h3>
+        <GridContainer className="grid-rows-3">
+            <div className="flex flex-cols">
+                <h3 className="text-spec-teal-600 text-4xl font-bold pr-5">1</h3>
                 <TextContent>
                     Learning Management System (LMS)
                 </TextContent >
-            </span>
-            <span>
-                <h3 className="text-spec-teal-600 text-4xl font-bold">41</h3>
+            </div>
+            <div className="flex flex-cols">
+                <p className="text-spec-teal-600 text-4xl font-bold pr-5">41</p>
                 <TextContent>
                     participants enrolled in courses
                 </TextContent >
-            </span>
-        </GridContainer>
-
-        <GridContainer>
-            <span>
-                <h3 className="text-spec-teal-600 text-4xl font-bold">12</h3>
+            </div>
+            <div className="flex flex-cols">
+                <h3 className="text-spec-teal-600 text-4xl font-bold pr-5">12</h3>
                 <TextContent>
                     RAs worked on this project 
                 </TextContent >
-            </span>
-            <span>
-                <h3 className="text-spec-teal-600 text-4xl font-bold">6500+</h3>
+            </div>
+            <div className="flex flex-cols">
+                <h3 className="text-spec-teal-600 text-4xl font-bold pr-5">6500+</h3>
                 <TextContent>
                     Data points collected
                 </TextContent >
-            </span>
-        </GridContainer>
-
-        <GridContainer>
-            <span>
-                <h3 className="text-spec-teal-600 text-4xl font-bold">6</h3>
+            </div>
+            <div className="flex flex-cols">
+                <h3 className="text-spec-teal-600 text-4xl font-bold pr-5">6</h3>
                 <TextContent>
                     Microcredentials created:
                     <ul className="list-disc">
@@ -134,7 +129,7 @@ export default function Microcredentials() {
                         <li>Mentoring</li>
                     </ul> 
                 </TextContent >
-            </span>
+            </div>
         </GridContainer>
 
         <SubHeader className="font-bold"> The Team:</SubHeader>
@@ -186,6 +181,7 @@ export default function Microcredentials() {
                 alt="victoria"
             />
         </span>
+        <Footnote />
         
     </div>
 
