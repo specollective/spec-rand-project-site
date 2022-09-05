@@ -1,8 +1,8 @@
 import Image from "next/image";
-import SectionContent from "../../components/section-content";
 import SectionHeader from "../../components/section-header";
 import TextContent from "../../components/text";
 import SubHeader from "../../components/sub-header";
+import ImageBubbles from "../../components/image-bubbles";
 import Microcred from "../../public/microcredential_dev_img.svg"
 import GridContainer from "../../components/grid-container";
 import Footnote from "../../components/foot-note";
@@ -15,6 +15,7 @@ import crystal from "../../public/crystal_sm_bubble.svg";
 import yoline from "../../public/yoline_sm_bubble.svg";
 import victoria from "../../public/victoria_sm_bubble.svg";
 
+const teamList = [ marcus, nan, alicia, menoukha, joe_g, crystal, yoline, victoria ];
 
 
 
@@ -46,13 +47,20 @@ export default function Microcredentials() {
             </div>
         </GridContainer>
 
-        <div id="page-divider" className="flex justify-center border-spec-yellow-600 border-t-4 w-3/5"></div>
+        {/* TO DO: figure out how to center this divider line, or keep the code in lines 53-57 */}
+        {/* <div id="page-divider" className="flex items-center justify-center border-spec-yellow-600 border-t-4 w-3/5"></div> */}
+
+        <div class="flex items-center py-4">
+            <div class="flex-grow h-px w-1/5"></div>
+            <span class="flex-grow border-spec-yellow-600 border-t-4 w-3/5"></span>
+            <div class="flex-grow h-px w-1/5"></div>
+        </div>
 
         <GridContainer>
             <div>
                 <SubHeader className="font-bold"> Project Goals & Objectives:</SubHeader>
                 <TextContent>
-                    <ol className="list-decimal">
+                    <ol className="list-decimal pl-7">
                         <li>
                             Create new learning programs in the areas of DEI and Mass Atrocity Prevention that are designed for CAREP’s internal stakeholders
                         </li>
@@ -74,7 +82,7 @@ export default function Microcredentials() {
             <div>
                 <SubHeader className="font-bold"> Impact:</SubHeader>
                 <TextContent>
-                    <ul className="list-disc">
+                    <ul className="list-disc pl-7">
                         <li>
                             # of OC contributions
                         </li>
@@ -117,16 +125,16 @@ export default function Microcredentials() {
                 </TextContent >
             </div>
             <div className="flex flex-cols">
-                <h3 className="text-spec-teal-600 text-4xl font-bold pr-5">6</h3>
+                <h3 className="text-spec-teal-600 text-4xl font-bold pr-10">6</h3>
                 <TextContent>
                     Microcredentials created:
-                    <ul className="list-disc">
-                        <li>Cultural Mediation</li>
+                    <ul className="list-disc pl-10">
+                        <li className="">Cultural Mediation</li>
                         <li>Intro to Moodle for Learners</li>
                         <li>Anti-Racism 1.0</li>
                         <li>Intercultural Competency 1.0</li>
-                        <li>Office Street Smarts</li>
-                        <li>Mentoring</li>
+                        <li><a className="text-red-600">Office Street Smarts</a></li>
+                        <li><a className="text-red-600">Mentoring</a></li>
                     </ul> 
                 </TextContent >
             </div>
@@ -181,6 +189,13 @@ export default function Microcredentials() {
                 alt="victoria"
             />
         </span>
+
+        {/* Figure out how to use this componens */}
+        {/* <ImageBubbles
+            src={teamList}
+        /> */}
+
+
         <Footnote />
         
     </div>
