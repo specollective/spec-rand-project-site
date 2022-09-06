@@ -1,6 +1,6 @@
 export default function TextContent({ children, className=""}) {
     return(
-      <div className={`${className} font-medium px-44 pt-12`}>
+      <div className={`${className} font-medium `}>
         { children }
       </div>
     )
