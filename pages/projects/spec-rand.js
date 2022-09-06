@@ -4,10 +4,10 @@ import Projects from './projects';
 import MeetRAs from './meet-ras';
 import ByTheNumbers from './by-the-numbers';
 import WhereNow from './where-are-they-now';
-import Testimonials from './testimonials';
 import NavBar from './navbar'
 import Footer from './footer'
 import Footnote from '../../components/foot-note';
+import Reflections from './reflections';
 
 function Layout({ children }) {
   return (
@@ -32,7 +32,7 @@ export default function SpecXRandPage() {
         <MeetRAs />
         <ByTheNumbers />
         <WhereNow />
-        <Testimonials />
+        <Reflections />
         <Footnote />
       </Layout>
     </>
