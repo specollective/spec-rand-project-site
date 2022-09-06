@@ -141,59 +141,40 @@ export default function Microcredentials() {
         </GridContainer>
 
         <SubHeader className="font-bold"> The Team:</SubHeader>
-        <span>
-            <Image
-                src={marcus}
+        <ImageBubbles>
+            <img
+                src={marcus.src}
                 alt="marcus"
             />
-        </span>
-        <span>
-            <Image
-                src={nan}
+            <img
+                src={nan.src}
                 alt="nan"
             />
-        </span>
-        <span>
-            <Image
-                src={alicia}
+            <img
+                src={alicia.src}
                 alt="alicia"
             />
-        </span>
-        <span>
-            <Image
-                src={menoukha}
+            <img
+                src={menoukha.src}
                 alt="menoukha"
             />
-        </span>
-        <span>
-            <Image
-                src={joe_g}
+            <img
+                src={joe_g.src}
                 alt="joe_g"
             />
-        </span>
-        <span>
-            <Image
-                src={crystal}
+            <img
+                src={crystal.src}
                 alt="crystal"
             />
-        </span>
-        <span>
-            <Image
-                src={yoline}
+            <img
+                src={yoline.src}
                 alt="yoline"
             />
-        </span>
-        <span>
-            <Image
-                src={victoria}
+            <img
+                src={victoria.src}
                 alt="victoria"
             />
-        </span>
-
-        {/* Figure out how to use this componens */}
-        {/* <ImageBubbles
-            src={teamList}
-        /> */}
+        </ImageBubbles>
 
 
         <Footnote />
