@@ -74,13 +74,13 @@ export default function MeetRAs() {
                         <div className="grid grid-cols-4">
                             <div className="pr-10">
                                 <Image
-                                    src={alicia}
-                                    alt="alicia-bong"
+                                    src={crystal}
+                                    alt="crystal-shamsi"
                                     width={150}
                                     height={150}
                                 />
-                                <TextContent className="">
-                                    Alicia Bong
+                                <TextContent className="text-black font-bold">
+                                    Crystal Shamsi
                                 </TextContent>
                             </div>
                             <div className="pr-10">
