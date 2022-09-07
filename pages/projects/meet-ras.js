@@ -104,44 +104,18 @@ export default function MeetRAs() {
                             <div className="pr-10">
                                 <Image
                                     src={nan}
-                                    alt="yellow-quote"
+                                    alt="nan-mead"
                                     width={150}
                                     height={150}
                                 />
-                                <TextContent className="italic">
+                                <TextContent className="text-black font-bold">
                                     Test
                                 </TextContent>
                             </div>
                         </div>
+                    </div>
                     </div>
 
-                    <div className="carousel-item relative float-left w-full">
-                        <div className="grid grid-cols-4">
-                            <div className="pr-10">
-                                <Image
-                                    src={nan}
-                                    alt="yellow-quote"
-                                    width={150}
-                                    height={150}
-                                />
-                                <TextContent className="italic">
-                                    Test
-                                </TextContent>
-                            </div>
-                            <div className="pr-10">
-                                <Image
-                                    src={nan}
-                                    alt="yellow-quote"
-                                    width={150}
-                                    height={150}
-                                />
-                                <TextContent className="italic">
-                                    Test
-                                </TextContent>
-                            </div>
-                        </div>
-                    </div>
-                    </div>
                 <button
                     className="carousel-control-prev top-30 bottom-0 flex items-center justify-center p-0 text-center border-0 hover:outline-none hover:no-underline focus:outline-none focus:no-underline left-0"
                     type="button"
