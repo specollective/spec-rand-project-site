@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Link from "next/link";
 import SectionHeader from "../../components/section-header";
 import SectionContent from "../../components/section-content";
 import SubHeader from "../../components/sub-header";
@@ -24,48 +25,65 @@ export default function MeetRAs() {
                     <div className="carousel-item active relative float-left w-full">
                         <div className="grid grid-cols-4">
                             <div className="pr-10">
-                                <Image
-                                    src={nan}
-                                    alt="nan-mead"
-                                    width={150}
-                                    height={150}
-                                />
-                                <TextContent className="text-black font-bold">
-                                    Nan Elieen Mead
-                                </TextContent>
+                                <Link href="/projects/meet-ras/nan">
+                                    <a>
+                                        <Image
+                                            src={nan}
+                                            alt="nan-mead"
+                                            width={150}
+                                            height={150}
+                                        />
+                                        <TextContent className="text-black font-bold">
+                                            Nan Elieen Mead
+                                        </TextContent>
+
+                                    </a>
+                                </Link>
                             </div>
                             <div className="pr-10">
-                                <Image
-                                    src={alicia}
-                                    alt="alicia-bong"
-                                    width={150}
-                                    height={150}
-                                />
-                                <TextContent className="text-black font-bold">
-                                    Alicia Bong
-                                </TextContent>
+                                <Link href="/projects/meet-ras/alicia">
+                                    <a>
+                                        <Image
+                                            src={alicia}
+                                            alt="alicia-bong"
+                                            width={150}
+                                            height={150}
+                                        />
+                                        <TextContent className="text-black font-bold">
+                                            Alicia Bong
+                                        </TextContent>
+                                    </a>
+                                </Link>
                             </div>
                             <div className="pr-10">
-                                <Image
-                                    src={yoline}
-                                    alt="yoline-bangerjee"
-                                    width={150}
-                                    height={150}
-                                />
-                                <TextContent className="text-black font-bold">
-                                    Yoline Banerjee
-                                </TextContent>
+                                <Link href="/projects/meet-ras/yoline">
+                                    <a>
+                                        <Image
+                                            src={yoline}
+                                            alt="yoline-bangerjee"
+                                            width={150}
+                                            height={150}
+                                        />
+                                        <TextContent className="text-black font-bold">
+                                            Yoline Banerjee
+                                        </TextContent>
+                                    </a>
+                                </Link>
                             </div>
                             <div className="pr-10">
-                                <Image
-                                    src={victoria}
-                                    alt="victoria-lo"
-                                    width={150}
-                                    height={150}
-                                />
-                                <TextContent className="text-black font-bold">
-                                    Victoria Lo
-                                </TextContent>
+                                <Link href="/projects/meet-ras/victoria">
+                                    <a>
+                                        <Image
+                                            src={victoria}
+                                            alt="victoria-lo"
+                                            width={150}
+                                            height={150}
+                                        />
+                                        <TextContent className="text-black font-bold">
+                                            Victoria Lo
+                                        </TextContent>
+                                    </a>
+                                </Link>
                             </div>
                         </div>
                     </div>
