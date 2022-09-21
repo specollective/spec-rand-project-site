@@ -1,9 +1,9 @@
 import React from 'react'
 import { useState } from 'react'
 import Image from 'next/image'
-import Link from 'next'
 import SpecLogo from '../public/spec_logo.svg'
 import SpecLogoWord from '../public/SPEC.svg'
+import DropdownArrow from '../public/Polygon.svg'
 
 
 function Navbar() {
@@ -19,29 +19,29 @@ function Navbar() {
 
   const involvedOnClick = () => {
     setAboutButton(false)
-    setInvolvedButton(true)
+    setInvolvedButton(!involvedButton)
     setPartnerButton(false)
   }
 
   const partnerOnClick = () => {
     setAboutButton(false)
     setInvolvedButton(false)
-    setPartnerButton(true)
+    setPartnerButton(!partnerButton)
   }
 
   // Need to add Poppins font after extensions are merged.
   return (
     <div className='flex justify-evenly place-items-center h-20 bg-black text-white'>
-      <div className='inline h-16 w-16'>
+      <div className='inline h-16 w-16 flex-shrink-0'>
         <Image src={SpecLogo} alt="logo" />
       </div>
-      <div className='pr-40'>
-        <Image src={SpecLogoWord} alt="logo" />
+      <div className='flex-shrink-0 pr-40'>
+        <Image src={SpecLogoWord} alt="logoWord" />
       </div>
 
       {/* About Us button dropdown */}
       <div className='relative inline-block text-left'>
-        <button type='button' onClick={aboutOnClick} className='inline-flex w-full justify-center rounded-md px-4 py-2 text-sm font-medium text-white shadow-sm focus:outline-none' id="menu-button" aria-expanded="true" aria-haspopup="true">About Us</button>
+        <button type='button' onClick={aboutOnClick} className='inline-flex w-full justify-center rounded-md px-4 py-2 text-sm font-medium text-white shadow-sm focus:outline-none' id="menu-button" aria-expanded="true" aria-haspopup="true">About Us<div className='pl-1'><Image className="inline p-4" src={DropdownArrow} alt="arrow" /></div></button>
         <div className={aboutButton ? "absolute right-0 z-10 mt-2 w-40 origin-top-right rounded-md bg-white shadow-lg ring-1 ring-black ring-opacity-5 focus:outline-none" : "hidden"} role="menu" aria-orientation="vertical" aria-labelledby="menu-button" tabindex="-1">
           <div className="py-1" role="none">
             <a href="#" className="text-gray-700 block px-4 py-2 text-sm" role="menuitem" tabindex="-1" id="menu-item-0">Link 1</a>
@@ -56,7 +56,7 @@ function Navbar() {
 
       {/* Get Involved Button dropdown */}
       <div className='relative inline-block text-left'>
-        <button type='button' onClick={involvedOnClick}  className='inline-flex w-full justify-center rounded-md px-4 py-2 text-sm font-medium text-white shadow-sm focus:outline-none' id="menu-button" aria-expanded="true" aria-haspopup="true">Get Involved</button>
+        <button type='button' onClick={involvedOnClick}  className='inline-flex w-full justify-center rounded-md px-4 py-2 text-sm font-medium text-white shadow-sm focus:outline-none' id="menu-button" aria-expanded="true" aria-haspopup="true">Get Involved<div className='pl-1'><Image className="inline p-4" src={DropdownArrow} alt="arrow" /></div></button>
         <div className={involvedButton ? "absolute right-0 z-10 mt-2 w-40 origin-top-right rounded-md bg-white shadow-lg ring-1 ring-black ring-opacity-5 focus:outline-none" : "hidden"} role="menu" aria-orientation="vertical" aria-labelledby="menu-button" tabindex="-1">
           <div className="py-1" role="none">
             <a href="#" className="text-gray-700 block px-4 py-2 text-sm" role="menuitem" tabindex="-1" id="menu-item-0">Link 1</a>
@@ -69,6 +69,7 @@ function Navbar() {
         </div>
       </div>
 
+      {/* Docs button */}
       <div className='relative inline-block text-left'>
         <a className='inline-flex w-full justify-center rounded-md px-4 py-2 text-sm font-medium text-white shadow-sm focus:outline-none' href="https://docs.specollective.org/introduction/"
           target="_blank"
@@ -80,7 +81,7 @@ function Navbar() {
 
       {/* Partnerships dropdown button */}
       <div className='relative inline-block text-left'>
-        <button type='button' onClick={partnerOnClick} className='inline-flex w-full justify-center rounded-md px-4 py-2 text-sm font-medium text-white shadow-sm focus:outline-none' id="menu-button" aria-expanded="true" aria-haspopup="true">Partnerships</button>
+        <button type='button' onClick={partnerOnClick} className='inline-flex w-full justify-center rounded-md px-4 py-2 text-sm font-medium text-white shadow-sm focus:outline-none' id="menu-button" aria-expanded="true" aria-haspopup="true">Partnerships<div className='pl-1'><Image className="inline p-4" src={DropdownArrow} alt="arrow" /></div></button>
         <div className={partnerButton ? "absolute right-0 z-10 mt-2 w-40 origin-top-right rounded-md bg-white shadow-lg ring-1 ring-black ring-opacity-5 focus:outline-none" : "hidden"} role="menu" aria-orientation="vertical" aria-labelledby="menu-button" tabindex="-1">
           <div className="py-1" role="none">
             <a href="#" className="text-gray-700 block px-4 py-2 text-sm" role="menuitem" tabindex="-1" id="menu-item-0">Link 1</a>
@@ -93,6 +94,7 @@ function Navbar() {
         </div>
       </div>
 
+      {/* search bar */}
       <input className="border-2 p-1 border-yellow-400 rounded bg-black text-white focus:outline-none" type="search" id="site-search" placeholder="Search" name="q" />
     </div>
   )
