@@ -32,7 +32,7 @@ module.exports = {
       },
       fontFamily: {
         Poppins: ['Poppins'],
-        inter: ['Inter']
+        Inter: ['Inter']
       }
     },
   },
