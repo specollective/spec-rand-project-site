@@ -36,6 +36,8 @@ module.exports = {
         },
         "spec-grey": {
           600: "#405762",
+        "spec-black": {
+          600: "#1C1C1C"
         },
       },
       fontFamily: {

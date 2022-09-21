@@ -8,6 +8,7 @@ import NavBar from './navbar'
 import Footer from './footer'
 import Footnote from '../../components/foot-note';
 import Reflections from './reflections';
+import ReflectionCarousel from '../../components/reflection-carousel';
 
 function Layout({ children }) {
   return (
@@ -32,7 +33,8 @@ export default function SpecXRandPage() {
         <MeetRAs />
         <ByTheNumbers />
         <WhereNow />
-        <Reflections />
+        {/* <Reflections /> */}
+        <ReflectionCarousel />
         <Footnote />
       </Layout>
     </>
