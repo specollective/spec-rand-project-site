@@ -1,5 +1,4 @@
-import React, { useEffect } from 'react'
-import { useState } from 'react'
+import React, { useState } from 'react'
 import Image from 'next/image'
 import Link from 'next/link'
 import SpecLogo from '../public/spec_logo.svg'
@@ -48,7 +47,7 @@ function Navbar() {
             <a href="#" className="text-gray-700 block px-4 py-2 text-sm" role="menuitem" tabindex="-1" id="menu-item-1">Link 2</a>
             <a href="#" className="text-gray-700 block px-4 py-2 text-sm" role="menuitem" tabindex="-1" id="menu-item-2">Link 3</a>
             <form method="POST" action="#" role="none">
-              <button type="submit" className="text-gray-700 block w-full px-4 py-2 text-left text-sm" role="menuitem" tabindex="-1" id="menu-item-3">Sign out</button>
+              <button type="submit" className="block w-full px-4 py-2 text-gray-700 text-left text-sm" role="menuitem" tabindex="-1" id="menu-item-3">Sign out</button>
             </form>
           </div>
         </div>
@@ -63,7 +62,7 @@ function Navbar() {
             <a href="#" className="text-gray-700 block px-4 py-2 text-sm" role="menuitem" tabindex="-1" id="menu-item-1">Link 2</a>
             <a href="#" className="text-gray-700 block px-4 py-2 text-sm" role="menuitem" tabindex="-1" id="menu-item-2">Link 3</a>
             <form method="POST" action="#" role="none">
-              <button type="submit" className="text-gray-700 block w-full px-4 py-2 text-left text-sm" role="menuitem" tabindex="-1" id="menu-item-3">Sign out</button>
+              <button type="submit" className="block w-full px-4 py-2 text-gray-700 text-left text-sm" role="menuitem" tabindex="-1" id="menu-item-3">Sign out</button>
             </form>
           </div>
         </div>
@@ -77,7 +76,6 @@ function Navbar() {
             Docs
           </a>
       </div>
-    
 
       {/* Partnerships dropdown button */}
       <div className='relative inline-block text-left'>
@@ -88,7 +86,7 @@ function Navbar() {
             <a href="#" className="text-gray-700 block px-4 py-2 text-sm" role="menuitem" tabindex="-1" id="menu-item-1">Link 2</a>
             <a href="#" className="text-gray-700 block px-4 py-2 text-sm" role="menuitem" tabindex="-1" id="menu-item-2">Link 3</a>
             <form method="POST" action="#" role="none">
-              <button type="submit" className="text-gray-700 block w-full px-4 py-2 text-left text-sm" role="menuitem" tabindex="-1" id="menu-item-3">Sign out</button>
+              <button type="submit" className="block w-full px-4 py-2 text-gray-700 text-left text-sm" role="menuitem" tabindex="-1" id="menu-item-3">Sign out</button>
             </form>
           </div>
         </div>

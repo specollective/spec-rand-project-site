@@ -9,9 +9,8 @@ const ResearchAssistantPage = () => {
         <title>Research Assistant | Sustainable Progress Equality Collective</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <div className='h-screen bg-slate-300'>
         <MobileNav />
-      </div>
+        {/* <Navbar /> */}
     </section>
   )
 }
