@@ -3,7 +3,7 @@ export default function Subfooter({
 }) {
   return (
     <div
-      className={`${className} flex justify-center text-center text-slate-100 p-20 text-sm px-4 md:p-10 font-medium`}
+      className={`${className} flex justify-center p-20 md:p-10 px-4 text-center text-sm text-slate-100 font-medium`}
     >
       Funding for this research was provided by unrestricted gifts from RAND
       supporters and income from operations, with which RAND established the
