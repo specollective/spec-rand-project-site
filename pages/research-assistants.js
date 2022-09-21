@@ -1,4 +1,5 @@
 import Head from 'next/head'
+import Navbar from '../components/Navbar'
 
 const ResearchAssistantPage = () => {
   return (
@@ -7,7 +8,7 @@ const ResearchAssistantPage = () => {
         <title>Research Assistant | Sustainable Progress Equality Collective</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <h1>Research Assistant Page</h1>
+      <Navbar />
     </section>
   )
 }
