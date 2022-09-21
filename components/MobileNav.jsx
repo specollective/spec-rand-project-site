@@ -39,10 +39,10 @@ function MobileNav() {
             />
           </Link>
         </div>
-        <div className="flex text-white w-3/5 justify-center">
+        <div className="flex justify-center text-white w-3/5">
           <p className="text-xs md:text-base">Sustainable Progress & Equality Collective</p>
         </div>
-        <div className="flex w-1/5 justify-center">
+        <div className="flex justify-center w-1/5">
           <button className="flex pr-6" onClick={() => setMenuOpen((prev) => !prev)}>
             <Image
                 className="object-center h-18 w-18"
@@ -55,10 +55,10 @@ function MobileNav() {
 
       <div className={menuOpen ? 'relative' : 'invisible'}>
         <div
-          className="bg-du-deepPurple bg-teal-700 z-20 fixed top-0 right-0 pl-28 h-screen text-right w-4/5"
+          className="fixed top-0 right-0 pl-28 h-screen z-20 w-4/5 text-right bg-teal-700"
           style={{ overflowY: 'scroll' }}
         >
-          <div className="text-white text-2xl grid grid-rows-11 gap-3 place-content-evenly">
+          <div className="grid grid-rows-11 gap-3 place-content-evenly text-white text-2xl">
             <button
               className="pb-12 pt-10 text-right"
               ref={closeButton}
