@@ -6,7 +6,7 @@ import ByTheNumbers from './by-the-numbers';
 import WhereNow from './where-are-they-now';
 import NavBar from './navbar'
 import Footer from './footer'
-import Footnote from '../../components/foot-note';
+import Subfooter from '../../components/sub-footer';
 import Reflections from './reflections';
 
 function Layout({ children }) {
@@ -33,7 +33,7 @@ export default function SpecXRandPage() {
         <ByTheNumbers />
         <WhereNow />
         <Reflections />
-        <Footnote />
+        <Subfooter className="bg-spec-teal" />
       </Layout>
     </>
   );

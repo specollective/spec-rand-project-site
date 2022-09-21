@@ -1,4 +1,5 @@
-
+import Head from "next/head";
+import Subfooter from "../components/sub-footer";
 
 const MeeplePage = () => {
   return (
@@ -8,9 +9,9 @@ const MeeplePage = () => {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <h1>Meeple</h1>
+      <Subfooter></Subfooter>
     </section>
-  )
-}
+  );
+};
 
-
-export default MeeplePage
+export default MeeplePage;
