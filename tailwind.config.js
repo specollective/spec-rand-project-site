@@ -11,8 +11,11 @@ module.exports = {
   theme: {
     extend: {
       colors: {
-        "spec-blue": {
+        "spec-black": {
           600: "#1C303D",
+        },
+        "spec-white": {
+          600: "#FEFFFF",
         },
         "spec-teal": {
           600: "#507E82",
@@ -20,7 +23,17 @@ module.exports = {
         "spec-yellow": {
           600: "#F4BE4F",
         },
+        "spec-turquoise": {
+          600: "#0C9FAA",
+        },
+        "spec-grey": {
+          600: "#405762",
+        },
       },
+      fontFamily: {
+        Poppins: ['Poppins'],
+        inter: ['Inter']
+      }
     },
   },
   plugins: [],
