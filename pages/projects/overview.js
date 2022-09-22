@@ -4,6 +4,7 @@ import TextContent from '../../components/text';
 import GridContainer from '../../components/grid-container';
 import caerpLogo from '../../public/caerp.svg';
 import specLogo from '../../public/spec_logo.svg';
+import BreakLine from '../../components/break-line'
 
 export default function Overview() {
   return (
@@ -16,6 +17,8 @@ export default function Overview() {
             </div>
           </div>
         </div>
+
+        <BreakLine />
         
         <TextContent className="">
           <div className="mb-5">
