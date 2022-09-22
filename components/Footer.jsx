@@ -10,20 +10,20 @@ function Footer() {
           <a>social</a>
           <a>social</a>
         </div>
-        <div className='bg-slate-200'>
-          <a>About Us</a>
-          <a>Contact Us</a>
-          <a>Get Involved</a>
+        <div className='h-72 space-y-10 pt-6'>
+          <a className='block'>About Us</a>
+          <a className='block'>Contact Us</a>
+          <a className='block'>Get Involved</a>
         </div>
-        <div className='bg-slate-300'>
-          <a>Blog</a>
-          <a>JoER Us</a>
-          <a>Documentation</a>
+        <div className='h-72 space-y-10 pt-6'>
+          <a className='block'>Blog</a>
+          <a className='block'>JoER Us</a>
+          <a className='block'>Documentation</a>
         </div>
-        <div className='bg-slate-400'>
-          <a>Terms of Use</a>
-          <a>Code of Conduct</a>
-          <a>Privacy Policy</a>
+        <div className='h-72 space-y-10 pt-6 bg-slate-400'>
+          <a className='block'>Terms of Use</a>
+          <a className='block'>Code of Conduct</a>
+          <a className='block'>Privacy Policy</a>
         </div>
       </div>
       <div>
