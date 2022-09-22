@@ -1,14 +1,19 @@
 import React from 'react'
+import Image from 'next/image'
+import SpecLogo from '../public/spec_logo.svg'
 
 function Footer() {
   return (
     <div className='h-72 w-screen bg-spec-yellow-600'>
       <div className='flex justify-evenly'>
-        <div>
-          <a>LOGO</a>
-          <a>social</a>
-          <a>social</a>
-          <a>social</a>
+        <div className='pt-14 bg-slate-100'>
+          <div className='block'>
+            <Image className='h-16 w-16' src={SpecLogo} />
+          </div>
+          <a className='p-2'>social</a>
+          <a className='p-2'>social</a>
+          <a className='p-2'>social</a>
+          <a className='p-2'>social</a>
         </div>
         <div className='h-72 space-y-10 pt-6'>
           <a className='block'>About Us</a>
