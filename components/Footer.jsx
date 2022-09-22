@@ -28,19 +28,19 @@ function Footer() {
           </div>
       </div>
         <div className='h-50 space-y-6 pt-10'>
-          <a className='block'>About Us</a>
-          <a className='block'>Contact Us</a>
-          <a className='block'>Get Involved</a>
+          <a href='' className='block'>About Us</a>
+          <a href='' className='block'>Contact Us</a>
+          <a href='' className='block'>Get Involved</a>
         </div>
         <div className='h-50 space-y-6 pt-10'>
-          <a className='block'>Blog</a>
-          <a className='block'>JoER</a>
-          <a className='block'>Documentation</a>
+          <a href='' className='block'>Blog</a>
+          <a href='' className='block'>JoER</a>
+          <a href='' className='block'>Documentation</a>
         </div>
         <div className='h-50 space-y-6 pt-10'>
-          <a className='block'>Terms of Use</a>
-          <a className='block'>Code of Conduct</a>
-          <a className='block'>Privacy Policy</a>
+          <a href='' className='block'>Terms of Use</a>
+          <a href='' className='block'>Code of Conduct</a>
+          <a href='' className='block'>Privacy Policy</a>
         </div>
       </div>
         <div className='text-center'>
