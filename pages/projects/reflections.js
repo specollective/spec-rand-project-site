@@ -4,7 +4,6 @@ import SectionContent from "../../components/section-content";
 import TextContent from "../../components/text";
 import quoteImage from "../../public/yellow_quote.svg";
 import GridContainer from "../../components/grid-container";
-import StatBox from "../../components/stat-box";
 
 
 export default function Reflections() {
@@ -12,14 +11,6 @@ export default function Reflections() {
       <SectionContent>
         <SectionHeader>Reflections</SectionHeader>
         {/* TO DO: might need to take out margins from grid container, causes white space */}
-        <StatBox
-            borderColor="spec-yellow-600"
-            height="h-96"
-            width="w-80"
-            statColor="spec-teal-600"
-            inputStat="6"
-            description="Research Associates (RAs) worked on this project"
-          />
 
         <div
           id="carouselExampleControls"
