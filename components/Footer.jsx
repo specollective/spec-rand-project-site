@@ -21,10 +21,10 @@ function Footer() {
             <a href='https://twitter.com/specollective'><Image src={Twitter} /></a>
           </div>
           <div className='inline p-1'>
-            <a href='https://github.com/specollective'><Image src={GitHub} /></a>
+            <a href='https://www.linkedin.com/company/specollective/'><Image src={LinkedIn} /></a>
           </div>
           <div className='inline p-1'>
-            <a href='https://www.linkedin.com/company/specollective/'><Image src={LinkedIn} /></a>
+            <a href='https://github.com/specollective'><Image src={GitHub} /></a>
           </div>
       </div>
         <div className='h-50 space-y-6 pt-10'>
@@ -44,7 +44,7 @@ function Footer() {
         </div>
       </div>
         <div className='text-center'>
-          <p className='block font-bold pt-4'>© 2022 Sustailable Progress & Equality Collective </p>
+          <p className='block font-bold pt-4'>© 2022 Sustainable Progress & Equality Collective </p>
         </div>
     </div>
   )
