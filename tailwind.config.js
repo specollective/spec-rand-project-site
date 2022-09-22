@@ -1,4 +1,5 @@
 /** @type {import('tailwindcss').Config} */
+const defaultTheme = require('tailwindcss/defaultTheme')
 module.exports = {
   content: [
     "./pages/**/*.{js,ts,jsx,tsx}",
@@ -9,6 +10,10 @@ module.exports = {
     require('tw-elements/dist/plugin')
   ],
   theme: {
+    screens: {
+      'xs': '355px',
+      ...defaultTheme.screens,
+    },
     extend: {
       backgroundImage: {
         'hero-img': "url('/HeroImage.svg')",
