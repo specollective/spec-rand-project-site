@@ -27,7 +27,7 @@ function MobileNav() {
 
   return (
     <>
-      <div className="flex place-items-center justify-between h-16 bg-du-gray bg-slate-700">
+      <div className="flex place-items-center justify-between h-16 bg-du-gray bg-spec-black-600">
         <div className="flex p-4 w-1/5">
           <Link
             href="/"
@@ -55,7 +55,7 @@ function MobileNav() {
 
       <div className={menuOpen ? 'relative' : 'invisible'}>
         <div
-          className="fixed top-0 right-0 pl-28 h-screen z-20 w-4/5 text-right bg-teal-700"
+          className="fixed top-0 right-0 pl-28 h-screen z-20 w-4/5 text-right bg-spec-black-600"
           style={{ overflowY: 'scroll' }}
         >
           <div className="grid grid-rows-11 gap-3 place-content-evenly text-white text-2xl">
