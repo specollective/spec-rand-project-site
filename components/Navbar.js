@@ -33,7 +33,6 @@ function Navbar() {
         <button type='button' onClick={''} className='inline-flex w-full justify-center rounded-md px-4 py-2 text-sm font-medium text-white shadow-sm focus:outline-none' id="menu-button">Partnerships</button>
       </div>
 
-      <input className="border-2 p-1 border-spec-yellow-600 rounded bg-spec-black-600 text-white focus:outline-none" type="search" id="site-search" placeholder="Search" name="q" />
     </div>
   )
 }
