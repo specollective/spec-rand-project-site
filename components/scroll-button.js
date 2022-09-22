@@ -1,6 +1,6 @@
 import { useState } from 'react';
 import Image from "next/image";
-import tempBtn from "../public/spec_logo.svg";
+import scrollBtn from "../public/back-to-top.svg";
 
 export default function ScrollButton () {
   
@@ -26,8 +26,9 @@ export default function ScrollButton () {
   const btnStyle = `
       fixed
       right-10
-      top-200
+      top-1/3
       z-1
+      cursor-pointer
   `
 
   window.addEventListener('scroll', toggleVisible);
@@ -35,7 +36,7 @@ export default function ScrollButton () {
   return (
     <>
       <btn onClick={scrollToTop} className={btnStyle}>
-        <Image src={tempBtn} alt="spec-logo"/>
+        <Image src={scrollBtn} alt="back-to-top"/>
       </btn>
     </>
   )
