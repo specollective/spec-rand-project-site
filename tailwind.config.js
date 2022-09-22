@@ -10,6 +10,9 @@ module.exports = {
   ],
   theme: {
     extend: {
+      backgroundImage: {
+        'hero-img': "url('/HeroImage.svg')",
+      },
       colors: {
         "spec-black": {
           600: "#1C303D",
