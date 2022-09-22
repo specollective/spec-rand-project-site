@@ -40,32 +40,12 @@ function Navbar() {
 
       {/* About Us button dropdown */}
       <div className='relative inline-block text-left'>
-        <button type='button' onClick={aboutOnClick} className='inline-flex w-full justify-center rounded-md px-4 py-2 text-sm font-medium text-white shadow-sm focus:outline-none' id="menu-button" aria-expanded="true" aria-haspopup="true">About Us<div className='pl-1'><Image className="inline p-4" src={aboutButton ? DropdownArrowUp : DropdownArrow} alt="arrow" /></div></button>
-        <div className={aboutButton ? "absolute right-0 z-10 mt-2 w-40 origin-top-right rounded-md bg-white shadow-lg ring-1 ring-black ring-opacity-5 focus:outline-none" : "hidden"} role="menu" aria-orientation="vertical" aria-labelledby="menu-button" tabindex="-1">
-          <div className="py-1" role="none">
-            <a href="#" className="text-gray-700 block px-4 py-2 text-sm" role="menuitem" tabindex="-1" id="menu-item-0">Link 1</a>
-            <a href="#" className="text-gray-700 block px-4 py-2 text-sm" role="menuitem" tabindex="-1" id="menu-item-1">Link 2</a>
-            <a href="#" className="text-gray-700 block px-4 py-2 text-sm" role="menuitem" tabindex="-1" id="menu-item-2">Link 3</a>
-            <form method="POST" action="#" role="none">
-              <button type="submit" className="block w-full px-4 py-2 text-gray-700 text-left text-sm" role="menuitem" tabindex="-1" id="menu-item-3">Sign out</button>
-            </form>
-          </div>
-        </div>
+        <button type='button' onClick={aboutOnClick} className='inline-flex w-full justify-center rounded-md px-4 py-2 text-sm font-medium text-white shadow-sm focus:outline-none' id="menu-button">About Us</button>
       </div>
 
       {/* Get Involved Button dropdown */}
       <div className='relative inline-block text-left'>
-        <button type='button' onClick={involvedOnClick}  className='inline-flex w-full justify-center rounded-md px-4 py-2 text-sm font-medium text-white shadow-sm focus:outline-none' id="menu-button" aria-expanded="true" aria-haspopup="true">Get Involved<div className='pl-1'><Image className="inline p-4" src={involvedButton ? DropdownArrowUp : DropdownArrow} alt="arrow" /></div></button>
-        <div className={involvedButton ? "absolute right-0 z-10 mt-2 w-40 origin-top-right rounded-md bg-white shadow-lg ring-1 ring-black ring-opacity-5 focus:outline-none" : "hidden"} role="menu" aria-orientation="vertical" aria-labelledby="menu-button" tabindex="-1">
-          <div className="py-1" role="none">
-            <a href="#" className="text-gray-700 block px-4 py-2 text-sm" role="menuitem" tabindex="-1" id="menu-item-0">Link 1</a>
-            <a href="#" className="text-gray-700 block px-4 py-2 text-sm" role="menuitem" tabindex="-1" id="menu-item-1">Link 2</a>
-            <a href="#" className="text-gray-700 block px-4 py-2 text-sm" role="menuitem" tabindex="-1" id="menu-item-2">Link 3</a>
-            <form method="POST" action="#" role="none">
-              <button type="submit" className="block w-full px-4 py-2 text-gray-700 text-left text-sm" role="menuitem" tabindex="-1" id="menu-item-3">Sign out</button>
-            </form>
-          </div>
-        </div>
+        <button type='button' onClick={involvedOnClick}  className='inline-flex w-full justify-center rounded-md px-4 py-2 text-sm font-medium text-white shadow-sm focus:outline-none'>Get Involved</button>
       </div>
 
       {/* Docs button */}
@@ -79,17 +59,7 @@ function Navbar() {
 
       {/* Partnerships dropdown button */}
       <div className='relative inline-block text-left'>
-        <button type='button' onClick={partnerOnClick} className='inline-flex w-full justify-center rounded-md px-4 py-2 text-sm font-medium text-white shadow-sm focus:outline-none' id="menu-button" aria-expanded="true" aria-haspopup="true">Partnerships<div className='pl-1'><Image className="inline p-4" src={partnerButton ? DropdownArrowUp : DropdownArrow} alt="arrow" /></div></button>
-        <div className={partnerButton ? "absolute right-0 z-10 mt-2 w-40 origin-top-right rounded-md bg-white shadow-lg ring-1 ring-black ring-opacity-5 focus:outline-none" : "hidden"} role="menu" aria-orientation="vertical" aria-labelledby="menu-button" tabindex="-1">
-          <div className="py-1" role="none">
-            <a href="#" className="text-gray-700 block px-4 py-2 text-sm" role="menuitem" tabindex="-1" id="menu-item-0">Link 1</a>
-            <a href="#" className="text-gray-700 block px-4 py-2 text-sm" role="menuitem" tabindex="-1" id="menu-item-1">Link 2</a>
-            <a href="#" className="text-gray-700 block px-4 py-2 text-sm" role="menuitem" tabindex="-1" id="menu-item-2">Link 3</a>
-            <form method="POST" action="#" role="none">
-              <button type="submit" className="block w-full px-4 py-2 text-gray-700 text-left text-sm" role="menuitem" tabindex="-1" id="menu-item-3">Sign out</button>
-            </form>
-          </div>
-        </div>
+        <button type='button' onClick={partnerOnClick} className='inline-flex w-full justify-center rounded-md px-4 py-2 text-sm font-medium text-white shadow-sm focus:outline-none' id="menu-button">Partnerships</button>
       </div>
 
       {/* search bar */}
