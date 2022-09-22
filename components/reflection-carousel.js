@@ -28,8 +28,8 @@ export default function ReflectionCarousel({reflectionObjList, borderColor}) {
                     index === 0 ? "carousel-item active" : "carousel-item"
                   }
                 >
-                  <div className={`border border-${borderColor} box-border box-content h-72 w-96 bg-spec-black-600 mt-20 z-0`}>
-                    <div className="flex absolute -top-72 right-0 bottom-0 left-0  justify-center items-center z-10">
+                  <div className={`border border-${borderColor} box-border box-content h-72 w-96 p-10 bg-spec-black-600 mt-20 z-0`}>
+                    <div className="flex absolute pt-4 -top-96 right-0 bottom-0 left-0  justify-center items-center z-10">
                       <Image src={reflectionObj.image} alt={reflectionObj.image} className="" />
 
                     </div>
