@@ -4,7 +4,6 @@ export default function BreakLine({ color="white", lineWidth="w-1/3" , lineHeigh
     <hr 
       className={`
         my-6
-        md:my-16 
         mx-auto 
         ${lineWidth}
         ${lineHeight}

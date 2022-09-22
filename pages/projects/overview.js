@@ -17,8 +17,6 @@ export default function Overview() {
             </div>
           </div>
         </div>
-
-        <BreakLine />
         
         <TextContent className="">
           <div className="mb-5">
