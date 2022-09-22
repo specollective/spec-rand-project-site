@@ -68,7 +68,6 @@ export default function SpecXRandPage() {
         <ByTheNumbers />
         <WhereNow />
         <Reflections />
-        <ReflectionCarousel reflectionObjList={reflectionObjList} />
         <Footnote />
       </Layout>
     </>

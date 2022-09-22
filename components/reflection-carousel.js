@@ -1,8 +1,17 @@
+import { faBullhorn } from "@fortawesome/free-solid-svg-icons";
 import Image from "next/future/image";
 import quoteImage from "../public/yellow_quote.svg";
 
 
-export default function ReflectionCarousel({reflectionObjList}) {
+
+const buttonStyle = {
+    width: 10,
+    height: 10,
+    borderRadius: "100%",
+
+}
+
+export default function ReflectionCarousel({reflectionObjList, borderColor}) {
   return (
     <div className="bg-spec-teal-600">
       <div className="flex justify-center items-center p-4">
@@ -11,8 +20,7 @@ export default function ReflectionCarousel({reflectionObjList}) {
           className="carousel carousel-fade relative"
           data-bs-ride="carousel"
         >
-          {/* map through list of objects */}
-          <div className="carousel-inner relative w-full overflow-hidden">
+          <div className="carousel-inner relative w-full">
             {reflectionObjList.map((reflectionObj, index) => {
               return (
                 <div
@@ -20,9 +28,10 @@ export default function ReflectionCarousel({reflectionObjList}) {
                     index === 0 ? "carousel-item active" : "carousel-item"
                   }
                 >
-                  <div className="border border-spec-yellow-600 box-border box-content h-75 w-96 bg-spec-black-600 z-10">
-                    <div className="flex top-2 right-0 bottom-0 left-0  justify-center items-center z-0">
+                  <div className={`border border-${borderColor} box-border box-content h-72 w-96 bg-spec-black-600 mt-20 z-0`}>
+                    <div className="flex absolute -top-72 right-0 bottom-0 left-0  justify-center items-center z-10">
                       <Image src={reflectionObj.image} alt={reflectionObj.image} className="" />
+
                     </div>
                     <div className="">
                       <Image
@@ -43,7 +52,7 @@ export default function ReflectionCarousel({reflectionObjList}) {
                     <p className="text-center text-spec-yellow-600 uppercase tracking-wide">
                       {reflectionObj.name}
                     </p>
-                    <p className="text-center text-white">{reflectionObj.title}</p>
+                    <p className="text-center text-sm text-white">{reflectionObj.title}</p>
                   </div>
                 </div>
               );
@@ -60,6 +69,7 @@ export default function ReflectionCarousel({reflectionObjList}) {
                   className={index === 0 ? "active" : ""}
                   aria-current={index === 0 ? "true" : ""}
                   aria-label={`Slide ${index + 1}`}
+                  style={buttonStyle}
                 ></button>
               );
             })}
