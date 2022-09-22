@@ -1,9 +1,9 @@
-import { useState } from 'react';
+import { useEffect, useState } from 'react';
 import Image from "next/image";
 import scrollBtn from "../public/back-to-top.svg";
 
 export default function ScrollButton () {
-  const [visible, setVisible] = useState(false)
+  const [visible, setVisible] = useState(false);
 
   const btnStyle = `
     fixed
@@ -11,7 +11,7 @@ export default function ScrollButton () {
     top-1/3
     z-1
     cursor-pointer
-  `
+  `;
 
   const toggleVisible = () => {
     const scrolled = document.documentElement.scrollTop;
@@ -30,10 +30,12 @@ export default function ScrollButton () {
     })
   }
   
-  window.addEventListener('scroll', toggleVisible);
+  useEffect(() => {
+    window.addEventListener('scroll', toggleVisible);
+  },[]);
 
   return (
-    <>
+    <div className="hidden md:block">
       <btn 
         onClick={scrollToTop} 
         className={btnStyle}
@@ -41,6 +43,6 @@ export default function ScrollButton () {
       >
         <Image src={scrollBtn} alt="back-to-top"/>
       </btn>
-    </>
+    </div>
   )
-}
+};
