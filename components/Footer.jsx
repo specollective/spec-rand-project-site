@@ -8,43 +8,43 @@ import GitHub from '../public/github.svg'
 
 function Footer() {
   return (
-    <div className='h-72 w-screen font-Poppins bg-spec-yellow-600'>
+    <div className='h-60 w-screen font-Poppins bg-spec-yellow-600'>
       <div className='flex justify-evenly'>
         <div className='pt-14 w-44 text-center'>
           <div className='text-center'>
             <Image src={SpecLogo} />
           </div>
           <div className='inline p-1'>
-            <Image className='' src={Facebook} />
+            <a href='https://www.facebook.com/specollective'><Image src={Facebook} /></a>
           </div>
           <div className='inline p-1'>
-            <Image className='' src={Twitter} />
+            <a href='https://twitter.com/specollective'><Image src={Twitter} /></a>
           </div>
           <div className='inline p-1'>
-            <Image className='' src={GitHub} />
+            <a href='https://github.com/specollective'><Image src={GitHub} /></a>
           </div>
           <div className='inline p-1'>
-            <Image className='' src={LinkedIn} />
+            <a href='https://www.linkedin.com/company/specollective/'><Image src={LinkedIn} /></a>
           </div>
       </div>
-        <div className='h-60 space-y-10 pt-14'>
+        <div className='h-50 space-y-6 pt-10'>
           <a className='block'>About Us</a>
           <a className='block'>Contact Us</a>
           <a className='block'>Get Involved</a>
         </div>
-        <div className='h-60 space-y-10 pt-14'>
+        <div className='h-50 space-y-6 pt-10'>
           <a className='block'>Blog</a>
-          <a className='block'>JoER Us</a>
+          <a className='block'>JoER</a>
           <a className='block'>Documentation</a>
         </div>
-        <div className='h-60 space-y-10 pt-14'>
+        <div className='h-50 space-y-6 pt-10'>
           <a className='block'>Terms of Use</a>
           <a className='block'>Code of Conduct</a>
           <a className='block'>Privacy Policy</a>
         </div>
       </div>
         <div className='text-center'>
-          <p className='block font-bold pt-2'>© 2022 Sustailable Progress & Equality Collective </p>
+          <p className='block font-bold pt-4'>© 2022 Sustailable Progress & Equality Collective </p>
         </div>
     </div>
   )
