@@ -7,6 +7,21 @@ import LinkedIn from '../public/LinkedIn.svg'
 import GitHub from '../public/github.svg'
 
 function Footer() {
+  const socialLinkData = [
+    { site: 'facebook', url: 'https://www.facebook.com/specollective', imageSrc: Facebook },
+    { site: 'twitter', url: 'https://twitter.com/specollective', imageSrc: Twitter },
+    { site: 'linkedin', url: 'https://www.linkedin.com/company/specollective/', imageSrc: LinkedIn },
+    { site: 'github', url: 'https://github.com/specollective', imageSrc: GitHub },
+  ]
+
+  const socialLinks = socialLinkData.map(link => {
+    return (
+      <div className='inline p-1' key={link.site}>
+        <a href={link.url}><Image src={link.imageSrc} /></a>
+      </div>
+    );
+  });
+
   return (
     <div className='h-60 w-screen font-Poppins bg-spec-yellow-600'>
       <div className='flex justify-evenly'>
@@ -14,18 +29,7 @@ function Footer() {
           <div className='text-center'>
             <Image src={SpecLogo} />
           </div>
-          <div className='inline p-1'>
-            <a href='https://www.facebook.com/specollective'><Image src={Facebook} /></a>
-          </div>
-          <div className='inline p-1'>
-            <a href='https://twitter.com/specollective'><Image src={Twitter} /></a>
-          </div>
-          <div className='inline p-1'>
-            <a href='https://www.linkedin.com/company/specollective/'><Image src={LinkedIn} /></a>
-          </div>
-          <div className='inline p-1'>
-            <a href='https://github.com/specollective'><Image src={GitHub} /></a>
-          </div>
+          {socialLinks}
       </div>
         <div className='h-50 space-y-6 pt-10'>
           <a href='' className='block'>About Us</a>
