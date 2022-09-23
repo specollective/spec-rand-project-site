@@ -45,7 +45,7 @@ export default function Projects() {
             <p className="text-sm mt-6">
               This project kicked off: November 2021
             </p>
-            <div className="flex flex-row p-0 relative">
+            {/* <div className="flex flex-row p-0 relative">
               <Image
                 src={marcus.src}
                 alt="projects-impact"
@@ -103,7 +103,7 @@ export default function Projects() {
                 height={33}
                 className="absolute left-[420px]"
               />
-            </div>
+            </div> */}
           </div>
           <div className="container mx-auto px-10 mt-10 mb-10">
             <h1 className="pb-10 text-2xl font-bold">

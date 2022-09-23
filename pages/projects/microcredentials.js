@@ -141,7 +141,7 @@ export default function Microcredentials() {
         </GridContainer>
 
         <SubHeader className="font-bold"> The Team:</SubHeader>
-        <ImageBubbles>
+        {/* <ImageBubbles>
             <img
                 src={marcus.src}
                 alt="marcus"
@@ -174,7 +174,7 @@ export default function Microcredentials() {
                 src={victoria.src}
                 alt="victoria"
             />
-        </ImageBubbles>
+        </ImageBubbles> */}
 
 
         <Footnote />

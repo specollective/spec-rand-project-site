@@ -6,7 +6,7 @@ function MyDocument() {
       <Head>
         <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet" />
       </Head>
-      <body>
+      <body className="bg-[#1C1C1C]">
         <Main />
         <NextScript />
       </body>
