@@ -2,14 +2,13 @@ import Link from "next/link"
 
 export default function ByTheNumbers(){
     return (
-    <div className="bg-spec-blue-600 text-white">
-        <h1 className="text-4xl font-bold">
-            <Link href="/by-the-numbers">
-                <a>By the Numbers</a>
-            </Link>
-        </h1>
-        <div className="grid grid-cols-2 grid-rows-2">
-            <div>Percentage picture</div>
+    <div className="grid md:grid-cols-2 md:grid-rows-2 bg-spec-black-600 p-10">
+        <div className="text-4xl font-bold text-white">
+            <h1>By the</h1>
+            <h1>Numbers</h1>
+        </div>
+        <div className="text-white">
+            <div className=""></div>
             <div>Graph Picture</div>
             <div>People Picture</div>
             <div>Arrow Picture</div>

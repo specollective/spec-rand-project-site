@@ -19,27 +19,23 @@ module.exports = {
         'hero-img': "url('/HeroImage.svg')",
       },
       colors: {
-        "spec-black": {
-          600: "#1C303D",
-        },
-        "spec-white": {
-          600: "#FEFFFF",
-        },
+        // "spec-black": {
+        //   600: "#1C303D",
+        // },
         "spec-white": {
           600: "#FEFFFF",
         },
         "spec-teal": {
           500: "#0C9FAA",
-          600: "#507E82",
+          600: "#4A7578",
         },
         "spec-yellow": {
           600: "#F4BE4F",
         },
-        "spec-turquoise": {
-          600: "#0C9FAA",
-        },
         "spec-grey": {
           600: "#405762",
+        "spec-black": {
+          600: "#1C1C1C",
         },
       },
       fontFamily: {
