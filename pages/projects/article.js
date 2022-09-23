@@ -4,13 +4,13 @@ import wordCloud from '../../public/article_word_cloud.svg'
 
 export default function Article() {
     return (
-      <div className="flex flex-wrap gap-4 bg-spec-teal-600 p-20">
-        <div className="flex-none text-5xl text-spec-yellow-600 font-bold ml-20 px-30 space-y-5">
+      <div className="flex flex-wrap gap-4 bg-spec-teal-600 p-10 md:p-20">
+        <div className="flex-none text-5xl text-spec-yellow-600 font-bold space-y-5 md:ml-20 md:px-30">
           <p>Research</p>
           <p>Methods</p> 
           <p>Article</p>
         </div>
-        <div className="flex-1 ml-20 mr-20">
+        <div className="flex-1 md:ml-20 md:mr-20">
           <p className="text-spec-yellow-600 text-xl tracking-wide font-medium pb-2">
             CAREP Pillar I - Methods and Action
           </p>
@@ -26,7 +26,7 @@ export default function Article() {
         </div>
 
         <div>
-            <Image src={wordCloud} alt="word-cloud" className="" />
+            <Image src={wordCloud} alt="word-cloud" className="flex-grow" />
         </div>
       </div>
     );
