@@ -26,6 +26,7 @@ module.exports = {
           600: "#FEFFFF",
         },
         "spec-teal": {
+          500: "#0C9FAA",
           600: "#507E82",
         },
         "spec-yellow": {
@@ -36,6 +37,8 @@ module.exports = {
         },
         "spec-grey": {
           600: "#405762",
+        "spec-black": {
+          600: "#1C1C1C"
         },
       },
       fontFamily: {

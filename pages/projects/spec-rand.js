@@ -9,6 +9,7 @@ import Footer from './footer'
 import Footnote from '../../components/foot-note';
 import Reflections from './reflections';
 
+
 function Layout({ children }) {
   return (
     <div>
