@@ -34,7 +34,7 @@ function TestS() {
   return (
     <div className="container mx-auto bg-spec-teal-600">
       <div className="min-h-screen flex justify-center">
-        <div className="grid grid-cols-2 gap-6 lg:grid-cols-4">
+        <div className="grid grid-cols-2 lg:gap-6 lg:grid-cols-4">
           {users.map((user, id) => {
             // eslint-disable-next-line
             if (user.eligible) {
@@ -46,25 +46,25 @@ function TestS() {
                 count === 1 ? (
                     <div
                     key={id}
-                    className="text-black text-md font-bold text-center p-10 overlay bg-slate-200/75 text-black opacity-0 hover:opacity-100 relative w-full h-full"
+                    className="text-black text-md font-bold text-center p-10"
                   >
                     {user.name}
                     <img
                       alt="person pic"
                       src={user.pic}
-                      className="w-50 h-100"
+                      className="w-70 h-50 overlay bg-slate text-black opacity-100 hover:opacity-50 hover:slate-600 hover-bg-slate-700 relative"
                     />
                   </div>
                 ) : count === 2 ? (
                   <div
                     key={id}
-                    className="text-black text-md font-bold text-center p-10 bg-slate-200/75 text-black opacity-0 hover:opacity-100 relative w-full h-full"
+                    className="text-black text-md font-bold text-center p-10 "
                   >
                     {user.name}
                     <img
                       alt="person pic"
                       src={user.pic}
-                      className="w-50 h-100"
+                      className="w-158px h-166px overlay bg-slate text-black opacity-100 hover:opacity-50 hover:slate-600 hover-bg-slate-700 relative"
                     />
                   </div>
                 ) : count === 3 ? (
