@@ -44,9 +44,9 @@ function OrgSection() {
   return (
     <div className='w-screen h-auto bg-spec-black'>
       <div>
-        <div className='p-12 text-center font-Poppins'>
+        <div className='p-12 text-center'>
           <Image alt='spec logo' width={120} height={120} src={SpecLogo} />
-          <h1 className='text-3xl text-extrabold pb-2'>Sustainable Progress & Equality Collective</h1>
+          <h1 className='text-3xl text-extrabold pb-2 font-Poppins'>Sustainable Progress & Equality Collective</h1>
           <p>The center's work is focused on three key components.</p>
         </div>
         <div className='md:grid md:grid-cols-3 lg:px-36 text-center'>
@@ -54,9 +54,9 @@ function OrgSection() {
         </div>
       </div>
       <div>
-        <div className='p-12 text-center font-Poppins'>
+        <div className='p-12 text-center'>
           <Image alt='equity icon' height={120} width={120} src={RacialEquity} />
-          <h1 className='text-3xl text-extrabold pb-2'>Center to Advance Racial Equity Policy</h1>
+          <h1 className='text-3xl text-extrabold pb-2 font-Poppins'>Center to Advance Racial Equity Policy</h1>
           <p>The center's work is focused on three key components.</p>
         </div>
         <div className='md:grid md:grid-cols-3 lg:px-36 pb-8 text-center '>
