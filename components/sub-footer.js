@@ -1,5 +1,5 @@
 export default function Subfooter({
-  className = "bg-spec-black-600",
+  color = "spec-black-600",
 }) {
   return (
     <div
