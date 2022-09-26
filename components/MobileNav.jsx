@@ -27,7 +27,7 @@ function MobileNav() {
 
   return (
     <>
-      <div className="flex place-items-center justify-between h-16 bg-du-gray bg-spec-black-600">
+      <div className="md:hidden flex place-items-center justify-between h-16 bg-du-gray bg-spec-black-600">
         <div className="flex p-4 w-1/5">
           <Link
             href="/"
