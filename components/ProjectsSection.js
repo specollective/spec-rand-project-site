@@ -1,5 +1,6 @@
-import SectionHeader from './section-header'
-import SubHeader from './sub-header'
+import ProjectsAccordian from "./projects-accordian";
+
+const projectsData = "I AM PROJECTS!!"
 
 function ProjectsSection() {
 
@@ -22,7 +23,7 @@ function ProjectsSection() {
         deliverables which will accelerate learning and up-skilling in pertinent knowledge areas. 
         </p>
 
-        
+        <ProjectsAccordian projectsData={projectsData}/>
       </div>
     </>
   )
