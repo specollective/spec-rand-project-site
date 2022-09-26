@@ -11,10 +11,18 @@ function RAprofile() {
 
   const profileDataMap = profileData.map(data => {
     return (
-      <div className='w-screen h-auto bg-spec-black-600'>
-        <h1>{data.name}</h1>
-        <h3>{data.title}</h3>
-        <Image src={data.pic} alt={data.alt} />
+      <div className='h-auto bg-spec-black-600'>
+        <div className='text-center'>
+          <h1 className='text-3xl font-extrabold text-spec-turquoise-600 '>{data.name}</h1>
+          <h3 className='text-spec-yellow-600'>{data.title}</h3>
+          <div>
+            <Image src={data.pic} alt={data.alt} />
+          </div>
+          <Image src={LinkedInRAs} alt="linkedIn" />
+        </div>
+        <div className='bg-slate-400'>
+          <h1>div 2</h1>
+        </div>
       </div>
     )
   })
