@@ -25,6 +25,9 @@ module.exports = {
         "spec-white": {
           600: "#FEFFFF",
         },
+        "spec-white": {
+          600: "#FEFFFF",
+        },
         "spec-teal": {
           500: "#0C9FAA",
           600: "#507E82",
@@ -37,12 +40,11 @@ module.exports = {
         },
         "spec-grey": {
           600: "#405762",
-        "spec-black": {
-          600: "#1C1C1C"
         },
       },
       fontFamily: {
         Poppins: ['Poppins'],
+        inter: ['Inter']
       }
     },
   },
