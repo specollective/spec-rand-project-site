@@ -24,7 +24,18 @@ const MeeplePage = () => {
           <h1 className="pb-8 px-8 xs:text-center md:text-left xs:text-3xl sm:text-3xl md:text-4xl lg:text-5xl text-spec-yellow-600">Project Overview</h1>
           <p>The aim of this project, funded by RAND's Center to Advance Racial Equity Policy, is to engage and educate the public on topics related to racial equity policy through socio-cultural game-based learning This involves developing a site that will host original, web-based minigames and interactives highlighting key learnings from RAND racial equity research.</p>
         </div>
+      
+        <div>
+          <h1 className="pt-20 text-5xl text-spec-turquoise-600">Goals</h1>
+          <div className="py-12 w-auto px-96 text-left">
+            <p>• Develop socio-cultural minigames based on RAND research on racial equity </p>
+            <p>• Develop a new methodological framework that is equity centered </p>
+            <p>• Assess the immediate impact of game-based learning to create awareness of equity policy.</p>
+          </div>
+        </div>
+
       </div>
+
 
 
       <Subfooter />
