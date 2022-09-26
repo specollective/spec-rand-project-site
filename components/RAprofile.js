@@ -35,7 +35,7 @@ function RAprofile() {
             <p className='p-6'>{data.firstName} has worked on:</p>
 
             {data.projects.map((proj, index) => (
-              <p key={index} className='text-spec-yellow-600'>{proj} >></p>
+              <p key={index} className='text-spec-yellow-600'>{proj} {'>>'}</p>
             ))}
           </div>
         </div>
