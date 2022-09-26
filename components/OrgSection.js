@@ -25,7 +25,7 @@ function OrgSection() {
     return (
       <div className='pb-8 px-24' key={data.key}>
         <Image src={data.imageSrc}/>
-        <h3 className='font-Poppins pb-8 text-spec-turquoise-600'>{data.header}</h3>
+        <h3 className='pb-8 font-Poppins text-spec-turquoise-600'>{data.header}</h3>
         <p>{data.textBody}</p>
       </div>
     )
@@ -35,7 +35,7 @@ function OrgSection() {
     return(
       <div className='pb-8 px-24' key={data.key}>
         <Image src={data.imageSrc}/>
-        <h3 className='font-Poppins pb-8 text-spec-yellow-600'>{data.header}</h3>
+        <h3 className='pb-8 font-Poppins text-spec-yellow-600'>{data.header}</h3>
         <p>{data.textBody}</p>
       </div>
     )
@@ -43,29 +43,26 @@ function OrgSection() {
 
   return (
     <div className='w-screen h-auto bg-spec-black'>
-
       <div>
-        <div className='text-center p-12 font-Poppins'>
-          <Image src={SpecLogo} />
+        <div className='p-12 text-center font-Poppins'>
+          <Image alt='spec logo' width={120} height={120} src={SpecLogo} />
           <h1 className='text-3xl text-extrabold pb-2'>Sustainable Progress & Equality Collective</h1>
-          <p className='text-lightsss'>The center's work is focused on three key components.</p>
+          <p>The center's work is focused on three key components.</p>
         </div>
-        <div className='text-center md:grid md:grid-cols-3 lg:px-28'>
+        <div className='md:grid md:grid-cols-3 lg:px-36 text-center'>
           {specDataBody}          
         </div>
       </div>
-
       <div>
-        <div className='text-center p-12 font-Poppins'>
-          <Image height={90} width={90} src={RacialEquity} />
+        <div className='p-12 text-center font-Poppins'>
+          <Image alt='equity icon' height={120} width={120} src={RacialEquity} />
           <h1 className='text-3xl text-extrabold pb-2'>Center to Advance Racial Equity Policy</h1>
-          <p className='text-lightsss'>The center's work is focused on three key components.</p>
+          <p>The center's work is focused on three key components.</p>
         </div>
-        <div className='text-center md:grid md:grid-cols-3 lg:px-28 pb-8'>
+        <div className='md:grid md:grid-cols-3 lg:px-36 pb-8 text-center '>
           {policyDataBody}          
         </div>
       </div>
-
     </div>
   )
 }
