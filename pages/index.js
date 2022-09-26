@@ -1,4 +1,5 @@
 import Head from 'next/head'
+import Layout from '../components/Layout'
 import TopHeroComponent from '../components/TopHeroComponent'
 import OrgSection from '../components/OrgSection'
 import ResearchMethodsArticle from '../pages/projects/article'
@@ -16,14 +17,16 @@ export default function Home() {
       </Head>
 
       <main>
-        <TopHeroComponent />
-        <OrgSection />
-        <ResearchMethodsArticle />
-        <Projects />
-        <MeetRAs />
-        <ByTheNumbers />
-        {/* carousel will be added upon receiving data */}
-        {/* <ReflectionCarousel /> */}
+        <Layout>
+          <TopHeroComponent />
+          <OrgSection />
+          <ResearchMethodsArticle />
+          <Projects />
+          <MeetRAs />
+          <ByTheNumbers />
+          {/* carousel will be added upon receiving data */}
+          {/* <ReflectionCarousel /> */}
+        </Layout>
       </main>
 
     </div>
