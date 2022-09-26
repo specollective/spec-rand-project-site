@@ -9,7 +9,7 @@ export default function ByTheNumbers(){
             <h1>Numbers</h1>
           </div>
           <StatBox
-            borderColor="spec-teal-500"
+            borderColor="spec-turquoise-600"
             height="h-96"
             width="w-80"
             statColor="spec-yellow-600"
@@ -24,7 +24,7 @@ export default function ByTheNumbers(){
         </div>
         <div className="cols-span-1">
           <StatBox
-            borderColor="spec-teal-500"
+            borderColor="spec-turquoise-600"
             height="h-48"
             width="w-96"
             statColor="spec-yellow-600"
@@ -33,7 +33,7 @@ export default function ByTheNumbers(){
             <p>Research Article Published</p>
           </StatBox>
           <StatBox
-            borderColor="spec-teal-500"
+            borderColor="spec-turquoise-600"
             height="h-48"
             width="w-96"
             statColor="spec-yellow-600"
@@ -42,7 +42,7 @@ export default function ByTheNumbers(){
             <p>Research Associates (RAs) went through this program</p>
           </StatBox>
           <StatBox
-            borderColor="spec-teal-500"
+            borderColor="spec-turquoise-600"
             height="h-48"
             width="w-96"
             statColor="spec-yellow-600"

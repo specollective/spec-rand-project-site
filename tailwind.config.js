@@ -29,11 +29,13 @@ module.exports = {
           600: "#FEFFFF",
         },
         "spec-teal": {
-          500: "#0C9FAA",
           600: "#4A7578",
         },
         "spec-yellow": {
           600: "#F4BE4F",
+        },
+        "spec-turquoise": {
+          600: "#0C9FAA",
         },
         "spec-grey": {
 
