@@ -19,6 +19,9 @@ module.exports = {
         'hero-img': "url('/HeroImage.svg')",
       },
       colors: {
+        "spec-black": {
+          600: "#1C1C1C",
+        },
         // "spec-black": {
         //   600: "#1C303D",
         // },
@@ -33,10 +36,8 @@ module.exports = {
           600: "#F4BE4F",
         },
         "spec-grey": {
+
           600: "#405762",
-        "spec-black": {
-          600: "#1C1C1C",
-        },
       },
       fontFamily: {
         Poppins: ['Poppins'],

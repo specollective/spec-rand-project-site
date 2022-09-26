@@ -6,7 +6,7 @@
 export default function StatBox({borderColor, height, width, statColor, inputStat, children}) {
     return (
         <div className="">
-            <div className={`grid border border-${borderColor} ${height} ${width} place-content-center text-center p-4`}>
+            <div className={`grid border border-${borderColor} ${height} ${width} place-content-center text-center my-4 p-4`}>
                 <p className={`text-${statColor} text-7xl font-semibold`}>{inputStat}</p>
 
                 {children}
