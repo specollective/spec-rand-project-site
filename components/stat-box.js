@@ -1,5 +1,5 @@
 // Use these height and width params to match the figma design
-//small box h-48 w-80
+//small box h-48 w-96
 //medium long h-96 w-80
 //long wide h-48 max-w-4xl
 
