@@ -6,8 +6,7 @@ import Ilia from "../../public/Rectangle_Ilia.svg";
 import Yoline from "../../public/Rectangle_Yoline.svg";
 import Marcus from "../../public/Rectangle_Marcus.svg";
 import Crystal from "../../public/Rectangle_Crystal.svg";
-import Alicia from "../../public/Rectangle_Yoline.svg";
-
+import Alicia from "../../public/Rectangle_Alicia.svg";
 
 import React, { useState } from "react";
 
@@ -19,43 +18,50 @@ function TheTeam() {
       name: "Victoria",
       pic: Victoria,
       eligible: true,
+      title: "Research Associate",
     },
     {
       name: "Nan",
       pic: Nan,
       eligible: true,
+      title: "Research Associate",
     },
     {
       name: "Ilia",
       pic: Ilia,
       eligible: true,
+      title: "Research Associate",
     },
     {
       name: "Yoline",
       pic: Yoline,
       eligible: true,
+      title: "Research Associate",
     },
     {
-        name: "Marcus",
-        pic: Marcus,
-        eligible: true,
-      },
-      {
-        name: "Crystal",
-        pic: Crystal,
-        eligible: true,
-      },
-      {
-        name: "Alicia",
-        pic: Alicia,
-        eligible: true,
-      },
+      name: "Marcus",
+      pic: Marcus,
+      eligible: true,
+      title: "Research Associate",
+    },
+    {
+      name: "Crystal",
+      pic: Crystal,
+      eligible: true,
+      title: "Research Associate",
+    },
+    {
+      name: "Alicia",
+      pic: Alicia,
+      eligible: true,
+      title: "Research Associate",
+    },
   ];
 
   return (
     <div className="container mx-auto bg-spec-teal-600">
       <div className="min-h-screen align-content-center justify-center">
-        <div className="grid grid-cols-2 align-content-center gap-2 justify-items-center lg:grid-cols-4">
+        <div className="grid grid-cols-2 align-content-center gap-2 p-2 md:mx-4 justify-items-center lg:grid-cols-4">
           {users.map((user, id) => {
             // eslint-disable-next-line
             if (user.eligible) {
@@ -65,89 +71,104 @@ function TheTeam() {
                 // Now it's clear that the returned element with the desired values
                 // will be rendered with the classes that you specify
                 count === 1 ? (
-                    <div
+                  <div
                     key={id}
-                    className="text-black text-md font-bold text-center p-4"
+                    className="w-158px h-166px overlay bg-slate text-black opacity-100 hover:opacity-50 hover:slate-600 hover-bg-slate-700 relative"
                   >
-                    {user.name}
-                    <Image
-                      alt="Victoria"
-                      src={user.pic}
-                      className="w-70 h-50 overlay bg-slate text-black opacity-100 hover:opacity-50 hover:slate-600 hover-bg-slate-700 relative"
-                    />
+                    <Image 
+                    alt="Victoria" 
+                    src={user.pic} />
+                    <div className="text-black text-md font-bold text-center">
+                      {user.name}
+                    </div>
+                    <div className="text-black text-xs text-center">
+                      {user.title}
+                    </div>
                   </div>
                 ) : count === 2 ? (
                   <div
                     key={id}
-                    className="text-black text-md font-bold text-center p-4 "
+                    className="w-158px h-166px overlay bg-slate text-black opacity-100 hover:opacity-50 hover:slate-600 hover-bg-slate-700 relative"
                   >
-                    {user.name}
-                    <Image
-                      alt="Nan"
-                      src={user.pic}
-                      className="w-158px h-166px overlay bg-slate text-black opacity-100 hover:opacity-50 hover:slate-600 hover-bg-slate-700 relative"
-                    />
+                    <Image alt="Nan" 
+                    src={user.pic} />
+                    <div className="text-black text-md font-bold text-center">
+                      {user.name}
+                    </div>
+                    <div className="text-black text-xs text-center">
+                      {user.title}
+                    </div>
                   </div>
                 ) : count === 3 ? (
-                  <div
+                    <div
                     key={id}
-                    className="text-black text-lg font-bold text-center p-4"
+                    className="w-158px h-166px overlay bg-slate text-black opacity-100 hover:opacity-50 hover:slate-600 hover-bg-slate-700 relative"
                   >
-                    {user.name}
-                    <Image
-                      alt="Ilia"
-                      src={user.pic}
-                      className="w-158px h-166px"
-                    />
+                    <Image alt="Nan" 
+                    src={user.pic} />
+                    <div className="text-black text-md font-bold text-center">
+                      {user.name}
+                    </div>
+                    <div className="text-black text-xs text-center">
+                      {user.title}
+                    </div>
                   </div>
                 ) : count === 4 ? (
-                  <div
-                    key={id}
-                    className="text-black text-lg font-bold text-center p-4"
-                  >
-                    {user.name}
-                    <Image
-                      alt="Yoline"
-                      src={user.pic}
-                      className="w-158px h-166px"
-                    />
-                     </div>
-                     ) : count === 5 ? (
-                  <div
-                    key={id}
-                    className="text-black text-lg font-bold text-center p-10"
-                  >
-                    {user.name}
-                    <Image
-                      alt="Marcus"
-                      src={user.pic}
-                      className="w-158px h-166px"
-                    />
-                  </div>
-                  ) : count === 6 ? (
                     <div
-                      key={id}
-                      className="text-black text-lg font-bold text-center p-10"
-                    >
+                    key={id}
+                    className="w-158px h-166px overlay bg-slate text-black opacity-100 hover:opacity-50 hover:slate-600 hover-bg-slate-700 relative"
+                  >
+                    <Image alt="Nan" 
+                    src={user.pic} />
+                    <div className="text-black text-md font-bold text-center">
                       {user.name}
-                      <Image
-                        alt="Crystal"
-                        src={user.pic}
-                        className="w-158px h-166px"
-                      />
                     </div>
-                    ) : count === 7 ? (
-                        <div
-                          key={id}
-                          className="text-black text-lg font-bold text-center p-10"
-                        >
-                          {user.name}
-                          <Image
-                            alt="Alicia"
-                            src={user.pic}
-                            className="w-158px h-166px"
-                          />
-                        </div>
+                    <div className="text-black text-xs text-center">
+                      {user.title}
+                    </div>
+                  </div>
+                ) : count === 5 ? (
+                    <div
+                    key={id}
+                    className="w-158px h-166px overlay bg-slate text-black opacity-100 hover:opacity-50 hover:slate-600 hover-bg-slate-700 relative"
+                  >
+                    <Image alt="Nan" 
+                    src={user.pic} />
+                    <div className="text-black text-md font-bold text-center">
+                      {user.name}
+                    </div>
+                    <div className="text-black text-xs text-center">
+                      {user.title}
+                    </div>
+                  </div>
+                ) : count === 6 ? (
+                    <div
+                    key={id}
+                    className="w-158px h-166px overlay bg-slate text-black opacity-100 hover:opacity-50 hover:slate-600 hover-bg-slate-700 relative"
+                  >
+                    <Image alt="Nan" 
+                    src={user.pic} />
+                    <div className="text-black text-md font-bold text-center">
+                      {user.name}
+                    </div>
+                    <div className="text-black text-xs text-center">
+                      {user.title}
+                    </div>
+                  </div>
+                ) : count === 7 ? (
+                    <div
+                    key={id}
+                    className="w-158px h-166px overlay bg-slate text-black opacity-100 hover:opacity-50 hover:slate-600 hover-bg-slate-700 relative"
+                  >
+                    <Image alt="Nan" 
+                    src={user.pic} />
+                    <div className="text-black text-md font-bold text-center">
+                      {user.name}
+                    </div>
+                    <div className="text-black text-xs text-center">
+                      {user.title}
+                    </div>
+                  </div>
                 ) : (
                   <h1>somthing wentt wrong</h1>
                 )
