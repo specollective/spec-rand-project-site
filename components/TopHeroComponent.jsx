@@ -5,7 +5,7 @@ import RAND from '../public/@RAND.svg'
 
 function TopHeroComponent() {
   return (
-    <div className="bg-hero-img bg-cover xs:h-[625px] sm:h-[550px] md:pt-4 lg:pt-10 bg-center text-center font-Poppins">
+    <div className="bg-hero-img bg-cover h-auto md:pt-4 lg:pt-10 bg-center text-center font-Poppins lg:pb-32 pb-16">
       <div className='xs:px-10 xs:pt-10 lg:px-20'>
         <div>
           <Image className='object-scale-down' src={SpecCollab} alt="logo" />

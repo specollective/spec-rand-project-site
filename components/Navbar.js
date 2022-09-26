@@ -7,7 +7,7 @@ import SpecLogoWord from '../public/SPEC.svg'
 
 function Navbar() {
   return (
-    <div className='flex justify-evenly place-items-center h-20 bg-spec-black-600 text-white'>
+    <div className='hidden md:flex justify-evenly place-items-center h-20 bg-spec-black-600 text-white font-Poppins'>
       <div className='flex h-16 flex-shrink-0 pr-40'>
         <Link href='/'><Image src={SpecLogo} alt="logo" /></Link>
         <Link href='/'><Image src={SpecLogoWord} alt="logoWord" /></Link>

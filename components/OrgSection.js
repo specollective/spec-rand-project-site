@@ -42,7 +42,7 @@ function OrgSection() {
   })
 
   return (
-    <div className='w-screen h-auto bg-spec-black'>
+    <div className='w-screen h-auto bg-spec-black-600'>
       <div>
         <div className='p-12 text-center'>
           <Image alt='spec logo' width={120} height={120} src={SpecLogo} />
