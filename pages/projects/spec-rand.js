@@ -8,12 +8,14 @@ import NavBar from './navbar'
 import Footer from './footer'
 import Footnote from '../../components/foot-note';
 import Reflections from './reflections';
+import ScrollButton from '../../components/scroll-button';
 
 
 function Layout({ children }) {
   return (
     <div>
       <NavBar />
+      <ScrollButton />
       <main className="">
         { children }
       </main>
