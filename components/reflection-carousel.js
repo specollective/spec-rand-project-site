@@ -13,25 +13,25 @@ const buttonStyle = {
 
 export default function ReflectionCarousel({reflectionObjList, borderColor}) {
   return (
-    <div className="bg-spec-teal-600">
-      <div className="flex justify-center items-center p-4">
+    <section className="bg-spec-teal-600">
+      <section className="flex justify-center items-center p-4">
         <div
           id="carouselExampleIndicators"
           className="carousel carousel-fade relative"
           data-bs-ride="carousel"
         >
-          <div className="carousel-inner relative w-full">
+          <section className="carousel-inner relative w-full">
             {reflectionObjList.map((reflectionObj, index) => {
               return (
-                <div
+                <section
                   className={
                     index === 0 ? "carousel-item active" : "carousel-item"
                   }
+                  key={reflectionObj.title + '-'+ index}
                 >
-                  <div className={`border border-${borderColor} box-border box-content h-72 w-96 p-10 bg-spec-black-600 mt-20 z-0`}>
+                  <section className={`border border-${borderColor} box-border box-content h-72 w-96 p-10 bg-spec-black-600 mt-20 z-0`}>
                     <div className="flex absolute pt-4 -top-96 right-0 bottom-0 left-0  justify-center items-center z-10">
                       <Image src={reflectionObj.image} alt={reflectionObj.image} className="" />
-
                     </div>
                     <div className="">
                       <Image
@@ -53,13 +53,13 @@ export default function ReflectionCarousel({reflectionObjList, borderColor}) {
                       {reflectionObj.name}
                     </p>
                     <p className="text-center text-sm text-white">{reflectionObj.title}</p>
-                  </div>
-                </div>
+                  </section>
+                </section>
               );
             })}
-          </div>
+          </section>
 
-          <div className="carousel-indicators right-0 bottom-0 left-0 flex justify-center ">
+          <section className="carousel-indicators right-0 bottom-0 left-0 flex justify-center ">
             {reflectionObjList.map((_, index) => {
               return (
                 <button
@@ -70,12 +70,13 @@ export default function ReflectionCarousel({reflectionObjList, borderColor}) {
                   aria-current={index === 0 ? "true" : ""}
                   aria-label={`Slide ${index + 1}`}
                   style={buttonStyle}
+                  key={index}
                 ></button>
               );
             })}
-          </div>
+          </section>
         </div>
-      </div>
-    </div>
+      </section>
+    </section>
   );
 }
