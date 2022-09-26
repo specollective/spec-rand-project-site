@@ -36,7 +36,7 @@ export default function SpecXRandPage() {
         <ByTheNumbers />
         <WhereNow />
         <Reflections />
-        <Subfooter className="bg-spec-teal-600" />
+        <Subfooter color="spec-teal-600" />
       </Layout>
     </>
   );
