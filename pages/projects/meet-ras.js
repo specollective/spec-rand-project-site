@@ -71,10 +71,11 @@ function TheTeam() {
                 // Now it's clear that the returned element with the desired values
                 // will be rendered with the classes that you specify
                 count === 1 ? (
-                  <div
-                    key={id}
-                    className="w-158px h-166px overlay bg-slate text-black opacity-100 hover:opacity-50 hover:slate-600 hover-bg-slate-700 relative"
-                  >
+                  <div key={id} className="relative">
+                 <a className="absolute inset-0 z-10 text-center flex flex-col items-center justify-center opacity-0 hover:opacity-50 hover:bg-slate-700 bg-opacity-0 duration-300">
+                    <h1  className="tracking-wider" >{user.name}</h1>
+                    <p  className="mx-auto">{user.title}</p>
+                </a>
                     <Image 
                     alt="Victoria" 
                     src={user.pic} />
@@ -85,10 +86,11 @@ function TheTeam() {
                       {user.title}
                     </div>
                   </div>
+                  
                 ) : count === 2 ? (
                   <div
                     key={id}
-                    className="w-158px h-166px overlay bg-slate text-black opacity-100 hover:opacity-50 hover:slate-600 hover-bg-slate-700 relative"
+                    className="w-158px h-166px text-black opacity-100 hover:opacity-50 hover:slate-600 hover-bg-slate-700 relative"
                   >
                     <Image alt="Nan" 
                     src={user.pic} />
@@ -183,21 +185,14 @@ function TheTeam() {
 }
 
 export default TheTeam;
-
-// export default function MeetRAs() {
-//   return (
-//     <div className="grid grid-cols-4 grid-rows-4 bg-spec-teal-600">
-//       <div className="pr-10 relative">
-//         <span className="overlay bg-slate-200/75 text-black opacity-0 hover:opacity-100 absolute w-full h-full z-50 ">
-//           Lorem Ipsum
-//         </span>
-//         <Link href="/projects/meet-ras/victoria">
-//           <a>
-//             <Image src={Victoria} alt="" width={150} height={150} />
-//             <TextContent className="text-black font-bold">Victoria</TextContent>
-//           </a>
-//         </Link>
-//       </div>
-//     </div>
-//   );
-// }grid sm:grid-cols-2 md:grid-cols-4 md:grid-rows-3 gap-2 px-10
+{/* <div class="relative ">
+<a class="absolute inset-0 z-10 bg-white text-center flex flex-col items-center justify-center opacity-0 hover:opacity-100 bg-opacity-90 duration-300">
+  <h1  class=tracking-wider >Title</h1>
+  <p  class="mx-auto">Description</p>
+  </a>
+<a href="#" class="relative">
+    <div class="h-48 flex flex-wrap content-center">
+        <img src="/image_url" class="mx-auto  " alt="">
+    </div>
+</a>
+</div> */}
