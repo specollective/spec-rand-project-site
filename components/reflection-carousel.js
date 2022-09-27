@@ -1,4 +1,3 @@
-import { faBullhorn } from "@fortawesome/free-solid-svg-icons";
 import Image from "next/future/image";
 import quoteImage from "../public/yellow_quote.svg";
 

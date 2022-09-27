@@ -2,10 +2,44 @@ import Head from "next/head";
 import Image from 'next/image'
 import MeepleMetaverse from '../public/MeepleMetaverse.svg'
 import Meeples from '../public/meeples.svg'
+import ReflectionCarousel from "../components/reflection-carousel";
+import yoline from "../public/yoline_sm_bubble.svg";
+import crystal from "../public/crystal_sm_bubble.svg";
+
+const reflectionObjList = [
+  {
+    name: "Yoline Banerjee",
+    image: yoline,
+    quote:
+      "Sagittis viverra integer et mauris, sapien enim. Eget quis congue suspendisse elit. Nisi bibendum nisl diam nulla velit, magna eget tincidunt ornare. Et integer rhoncus, magnis quisque ut sollicitudin quam mauris aenean.",
+    title: "Research Associate",
+  },
+  {
+    name: "Crystal Shamsi",
+    image: crystal,
+    quote:
+      "Sagittis viverra integer et mauris, sapien enim. Eget quis congue suspendisse elit. Nisi bibendum nisl diam nulla velit, magna eget tincidunt ornare. Et integer rhoncus, magnis quisque ut sollicitudin quam mauris aenean.",
+    title: "Research Associate",
+  },
+  {
+    name: "Yoline Banerjee",
+    image: yoline,
+    quote:
+      "Sagittis viverra integer et mauris, sapien enim. Eget quis congue suspendisse elit. Nisi bibendum nisl diam nulla velit, magna eget tincidunt ornare. Et integer rhoncus, magnis quisque ut sollicitudin quam mauris aenean.",
+    title: "Research Associate",
+  },
+  {
+    name: "Crystal Shamsi",
+    image: crystal,
+    quote:
+      "Sagittis viverra integer et mauris, sapien enim. Eget quis congue suspendisse elit. Nisi bibendum nisl diam nulla velit, magna eget tincidunt ornare. Et integer rhoncus, magnis quisque ut sollicitudin quam mauris aenean.",
+    title: "Research Associate",
+  },
+];
 
 const MeeplePage = () => {
   return (
-    <section>
+    <section className="bg-spec-black-600">
       <Head>
         <title>Meeple | Sustainable Progress Equality Collective</title>
         <link rel="icon" href="/favicon.ico" />
@@ -39,6 +73,10 @@ const MeeplePage = () => {
           </div>
         </div>
       </div>
+      <ReflectionCarousel
+       reflectionObjList={reflectionObjList}
+       borderColor="spec-turquoise-600"
+       />
     </section>
   );
 };

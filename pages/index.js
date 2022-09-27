@@ -6,7 +6,7 @@ import ResearchMethodsArticle from '../pages/projects/article'
 import Projects from '../pages/projects/projects'
 import MeetRAs from '../pages/projects/meet-ras'
 import ByTheNumbers from '../pages/projects/by-the-numbers'
-import ReflectionCarousel from '../components/reflection-carousel'
+import Reflections from '../pages/projects/reflections'
 
 export default function Home() {
   return (
@@ -24,8 +24,7 @@ export default function Home() {
           <Projects />
           <MeetRAs />
           <ByTheNumbers />
-          {/* carousel will be added upon receiving data */}
-          {/* <ReflectionCarousel /> */}
+          <Reflections />
         </Layout>
       </main>
 
