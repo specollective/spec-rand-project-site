@@ -1,17 +1,19 @@
-import { useState } from "react";
+import { useState } from 'react';
 
 import Image from 'next/image';
-import downArrow from '../public/spec_logo.svg';
-import BreakLine from "./break-line";
+import BreakLine from './break-line';
+
+import downArrow from '../public/arrow_down.svg';
+import upArrow from '../public/arrow_up.svg';
 
 
 function ProjectsDisplay({ project })  {
   return (
     <div className='border border-spec-yellow-600 mb-2'>
-      <div className="grid grid-cols-3 grid-rows-2 p-10">
-        <div className='col-span-2 row-start-1 row-span-2 place-self-center'> {project.pic} </div>
-        <div className='col-start-3 row-start-1 text-lg'> {project.info} </div>
-        <div className='col-start-3 row-start-2 text-xl text-spec-yellow-600 hover:underline self-end'> 
+      <div className="grid grid-cols-5 grid-rows-2 p-10 max-h-[500px]">
+        <div className='col-span-3 row-start-1 row-span-2 place-self-center'> {project.pic} </div>
+        <div className='col-span-2 row-start-1 text-lg'> {project.info} </div>
+        <div className='col-span-2 row-start-2 text-xl text-spec-yellow-600 hover:underline self-end'> 
           <a href={project.link}>{project.linkLine} </a>
         </div>
       </div>
@@ -30,7 +32,7 @@ function ProjectsAccordian({ projectsData }) {
 
   const toggleBtn = (index) => {
     const downImage = <Image alt='down-arrow' src={downArrow} />
-    const upImage = <Image alt='up-arrow' src={downArrow} />
+    const upImage = <Image alt='up-arrow' src={upArrow} />
     
     if (isClicked=== index) {
       return downImage
