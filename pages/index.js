@@ -18,7 +18,7 @@ export default function Home() {
       <TopHeroComponent />
       <OrgSection />
       <ResearchMethodsArticle />
-      <Projects />
+      <ProjectsSection />
       <MeetRAs />
       <ByTheNumbers />
       <section className="bg-spec-teal-600 flex mt-6 p-8 justify-center">
