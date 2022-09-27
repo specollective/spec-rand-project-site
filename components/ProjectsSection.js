@@ -1,5 +1,7 @@
+import Image from "next/image";
 import ProjectsAccordian from "./projects-accordian";
 
+import fakeImage from '../public/spec_logo.svg';
 
 function ProjectsSection() {
 
@@ -8,7 +10,9 @@ function ProjectsSection() {
       id: 1,
       name: 'Microcredential Project',
       tag: 'Learning Management System',
-      info: 'PLACEHOLDER INSIDES',
+      info: 'CAREP and SPEC have partnered together on this project with the aim of expanding access to education in the areas of diversity, equity, inclusion (DEI), mass atrocity prevention, game-based learning, and professional development. This project kicked off: November 2021 ',
+      pic: <Image src={fakeImage} alt='fake-image'/>,
+      linkLine:'View Project Details >>',
       link: '/micro-credential',
     }, 
     {
@@ -16,6 +20,8 @@ function ProjectsSection() {
       name: 'Gaming Project',
       tag: 'Socio-cultural game-based learning',
       info: 'I AM INFO',
+      pic: <Image src={fakeImage} alt='fake-image'/>,
+      linkLine:'View Project Details >>',
       link: '/meeple',
     }, 
     {
@@ -23,6 +29,8 @@ function ProjectsSection() {
       name: 'Digital Expressions Gallery',
       tag: 'Digital Expressions of Mass Incarceration Online Gallery',
       info: 'I AM INFO',
+      pic: <Image src={fakeImage} alt='fake-image'/>,
+      linkLine:'Visit the Gallery >>',
       link: 'https://medium.com/journal-of-engaged-research/expressions/home',
     }, 
     {
@@ -30,6 +38,8 @@ function ProjectsSection() {
       name: 'Journal of Engaged Research',
       tag: 'Sharing Knowledge. Building Communities.',
       info: 'I AM INFO',
+      pic: <Image src={fakeImage} alt='fake-image'/>,
+      linkLine:'Visit the Journal >>',
       link: 'https://medium.com/journal-of-engaged-research',
     }, 
 
