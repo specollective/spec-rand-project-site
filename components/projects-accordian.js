@@ -5,6 +5,7 @@ import BreakLine from './break-line';
 
 import downArrow from '../public/arrow_down.svg';
 import upArrow from '../public/arrow_up.svg';
+import rightArrow from '../public/arrow_right.svg';
 
 
 function ProjectsDisplay({ project })  {
@@ -81,7 +82,7 @@ function ProjectsAccordian({ projectsData }) {
                 className='h-[40px] w-[40px]'
                 target='_blank'
               >
-                <Image alt='down-arrow' src={downArrow}/>
+                <Image alt='right-arrow' src={rightArrow}/>
               </a>
             </div>
             <BreakLine color='spec-teal-600' lineWidth='full'/>
