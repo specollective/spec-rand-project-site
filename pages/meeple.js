@@ -5,8 +5,12 @@ import Meeples from '../public/meeples.svg'
 import MeepleBlue from '../public/meeple_blue_character.svg'
 import MeepleGray from '../public/meeple_gray_character.svg'
 import MeepleCheck from '../public/meeple_checkmark.svg'
+import MeepleBullet from '../public/meeple_bullet.svg'
 
 const MeeplePage = () => {
+  const meepleCheckmark = <div className="inline-block pr-2"><Image width={20} height={20} src={MeepleCheck} /></div>
+  const meepleBullet = <div className="inline-block pr-2"><Image width={20} height={20} src={MeepleBullet} /></div>
+
   return (
     <section>
       <Head>
@@ -47,17 +51,17 @@ const MeeplePage = () => {
           </div>
 
           <div className="md:grid md:grid-cols-3 md:px-36 pt-8">
+
             <div>
               <Image src={MeepleBlue} alt="meeple one" />
               <h1 className="text-2xl font-bold pt-4">Phase 1: Complete</h1>
-
-              <div className="md:mx-24 text-left">
+              <div className="md:px-16 text-left">
                 <div className="justify-center p-6">
-                  <p className="py-2"><Image className="pr-4" width={20} height={20} src={MeepleCheck} />Identify goals & objectives</p>
-                  <p className="py-2"><Image className="pr-4" width={20} height={20} src={MeepleCheck} />Literature review on RAND research</p>
-                  <p className="py-2"><Image className="pr-4" width={20} height={20} src={MeepleCheck} />Selection of game topic</p>
-                  <p className="py-2"><Image className="pr-4" width={20} height={20} src={MeepleCheck} />Selection of game mechanic</p>
-                  <p className="py-2"><Image className="pr-4" width={20} height={20} src={MeepleCheck} />Produced a development process</p>
+                  <p className="py-2">{meepleCheckmark}Identify goals & objectives</p>
+                  <p className="py-2">{meepleCheckmark}Literature review on RAND research</p>
+                  <p className="py-2">{meepleCheckmark}Selection of game topic</p>
+                  <p className="py-2">{meepleCheckmark}Selection of game mechanic</p>
+                  <p className="py-2">{meepleCheckmark}Produced a development process</p>
                 </div>
               </div>
             </div>
@@ -65,7 +69,18 @@ const MeeplePage = () => {
             <div>
               <div>
                 <Image src={MeepleGray} alt="meeple one" />
+                <h1 className="text-2xl font-bold pt-4">Phase 2</h1>
+                <div className="md:px-16 text-left">
+                  <div className="justify-center p-6 text-base">
+                    <p className="py-2">{meepleCheckmark}Game design direction </p>
+                    <p className="py-2">{meepleCheckmark}Create moodboards for look and feel</p>
+                    <p className="py-2">{meepleCheckmark}Produce UI wireframes</p>
+                    <p className="py-2">{meepleBullet}Finalize Meeple artwork</p>
+                    <p className="py-2">{meepleBullet}Content development</p>
+                  </div>
+                </div>
               </div>
+              
             </div>
             <div>
               <div>
