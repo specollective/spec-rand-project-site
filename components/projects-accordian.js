@@ -36,9 +36,9 @@ function ProjectsAccordian({ projectsData }) {
     const upImage = <Image alt='up-arrow' src={upArrow} />
     
     if (isClicked=== index) {
-      return downImage
-    } else {
       return upImage
+    } else {
+      return downImage
     };
   };
   
