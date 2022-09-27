@@ -17,8 +17,8 @@ import LinkedInRAs from '../public/linkedInRAs.svg'
 function RAprofile() {
   const microCredentialProj = <a href='/micro-credential' target="_blank" className='text-spec-yellow-600'>Microcredential Project {'>>'}</a>
   const gamingProj = <a href='/meeple' target="_blank" className='text-spec-yellow-600'>Gaming Project {'>>'}</a>
-  const impactProj = <a href='https://www.google.com/' target="_blank" className='text-spec-yellow-600'>Impact Website {'>>'}</a>
-  const expressionsProj = <a href='https://medium.com/journal-of-engaged-research/expressions/home' target="_blank" className='text-spec-yellow-600'>Expressions Gallery {'>>'}</a>
+  const impactProj = <a href='https://github.com/specollective/spec-website' target="_blank" className='text-spec-yellow-600'>Impact Website {'>>'}</a>
+  const expressionsProj = <a href='https://medium.com/journal-of-engaged-research/about-the-exhibition-1d4b301ff441' target="_blank" className='text-spec-yellow-600'>Expressions Gallery {'>>'}</a>
   const journalProj = <a href='https://medium.com/journal-of-engaged-research' target="_blank" className='text-spec-yellow-600'>Journal of Engaged Research {'>>'}</a>
 
   const profileBreak = <hr className='my-2 rounded border-2 border-spec-turquoise-600'/>
