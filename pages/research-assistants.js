@@ -1,5 +1,4 @@
 import Head from 'next/head'
-
 const ResearchAssistantPage = () => {
   return (
     <section>
