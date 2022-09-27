@@ -8,7 +8,9 @@ const ResearchAssistantPage = () => {
         <title>Research Assistant | Sustainable Progress Equality Collective</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <h1 className='text-black'>Meet the RAs</h1>
+      <div className='bg-spec-black-600'>
+        <h1 className='text-spec-black-600'>RA Page</h1>
+      </div>
       
       <div>
         <RAprofile />

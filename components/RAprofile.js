@@ -15,14 +15,13 @@ import LinkedInRAs from '../public/linkedInRAs.svg'
 
 
 function RAprofile() {
-
-  const microCredentialProj = <a href='https://www.google.com/' target="_blank" className='text-spec-yellow-600'>Microcredential Project {'>>'}</a>
+  const microCredentialProj = <a href='/micro-credential' className='text-spec-yellow-600'>Microcredential Project {'>>'}</a>
   const gamingProj = <a href='https://www.google.com/' target="_blank" className='text-spec-yellow-600'>Gaming Project {'>>'}</a>
   const impactProj = <a href='https://www.google.com/' target="_blank" className='text-spec-yellow-600'>Impact Website {'>>'}</a>
   const expressionsProj = <a href='https://www.google.com/' target="_blank" className='text-spec-yellow-600'>Expressions Gallery {'>>'}</a>
   const journalProj = <a href='https://www.google.com/' target="_blank" className='text-spec-yellow-600'>Journal of Engaged Research {'>>'}</a>
 
-  const profileBreak = <hr className='my-4 rounded border-2 border-spec-turquoise-600'/>
+  const profileBreak = <hr className='my-2 rounded border-2 border-spec-turquoise-600'/>
 
   
   const profileData = [
@@ -52,35 +51,35 @@ function RAprofile() {
 
   const profileDataMap = profileData.map(data => {
     return (
-      <div className='p-8 h-auto bg-spec-black-600 md:grid md:grid-cols-2'>
+      <div className='py-8 px-20 h-auto bg-spec-black-600 md:grid md:grid-cols-3'>
 
-        <div className='text-center'>
+        <div className='mb-8 text-center md:pl-12'>
           <h1 className='text-3xl font-extrabold text-spec-turquoise-600 '>{data.fullName}</h1>
           <h3 className='pb-6 text-spec-yellow-600'>{data.title}</h3>
           <div>
             <Image src={data.pic} alt={data.alt} />
           </div>
-          <div className='pb-6'>
+          <div className='pt-4'>
             <a href={data.linkedInLink} target="_blank">
               <Image src={LinkedInRAs} alt="linkedIn" />
             </a>
           </div>
         </div>
 
-        <div className=''>
-          <div className='px-12 text-white'>
+        <div className='col-span-2'>
+          <div className='md:px-20 pb-8 text-white'>
             <p>{data.text}</p>
           </div>
 
-          <div className='p-4 text-white text-center md:text-left'>
-            <p className='p-6'>{data.firstName} has worked on:</p>
+          <div className='md:pt-4 text-white col-span-2 md:text-left'>
+            <span className='md:px-20'>{data.firstName} has worked on:</span>
 
             {data.projects.map((proj, index) => (
-              <div key={index} className='text-spec-yellow-600'>{proj}</div>
+              <div key={index} className='flex md:pl-60 lg:pl-80 xl:pl-96 pt-4 text-spec-yellow-600'>{proj}</div>
             ))}
           </div>
         </div>
-        <div className='text-center w-auto md:col-span-2 p-8 md:p-12'>
+        <div className='text-center w-auto md:col-span-3 p-8 md:p-12'>
           {profileBreak}
         </div>
       </div>
