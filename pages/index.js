@@ -24,7 +24,7 @@ export default function Home() {
       <section className="bg-spec-teal-600 flex mt-6 p-8 justify-center">
         <ReflectionCarousel
           reflectionObjList={microcredentialsObjList}
-          borderColor="spec-turquoise-600"
+          borderColor="spec-yellow-600"
         />
       </section>
     </section>

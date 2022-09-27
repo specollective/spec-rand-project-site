@@ -26,8 +26,7 @@ export default function ReflectionCarousel({ reflectionObjList, borderColor }) {
                 }
                 key={reflectionObj.title + "-" + index}
               >
-                {/* box-border box-content md:h-72 md:w-96 md:p-10 bg-spec-black-600 md:mt-20 z-0 */}
-                <section className={`border border-${borderColor} p-4`}>
+                <section className={`border border-${borderColor} bg-spec-black-600 p-4`}>
                   <div className="flex justify-center">
                     <Image
                       src={reflectionObj.image}
