@@ -42,7 +42,7 @@ function MeepleLoading() {
           <Image src={MeepleBlue} alt="meeple one" />
           <h1 className="pt-4 text-2xl font-bold">Phase 1: Complete</h1>
           <div className="lg:px-6 text-left">
-            <div className="justify-center p-6">
+            <div className="pl-12 py-6">
               {mappedColOne}
             </div>
           </div>
@@ -52,7 +52,7 @@ function MeepleLoading() {
           <Image src={MeepleGray} alt="meeple one" />
           <h1 className="text-2xl font-bold pt-4">Phase 2</h1>
           <div className="lg:px-6 text-left">
-            <div className="justify-center p-6 text-base">
+            <div className="pl-12 py-6">
               {mappedColTwo}
               <p className="py-3">{meepleBullet}Finalize Meeple artwork</p>
               <p className="py-3">{meepleBullet}Content development</p>
@@ -64,7 +64,7 @@ function MeepleLoading() {
           <Image src={MeepleGray} alt="meeple one" />
           <h1 className="text-2xl font-bold pt-4">Phase 3</h1>
           <div className="lg:px-6 text-left">
-            <div className="justify-center p-6 text-base">
+            <div className="pl-12 py-6">
               {mappedColThree}
               <p className="py-3 text-xl font-bold">{meepleBullet}GAME ONE LAUNCH!</p>
             </div>
