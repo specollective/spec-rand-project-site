@@ -45,16 +45,16 @@ const MeeplePage = () => {
             <p>• To learn about policy solutions/recommendation that improve racial equity</p>
           </div>
         </div>
+
         <div>
           <div className="p-8 text-center text-spec-turquoise-600 text-5xl font-extrabold">
             Loading...
           </div>
 
-          <div className="lg:grid lg:grid-cols-3 md:px-36 pt-8">
-
+          <div className="md:px-36 lg:grid lg:grid-cols-3 pt-8">
             <div>
               <Image src={MeepleBlue} alt="meeple one" />
-              <h1 className="text-2xl font-bold pt-4">Phase 1: Complete</h1>
+              <h1 className="pt-4 text-2xl font-bold">Phase 1: Complete</h1>
               <div className="lg:px-6 text-left">
                 <div className="justify-center p-6">
                   <p className="py-2">{meepleCheckmark}Identify goals & objectives</p>
@@ -67,37 +67,34 @@ const MeeplePage = () => {
             </div>
 
             <div>
-              <div>
-                <Image src={MeepleGray} alt="meeple one" />
-                <h1 className="text-2xl font-bold pt-4">Phase 2</h1>
-                <div className="lg:px-6 text-left">
-                  <div className="justify-center p-6 text-base">
-                    <p className="py-2">{meepleCheckmark}Game design direction </p>
-                    <p className="py-2">{meepleCheckmark}Create moodboards for look and feel</p>
-                    <p className="py-2">{meepleCheckmark}Produce UI wireframes</p>
-                    <p className="py-2">{meepleBullet}Finalize Meeple artwork</p>
-                    <p className="py-2">{meepleBullet}Content development</p>
-                  </div>
+              <Image src={MeepleGray} alt="meeple one" />
+              <h1 className="text-2xl font-bold pt-4">Phase 2</h1>
+              <div className="lg:px-6 text-left">
+                <div className="justify-center p-6 text-base">
+                  <p className="py-2">{meepleCheckmark}Game design direction </p>
+                  <p className="py-2">{meepleCheckmark}Create moodboards for look and feel</p>
+                  <p className="py-2">{meepleCheckmark}Produce UI wireframes</p>
+                  <p className="py-2">{meepleBullet}Finalize Meeple artwork</p>
+                  <p className="py-2">{meepleBullet}Content development</p>
                 </div>
               </div>
-              
             </div>
+
             <div>
-              <div>
-                <Image src={MeepleGray} alt="meeple one" />
-                <h1 className="text-2xl font-bold pt-4">Phase 3</h1>
-                <div className="lg:px-6 text-left">
-                  <div className="justify-center p-6 text-base">
-                    <p className="py-2">{meepleBullet}Game design direction </p>
-                    <p className="py-2">{meepleBullet}Create moodboards for look and feel</p>
-                    <p className="py-2">{meepleBullet}Produce UI wireframes</p>
-                    <p className="py-2 text-xl">{meepleBullet}GAME ONE LAUNCH!</p>
-                  </div>
+              <Image src={MeepleGray} alt="meeple one" />
+              <h1 className="text-2xl font-bold pt-4">Phase 3</h1>
+              <div className="lg:px-6 text-left">
+                <div className="justify-center p-6 text-base">
+                  <p className="py-2">{meepleBullet}Game design direction </p>
+                  <p className="py-2">{meepleBullet}Create moodboards for look and feel</p>
+                  <p className="py-2">{meepleBullet}Produce UI wireframes</p>
+                  <p className="py-2 text-xl font-bold">{meepleBullet}GAME ONE LAUNCH!</p>
                 </div>
               </div>
             </div>
           </div>
         </div>
+
       </div>
     </section>
   );
