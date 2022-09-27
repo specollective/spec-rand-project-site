@@ -28,26 +28,25 @@ export default function ProjectsAccordian({ projectsData }) {
   return (
     <section id='projects' className='py-14 md:py-32 md:px-36 '>
       {projectsData.map((project, index) => (
-        <div className=''>
-          <div className='cursor-pointer' 
-               onClick={() => showProject(index)}>
-                <div className='grid grid-rows-3 grid-flow-col'>
-                  <h3 className='row-span-2 col-span-1 text-4xl text-whte-600'>
-                    {project.name}
-                  </h3>
-                  <p className='hidden md:block col-span-2  text-spec-yellow-600'>
-                    {project.tag}
-                  </p>
-                  <button
-                  className='row-span-3'
-                  aria-expanded={isClicked === index ? 'true' : 'false'}>
+        <div>
+
+          <section className='hidden md:block'>
+            <div className='cursor-pointer' onClick={() => showProject(index)}>
+              <div className='grid grid-rows-3 grid-flow-col place-content-between'>
+                <h3 className='row-span-2 col-span-1 text-4xl text-whte-600'>
+                  {project.name}
+                </h3>
+                <p className='col-span-2 text-spec-yellow-600'>
+                  {project.tag}
+                </p>
+                <button
+                className='row-span-3'
+                aria-expanded={isClicked === index ? 'true' : 'false'}>
                   {toggleBtn(index)}
-                  </button>
-                </div>
-                <div className=''>
-                  <BreakLine color='spec-teal-600' lineWidth='full'/>
-                </div>
-          </div>
+                </button>
+              </div>
+              <BreakLine color='spec-teal-600' lineWidth='full'/>
+            </div>
             {
               <div className={isClicked === index ? 
               accordionClosed && accordionOpen : accordionClosed}>
@@ -57,25 +56,26 @@ export default function ProjectsAccordian({ projectsData }) {
                   </p>
               </div>
             }
+          </section>
+
+          <section className='visible md:hidden'>
+            <div className='flex place-content-between py-2'>
+              <h3 className='text-2xl text-whte-600'>
+                {project.name}
+              </h3>
+              <a 
+                href={project.link} 
+                className='h-[40px] w-[40px]'
+                target='_blank'
+              >
+                <Image alt='down-arrow' src={downArrow}/>
+              </a>
+            </div>
+            <BreakLine color='spec-teal-600' lineWidth='full'/>
+          </section>
+
         </div>
       ))}
     </section>
   )
 };
-
-// {/* <div className="py-14 md:py-32">
-// {projectsData.map(project => {
-//   return (
-//     <div className='pb-8 px-36 cursor-pointer' 
-//           key={project.id}
-//           onClick={showProject}
-
-//     >
-//       {/* <Image src={data.imageSrc}/> */}
-//       <h3 className='text-4xl text-whte-600'>{project.name}</h3>
-//       <p className='hidden md:block text-spec-yellow-600'>{project.tag}</p>
-//       <BreakLine color='spec-teal-600' lineWidth='full'/>
-//     </div>
-//   )
-// })}
-// </div> */}
