@@ -1,13 +1,26 @@
 import ProjectsAccordian from "./projects-accordian";
 
-const projectsData = "I AM PROJECTS!!"
 
 function ProjectsSection() {
 
+  const projectsData = [
+    {
+      id: 1,
+      name: 'Microcredential Project',
+      tag: 'Learning Management System',
+    }, 
+    {
+      id: 2,
+      name: 'Gaming Project',
+      tag: 'Socio-cultural game-based learning',
+    }, 
+
+  ]
+
   return (
     <>
-      <div className="p-5 md:px-36 w-screen h-auto bg-spec-black-600">
-        <h1 className="text-4xl md:text-6xl font-bold py-4 text-center"> Projects </h1>
+      <div className="p-5 md:px-36 w-screen h-auto bg-spec-black-600 font-Poppins">
+        <h1 className="text-6xl md:text-10xl font-bold py-4 text-center"> Projects </h1>
         
         <section className="flex flex-col md:flex-row gap-y-3 py-4 text-spec-yellow-600 text-xl tracking-wide font-medium justify-around items-center"> 
           <div>CAREP Pillar I - Methods and Action</div>
