@@ -15,19 +15,19 @@ function MeepleLoading() {
 
   const mappedColOne = loadingColOne.map((data, index) => {
     return (
-      <p key={index} className="py-2">{meepleCheckmark}{data}</p>
+      <p key={index} className="py-3">{meepleCheckmark}{data}</p>
     )
   })
 
   const mappedColTwo = loadingColTwo.map((data, index) => {
     return (
-      <p key={index} className="py-2">{meepleCheckmark}{data}</p>
+      <p key={index} className="py-3">{meepleCheckmark}{data}</p>
     )
   })
 
   const mappedColThree = loadingColThree.map((data, index) => {
     return (
-      <p key={index} className="py-2">{meepleBullet}{data}</p>
+      <p key={index} className="py-3">{meepleBullet}{data}</p>
     )
   })
 
@@ -54,8 +54,8 @@ function MeepleLoading() {
           <div className="lg:px-6 text-left">
             <div className="justify-center p-6 text-base">
               {mappedColTwo}
-              <p className="py-2">{meepleBullet}Finalize Meeple artwork</p>
-              <p className="py-2">{meepleBullet}Content development</p>
+              <p className="py-3">{meepleBullet}Finalize Meeple artwork</p>
+              <p className="py-3">{meepleBullet}Content development</p>
             </div>
           </div>
         </div>
@@ -66,7 +66,7 @@ function MeepleLoading() {
           <div className="lg:px-6 text-left">
             <div className="justify-center p-6 text-base">
               {mappedColThree}
-              <p className="py-2 text-xl font-bold">{meepleBullet}GAME ONE LAUNCH!</p>
+              <p className="py-3 text-xl font-bold">{meepleBullet}GAME ONE LAUNCH!</p>
             </div>
           </div>
         </div>
