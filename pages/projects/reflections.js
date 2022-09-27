@@ -1,7 +1,4 @@
 import Image from "next/image";
-import TextContent from "../../components/text";
-import quoteImage from "../../public/yellow_quote.svg";
-import GridContainer from "../../components/grid-container";
 import ReflectionCarousel from "../../components/reflection-carousel";
 import yoline from "../../public/yoline_sm_bubble.svg";
 import crystal from "../../public/crystal_sm_bubble.svg";
@@ -45,7 +42,7 @@ export default function Reflections() {
         reflectionObjList={reflectionObjList}
         borderColor="spec-yellow-600"
         />
-        
+
       </div>
     );
 }

@@ -13,7 +13,7 @@ const buttonStyle = {
 
 export default function ReflectionCarousel({reflectionObjList, borderColor}) {
   return (
-    <section className="bg-spec-teal-600">
+    <section className="">
       <section className="flex justify-center items-center p-4">
         <div
           id="carouselExampleIndicators"

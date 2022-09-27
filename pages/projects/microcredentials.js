@@ -14,14 +14,46 @@ import joe_g from "../../public/joe_g_sm_bubble.svg";
 import crystal from "../../public/crystal_sm_bubble.svg";
 import yoline from "../../public/yoline_sm_bubble.svg";
 import victoria from "../../public/victoria_sm_bubble.svg";
+import ReflectionCarousel from "../../components/reflection-carousel";
 
 const teamList = [ marcus, nan, alicia, menoukha, joe_g, crystal, yoline, victoria ];
+
+const reflectionObjList = [
+    {
+      name: "Marcus Steiner",
+      image: marcus,
+      quote:
+        "Sagittis viverra integer et mauris, sapien enim. Eget quis congue suspendisse elit. Nisi bibendum nisl diam nulla velit, magna eget tincidunt ornare. Et integer rhoncus, magnis quisque ut sollicitudin quam mauris aenean.",
+      title: "Research Associate",
+    },
+    {
+      name: "Crystal Shamsi",
+      image: crystal,
+      quote:
+        "Sagittis viverra integer et mauris, sapien enim. Eget quis congue suspendisse elit. Nisi bibendum nisl diam nulla velit, magna eget tincidunt ornare. Et integer rhoncus, magnis quisque ut sollicitudin quam mauris aenean.",
+      title: "Research Associate",
+    },
+    {
+      name: "Yoline Banerjee",
+      image: yoline,
+      quote:
+        "Sagittis viverra integer et mauris, sapien enim. Eget quis congue suspendisse elit. Nisi bibendum nisl diam nulla velit, magna eget tincidunt ornare. Et integer rhoncus, magnis quisque ut sollicitudin quam mauris aenean.",
+      title: "Research Associate",
+    },
+    {
+      name: "Nan Eileen Mead",
+      image: nan,
+      quote:
+        "Sagittis viverra integer et mauris, sapien enim. Eget quis congue suspendisse elit. Nisi bibendum nisl diam nulla velit, magna eget tincidunt ornare. Et integer rhoncus, magnis quisque ut sollicitudin quam mauris aenean.",
+      title: "Research Associate",
+    },
+  ];
 
 
 
 export default function Microcredentials() {
     return (
-    <div className="bg-spec-blue-600 justify-center content-center text-slate-100 font-medium px-44 pt-12">
+    <div className="bg-spec-black-600 justify-center content-center text-slate-100 font-medium px-44 pt-12">
         <SectionHeader className="text-center">Microcredential Development Project</SectionHeader>
         <div className="text-center p-8">
             <Image
@@ -176,6 +208,10 @@ export default function Microcredentials() {
             />
         </ImageBubbles> */}
 
+        <ReflectionCarousel
+        reflectionObjList={reflectionObjList}
+        borderColor="spec-turquoise-600"
+        />
 
         <Footnote />
         
