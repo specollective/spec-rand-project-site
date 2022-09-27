@@ -20,7 +20,7 @@ module.exports = {
       },
       colors: {
         "spec-black": {
-          600: "#1C303D",
+          600: "#1C1C1C",
         },
         "spec-white": {
           600: "#FEFFFF",

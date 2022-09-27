@@ -45,7 +45,7 @@ export default function ReflectionCarousel({reflectionObjList, borderColor}) {
 
                     <div className="flex items-center py-4">
                       <div className="flex-grow h-px w-1/5"></div>
-                      <span className="flex-grow border-spec-teal-500 border-t-2 w-3/5"></span>
+                      <span className="flex-grow border-spec-turquoise-600 border-t-2 w-3/5"></span>
                       <div className="flex-grow h-px w-1/5"></div>
                     </div>
 
