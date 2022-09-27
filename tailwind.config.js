@@ -20,17 +20,16 @@ module.exports = {
       },
       colors: {
         "spec-black": {
-          600: "#1C303D",
+          600: "#1C1C1C",
         },
-        "spec-white": {
-          600: "#FEFFFF",
-        },
+        // "spec-black": {
+        //   600: "#1C303D",
+        // },
         "spec-white": {
           600: "#FEFFFF",
         },
         "spec-teal": {
-          500: "#0C9FAA",
-          600: "#507E82",
+          600: "#4A7578",
         },
         "spec-yellow": {
           600: "#F4BE4F",
@@ -39,8 +38,8 @@ module.exports = {
           600: "#0C9FAA",
         },
         "spec-grey": {
+
           600: "#405762",
-        },
       },
       fontFamily: {
         Poppins: ['Poppins'],
@@ -49,4 +48,5 @@ module.exports = {
     },
   },
   plugins: [],
-};
+}};
+
