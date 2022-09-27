@@ -2,14 +2,19 @@ import Head from "next/head";
 import Image from 'next/image'
 import MeepleMetaverse from '../public/MeepleMetaverse.svg'
 import Meeples from '../public/meeples.svg'
+import MarcusMeep from '../public/marcusMeep.svg'
+import AliciaMeep from '../public/aliciaMeep.svg'
+import IliaMeep from '../public/iliaMeep.svg'
+import JoeMeep from '../public/joeMeep.svg'
 
 const MeeplePage = () => {
   return (
-    <section>
+    <>
       <Head>
         <title>Meeple | Sustainable Progress Equality Collective</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
+
       <div className="w-screen h-auto p-12 bg-spec-black-600 text-center">
         <div className="pb-8 lg:py-32">
           <Image src={MeepleMetaverse} alt="meeple hero" />
@@ -38,8 +43,19 @@ const MeeplePage = () => {
             <p>• To learn about policy solutions/recommendation that improve racial equity</p>
           </div>
         </div>
+
+        <div className="py-20 md:grid md:grid-cols-2 lg:px-24 xl:px-60 text-left">
+          <h1 className="pb-8 pl-8 text-5xl xs:text-center md:text-left text-spec-yellow-600">The Team</h1>
+        </div>
+        <div className="md:flex md:justify-around md:px-60">
+          <div><Image src={MarcusMeep} /></div>
+          <div><Image src={AliciaMeep} /></div>
+          <div><Image src={IliaMeep} /></div>
+          <div><Image src={JoeMeep} /></div>
+        </div>
+
       </div>
-    </section>
+    </>
   );
 };
 
