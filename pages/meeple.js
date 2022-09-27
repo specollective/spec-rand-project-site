@@ -2,6 +2,9 @@ import Head from "next/head";
 import Image from 'next/image'
 import MeepleMetaverse from '../public/MeepleMetaverse.svg'
 import Meeples from '../public/meeples.svg'
+import MeepleBlue from '../public/meeple_blue_character.svg'
+import MeepleGray from '../public/meeple_gray_character.svg'
+import MeepleCheck from '../public/meeple_checkmark.svg'
 
 const MeeplePage = () => {
   return (
@@ -39,8 +42,36 @@ const MeeplePage = () => {
           </div>
         </div>
         <div>
-          <div className="text-center text-spec-turquoise-600 text-5xl font-extrabold">
+          <div className="p-8 text-center text-spec-turquoise-600 text-5xl font-extrabold">
             Loading...
+          </div>
+
+          <div className="md:grid md:grid-cols-3 md:px-36 pt-8">
+            <div>
+              <Image src={MeepleBlue} alt="meeple one" />
+              <h1 className="text-2xl font-bold pt-4">Phase 1: Complete</h1>
+
+              <div className="md:mx-24 text-left">
+                <div className="justify-center p-6">
+                  <p className="py-2"><Image className="pr-4" width={20} height={20} src={MeepleCheck} />Identify goals & objectives</p>
+                  <p className="py-2"><Image className="pr-4" width={20} height={20} src={MeepleCheck} />Literature review on RAND research</p>
+                  <p className="py-2"><Image className="pr-4" width={20} height={20} src={MeepleCheck} />Selection of game topic</p>
+                  <p className="py-2"><Image className="pr-4" width={20} height={20} src={MeepleCheck} />Selection of game mechanic</p>
+                  <p className="py-2"><Image className="pr-4" width={20} height={20} src={MeepleCheck} />Produced a development process</p>
+                </div>
+              </div>
+            </div>
+
+            <div>
+              <div>
+                <Image src={MeepleGray} alt="meeple one" />
+              </div>
+            </div>
+            <div>
+              <div>
+                <Image src={MeepleGray} alt="meeple one" />
+              </div>
+            </div>
           </div>
         </div>
       </div>
