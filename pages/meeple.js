@@ -3,39 +3,8 @@ import Image from "next/image";
 import MeepleMetaverse from "../public/MeepleMetaverse.svg";
 import Meeples from "../public/meeples.svg";
 import ReflectionCarousel from "../components/reflection-carousel";
-import yoline from "../public/yoline_sm_bubble.svg";
-import crystal from "../public/crystal_sm_bubble.svg";
+import {meepleObjList} from "../components/content/carouselContent";
 
-const reflectionObjList = [
-  {
-    name: "Yoline Banerjee",
-    image: yoline,
-    quote:
-      "Sagittis viverra integer et mauris, sapien enim. Eget quis congue suspendisse elit. Nisi bibendum nisl diam nulla velit, magna eget tincidunt ornare. Et integer rhoncus, magnis quisque ut sollicitudin quam mauris aenean.",
-    title: "Research Associate",
-  },
-  {
-    name: "Crystal Shamsi",
-    image: crystal,
-    quote:
-      "Sagittis viverra integer et mauris, sapien enim. Eget quis congue suspendisse elit. Nisi bibendum nisl diam nulla velit, magna eget tincidunt ornare. Et integer rhoncus, magnis quisque ut sollicitudin quam mauris aenean.",
-    title: "Research Associate",
-  },
-  {
-    name: "Yoline Banerjee",
-    image: yoline,
-    quote:
-      "Sagittis viverra integer et mauris, sapien enim. Eget quis congue suspendisse elit. Nisi bibendum nisl diam nulla velit, magna eget tincidunt ornare. Et integer rhoncus, magnis quisque ut sollicitudin quam mauris aenean.",
-    title: "Research Associate",
-  },
-  {
-    name: "Crystal Shamsi",
-    image: crystal,
-    quote:
-      "Sagittis viverra integer et mauris, sapien enim. Eget quis congue suspendisse elit. Nisi bibendum nisl diam nulla velit, magna eget tincidunt ornare. Et integer rhoncus, magnis quisque ut sollicitudin quam mauris aenean.",
-    title: "Research Associate",
-  },
-];
 
 const MeeplePage = () => {
   return (
@@ -103,7 +72,7 @@ const MeeplePage = () => {
       </div>
       <section className="flex my-12 justify-center">
         <ReflectionCarousel
-          reflectionObjList={reflectionObjList}
+          reflectionObjList={meepleObjList}
           borderColor="spec-turquoise-600"
         />
       </section>
