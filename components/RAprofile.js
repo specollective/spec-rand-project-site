@@ -51,9 +51,8 @@ function RAprofile() {
 
   const profileDataMap = profileData.map(data => {
     return (
-      <div className='py-8 px-20 h-auto bg-spec-black-600 md:grid md:grid-cols-3'>
-
-        <div className='mb-8 text-center md:pl-12'>
+      <div className='md:grid md:grid-cols-3 h-auto py-8 px-20 bg-spec-black-600'>
+        <div className='mb-8 md:pl-12 text-center'>
           <h1 className='text-3xl font-extrabold text-spec-turquoise-600 '>{data.fullName}</h1>
           <h3 className='pb-6 text-spec-yellow-600'>{data.title}</h3>
           <div>
@@ -65,12 +64,10 @@ function RAprofile() {
             </a>
           </div>
         </div>
-
         <div className='col-span-2'>
           <div className='md:px-20 pb-8 text-white'>
             <p>{data.text}</p>
           </div>
-
           <div className='md:pt-4 text-white col-span-2 md:text-left'>
             <span className='md:px-20'>{data.firstName} has worked on:</span>
 
@@ -79,15 +76,15 @@ function RAprofile() {
             ))}
           </div>
         </div>
-        <div className='text-center w-auto md:col-span-3 p-8 md:p-12'>
+        <div className='md:col-span-3 w-auto p-8 md:p-12 text-center'>
           {profileBreak}
         </div>
       </div>
     )
   })
-
+  
   return (
-    <div className='text-black'>
+    <div>
       {profileDataMap}
     </div>
   )
