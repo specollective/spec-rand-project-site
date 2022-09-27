@@ -22,6 +22,8 @@ function RAprofile() {
   const expressionsProj = <a href='https://www.google.com/' target="_blank" className='text-spec-yellow-600'>Expressions Gallery {'>>'}</a>
   const journalProj = <a href='https://www.google.com/' target="_blank" className='text-spec-yellow-600'>Journal of Engaged Research {'>>'}</a>
 
+  const profileBreak = <hr className='my-4 rounded border-2 border-spec-turquoise-600'/>
+
   
   const profileData = [
     { fullName: 'Alicia Bong', firstName: 'Alicia', title: 'Project Manager', pic: Alicia, alt: 'Alicia pic', linkedInLink: 'https://www.linkedin.com/in/alicia-bong-a4400896/', text: 'Alicia is a project manager focusing on team building and open communication. Her experience comes from multiple software adjacent roles in customer success and project management. She received her Bachelor’s Degree in English from SUNY Oneonta. Alicia presented at the first New Critics Undergraduate Literature and Composition Conference and was the Vice President of their chapter of the Sigma Tau Delta English Honors Society. Her interest in sustainability and social justice has led her to join the team at SPEC.', projects: [microCredentialProj, gamingProj, impactProj],
@@ -50,7 +52,7 @@ function RAprofile() {
 
   const profileDataMap = profileData.map(data => {
     return (
-      <div className='p-8 h-auto bg-spec-black-600'>
+      <div className='p-8 h-auto bg-spec-black-600 md:grid md:grid-cols-2'>
 
         <div className='text-center'>
           <h1 className='text-3xl font-extrabold text-spec-turquoise-600 '>{data.fullName}</h1>
@@ -70,7 +72,7 @@ function RAprofile() {
             <p>{data.text}</p>
           </div>
 
-          <div className='p-4 text-white text-center'>
+          <div className='p-4 text-white text-center md:text-left'>
             <p className='p-6'>{data.firstName} has worked on:</p>
 
             {data.projects.map((proj, index) => (
@@ -78,7 +80,9 @@ function RAprofile() {
             ))}
           </div>
         </div>
-
+        <div className='text-center w-auto md:col-span-2 p-8 md:p-12'>
+          {profileBreak}
+        </div>
       </div>
     )
   })
