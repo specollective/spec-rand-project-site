@@ -4,8 +4,25 @@ import Image from 'next/image';
 import downArrow from '../public/spec_logo.svg';
 import BreakLine from "./break-line";
 
-export default function ProjectsAccordian({ projectsData }) {
+
+function ProjectsDisplay({ project })  {
+  return (
+    <div className='border border-spec-yellow-600 mb-2'>
+      <div className="grid grid-cols-3 grid-rows-2 p-10">
+        <div className='col-span-2 row-start-1 row-span-2 place-self-center'> {project.pic} </div>
+        <div className='col-start-3 row-start-1 text-lg'> {project.info} </div>
+        <div className='col-start-3 row-start-2 text-xl text-spec-yellow-600 hover:underline self-end'> 
+          <a href={project.link}>{project.linkLine} </a>
+        </div>
+      </div>
+    </div>
+  )
+}
+
+function ProjectsAccordian({ projectsData }) {
   const [isClicked, setIsClicked] = useState(null);
+  const accordionClosed = 'hidden'
+  const accordionOpen = 'block'
 
   const showProject = index => {
     isClicked === index ? setIsClicked(null) : setIsClicked(index)
@@ -22,17 +39,14 @@ export default function ProjectsAccordian({ projectsData }) {
     };
   };
   
-  const accordionClosed = 'hidden overflow-y-hidden leading-snug'
-  const accordionOpen = 'block max-h-[400px] overlfow-y-visible'
-
   return (
-    <section id='projects' className='py-14 md:py-32 md:px-36 '>
+    <section id='projects' className='py-14 md:py-30 md:px-36 '>
       {projectsData.map((project, index) => (
         <div>
 
           <section className='hidden md:block'>
             <div className='cursor-pointer' onClick={() => showProject(index)}>
-              <div className='grid grid-rows-3 grid-flow-col place-content-between'>
+              <div className='grid grid-rows-3 grid-flow-col place-content-between items-end'>
                 <h3 className='row-span-2 col-span-1 text-4xl text-whte-600'>
                   {project.name}
                 </h3>
@@ -41,20 +55,17 @@ export default function ProjectsAccordian({ projectsData }) {
                 </p>
                 <button
                 className='row-span-3'
-                aria-expanded={isClicked === index ? 'true' : 'false'}>
+                aria-expanded={isClicked === index ? 'true' : 'false'}
+                >
                   {toggleBtn(index)}
                 </button>
               </div>
               <BreakLine color='spec-teal-600' lineWidth='full'/>
             </div>
             {
-              <div className={isClicked === index ? 
-              accordionClosed && accordionOpen : accordionClosed}>
-                  <p className='font-normal text-[0.9rem]sm:text-base'
-                  >
-                  {project.info}
-                  </p>
-              </div>
+              <section className={isClicked === index ? accordionClosed && accordionOpen : accordionClosed}>
+                <ProjectsDisplay project={project}/>
+              </section>
             }
           </section>
 
@@ -79,3 +90,5 @@ export default function ProjectsAccordian({ projectsData }) {
     </section>
   )
 };
+
+export default ProjectsAccordian;
