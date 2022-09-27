@@ -8,11 +8,13 @@ function ProjectsSection() {
       id: 1,
       name: 'Microcredential Project',
       tag: 'Learning Management System',
+      info: 'PLACEHOLDER INSIDES',
     }, 
     {
       id: 2,
       name: 'Gaming Project',
       tag: 'Socio-cultural game-based learning',
+      info: 'PLACEHOLDER INSIDES'
     }, 
 
   ]
@@ -22,7 +24,7 @@ function ProjectsSection() {
       <div className="p-5 md:px-36 w-screen h-auto bg-spec-black-600 font-Poppins">
         <h1 className="text-6xl md:text-10xl font-bold py-4 text-center"> Projects </h1>
         
-        <section className="flex flex-col md:flex-row gap-y-3 py-4 text-spec-yellow-600 text-xl tracking-wide font-medium justify-around items-center"> 
+        <section className="flex flex-col md:flex-row gap-y-3 py-4 text-spec-yellow-600 text-base md:text-xl tracking-wide font-medium justify-around items-center"> 
           <div>CAREP Pillar I - Methods and Action</div>
           <span className="hidden md:block rounded-full bg-spec-white-600 h-1.5 w-1.5"></span>
           <div>CAREP Pillar II - Dialogue and Change</div>
