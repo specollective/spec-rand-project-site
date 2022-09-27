@@ -9,12 +9,28 @@ function ProjectsSection() {
       name: 'Microcredential Project',
       tag: 'Learning Management System',
       info: 'PLACEHOLDER INSIDES',
+      link: '/micro-credential',
     }, 
     {
       id: 2,
       name: 'Gaming Project',
       tag: 'Socio-cultural game-based learning',
-      info: 'PLACEHOLDER INSIDES'
+      info: 'I AM INFO',
+      link: '/meeple',
+    }, 
+    {
+      id: 3,
+      name: 'Digital Expressions Gallery',
+      tag: 'Digital Expressions of Mass Incarceration Online Gallery',
+      info: 'I AM INFO',
+      link: 'https://medium.com/journal-of-engaged-research/expressions/home',
+    }, 
+    {
+      id: 4,
+      name: 'Journal of Engaged Research',
+      tag: 'Sharing Knowledge. Building Communities.',
+      info: 'I AM INFO',
+      link: 'https://medium.com/journal-of-engaged-research',
     }, 
 
   ]
