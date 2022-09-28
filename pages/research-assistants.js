@@ -22,13 +22,12 @@ const ResearchAssistantPage = () => {
     <section className='w-screen h-auto p-20 bg-spec-black-600'>
       <div className='flex px-20 lg:px-60 space-around'>
         <div>
-          <h1 className='text-5xl text-spec-turquoise-600 font-bold'>Meet <br />the<br /></h1>
-          <h1 className='text-5xl text-spec-yellow-600 font-bold'>RAs</h1>
+          <h1 className='text-[70px] text-spec-yellow-600  font-extrabold'>Meet <br />the<br /></h1>
+          <h1 className='text-[85px] text-spec-turquoise-600 font-bold'>RAs</h1>
         </div>
-        <div className='inline pt-10 px-12 bg-slate-200'>
-          <p className='inline '>The SPEC / CAREP Research associates used open collaboration throughout the project-building process and are excited to continue to share knowledge, and resources, and collaboratively innovate to create systemic change.</p>
+        <div className='inline-block pt-32 px-12 w-96 h-auto align-text-bottom'>
+          <p className='align-text-bottom'>The SPEC / CAREP Research associates used open collaboration throughout the project-building process and are excited to continue to share knowledge, and resources, and collaboratively innovate to create systemic change.</p>
         </div>
-
 
       </div>
     </section>
