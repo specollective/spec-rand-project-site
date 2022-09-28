@@ -4,7 +4,7 @@ import TopHeroComponent from '../components/TopHeroComponent'
 import OrgSection from '../components/OrgSection'
 import ResearchMethodsArticle from '../pages/projects/article'
 import Projects from '../pages/projects/projects'
-import MeetRAs from '../pages/projects/meet-ras'
+import MeetRAs from '../components/MeetRAsSection'
 import ByTheNumbers from '../pages/projects/by-the-numbers'
 import ReflectionCarousel from '../components/reflection-carousel'
 
