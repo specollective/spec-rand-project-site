@@ -43,11 +43,11 @@ function ProjectsAccordion({ projectsData }) {
   };
   
   return (
-    <section id='projects' className='py-14 md:py-30 md:px-36 '>
+    <section id='projects' className='py-14 md:py-30 lg:px-36 '>
       {projectsData.map((project, index) => (
         <div>
 
-          <section className='hidden md:block'>
+          <section className='hidden lg:block'>
             <div className='cursor-pointer' onClick={() => showProject(index)}>
               <div className='grid grid-rows-3 grid-flow-col place-content-between items-end'>
                 <h3 className='row-span-2 col-span-1 text-4xl text-whte-600'>
@@ -72,7 +72,7 @@ function ProjectsAccordion({ projectsData }) {
             }
           </section>
 
-          <section className='visible md:hidden'>
+          <section className='visible lg:hidden'>
             <div className='flex place-content-between py-2'>
               <h3 className='text-2xl text-whte-600'>
                 {project.name}
