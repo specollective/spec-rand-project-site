@@ -21,8 +21,10 @@ const MicroCredentialPage = () => {
         <p>Project</p>
       </div>
 
-      <div className="grid justify-center place-items-center">
-        <h1 className="text-spec-yellow-600 font-extrabold text-4xl">Intro</h1>
+      <div className="grid m-10 px-20 md:px-40 md:m-20">
+        <h1 className="justify-start text-spec-yellow-600 font-extrabold text-4xl leading-relaxed">
+          Intro
+        </h1>
         <p className="text-spec-white-600">
           The COVID19 pandemic has highlighted existing disparities in access to
           computer and communication technologies. The effect of the pandemic
@@ -33,10 +35,10 @@ const MicroCredentialPage = () => {
         </p>
       </div>
 
-      <div className="grid grid-cols-2 justify-center place-items-center">
+      <div className="grid grid-cols-2 justify-center place-items-center m-10 md:m-20">
         <Image src={squiggle} alt="squiggly-line" className="flex-grow" />
         <div>
-          <h1 className="text-spec-yellow-600 font-bold text-4xl">
+          <h1 className="text-spec-yellow-600 font-bold text-4xl px-20 md:px-40 leading-relaxed">
             Problem Statement
           </h1>
           <p className="text-spec-white-600">
@@ -47,19 +49,19 @@ const MicroCredentialPage = () => {
         </div>
       </div>
 
-      <div className="grid place-items-center">
-        <h1 className="justify-start text-spec-yellow-600 font-bold text-4xl">
+      <div className="grid m-10 md:m-20">
+        <h1 className="justify-start text-spec-yellow-600 font-bold text-4xl px-20 md:px-40 leading-relaxed">
           Solution
         </h1>
-        <p className="text-spec-white-600">
+        <p className="text-spec-white-600 px-30 md:px-40">
           SPEC will take a multimethodological approach to developing the
           learning platform and microcredentials.
         </p>
       </div>
 
-      <div className="grid grid-cols-2">
+      <div className="grid grid-cols-2 m-10 md:m-20">
         <div>
-          <h1 className="text-spec-yellow-600 font-bold text-4xl">
+          <h1 className="text-spec-yellow-600 font-bold text-4xl md:px-40 leading-relaxed">
             Project Goals &amp; Objectives
           </h1>
         </div>
