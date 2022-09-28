@@ -15,47 +15,71 @@ function TheTeam() {
   let [count] = useState(0);
   const users = [
     {
+      name: "Marcus Steiner",
+      pic: Marcus,
+      eligible: true,
+      title: "Operations Lead",
+    },
+    {
+      name: "Nan",
+      pic: Nan,
+      eligible: true,
+      title: "Research Lead",
+    },
+    {
+      name: "Ilia",
+      pic: Ilia,
+      eligible: true,
+      title: "Design Lead",
+    },
+    {
+      name: "Alicia Bong",
+      pic: Alicia,
+      eligible: true,
+      title: "Project Manager",
+    },
+    {
+      name: "Yoline Banerjee",
+      pic: Yoline,
+      eligible: true,
+      title: "Research Associate",
+    },
+    {
       name: "Victoria",
       pic: Victoria,
       eligible: true,
       title: "Research Associate",
     },
     {
-      name: "Nan",
-      pic: Nan,
-      eligible: true,
-      title: "Research Associate",
-    },
-    {
-      name: "Ilia",
-      pic: Ilia,
-      eligible: true,
-      title: "Research Associate",
-    },
-    {
-      name: "Yoline",
-      pic: Yoline,
-      eligible: true,
-      title: "Research Associate",
-    },
-    {
-      name: "Marcus",
-      pic: Marcus,
-      eligible: true,
-      title: "Research Associate",
-    },
-    {
-      name: "Crystal",
+      name: "Crystal Shamsi",
       pic: Crystal,
       eligible: true,
       title: "Research Associate",
     },
     {
-      name: "Alicia",
-      pic: Alicia,
-      eligible: true,
-      title: "Research Associate",
-    },
+        name: "Joe Golden",
+        pic: Crystal,
+        eligible: true,
+        title: "Research Associate",
+      },
+      {
+        name: "Dr. Menouka",
+        pic: Crystal,
+        eligible: true,
+        title: "Research Associate",
+      },
+      {
+        name: "Ollie Oliver",
+        pic: Crystal,
+        eligible: true,
+        title: "Research Associate",
+      },
+      {
+        name: "Lu Daley",
+        pic: Crystal,
+        eligible: true,
+        title: "Research Associate",
+      },
   ];
 
   return (
@@ -72,13 +96,11 @@ function TheTeam() {
                 // will be rendered with the classes that you specify
                 count === 1 ? (
                   <div key={id} className="relative">
-                 <a className="absolute inset-0 z-10 text-center flex flex-col items-center justify-center opacity-0 hover:opacity-50 hover:bg-slate-700 bg-opacity-0 duration-300">
-                    <h1  className="tracking-wider" >{user.name}</h1>
-                    <p  className="mx-auto">{user.title}</p>
-                </a>
-                    <Image 
-                    alt="Victoria" 
-                    src={user.pic} />
+                    <a className="absolute inset-0 z-10 text-center flex flex-col items-center justify-center opacity-0 hover:opacity-50 hover:bg-slate-700 bg-opacity-0 duration-300">
+                      <h1 className="tracking-wider">{user.name}</h1>
+                      <p className="mx-auto">{user.title}</p>
+                    </a>
+                    <Image alt="Victoria" src={user.pic} />
                     <div className="text-black text-md font-bold text-center">
                       {user.name}
                     </div>
@@ -86,14 +108,13 @@ function TheTeam() {
                       {user.title}
                     </div>
                   </div>
-                  
                 ) : count === 2 ? (
-                  <div
-                    key={id}
-                    className="w-158px h-166px text-black opacity-100 hover:opacity-50 hover:slate-600 hover-bg-slate-700 relative"
-                  >
-                    <Image alt="Nan" 
-                    src={user.pic} />
+                    <div key={id} className="relative">
+                    <a className="absolute inset-0 z-10 text-center flex flex-col items-center justify-center opacity-0 hover:opacity-50 hover:bg-slate-700 bg-opacity-0 duration-300">
+                      <h1 className="tracking-wider">{user.name}</h1>
+                      <p className="mx-auto">{user.title}</p>
+                    </a>
+                    <Image alt="Victoria" src={user.pic} />
                     <div className="text-black text-md font-bold text-center">
                       {user.name}
                     </div>
@@ -102,12 +123,12 @@ function TheTeam() {
                     </div>
                   </div>
                 ) : count === 3 ? (
-                    <div
-                    key={id}
-                    className="w-158px h-166px overlay bg-slate text-black opacity-100 hover:opacity-50 hover:slate-600 hover-bg-slate-700 relative"
-                  >
-                    <Image alt="Nan" 
-                    src={user.pic} />
+                    <div key={id} className="relative">
+                    <a className="absolute inset-0 z-10 text-center flex flex-col items-center justify-center opacity-0 hover:opacity-50 hover:bg-slate-700 bg-opacity-0 duration-300">
+                      <h1 className="tracking-wider">{user.name}</h1>
+                      <p className="mx-auto">{user.title}</p>
+                    </a>
+                    <Image alt="Victoria" src={user.pic} />
                     <div className="text-black text-md font-bold text-center">
                       {user.name}
                     </div>
@@ -116,12 +137,12 @@ function TheTeam() {
                     </div>
                   </div>
                 ) : count === 4 ? (
-                    <div
-                    key={id}
-                    className="w-158px h-166px overlay bg-slate text-black opacity-100 hover:opacity-50 hover:slate-600 hover-bg-slate-700 relative"
-                  >
-                    <Image alt="Nan" 
-                    src={user.pic} />
+                    <div key={id} className="relative">
+                    <a className="absolute inset-0 z-10 text-center flex flex-col items-center justify-center opacity-0 hover:opacity-50 hover:bg-slate-700 bg-opacity-0 duration-300">
+                      <h1 className="tracking-wider">{user.name}</h1>
+                      <p className="mx-auto">{user.title}</p>
+                    </a>
+                    <Image alt="Victoria" src={user.pic} />
                     <div className="text-black text-md font-bold text-center">
                       {user.name}
                     </div>
@@ -130,12 +151,12 @@ function TheTeam() {
                     </div>
                   </div>
                 ) : count === 5 ? (
-                    <div
-                    key={id}
-                    className="w-158px h-166px overlay bg-slate text-black opacity-100 hover:opacity-50 hover:slate-600 hover-bg-slate-700 relative"
-                  >
-                    <Image alt="Nan" 
-                    src={user.pic} />
+                    <div key={id} className="relative">
+                    <a className="absolute inset-0 z-10 text-center flex flex-col items-center justify-center opacity-0 hover:opacity-50 hover:bg-slate-700 bg-opacity-0 duration-300">
+                      <h1 className="tracking-wider">{user.name}</h1>
+                      <p className="mx-auto">{user.title}</p>
+                    </a>
+                    <Image alt="Victoria" src={user.pic} />
                     <div className="text-black text-md font-bold text-center">
                       {user.name}
                     </div>
@@ -144,12 +165,12 @@ function TheTeam() {
                     </div>
                   </div>
                 ) : count === 6 ? (
-                    <div
-                    key={id}
-                    className="w-158px h-166px overlay bg-slate text-black opacity-100 hover:opacity-50 hover:slate-600 hover-bg-slate-700 relative"
-                  >
-                    <Image alt="Nan" 
-                    src={user.pic} />
+                    <div key={id} className="relative">
+                    <a className="absolute inset-0 z-10 text-center flex flex-col items-center justify-center opacity-0 hover:opacity-50 hover:bg-slate-700 bg-opacity-0 duration-300">
+                      <h1 className="tracking-wider">{user.name}</h1>
+                      <p className="mx-auto">{user.title}</p>
+                    </a>
+                    <Image alt="Victoria" src={user.pic} />
                     <div className="text-black text-md font-bold text-center">
                       {user.name}
                     </div>
@@ -158,12 +179,68 @@ function TheTeam() {
                     </div>
                   </div>
                 ) : count === 7 ? (
-                    <div
-                    key={id}
-                    className="w-158px h-166px overlay bg-slate text-black opacity-100 hover:opacity-50 hover:slate-600 hover-bg-slate-700 relative"
-                  >
-                    <Image alt="Nan" 
-                    src={user.pic} />
+                    <div key={id} className="relative">
+                    <a className="absolute inset-0 z-10 text-center flex flex-col items-center justify-center opacity-0 hover:opacity-50 hover:bg-slate-700 bg-opacity-0 duration-300">
+                      <h1 className="tracking-wider">{user.name}</h1>
+                      <p className="mx-auto">{user.title}</p>
+                    </a>
+                    <Image alt="Victoria" src={user.pic} />
+                    <div className="text-black text-md font-bold text-center">
+                      {user.name}
+                    </div>
+                    <div className="text-black text-xs text-center">
+                      {user.title}
+                    </div>
+                  </div>
+                   ) : count === 8 ? (
+                    <div key={id} className="relative">
+                    <a className="absolute inset-0 z-10 text-center flex flex-col items-center justify-center opacity-0 hover:opacity-50 hover:bg-slate-700 bg-opacity-0 duration-300">
+                      <h1 className="tracking-wider">{user.name}</h1>
+                      <p className="mx-auto">{user.title}</p>
+                    </a>
+                    <Image alt="Victoria" src={user.pic} />
+                    <div className="text-black text-md font-bold text-center">
+                      {user.name}
+                    </div>
+                    <div className="text-black text-xs text-center">
+                      {user.title}
+                    </div>
+                  </div>
+                   ) : count === 9 ? (
+                    <div key={id} className="relative">
+                    <a className="absolute inset-0 z-10 text-center flex flex-col items-center justify-center opacity-0 hover:opacity-50 hover:bg-slate-700 bg-opacity-0 duration-300">
+                      <h1 className="tracking-wider">{user.name}</h1>
+                      <p className="mx-auto">{user.title}</p>
+                    </a>
+                    <Image alt="Victoria" src={user.pic} />
+                    <div className="text-black text-md font-bold text-center">
+                      {user.name}
+                    </div>
+                    <div className="text-black text-xs text-center">
+                      {user.title}
+                    </div>
+                  </div>
+                   ) : count === 10 ? (
+                    <div key={id} className="relative">
+                    <a className="absolute inset-0 z-10 text-center flex flex-col items-center justify-center opacity-0 hover:opacity-50 hover:bg-slate-700 bg-opacity-0 duration-300">
+                      <h1 className="tracking-wider">{user.name}</h1>
+                      <p className="mx-auto">{user.title}</p>
+                    </a>
+                    <Image alt="Victoria" src={user.pic} />
+                    <div className="text-black text-md font-bold text-center">
+                      {user.name}
+                    </div>
+                    <div className="text-black text-xs text-center">
+                      {user.title}
+                    </div>
+                  </div>
+                   ) : count === 11 ? (
+                    <div key={id} className="relative">
+                    <a className="absolute inset-0 z-10 text-center flex flex-col items-center justify-center opacity-0 hover:opacity-50 hover:bg-slate-700 bg-opacity-0 duration-300">
+                      <h1 className="tracking-wider">{user.name}</h1>
+                      <p className="mx-auto">{user.title}</p>
+                    </a>
+                    <Image alt="Victoria" src={user.pic} />
                     <div className="text-black text-md font-bold text-center">
                       {user.name}
                     </div>
@@ -172,7 +249,7 @@ function TheTeam() {
                     </div>
                   </div>
                 ) : (
-                  <h1>somthing wentt wrong</h1>
+                  <h1>something went wrong</h1>
                 )
               );
             }
@@ -185,7 +262,8 @@ function TheTeam() {
 }
 
 export default TheTeam;
-{/* <div class="relative ">
+{
+  /* <div class="relative ">
 <a class="absolute inset-0 z-10 bg-white text-center flex flex-col items-center justify-center opacity-0 hover:opacity-100 bg-opacity-90 duration-300">
   <h1  class=tracking-wider >Title</h1>
   <p  class="mx-auto">Description</p>
@@ -195,4 +273,5 @@ export default TheTeam;
         <img src="/image_url" class="mx-auto  " alt="">
     </div>
 </a>
-</div> */}
+</div> */
+}
