@@ -25,7 +25,7 @@ const ResearchAssistantPage = () => {
           <h1 className='text-[70px] text-spec-yellow-600  font-extrabold'>Meet <br />the<br /></h1>
           <h1 className='text-[85px] text-spec-turquoise-600 font-bold'>RAs</h1>
         </div>
-        <div className='inline-block pt-32 px-12 w-96 h-auto align-text-bottom'>
+        <div className='inline-block pt-32 px-12 w-[450px] h-auto align-text-bottom text-lg'>
           <p className='align-text-bottom'>The SPEC / CAREP Research associates used open collaboration throughout the project-building process and are excited to continue to share knowledge, and resources, and collaboratively innovate to create systemic change.</p>
         </div>
 
