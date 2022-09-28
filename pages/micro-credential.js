@@ -25,20 +25,24 @@ const MicroCredentialPage = () => {
         <h1 className="justify-start text-spec-yellow-600 font-extrabold text-4xl leading-relaxed">
           Intro
         </h1>
-        <p className="text-spec-white-600">
-          The COVID19 pandemic has highlighted existing disparities in access to
-          computer and communication technologies. The effect of the pandemic
-          and challenges with remote-learning on students from underserved
-          communities will undoubtedly have a lasting impact. In face of these
-          challenges, new education research and technological developments
-          present potential pathways forward to foster equity in the classroom.
-        </p>
+        <div className="pl-20">
+          <p className="text-spec-white-600">
+            The COVID19 pandemic has highlighted existing disparities in access to
+            computer and communication technologies. The effect of the pandemic
+            and challenges with remote-learning on students from underserved
+            communities will undoubtedly have a lasting impact. In face of these
+            challenges, new education research and technological developments
+            present potential pathways forward to foster equity in the classroom.
+          </p>
+        </div>
       </div>
 
-      <div className="grid grid-cols-2 justify-center place-items-center m-10 md:m-20">
-        <Image src={squiggle} alt="squiggly-line" className="flex-grow" />
-        <div>
-          <h1 className="text-spec-yellow-600 font-bold text-4xl px-20 md:px-40 leading-relaxed">
+      <div className="grid grid-cols-2 justify-center m-10 md:m-20">
+        <div className="pl-20 justify-end">
+          <Image src={squiggle} alt="squiggly-line" />
+        </div>
+        <div className="mb-20">
+          <h1 className="text-spec-yellow-600 font-bold text-4xl md:pl-20 md:pr-40 leading-relaxed">
             Problem Statement
           </h1>
           <p className="text-spec-white-600">
@@ -53,10 +57,12 @@ const MicroCredentialPage = () => {
         <h1 className="justify-start text-spec-yellow-600 font-bold text-4xl px-20 md:px-40 leading-relaxed">
           Solution
         </h1>
-        <p className="text-spec-white-600 px-30 md:px-40">
-          SPEC will take a multimethodological approach to developing the
-          learning platform and microcredentials.
-        </p>
+        <div className="pl-20">
+          <p className="text-spec-white-600 px-30 md:px-40">
+            SPEC will take a multimethodological approach to developing the
+            learning platform and microcredentials.
+          </p>
+        </div>
       </div>
 
       <div className="grid grid-cols-2 m-10 md:m-20">
