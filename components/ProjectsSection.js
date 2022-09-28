@@ -1,5 +1,5 @@
 import Image from "next/image";
-import ProjectsAccordian from "./projects-accordian";
+import ProjectsAccordion from "./projects-accordion";
 
 import microcredSnap from '../public/snap_microcredential.svg';
 import meepleSnap from '../public/snap_meeple.svg';
@@ -31,7 +31,11 @@ function ProjectsSection() {
       id: 3,
       name: 'Digital Expressions Gallery',
       tag: 'Digital Expressions of Mass Incarceration Online Gallery',
-      info: 'Incarceration can be a particularly traumatizing experience for LGBTQ+ individuals. Studies of prison art programs suggest that artistic activities have several benefits for prisoner rehabilitation and institutional management. This gallery of work by LGBTQ+ incarcerated artists was produced during the CAREP/SPEC partnership in collaboration with advocacy group ABO Comix.',
+      info: (
+        <span>
+          Incarceration can be a particularly traumatizing experience for LGBTQ+ individuals. Studies of prison art programs suggest that artistic activities have several benefits for prisoner rehabilitation and institutional management. This gallery of work by LGBTQ+ incarcerated artists was produced during the CAREP/SPEC partnership in collaboration with advocacy group ABO Comix.
+        </span>
+      ),
       pic: <Image src={digitalGallerySnap} alt='digital-gallery-image'/>,
       linkLine:'Visit the Gallery >>',
       link: 'https://medium.com/journal-of-engaged-research/expressions/home',
@@ -53,7 +57,7 @@ function ProjectsSection() {
       <div className="p-5 md:px-36 w-screen h-auto bg-spec-black-600 font-Poppins">
         <h1 className="text-6xl md:text-10xl font-bold py-4 text-center"> Projects </h1>
         
-        <section className="flex flex-col md:flex-row gap-y-3 py-4 text-spec-yellow-600 text-base md:text-xl tracking-wide font-medium justify-around items-center"> 
+        <section className="flex flex-col md:flex-row lg:gap-y-3 py-4 text-spec-yellow-600 text-base md:text-xl tracking-wide font-medium justify-around items-center"> 
           <div>CAREP Pillar I - Methods and Action</div>
           <span className="hidden md:block rounded-full bg-spec-white-600 h-1.5 w-1.5"></span>
           <div>CAREP Pillar II - Dialogue and Change</div>
@@ -67,7 +71,7 @@ function ProjectsSection() {
         deliverables which will accelerate learning and up-skilling in pertinent knowledge areas. 
         </p>
 
-        <ProjectsAccordian projectsData={projectsData}/>
+        <ProjectsAccordion projectsData={projectsData}/>
       </div>
     </>
   )

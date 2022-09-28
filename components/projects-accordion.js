@@ -22,7 +22,7 @@ function ProjectsDisplay({ project })  {
   )
 }
 
-function ProjectsAccordian({ projectsData }) {
+function ProjectsAccordion({ projectsData }) {
   const [isClicked, setIsClicked] = useState(null);
   const accordionClosed = 'hidden'
   const accordionOpen = 'block'
@@ -94,4 +94,4 @@ function ProjectsAccordian({ projectsData }) {
   )
 };
 
-export default ProjectsAccordian;
+export default ProjectsAccordion;
