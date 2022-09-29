@@ -30,11 +30,13 @@ const MicroCredentialPage = () => {
         <p>Project</p>
       </section>
 
-      <div className="grid m-10 px-20 md:px-40 md:m-20">
-        <h1 className="justify-start text-spec-yellow-600 font-extrabold text-4xl leading-relaxed">
-          Intro
-        </h1>
-        <div className="pl-20">
+      <section className="grid m-10 px-20 md:px-40 md:m-20">
+        <div>
+          <span className="md:justify-start md:pl-20 text-spec-yellow-600 font-extrabold text-4xl leading-relaxed">
+            Intro
+          </span>
+        </div>
+        <div className="md:pl-20">
           <p className="text-spec-white-600">
             The COVID19 pandemic has highlighted existing disparities in access
             to computer and communication technologies. The effect of the
@@ -45,7 +47,7 @@ const MicroCredentialPage = () => {
             the classroom.
           </p>
         </div>
-      </div>
+      </section>
 
       <div className="grid grid-cols-2 justify-center m-10 md:m-20">
         <div className="pl-20 justify-end">
