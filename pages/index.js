@@ -3,7 +3,7 @@ import TopHeroComponent from "../components/TopHeroComponent";
 import OrgSection from "../components/OrgSection";
 import ResearchMethodsArticle from "../pages/projects/article";
 import ProjectsSection from "../components/ProjectsSection";
-import MeetRAs from "../pages/projects/meet-ras";
+import MeetRAs from "../components/meet-ras";
 import ByTheNumbers from "../pages/projects/by-the-numbers";
 import ReflectionCarousel from "../components/reflection-carousel";
 import { microcredentialsObjList } from "../components/content/carouselContent";
