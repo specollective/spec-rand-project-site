@@ -1,21 +1,53 @@
-import Alicia from '../../public/aliciaRA.svg'
-import Crystal from '../../public/crystalRA.svg'
-import Ilia from '../../public/iliaRA.svg'
-import Joe from '../../public/joeRA.svg'
-import Marcus from '../../public/marcusRA.svg'
-import Menouka from '../../public/menoukaRA.svg'
-import Nan from '../../public/nanRA.svg'
-import Ollie from '../../public/ollieRA.svg'
-import Victoria from '../../public/victoriaRA.svg'
-import Yoline from '../../public/yolineRA.svg'
-import Lu from '../../public/luRA.svg'
+import Alicia from "../../public/aliciaRA.svg";
+import Crystal from "../../public/crystalRA.svg";
+import Ilia from "../../public/iliaRA.svg";
+import Joe from "../../public/joeRA.svg";
+import Marcus from "../../public/marcusRA.svg";
+import Menouka from "../../public/menoukaRA.svg";
+import Nan from "../../public/nanRA.svg";
+import Ollie from "../../public/ollieRA.svg";
+import Victoria from "../../public/victoriaRA.svg";
+import Yoline from "../../public/yolineRA.svg";
+import Lu from "../../public/luRA.svg";
+import Link from "next/link";
 
-const microCredentialProj = <a href='/micro-credential' target="_blank" className='text-spec-yellow-600'>Microcredential Project {'>>'}</a>
-const gamingProj = <a href='/meeple' target="_blank" className='text-spec-yellow-600'>Gaming Project {'>>'}</a>
-const impactProj = <a href='https://github.com/specollective/spec-website' target="_blank" className='text-spec-yellow-600'>Impact Website {'>>'}</a>
-const expressionsProj = <a href='https://medium.com/journal-of-engaged-research/about-the-exhibition-1d4b301ff441' target="_blank" className='text-spec-yellow-600'>Expressions Gallery {'>>'}</a>
-const journalProj = <a href='https://medium.com/journal-of-engaged-research' target="_blank" className='text-spec-yellow-600'>Journal of Engaged Research {'>>'}</a>
-
+const microCredentialProj = (
+  <Link href="/micro-credential">
+    <a className="text-spec-yellow-600">Microcredential Project {">>"}</a>
+  </Link>
+);
+const gamingProj = (
+  <Link href="/meeple">
+    <a className="text-spec-yellow-600">Gaming Project {">>"}</a>
+  </Link>
+);
+const impactProj = (
+  <a
+    href="https://github.com/specollective/spec-website"
+    target="_blank"
+    className="text-spec-yellow-600"
+  >
+    Impact Website {">>"}
+  </a>
+);
+const expressionsProj = (
+  <a
+    href="https://medium.com/journal-of-engaged-research/about-the-exhibition-1d4b301ff441"
+    target="_blank"
+    className="text-spec-yellow-600"
+  >
+    Expressions Gallery {">>"}
+  </a>
+);
+const journalProj = (
+  <a
+    href="https://medium.com/journal-of-engaged-research"
+    target="_blank"
+    className="text-spec-yellow-600"
+  >
+    Journal of Engaged Research {">>"}
+  </a>
+);
 
 export const profileData = [
   {
