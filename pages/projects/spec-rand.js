@@ -29,14 +29,14 @@ export default function SpecXRandPage() {
   return (
     <>
       <Layout >
-        <Overview />
+        {/* <Overview />
         <Article />
         <Projects />
         <MeetRAs />
         <ByTheNumbers />
-        <WhereNow />
+        <WhereNow /> */}
         <Reflections />
-        <Subfooter color="spec-teal-600" />
+        {/* <Subfooter color="spec-teal-600" /> */}
       </Layout>
     </>
   );
