@@ -9,7 +9,7 @@ function RAprofile() {
 
   const profileDataMap = profileData.map(data => {
     return (
-      <div className='md:grid md:grid-cols-3 h-auto py-8 px-20 bg-spec-black-600' id={data.fullName.replace(" ", "-")}>
+      <div className='md:grid md:grid-cols-3 h-auto p-8 md:py-8 md:px-20 bg-spec-black-600' id={data.fullName.replace(" ", "-")}>
         <div className='mb-8 md:pl-12 text-center'>
           <h1 className='text-3xl font-extrabold text-spec-turquoise-600 '>{data.fullName}</h1>
           <h3 className='pb-6 text-spec-yellow-600'>{data.title}</h3>
