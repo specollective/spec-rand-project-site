@@ -4,11 +4,10 @@ module.exports = {
   content: [
     "./pages/**/*.{js,ts,jsx,tsx}",
     "./components/**/*.{js,ts,jsx,tsx}",
-    './src/**/*.{html,js}', 
-    './node_modules/tw-elements/dist/js/**/*.js'],
-  plugins: [
-    require('tw-elements/dist/plugin')
+    "./src/**/*.{html,js}",
+    "./node_modules/tw-elements/dist/js/**/*.js",
   ],
+  plugins: [require("tw-elements/dist/plugin")],
   theme: {
     screens: {
       'xs': '355px',
@@ -21,6 +20,9 @@ module.exports = {
       colors: {
         "spec-black": {
           600: "#1C1C1C",
+        },
+        "spec-white": {
+          600: "#FEFFFF",
         },
         // "spec-black": {
         //   600: "#1C303D",

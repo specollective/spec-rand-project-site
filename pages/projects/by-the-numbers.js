@@ -2,11 +2,12 @@ import StatBox from "../../components/stat-box";
 
 export default function ByTheNumbers(){
     return (
-      <div className="grid grid-cols-1 md:grid-cols-2 md:col-span-2 justify-items-center bg-spec-black-600 p-10">
-        <div className="cols-span-1">
-          <div className="text-4xl font-bold text-white mb-5">
-            <h1>By the</h1>
-            <h1>Numbers</h1>
+      <div className="grid grid-cols-1 md:grid-cols-2 md:col-span-2 align-items-center justify-items-center bg-spec-black-600 md:p-10 mt-4">
+        <div className="cols-span-1 md:justify-self-end md:pr-4">
+          <div className="text-4xl font-bold text-spec-white-600 mb-5">
+            <h1 className="text-center md:text-left mb-5 md:w-24">
+              By the Numbers
+            </h1>
           </div>
           <StatBox
             borderColor="spec-turquoise-600"
@@ -22,7 +23,7 @@ export default function ByTheNumbers(){
             </p>
           </StatBox>
         </div>
-        <div className="cols-span-1">
+        <div className="cols-span-1 md:justify-self-start md:pl-4">
           <StatBox
             borderColor="spec-turquoise-600"
             height="h-48"
