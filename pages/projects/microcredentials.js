@@ -5,7 +5,6 @@ import SubHeader from "../../components/sub-header";
 import ImageBubbles from "../../components/image-bubbles";
 import Microcred from "../../public/microcredential_dev_img.svg"
 import GridContainer from "../../components/grid-container";
-import Footnote from "../../components/foot-note";
 import marcus from "../../public/marcus_sm_bubble.svg";
 import nan from "../../public/nan_sm_bubble.svg";
 import alicia from "../../public/alicia_sm_bubble.svg";
@@ -252,7 +251,6 @@ export default function Microcredentials() {
           borderColor="spec-turquoise-600"
         />
 
-        <Footnote />
       </div>
     );
 }

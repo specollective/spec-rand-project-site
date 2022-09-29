@@ -4,6 +4,7 @@ import MeepleMetaverse from "../public/MeepleMetaverse.svg";
 import Meeples from "../public/meeples.svg";
 import ReflectionCarousel from "../components/reflection-carousel";
 import {meepleObjList} from "../components/content/carouselContent";
+import MeepleLoading from '../components/MeepleLoading';
 
 
 const MeeplePage = () => {
@@ -31,7 +32,7 @@ const MeeplePage = () => {
           </p>
         </div>
         <div>
-          <h1 className="pt-20 text-5xl text-spec-turquoise-600">Goals</h1>
+          <h1 className="pt-20 text-5xl font-extrabold text-spec-turquoise-600">Goals</h1>
           <div className="py-12 md:px-60 lg:px-60 xl:px-96 text-left">
             <p>
               • Develop socio-cultural minigames based on RAND research on
@@ -69,6 +70,8 @@ const MeeplePage = () => {
             </p>
           </div>
         </div>
+        <MeepleLoading />
+
       </div>
       <section className="flex my-12 justify-center">
         <ReflectionCarousel
