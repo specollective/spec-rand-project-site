@@ -5,6 +5,7 @@ import Facebook from "../public/facebook.svg";
 import Twitter from "../public/twitter.svg";
 import LinkedIn from "../public/linkedin.svg";
 import GitHub from "../public/github.svg";
+import Link from "next/link";
 
 function Footer() {
   const socialLinkData = [
@@ -50,37 +51,28 @@ function Footer() {
           {socialLinks}
         </div>
         <div className="h-50 space-y-6 pt-10">
-          <a href="" className="block">
-            About Us
-          </a>
-          <a href="" className="block">
-            Contact Us
-          </a>
-          <a href="" className="block">
-            Get Involved
-          </a>
+          <Link href="/meeple">
+            <a className="block">
+              Meeple
+            </a>
+          </Link>
+          <Link href="/micro-credential">
+            <a className="block">
+              Micro Credential
+            </a>
+          </Link>
+          <Link href="/research-assistants">
+            <a className="block">
+              Research Assistants
+            </a>
+          </Link>
         </div>
         <div className="h-50 space-y-6 pt-10">
-          <a href="" className="block">
-            Blog
-          </a>
-          <a href="" className="block">
-            JoER
-          </a>
-          <a href="" className="block">
-            Documentation
-          </a>
-        </div>
-        <div className="h-50 space-y-6 pt-10">
-          <a href="" className="block">
-            Terms of Use
-          </a>
-          <a href="" className="block">
-            Code of Conduct
-          </a>
-          <a href="" className="block">
-            Privacy Policy
-          </a>
+          <Link href="https://opencollective.com/spec/contribute">
+            <a className="block">
+              Donate
+            </a>
+          </Link>
         </div>
       </section>
       <section className="text-center text-spec-black-600">

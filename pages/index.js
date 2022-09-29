@@ -32,7 +32,6 @@ export default function Home() {
           borderColor="spec-yellow-600"
         />
       </section>
-      <ScrollButton />
     </section>
   );
 }
