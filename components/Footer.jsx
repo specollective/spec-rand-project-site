@@ -42,7 +42,7 @@ function Footer() {
 
   return (
     <footer className="hidden md:block h-60 font-Poppins bg-spec-yellow-600">
-      <section className="flex justify-evenly">
+      <section className="flex justify-evenly text-spec-black-600">
         <div className="pt-14 w-44 text-center">
           <div className="text-center">
             <Image src={SpecLogo} />
@@ -83,7 +83,7 @@ function Footer() {
           </a>
         </div>
       </section>
-      <section className="text-center">
+      <section className="text-center text-spec-black-600">
         <p className="block font-bold pt-4">
           © 2022 Sustainable Progress & Equality Collective{" "}
         </p>
