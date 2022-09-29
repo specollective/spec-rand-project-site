@@ -6,7 +6,6 @@ import Layout from "../components/Layout";
 
 export default function MyApp({ Component, pageProps }) {
   const router = useRouter();
-  console.log("router inside myapp", router);
   useEffect(() => {
     const use = async () => {
       (await import("tw-elements")).default;
