@@ -5,11 +5,17 @@ import ReflectionCarousel from "../components/reflection-carousel";
 import StatBox from "../components/stat-box";
 import { microcredentialsObjList } from "../components/content/carouselContent";
 import squiggle from "../public/squiggle.svg";
-import microHeaderImg from '../public/microcredential_dev_img.svg'
+import microHeaderImg from '../public/microcredential_dev_img.svg';
+import BreakLine from "../components/break-line";
+import { profileData } from "../components/content/profileContent";
+import RaSquares from "../components/RaSquares";
 
 const MicroCredentialPage = () => {
+  const microCredentialProfiles = profileData.filter((profile) => {
+    return profile.projects.find(project => project.name === "microcredenital")
+  })
   return (
-    <div className="bg-spec-black-600">
+    <section className="bg-spec-black-600">
       <Head>
         <title>
           Microcredentials | Sustainable Progress Equality Collective
@@ -17,16 +23,14 @@ const MicroCredentialPage = () => {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <section>
-        <div className='bg-spec-black-600'>
-          <div className='hidden md:block px-20 text-center'>
-            <Image layout="responsive" src={microHeaderImg} />
-          </div>
+      <div className='bg-spec-black-600'>
+        <div className='px-20 text-center'>
+          <Image layout="responsive" src={microHeaderImg} />
         </div>
-      </section>
+      </div>
 
-      <section className="grid justify-center place-items-center pt-6 text-center">
-        <h1 className="font-bold text-4xl md:text-5xl">Microcredential Development</h1>
+      <section className="grid justify-center place-items-center">
+        <h1 className="font-bold text-4xl mt-10">Microcredential Development</h1>
         <p>Project</p>
       </section>
 
@@ -191,13 +195,28 @@ const MicroCredentialPage = () => {
           </p>
         </StatBox>
       </div>
+
+      <div className="grid m-10 md:m-20">
+        <h2 className="justify-start text-spec-yellow-600 font-bold text-4xl px-20 md:px-40 leading-relaxed">
+          The Team
+        </h2>
+        <div className="">
+          <RaSquares
+            profileData={microCredentialProfiles}
+          />
+        </div>
+      </div>
+
+      <BreakLine></BreakLine>
+
       <section className="flex my-12 justify-center">
         <ReflectionCarousel
           reflectionObjList={microcredentialsObjList}
           borderColor="spec-turquoise-600"
         />
       </section>
-    </div>
+      <Subfooter />
+    </section>
   );
 };
 
