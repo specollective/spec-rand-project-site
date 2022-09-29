@@ -1,8 +1,8 @@
 import Image from "next/image"
-import wordCloud from '../../public/article_word_cloud.svg'
+import wordCloud from '../public/article_word_cloud.svg'
 
 
-export default function Article() {
+export default function ResearchArticle() {
     return (
       <div className="gap-4 bg-spec-teal-600 p-10 md:p-20">
         <div className="grid grid-cols-1 grid-rows-1 md:grid-cols-2">

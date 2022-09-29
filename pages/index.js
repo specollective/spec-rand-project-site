@@ -1,11 +1,12 @@
 import Head from "next/head";
 import TopHeroComponent from "../components/TopHeroComponent";
 import OrgSection from "../components/OrgSection";
-import ResearchMethodsArticle from "../pages/projects/article";
+import ResearchArticle from "../components/researchArticle";
 import ProjectsSection from "../components/ProjectsSection";
-import RaSquares from "../components/RaSquares";
-import ByTheNumbers from "../pages/projects/by-the-numbers";
+import MeetRAs from "../components/MeetRAsSection";
+import ByTheNumbers from "../components/byTheNumbers";
 import ReflectionCarousel from "../components/reflection-carousel";
+import ScrollButton from "../components/scroll-button";
 import { microcredentialsObjList } from "../components/content/carouselContent";
 import { profileData } from "../components/content/profileContent";
 
@@ -18,7 +19,7 @@ export default function Home() {
       </Head>
       <TopHeroComponent />
       <OrgSection />
-      <ResearchMethodsArticle />
+      <ResearchArticle />
       <ProjectsSection />
       <div className="bg-spec-teal-600 xs:p-6 md:px-24 md:py-12">
         <RaSquares profileData={profileData}/>
@@ -30,6 +31,7 @@ export default function Home() {
           borderColor="spec-yellow-600"
         />
       </section>
+      <ScrollButton />
     </section>
   );
 }

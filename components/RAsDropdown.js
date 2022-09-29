@@ -34,7 +34,6 @@ function RAsDropdown({ dropdownOptions }) {
           {dropdownOptions.map((option, index) => (
             <button className="text-white block px-4 py-2 text-sm" tabIndex={index} onClick={() => handleScrollToElement(option.fullName.replace(" ", "-"))}>{option.fullName}</button>
           ))}
-          
         </div>
       </div>
     </section>
