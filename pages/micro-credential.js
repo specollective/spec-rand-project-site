@@ -30,7 +30,7 @@ const MicroCredentialPage = () => {
         <p>Project</p>
       </section>
 
-      <section className="grid m-10 px-20 md:px-40 md:m-20">
+      <section className="grid m-10 md:px-20 lg:px-40 md:m-20">
         <div>
           <span className="md:justify-start text-spec-yellow-600 font-extrabold text-4xl leading-relaxed">
             Intro
@@ -49,7 +49,7 @@ const MicroCredentialPage = () => {
         </div>
       </section>
 
-      <section className="lg:flex m-10 px-20 md:px-40 md:m-20">
+      <section className="lg:flex m-10 md:px-20 lg:px-40 md:m-20">
         <div className="justify-end pr-20">
           <Image src={squiggle} alt="squiggly-line" />
         </div>
@@ -66,17 +66,22 @@ const MicroCredentialPage = () => {
         </div>
       </section>
 
-      <div className="grid m-10 md:m-20">
-        <h1 className="justify-start text-spec-yellow-600 font-bold text-4xl px-20 md:px-40 leading-relaxed">
-          Solution
-        </h1>
-        <div className="pl-20">
-          <p className="text-spec-white-600 px-30 md:px-40">
+      <section className="grid m-10 md:px-20 lg:px-40 md:m-20">
+        <div>
+          <span className="text-left font-bold text-4xl md:pr-40 leading-relaxed text-spec-yellow-600">
+            Solution
+          </span>
+        </div>
+        <div>
+          <p className="text-spec-white-600">
             SPEC will take a multimethodological approach to developing the
             learning platform and microcredentials.
           </p>
         </div>
-      </div>
+      </section>
+
+
+
 
       <div className="grid grid-cols-2 m-10 md:m-20">
         <div>
