@@ -19,7 +19,7 @@ const MicroCredentialPage = () => {
 
       <section>
         <div className='bg-spec-black-600'>
-          <div className='px-20 text-center'>
+          <div className='hidden md:block px-20 text-center'>
             <Image layout="responsive" src={microHeaderImg} />
           </div>
         </div>
