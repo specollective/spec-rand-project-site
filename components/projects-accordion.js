@@ -15,8 +15,8 @@ function ProjectsDisplay({ project })  {
       <div className="flex justify-between p-10 max-h-[500px]">
         <div className='flex basis-1/2 place-self-start self-start p-4'><Image src={project.pic.url} alt={project.pic.alt}/></div>
         <div className="flex flex-col basis-1/2 justify-between p-4">
-          <div className='col-span-2 row-start-1 text-lg'> {project.info} </div>
-          <div className='col-span-2 row-start-2 text-xl text-spec-yellow-600 hover:underline self-end'> 
+          <div className='text-lg'> {project.info} </div>
+          <div className='text-xl text-spec-yellow-600 hover:underline self-end mt-4'> 
             <Link href={project.link}>
               <a>{project.linkLine}</a>
              </Link>

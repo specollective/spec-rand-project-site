@@ -32,7 +32,7 @@ function RAsDropdown({ dropdownOptions }) {
       <div className={menuToggle ? "absolute right-0 z-10 mt-2 w-56 origin-top-right rounded-md bg-spec-black-600 border-2 border-spec-yellow-600 shadow-lg ring-1 ring-black ring-opacity-5 focus:outline-none" : 'hidden'} role="menu" aria-orientation="vertical" aria-labelledby="menu-button" tabindex="-1">
         <div className="py-1" role="none">
           {dropdownOptions.map((option, index) => (
-            <button class="text-white block px-4 py-2 text-sm" tabIndex={index} onClick={() => handleScrollToElement(option.fullName.replace(" ", "-"))}>{option.fullName}</button>
+            <button className="text-white block px-4 py-2 text-sm" tabIndex={index} onClick={() => handleScrollToElement(option.fullName.replace(" ", "-"))}>{option.fullName}</button>
           ))}
           
         </div>

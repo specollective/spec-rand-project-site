@@ -92,7 +92,7 @@ export default function MeetRAs() {
                         </div>
                     </div>
 
-                    <div class="carousel-item relative float-left w-full">
+                    <div className="carousel-item relative float-left w-full">
                         <div className="grid grid-cols-4">
                             <div className="pr-10">
                                 <Image

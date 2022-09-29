@@ -89,10 +89,10 @@ export default function Microcredentials() {
         {/* TO DO: figure out how to center this divider line, or keep the code in lines 53-57 */}
         {/* <div id="page-divider" className="flex items-center justify-center border-spec-yellow-600 border-t-4 w-3/5"></div> */}
 
-        <div class="flex items-center py-4">
-          <div class="flex-grow h-px w-1/5"></div>
-          <span class="flex-grow border-spec-yellow-600 border-t-4 w-3/5"></span>
-          <div class="flex-grow h-px w-1/5"></div>
+        <div className="flex items-center py-4">
+          <div className="flex-grow h-px w-1/5"></div>
+          <span className="flex-grow border-spec-yellow-600 border-t-4 w-3/5"></span>
+          <div className="flex-grow h-px w-1/5"></div>
         </div>
 
         <GridContainer>
