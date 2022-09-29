@@ -80,12 +80,9 @@ const MicroCredentialPage = () => {
         </div>
       </section>
 
-
-
-
-      <div className="grid grid-cols-2 m-10 md:m-20">
+      <section className="lg:flex m-10 md:px-20 lg:px-40 md:m-20">
         <div>
-          <h1 className="text-spec-yellow-600 font-bold text-4xl md:px-40 leading-relaxed">
+          <h1 className="text-left font-bold text-4xl md:pr-40 leading-relaxed text-spec-yellow-600">
             Project Goals &amp; Objectives
           </h1>
         </div>
@@ -111,7 +108,7 @@ const MicroCredentialPage = () => {
             </li>
           </ol>
         </p>
-      </div>
+      </section>
 
       <div className="grid place-content-center">
         <h1 className="text-4xl font-bold text-spec-turquoise-600 mb-5">
