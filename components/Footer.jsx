@@ -3,7 +3,7 @@ import Image from "next/image";
 import SpecLogo from "../public/spec_logo.svg";
 import Facebook from "../public/facebook.svg";
 import Twitter from "../public/twitter.svg";
-import LinkedIn from "../public/LinkedIn.svg";
+import LinkedIn from "../public/linkedin.svg";
 import GitHub from "../public/github.svg";
 
 function Footer() {

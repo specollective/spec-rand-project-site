@@ -2,7 +2,7 @@ import React from "react";
 import Image from "next/image";
 import SpecLogo from "../public/spec_logo.svg";
 import RacialEquity from "../public/racialequityimg.svg";
-import SpecWhite from "../public/specwhite.svg";
+import SpecWhite from "../public/specWhite.svg";
 import PillarOne from "../public/pillar1.svg";
 import PillarTwo from "../public/pillar2.svg";
 import PillarThree from "../public/pillar3.svg";
