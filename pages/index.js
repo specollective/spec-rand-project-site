@@ -3,7 +3,7 @@ import TopHeroComponent from "../components/TopHeroComponent";
 import OrgSection from "../components/OrgSection";
 import ResearchMethodsArticle from "../pages/projects/article";
 import ProjectsSection from "../components/ProjectsSection";
-import MeetRAs from "../components/meet-ras";
+import RaSquares from "../components/RaSquares";
 import ByTheNumbers from "../pages/projects/by-the-numbers";
 import ReflectionCarousel from "../components/reflection-carousel";
 import { microcredentialsObjList } from "../components/content/carouselContent";
@@ -19,7 +19,7 @@ export default function Home() {
       <OrgSection />
       <ResearchMethodsArticle />
       <ProjectsSection />
-      <MeetRAs />
+      <RaSquares />
       <ByTheNumbers />
       <section className="bg-spec-teal-600 flex mt-6 px-8 py-12 justify-center">
         <ReflectionCarousel

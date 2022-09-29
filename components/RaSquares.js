@@ -1,3 +1,5 @@
+import React from "react";
+
 import Image from "next/image";
 import Link from "next/link";
 import Marcus from "./content/RASquares/Rectangle_Marcus.svg";
@@ -12,9 +14,8 @@ import Menoukha from "./content/RASquares/Rectangle_Menoukha.svg";
 import Ollie from "./content/RASquares/Rectangle_Ollie.svg";
 import Lu from "./content/RASquares/Rectangle_Lu.svg";
 
-import React, { useState } from "react";
 
-function TheTeam() {
+function RaSquares() {
   const users = [
     {
       name: "Marcus Steiner",
@@ -136,4 +137,4 @@ function TheTeam() {
   );
 }
 
-export default TheTeam;
+export default RaSquares;
