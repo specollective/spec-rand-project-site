@@ -9,40 +9,26 @@ import microHeaderImg from '../public/microcredential_dev_img.svg'
 
 const MicroCredentialPage = () => {
   return (
-    <section className="bg-spec-black-600">
+    <div className="bg-spec-black-600">
       <Head>
         <title>
           Microcredentials | Sustainable Progress Equality Collective
         </title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
+
       <section>
-      <div className='bg-spec-black-600'>
-        <div className='px-20 text-center'>
-          <Image layout="responsive" src={microHeaderImg} />
+        <div className='bg-spec-black-600'>
+          <div className='px-20 text-center'>
+            <Image layout="responsive" src={microHeaderImg} />
+          </div>
         </div>
-        <h1>Microcredential Page</h1>
-      </div>
-        <div className="grid place-content-center">
-          <h1 className="text-4xl font-bold text-spec-turquoise-600 mb-5">
-            {" "}
-            Impact
-          </h1>
-          <p className="text-white">
-            <ul className="list-disc pl-7">
-              <li># of OC contributions</li>
-              <li>Upskilling in Moodle</li>
-              <li>Boost resumes</li>
-            </ul>
-          </p>
-        </div>
-        <Subfooter />
       </section>
 
-      <div className="grid justify-center place-items-center">
-        <h1 className="font-bold text-4xl">Microcredential Development</h1>
+      <section className="grid justify-center place-items-center pt-6 text-center">
+        <h1 className="font-bold text-4xl md:text-5xl">Microcredential Development</h1>
         <p>Project</p>
-      </div>
+      </section>
 
       <div className="grid m-10 px-20 md:px-40 md:m-20">
         <h1 className="justify-start text-spec-yellow-600 font-extrabold text-4xl leading-relaxed">
@@ -206,7 +192,7 @@ const MicroCredentialPage = () => {
           borderColor="spec-turquoise-600"
         />
       </section>
-    </section>
+    </div>
   );
 };
 
