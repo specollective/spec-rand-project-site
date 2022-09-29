@@ -3,7 +3,7 @@ import Layout from '../components/Layout';
 import TopHeroComponent from '../components/TopHeroComponent';
 import OrgSection from '../components/OrgSection';
 import ResearchMethodsArticle from '../pages/projects/article';
-import Projects from '../pages/projects/projects';
+import ProjectsSection from '../components/ProjectsSection';
 import MeetRAs from '../pages/projects/meet-ras';
 import ByTheNumbers from '../pages/projects/by-the-numbers';
 import ReflectionCarousel from '../components/reflection-carousel';
@@ -19,7 +19,7 @@ export default function Home() {
       <TopHeroComponent />
       <OrgSection />
       <ResearchMethodsArticle />
-      <Projects />
+      <ProjectsSection />
       <MeetRAs />
       <ByTheNumbers />
       <section className="bg-spec-teal-600 flex mt-6 p-8 justify-center">
