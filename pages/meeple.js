@@ -5,9 +5,14 @@ import Meeples from "../public/meeples.svg";
 import ReflectionCarousel from "../components/reflection-carousel";
 import {meepleObjList} from "../components/content/carouselContent";
 import MeepleLoading from '../components/MeepleLoading';
+import { profileData } from "../components/content/profileContent";
+import RaSquares from "../components/RaSquares";
 
 
 const MeeplePage = () => {
+  const microCredentialProfiles = profileData.filter((profile) => {
+    return profile.projects.find(project => project.name === "gamingProj")
+  })
   return (
     <section className="bg-spec-black-600">
       <Head>
@@ -71,6 +76,17 @@ const MeeplePage = () => {
           </div>
         </div>
         <MeepleLoading />
+
+      <div className="grid m-10 md:m-20">
+        <h2 className="justify-start text-spec-yellow-600 font-bold text-4xl px-20 md:px-40 leading-relaxed text-left">
+          The Team
+        </h2>
+        <div>
+          <RaSquares
+            profileData={microCredentialProfiles}
+          />
+        </div>
+      </div>
 
       </div>
       <section className="flex my-12 justify-center">
