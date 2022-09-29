@@ -22,6 +22,7 @@ export default function Home() {
       <OrgSection />
       <ResearchArticle />
       <ProjectsSection />
+      <MeetRAs />
       <div className="bg-spec-teal-600 xs:p-6 md:px-24 md:py-12">
         <RaSquares profileData={profileData}/>
       </div>
