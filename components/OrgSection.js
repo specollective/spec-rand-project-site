@@ -62,7 +62,7 @@ function OrgColumnData({ data, style = blue }) {
   };
 
   return (
-    <div className="flex flex-col pb-8 md:px-12 lg:px-24" key={data.key}>
+    <div className="flex flex-col pb-8 md:px-12 lg:px-24">
       <Image src={data.imageSrc} />
       <h3 className={`pb-8 font-Poppins ${styleHash[style]}`}>{data.header}</h3>
       <p>{data.textBody}</p>
@@ -71,12 +71,12 @@ function OrgColumnData({ data, style = blue }) {
 }
 
 function OrgSection() {
-  const specDataBody = specData.map((data) => (
-    <OrgColumnData data={data} style="blue" />
+  const specDataBody = specData.map((data, index) => (
+    <OrgColumnData data={data} style="blue" key={`${data.header.replace(" ", "-")}-${index}}`}/>
   ));
 
-  const policyDataBody = policyData.map((data) => (
-    <OrgColumnData data={data} style="yellow" />
+  const policyDataBody = policyData.map((data, index) => (
+    <OrgColumnData data={data} style="yellow" key={`${data.header.replace(" ", "-")}-${index}}`}/>
   ));
 
   return (
