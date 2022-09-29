@@ -202,7 +202,12 @@ const MicroCredentialPage = () => {
         </div>
       </div>
 
-      <BreakLine></BreakLine>
+      <BreakLine
+        lineWidth="96"
+        lineHeight="1"
+        color="spec-white-600"
+        />
+
 
       <section className="flex my-12 justify-center">
         <ReflectionCarousel
