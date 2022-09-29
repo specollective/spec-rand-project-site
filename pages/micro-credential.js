@@ -15,6 +15,23 @@ const MicroCredentialPage = () => {
         </title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
+      <section>
+        <h1>Microcredential Page</h1>
+        <div className="grid place-content-center">
+          <h1 className="text-4xl font-bold text-spec-turquoise-600 mb-5">
+            {" "}
+            Impact
+          </h1>
+          <p className="text-white">
+            <ul className="list-disc pl-7">
+              <li># of OC contributions</li>
+              <li>Upskilling in Moodle</li>
+              <li>Boost resumes</li>
+            </ul>
+          </p>
+        </div>
+        <Subfooter />
+      </section>
 
       <div className="grid justify-center place-items-center">
         <h1 className="font-bold text-4xl">Microcredential Development</h1>
@@ -27,12 +44,13 @@ const MicroCredentialPage = () => {
         </h1>
         <div className="pl-20">
           <p className="text-spec-white-600">
-            The COVID19 pandemic has highlighted existing disparities in access to
-            computer and communication technologies. The effect of the pandemic
-            and challenges with remote-learning on students from underserved
-            communities will undoubtedly have a lasting impact. In face of these
-            challenges, new education research and technological developments
-            present potential pathways forward to foster equity in the classroom.
+            The COVID19 pandemic has highlighted existing disparities in access
+            to computer and communication technologies. The effect of the
+            pandemic and challenges with remote-learning on students from
+            underserved communities will undoubtedly have a lasting impact. In
+            face of these challenges, new education research and technological
+            developments present potential pathways forward to foster equity in
+            the classroom.
           </p>
         </div>
       </div>
