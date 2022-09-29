@@ -6,17 +6,23 @@ import BreakLine from './break-line';
 import downArrow from '../public/arrow_down.svg';
 import upArrow from '../public/arrow_up.svg';
 import rightArrow from '../public/arrow_right.svg';
+import Link from 'next/link';
 
 
 function ProjectsDisplay({ project })  {
   return (
     <div className='border border-spec-yellow-600 mb-2'>
-      <div className="grid grid-cols-5 grid-rows-2 p-10 max-h-[500px]">
-        <div className='col-span-3 row-start-1 row-span-2 place-self-center'> {project.pic} </div>
-        <div className='col-span-2 row-start-1 text-lg'> {project.info} </div>
-        <div className='col-span-2 row-start-2 text-xl text-spec-yellow-600 hover:underline self-end'> 
-          <a href={project.link}>{project.linkLine} </a>
+      <div className="flex justify-between p-10 max-h-[500px]">
+        <div className='flex basis-1/2 place-self-start self-start p-4'><Image src={project.pic.url} alt={project.pic.alt}/></div>
+        <div className="flex flex-col basis-1/2 justify-between p-4">
+          <div className='col-span-2 row-start-1 text-lg'> {project.info} </div>
+          <div className='col-span-2 row-start-2 text-xl text-spec-yellow-600 hover:underline self-end'> 
+            <Link href={project.link}>
+              <a>{project.linkLine}</a>
+             </Link>
+          </div>
         </div>
+        
       </div>
     </div>
   )
@@ -24,11 +30,9 @@ function ProjectsDisplay({ project })  {
 
 function ProjectsAccordion({ projectsData }) {
   const [isClicked, setIsClicked] = useState(null);
-  const accordionClosed = 'hidden'
-  const accordionOpen = 'block'
 
   const showProject = index => {
-    isClicked === index ? setIsClicked(null) : setIsClicked(index)
+    setIsClicked(isClicked === index ? null : index);
   }
 
   const toggleBtn = (index) => {
@@ -66,7 +70,7 @@ function ProjectsAccordion({ projectsData }) {
               <BreakLine color='spec-teal-600' lineWidth='full'/>
             </div>
             {
-              <section className={isClicked === index ? accordionClosed && accordionOpen : accordionClosed}>
+              <section className={isClicked === index ? 'block': 'hidden'}>
                 <ProjectsDisplay project={project}/>
               </section>
             }
