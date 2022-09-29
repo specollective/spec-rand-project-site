@@ -15,12 +15,14 @@ export default function ResearchArticle() {
 					<p className="text-spec-yellow-600 text-xl tracking-wide font-medium pb-5 md:pb-0">
 						CAREP Pillar I - Methods and Action
 					</p>
-					<p className="text-white">
-						The world of work has become more global in nature as technology enables us to interact with individuals
-						from different cultures, religions and life experiences. How does intercultural competence impact one’s
-						ability to communicate and collaborate in the twenty-first-century marketplace?
+					<div className="text-white">
+						<p>
+							The world of work has become more global in nature as technology enables us to interact with individuals
+							from different cultures, religions and life experiences. How does intercultural competence impact one’s
+							ability to communicate and collaborate in the twenty-first-century marketplace?
+						</p>
 						<p className="font-bold pt-10">Release Date: October 31, 2022</p>
-					</p>
+					</div>
 				</div>
 
         </div>
