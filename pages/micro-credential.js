@@ -9,8 +9,14 @@ import microHeaderImg from '../public/microcredential_dev_img.svg';
 import BreakLine from "../components/break-line";
 import MicroCredentialRASquares from "../components/MicroCredentialRASquares";
 import { MicroCredentialRASquareContent } from "../components/content/RASquares/RASquareContent";
+import RAprofile from "../components/RAprofile";
+import { profileData } from "../components/content/profileContent";
+import RaSquares from "../components/RaSquares";
 
 const MicroCredentialPage = () => {
+  const microCredentialProfiles = profileData.filter((profile) => {
+    return profile.projects.find(project => project.name === "microcredenital")
+  })
   return (
     <section className="bg-spec-black-600">
       <Head>
@@ -193,8 +199,8 @@ const MicroCredentialPage = () => {
           The Team
         </h2>
         <div className="">
-          <MicroCredentialRASquares
-           MicroCredentialRASquareContent={MicroCredentialRASquareContent}
+          <RaSquares
+            profileData={microCredentialProfiles}
           />
         </div>
       </div>

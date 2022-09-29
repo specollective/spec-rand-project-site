@@ -7,6 +7,7 @@ import RaSquares from "../components/RaSquares";
 import ByTheNumbers from "../pages/projects/by-the-numbers";
 import ReflectionCarousel from "../components/reflection-carousel";
 import { microcredentialsObjList } from "../components/content/carouselContent";
+import { profileData } from "../components/content/profileContent";
 
 export default function Home() {
   return (
@@ -19,7 +20,9 @@ export default function Home() {
       <OrgSection />
       <ResearchMethodsArticle />
       <ProjectsSection />
-      <RaSquares />
+      <div className="bg-spec-teal-600 xs:p-6 md:px-24 md:py-12">
+        <RaSquares profileData={profileData}/>
+      </div>
       <ByTheNumbers />
       <section className="bg-spec-teal-600 flex mt-6 px-8 py-12 justify-center">
         <ReflectionCarousel
