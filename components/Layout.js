@@ -5,7 +5,7 @@ import { useRouter } from "next/router";
 
 function Layout({ children }) {
   const router = useRouter();
-  console.log("router", router);
+
   return (
     <>
       <MobileNav />
