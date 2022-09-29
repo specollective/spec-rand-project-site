@@ -12,7 +12,7 @@ import Link from 'next/link';
 function ProjectsDisplay({ project })  {
   return (
     <div className='border border-spec-yellow-600 mb-2'>
-      <div className="flex justify-between p-10 max-h-[500px]">
+      <div className="flex justify-between p-10 max-h-[600px]">
         <div className='flex basis-1/2 place-self-start self-start p-4'><Image src={project.pic.url} alt={project.pic.alt}/></div>
         <div className="flex flex-col basis-1/2 justify-between p-4">
           <div className='text-lg'> {project.info} </div>
@@ -49,8 +49,7 @@ function ProjectsAccordion({ projectsData }) {
   return (
     <section id='projects' className='py-14 md:py-30 lg:px-36 '>
       {projectsData.map((project, index) => (
-        <div>
-
+        <div key={`${project.name}-${index}`}>
           <section className='hidden lg:block'>
             <div className='cursor-pointer' onClick={() => showProject(index)}>
               <div className='grid grid-rows-3 grid-flow-col place-content-between items-end'>

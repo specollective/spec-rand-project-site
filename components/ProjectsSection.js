@@ -69,17 +69,17 @@ function ProjectsSection() {
 
   return (
     <div className="p-5 md:px-36 bg-spec-black-600 font-Poppins">
-      <h1 className="text-6xl md:text-10xl font-bold py-4 text-center">
-        {" "}
-        Projects{" "}
-      </h1>
+      <h2 className="text-6xl md:text-10xl font-bold py-4 text-center">
+        Projects
+      </h2>
 
-      <section className="flex flex-col md:flex-row flex-wrap lg:gap-y-3 py-4 text-spec-yellow-600 text-base md:text-xl tracking-wide font-medium justify-around items-center">
-        <div>CAREP Pillar I - Methods and Action</div>
-        <span className="hidden md:block rounded-full bg-spec-white-600 h-1.5 w-1.5"></span>
-        <div>CAREP Pillar II - Dialogue and Change</div>
-        <span className="hidden md:block rounded-full bg-spec-white-600 h-1.5 w-1.5"></span>
-        <div>CAREP Pillar III - Policy Leadership</div>
+      <section className="grid xs:grid-cols-1 md:grid-cols-11 text-spec-yellow-600 font-medium items-center">
+        <h3 className="md:col-span-3 text-lg basis-1/3">CAREP Pillar I - Methods and Action </h3>
+        <span className="xs:hidden md:inline-block rounded-full bg-spec-white-600 h-1.5 w-1.5 align-middle place-self-center"></span>
+        
+        <h3 className="md:col-span-3 text-lg  basis-1/3">CAREP Pillar II - Dialogue and Change</h3>
+        <span className="xs:hidden md:inline-block rounded-full bg-spec-white-600 h-1.5 w-1.5 align-middle place-self-center"></span>
+        <h3 className="md:col-span-3 text-lg  basis-1/3">CAREP Pillar III - Policy Leadership</h3>
       </section>
 
       <p className="py-4 md:20 lg:px-44  text-lg text-center">
