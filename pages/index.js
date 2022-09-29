@@ -1,10 +1,10 @@
 import Head from "next/head";
 import TopHeroComponent from "../components/TopHeroComponent";
 import OrgSection from "../components/OrgSection";
-import ResearchMethodsArticle from "../pages/projects/article";
+import ResearchArticle from "../components/researchArticle";
 import ProjectsSection from "../components/ProjectsSection";
 import RaSquares from "../components/RaSquares";
-import ByTheNumbers from "../pages/projects/by-the-numbers";
+import ByTheNumbers from "../components/byTheNumbers";
 import ReflectionCarousel from "../components/reflection-carousel";
 import ScrollButton from "../components/scroll-button";
 import { microcredentialsObjList } from "../components/content/carouselContent";
@@ -18,7 +18,7 @@ export default function Home() {
       </Head>
       <TopHeroComponent />
       <OrgSection />
-      <ResearchMethodsArticle />
+      <ResearchArticle />
       <ProjectsSection />
       <RaSquares />
       <ByTheNumbers />
