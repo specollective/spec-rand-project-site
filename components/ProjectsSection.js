@@ -73,11 +73,13 @@ function ProjectsSection() {
         Projects
       </h2>
 
-      <section className="flex xs:flex-col md:flex-row flex-wrap md:py-4 lg:px-24 text-spec-yellow-600 font-medium items-center">
-        <h3 className="text-lg basis-1/3">CAREP Pillar I - Methods and Action <span className="xs:hidden md:inline-block rounded-full bg-spec-white-600 h-1.5 w-1.5 align-middle ml-1"></span></h3>
+      <section className="grid xs:grid-cols-1 md:grid-cols-11 text-spec-yellow-600 font-medium items-center">
+        <h3 className="md:col-span-3 text-lg basis-1/3">CAREP Pillar I - Methods and Action </h3>
+        <span className="xs:hidden md:inline-block rounded-full bg-spec-white-600 h-1.5 w-1.5 align-middle place-self-center"></span>
         
-        <h3 className="text-lg  basis-1/3">CAREP Pillar II - Dialogue and Change <span className="xs:hidden md:inline-block rounded-full bg-spec-white-600 h-1.5 w-1.5 align-middle ml-1"></span></h3>
-        <h3 className="text-lg  basis-1/3">CAREP Pillar III - Policy Leadership</h3>
+        <h3 className="md:col-span-3 text-lg  basis-1/3">CAREP Pillar II - Dialogue and Change</h3>
+        <span className="xs:hidden md:inline-block rounded-full bg-spec-white-600 h-1.5 w-1.5 align-middle place-self-center"></span>
+        <h3 className="md:col-span-3 text-lg  basis-1/3">CAREP Pillar III - Policy Leadership</h3>
       </section>
 
       <p className="py-4 md:20 lg:px-44  text-lg text-center">
