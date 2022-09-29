@@ -3,8 +3,8 @@ import Image from "next/image";
 import MeepleMetaverse from "../public/MeepleMetaverse.svg";
 import MeepleLoading from "../components/MeepleLoading";
 import Meeples from "../public/meeples.svg";
-import ReflectionCarousel from "../components/reflection-carousel";
-import {meepleObjList} from "../components/content/carouselContent";
+import ReflectionCarousel from "../components/ReflectionsCarousel";
+import { REFLECTIONS } from "../constants/reflections";
 import MarcusMeep from '../public/marcusMeep.svg';
 import AliciaMeep from '../public/aliciaMeep.svg';
 import IliaMeep from '../public/iliaMeep.svg';
@@ -17,6 +17,7 @@ const MeeplePage = () => {
         <title>Meeple | Sustainable Progress Equality Collective</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
+      
       <div className="p-12 bg-spec-black-600 text-center">
         <div className="pb-8 lg:py-32">
           <Image src={MeepleMetaverse} alt="meeple hero" />
@@ -89,7 +90,7 @@ const MeeplePage = () => {
 
       <section className="flex my-12 justify-center">
         <ReflectionCarousel
-          reflectionObjList={meepleObjList}
+          reflectionObjList={REFLECTIONS}
           borderColor="spec-turquoise-600"
         />
       </section>

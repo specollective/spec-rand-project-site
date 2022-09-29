@@ -1,14 +1,15 @@
 import Head from 'next/head'
-import RAprofile from '../components/RAprofile'
+import RAprofile from '../components/RAProfiles'
 import Dropdown from '../components/RAsDropdown'
 
-const ResearchAssistantPage = () => {
+const ResearchAssociatePage = () => {
   return (
     <>
       <Head>
-        <title>Research Assistant | Sustainable Progress Equality Collective</title>
+        <title>Research Associate | Sustainable Progress Equality Collective</title>
         <link rel="icon" href="/favicon.ico" />
       </Head> 
+      
       <section className='w-screen h-auto md:p-20 bg-spec-black-600'>
         <div className='md:flex md:space-x-24 lg:px-60'>
           <div className='text-center md:text-left'>
@@ -26,6 +27,7 @@ const ResearchAssistantPage = () => {
           <Dropdown />
         </div>
       </section>
+      
       <section>
         <div>
           <RAprofile />
@@ -35,5 +37,4 @@ const ResearchAssistantPage = () => {
   )
 }
 
-
-export default ResearchAssistantPage
+export default ResearchAssociatePage

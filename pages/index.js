@@ -1,13 +1,11 @@
 import Head from 'next/head';
-import Layout from '../components/Layout';
 import TopHeroComponent from '../components/TopHeroComponent';
-import OrgSection from '../components/OrgSection';
-import ResearchMethodsArticle from '../pages/projects/article';
+import OrganizationSection from '../components/OrganizationSection';
+import ResearchMethodsArticle from '../components/ResearchMethodsArticle';
 import ProjectsSection from '../components/ProjectsSection';
-import MeetRAs from '../pages/projects/meet-ras';
-import ByTheNumbers from '../pages/projects/by-the-numbers';
-import ReflectionCarousel from '../components/reflection-carousel';
-import { microcredentialsObjList } from '../components/content/carouselContent';
+import MeetTheRAsSection from '../components/MeetTheRAsSection';
+import ByTheNumbersSection from '../components/ByTheNumbersSection';
+import ReflectionsSection from '../components/ReflectionsSection';
 
 export default function Home() {
   return (
@@ -17,17 +15,12 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <TopHeroComponent />
-      <OrgSection />
+      <OrganizationSection />
       <ResearchMethodsArticle />
       <ProjectsSection />
-      <MeetRAs />
-      <ByTheNumbers />
-      <section className="bg-spec-teal-600 flex mt-6 p-8 justify-center">
-        <ReflectionCarousel
-          reflectionObjList={microcredentialsObjList}
-          borderColor="spec-yellow-600"
-        />
-      </section>
+      <MeetTheRAsSection />
+      <ByTheNumbersSection />
+      <ReflectionsSection />
     </section>
   );
 }

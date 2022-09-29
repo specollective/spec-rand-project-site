@@ -1,11 +1,10 @@
 import Image from "next/image"
-import wordCloud from '../../public/article_word_cloud.svg'
+import wordCloud from '../public/article_word_cloud.svg'
 
-
-export default function Article() {
-    return (
-      <div className="gap-4 bg-spec-teal-600 p-10 md:p-20">
-        <div className="grid grid-cols-1 grid-rows-1 md:grid-cols-2">
+export default function ResearchMethodsArticle() {
+  return (
+    <div className="gap-4 bg-spec-teal-600 p-10 md:p-20">
+      <div className="grid grid-cols-1 grid-rows-1 md:grid-cols-2">
         <div className="text-5xl text-spec-yellow-600 font-bold space-y-5 pb-10 md:ml-20 md:pl-30">
           <p>Research</p>
           <p>Methods</p> 
@@ -25,12 +24,11 @@ export default function Article() {
             <p className="font-bold pt-10">Release Date: October 31, 2022</p>
           </p>
         </div>
-
-        </div>
-
-        <div>
-            <Image src={wordCloud} alt="word-cloud" className="flex-grow" />
-        </div>
       </div>
-    );
+
+      <div>
+        <Image src={wordCloud} alt="word-cloud" className="flex-grow" />
+      </div>
+    </div>
+  );
 }

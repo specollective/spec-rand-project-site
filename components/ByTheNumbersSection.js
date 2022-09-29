@@ -1,4 +1,4 @@
-import StatBox from "../../components/stat-box";
+import StatBox from "./StatBox";
 
 export default function ByTheNumbers(){
     return (

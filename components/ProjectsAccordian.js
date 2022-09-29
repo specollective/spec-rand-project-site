@@ -1,12 +1,9 @@
 import { useState } from 'react';
-
 import Image from 'next/image';
-import BreakLine from './break-line';
-
+import BreakLine from './BreakLine';
 import downArrow from '../public/arrow_down.svg';
 import upArrow from '../public/arrow_up.svg';
 import rightArrow from '../public/arrow_right.svg';
-
 
 function ProjectsDisplay({ project })  {
   return (
