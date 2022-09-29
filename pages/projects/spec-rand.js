@@ -1,7 +1,6 @@
 import Overview from './overview';
 import Article from './article';
 import Projects from './projects';
-import MeetRAs from './meet-ras';
 import ByTheNumbers from './by-the-numbers';
 import WhereNow from './where-are-they-now';
 import NavBar from './navbar'
@@ -29,14 +28,14 @@ export default function SpecXRandPage() {
   return (
     <>
       <Layout >
-        <Overview />
+        {/* <Overview />
         <Article />
         <Projects />
         <MeetRAs />
         <ByTheNumbers />
-        <WhereNow />
+        <WhereNow /> */}
         <Reflections />
-        <Subfooter color="spec-teal-600" />
+        {/* <Subfooter color="spec-teal-600" /> */}
       </Layout>
     </>
   );
