@@ -4,6 +4,7 @@ import MeepleMetaverse from "../public/MeepleMetaverse.svg";
 import Meeples from "../public/meeples.svg";
 import ReflectionCarousel from "../components/reflection-carousel";
 import {meepleObjList} from "../components/content/carouselContent";
+import MeepleLoading from '../components/MeepleLoading';
 
 
 const MeeplePage = () => {
