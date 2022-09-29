@@ -11,6 +11,7 @@ import Joe from "../../public/Rectangle_Joe.svg";
 // import Menoukha from "../..public/Rectangle_Menoukha.svg";
 // import Ollie from "../..public/Rectangle_Ollie.svg";
 // import Lu from "../..public/Rectangle_Lu.svg";
+import MeetRAsSection from "../../components/MeetRAsSection";
 
 import React, { useState } from "react";
 
@@ -98,6 +99,7 @@ function TheTeam() {
 
   return (
     <div className="container mx-auto bg-spec-teal-600">
+      <MeetRAsSection/>
       <div className="min-h-screen align-content-center justify-center">
         <div className="grid grid-cols-2 align-content-center gap-2 p-2 md:mx-4 justify-items-center lg:grid-cols-4">
           {users.map((user, id) => {
