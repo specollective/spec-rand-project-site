@@ -29,7 +29,9 @@ const ResearchAssistantPage = () => {
       </section>
       <section>
         <div>
-          <RAprofile />
+        <RAprofile
+          profileData={profileData}
+        />
         </div>
       </section>
     </>
