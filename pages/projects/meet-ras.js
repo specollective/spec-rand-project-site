@@ -13,7 +13,7 @@ import victoria from "../../public/victoria_sm_bubble.svg";
 
 export default function MeetRAs() {
     return (
-        <SectionContent className="bg-spec-teal-600 pb-24">
+        <SectionContent className="bg-spec-teal-600 xs:p-6 md:p-24">
             <SectionHeader>SPEC / CAREP Research Associates (RA) </SectionHeader>
             <SubHeader>CAREP Pillar III - Policy Leadership</SubHeader>
             <TextContent className="pb-10">
@@ -32,6 +32,7 @@ export default function MeetRAs() {
                                             alt="nan-mead"
                                             width={150}
                                             height={150}
+                                            className="grayscale hover:grayscale-0 duration-500 transition"
                                         />
                                         <TextContent className="text-black font-bold">
                                             Nan Elieen Mead
@@ -48,6 +49,7 @@ export default function MeetRAs() {
                                             alt="alicia-bong"
                                             width={150}
                                             height={150}
+                                            className="grayscale hover:grayscale-0 duration-500 transition"
                                         />
                                         <TextContent className="text-black font-bold">
                                             Alicia Bong
@@ -63,6 +65,7 @@ export default function MeetRAs() {
                                             alt="yoline-bangerjee"
                                             width={150}
                                             height={150}
+                                            className="grayscale hover:grayscale-0 duration-500 transition"
                                         />
                                         <TextContent className="text-black font-bold">
                                             Yoline Banerjee
@@ -78,6 +81,7 @@ export default function MeetRAs() {
                                             alt="victoria-lo"
                                             width={150}
                                             height={150}
+                                            className="grayscale hover:grayscale-0 duration-500 transition"
                                         />
                                         <TextContent className="text-black font-bold">
                                             Victoria Lo
@@ -96,6 +100,7 @@ export default function MeetRAs() {
                                     alt="crystal-shamsi"
                                     width={150}
                                     height={150}
+                                    className="grayscale hover:grayscale-0 duration-500 transition"
                                 />
                                 <TextContent className="text-black font-bold">
                                     Crystal Shamsi
@@ -107,6 +112,7 @@ export default function MeetRAs() {
                                     alt="nan-mead"
                                     width={150}
                                     height={150}
+                                    className="grayscale hover:grayscale-0 duration-500 transition"
                                 />
                                 <TextContent className="text-black font-bold">
                                     Test
@@ -116,24 +122,26 @@ export default function MeetRAs() {
                     </div>
                     </div>
 
-                <button
-                    className="carousel-control-prev top-30 bottom-0 flex items-center justify-center p-0 text-center border-0 hover:outline-none hover:no-underline focus:outline-none focus:no-underline left-0"
-                    type="button"
-                    data-bs-target="#carouselExampleControls"
-                    data-bs-slide="prev"
-                >
-                    <span className="carousel-control-prev-icon inline-block bg-no-repeat" aria-hidden="true"></span>
-                    <span className="visually-hidden">Previous</span>
-                </button>
-                <button
-                    className="carousel-control-next absolute top-30 bottom-0 flex items-center justify-center p-0 text-center border-0 hover:outline-none hover:no-underline focus:outline-none focus:no-underline right-0"
-                    type="button"
-                    data-bs-target="#carouselExampleControls"
-                    data-bs-slide="next"
-                >
-                    <span className="carousel-control-next-icon inline-block bg-no-repeat" aria-hidden="true"></span>
-                    <span className="visually-hidden">Next</span>
-                </button>
+                <section className="flex justify-between p-4 md:p-6 md:mt-4">
+                    <button
+                        className="carousel-control-prev flex items-center justify-center p-0 text-center border-0 hover:outline-none hover:no-underline focus:outline-none focus:no-underline left-0"
+                        type="button"
+                        data-bs-target="#carouselExampleControls"
+                        data-bs-slide="prev"
+                    >
+                        <span className="carousel-control-prev-icon inline-block bg-no-repeat" aria-hidden="true"></span>
+                        <span className="visually-hidden">Previous</span>
+                    </button>
+                    <button
+                        className="carousel-control-next flex items-center justify-center p-0 text-center border-0 hover:outline-none hover:no-underline focus:outline-none focus:no-underline right-0"
+                        type="button"
+                        data-bs-target="#carouselExampleControls"
+                        data-bs-slide="next"
+                    >
+                        <span className="carousel-control-next-icon inline-block bg-no-repeat" aria-hidden="true"></span>
+                        <span className="visually-hidden">Next</span>
+                    </button>
+                </section>
             </div>
 
         </SectionContent>

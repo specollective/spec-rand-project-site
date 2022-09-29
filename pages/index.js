@@ -21,7 +21,7 @@ export default function Home() {
       <ProjectsSection />
       <MeetRAs />
       <ByTheNumbers />
-      <section className="bg-spec-teal-600 flex mt-6 p-8 justify-center">
+      <section className="bg-spec-teal-600 flex mt-6 px-8 py-12 justify-center">
         <ReflectionCarousel
           reflectionObjList={microcredentialsObjList}
           borderColor="spec-yellow-600"

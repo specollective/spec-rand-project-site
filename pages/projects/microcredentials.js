@@ -54,7 +54,7 @@ const reflectionObjList = [
 
 export default function Microcredentials() {
     return (
-    <div className="bg-spec-black-600 justify-center content-center text-slate-100 font-medium px-44 pt-12">
+    <div className="bg-spec-black-600 justify-center content-center text-slate-100 font-medium md:px-44 pt-12">
         <SectionHeader className="text-center">Microcredential Development Project</SectionHeader>
         <div className="text-center p-8">
           <Image src={Microcred} alt="microcredentials" />
