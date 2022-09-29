@@ -32,11 +32,11 @@ const MicroCredentialPage = () => {
 
       <section className="grid m-10 px-20 md:px-40 md:m-20">
         <div>
-          <span className="md:justify-start md:pl-20 text-spec-yellow-600 font-extrabold text-4xl leading-relaxed">
+          <span className="md:justify-start text-spec-yellow-600 font-extrabold text-4xl leading-relaxed">
             Intro
           </span>
         </div>
-        <div className="md:pl-20">
+        <div>
           <p className="text-spec-white-600">
             The COVID19 pandemic has highlighted existing disparities in access
             to computer and communication technologies. The effect of the
@@ -49,21 +49,22 @@ const MicroCredentialPage = () => {
         </div>
       </section>
 
-      <div className="grid grid-cols-2 justify-center m-10 md:m-20">
-        <div className="pl-20 justify-end">
+      <section className="lg:flex m-10 px-20 md:px-40 md:m-20">
+        <div className="justify-end pr-20">
           <Image src={squiggle} alt="squiggly-line" />
         </div>
-        <div className="mb-20">
-          <h1 className="text-spec-yellow-600 font-bold text-4xl md:pl-20 md:pr-40 leading-relaxed">
+
+        <div className="mb-10">
+          <span className="text-left font-bold text-4xl md:pr-40 leading-relaxed text-spec-yellow-600">
             Problem Statement
-          </h1>
+          </span>
           <p className="text-spec-white-600">
             RAND CAREP requires a learning platform capable of scaling to
             hundreds to thousands of adopting institutions and millions of
             learners.
           </p>
         </div>
-      </div>
+      </section>
 
       <div className="grid m-10 md:m-20">
         <h1 className="justify-start text-spec-yellow-600 font-bold text-4xl px-20 md:px-40 leading-relaxed">
