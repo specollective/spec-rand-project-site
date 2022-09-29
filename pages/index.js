@@ -6,6 +6,7 @@ import ProjectsSection from "../components/ProjectsSection";
 import RaSquares from "../components/RaSquares";
 import ByTheNumbers from "../pages/projects/by-the-numbers";
 import ReflectionCarousel from "../components/reflection-carousel";
+import ScrollButton from "../components/scroll-button";
 import { microcredentialsObjList } from "../components/content/carouselContent";
 
 export default function Home() {
@@ -27,6 +28,7 @@ export default function Home() {
           borderColor="spec-yellow-600"
         />
       </section>
+      <ScrollButton />
     </section>
   );
 }
