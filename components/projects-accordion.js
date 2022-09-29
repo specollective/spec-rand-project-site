@@ -49,8 +49,7 @@ function ProjectsAccordion({ projectsData }) {
   return (
     <section id='projects' className='py-14 md:py-30 lg:px-36 '>
       {projectsData.map((project, index) => (
-        <div>
-
+        <div key={`${project.name}-${index}`}>
           <section className='hidden lg:block'>
             <div className='cursor-pointer' onClick={() => showProject(index)}>
               <div className='grid grid-rows-3 grid-flow-col place-content-between items-end'>
