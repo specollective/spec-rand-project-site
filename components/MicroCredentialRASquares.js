@@ -11,9 +11,9 @@ function MicroCredentialRASquares({ MicroCredentialRASquareContent }) {
             return (
               <section key={`${user.name}-${id}`} className="relative">
                 <div className="absolute inset-0 z-10 text-center flex flex-col items-center justify-center opacity-0 md:hover:opacity-80 md:hover:bg-stone-900 md:bg-opacity-0 md:duration-300">
-                  <h1 className="tracking-wider font-bold text-white text-xl">
+                  <h3 className="tracking-wider font-bold text-white text-xl">
                     {user.name}
-                  </h1>
+                  </h3>
                   <p className="mx-auto">{user.hover_title}</p>
                   <br></br>
                   <div className="xs:hidden md:inline-block">
@@ -25,9 +25,9 @@ function MicroCredentialRASquares({ MicroCredentialRASquareContent }) {
                   </div>
                 </div>
                 <Image alt={user.name} src={user.pic} />
-                <div className="md:hidden text-black text-base font-bold text-center">
+                <p className="md:hidden text-black text-base font-bold text-center">
                   {user.name}
-                </div>
+                </p>
                 <div className="md:hidden text-black text-xs text-center">
                   {user.title}
                 </div>

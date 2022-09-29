@@ -189,9 +189,9 @@ const MicroCredentialPage = () => {
       </div>
 
       <div className="grid m-10 md:m-20">
-        <h1 className="justify-start text-spec-yellow-600 font-bold text-4xl px-20 md:px-40 leading-relaxed">
+        <h2 className="justify-start text-spec-yellow-600 font-bold text-4xl px-20 md:px-40 leading-relaxed">
           The Team
-        </h1>
+        </h2>
         <div className="">
           <MicroCredentialRASquares
            MicroCredentialRASquareContent={MicroCredentialRASquareContent}
