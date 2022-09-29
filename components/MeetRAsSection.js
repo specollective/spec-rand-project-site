@@ -3,8 +3,8 @@ import RaSquares from "./RaSquares"
 
 export default function MeetRAs() {
   return (
-    <div className='xs:px-5 md:px-36 lg:px-40 w-screen h-auto bg-spec-teal-600 py-20 text-Poppins'>
-      <section className='md:grid grid-rows-2 grid-cols-2 auto-rows-min px-20'>
+    <div className='xs:px-5 md:px-36 lg:px-40 bg-spec-teal-600 xs:py-4 md:py-20 text-Poppins'>
+      <section className='md:grid grid-rows-2 grid-cols-2 auto-rows-min xs:px-4 md:px-20'>
         <h1 className='text-4xl md:text-6xl row-start-1 font-bold leading-relaxed pr-8'>
           SPEC / CAREP <br/> Research Associates (RA)
         </h1>
