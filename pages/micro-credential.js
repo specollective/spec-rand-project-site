@@ -32,7 +32,7 @@ const MicroCredentialPage = () => {
 
       <section className="grid m-10 md:px-20 lg:px-40 md:m-20">
         <div>
-          <span className="md:justify-start text-spec-yellow-600 font-extrabold text-4xl leading-relaxed">
+          <span className="md:justify-start text-spec-yellow-600 font-extrabold text-4xl md:text-5xl leading-relaxed">
             Intro
           </span>
         </div>
@@ -55,7 +55,7 @@ const MicroCredentialPage = () => {
         </div>
 
         <div className="mb-10">
-          <span className="text-left font-bold text-4xl md:pr-40 leading-relaxed text-spec-yellow-600">
+          <span className="text-left font-bold text-4xl md:text-5xl md:pr-40 leading-relaxed text-spec-yellow-600">
             Problem Statement
           </span>
           <p className="text-spec-white-600">
@@ -68,7 +68,7 @@ const MicroCredentialPage = () => {
 
       <section className="grid m-10 md:px-20 lg:px-40 md:m-20">
         <div>
-          <span className="text-left font-bold text-4xl md:pr-40 leading-relaxed text-spec-yellow-600">
+          <span className="text-left font-bold text-4xl md:text-5xl md:pr-40 leading-relaxed text-spec-yellow-600">
             Solution
           </span>
         </div>
@@ -82,9 +82,9 @@ const MicroCredentialPage = () => {
 
       <section className="lg:flex m-10 md:px-20 lg:px-40 md:m-20">
         <div>
-          <h1 className="text-left font-bold text-4xl md:pr-40 leading-relaxed text-spec-yellow-600">
+          <span className="text-left font-bold text-4xl md:text-5xl md:pr-40 leading-relaxed text-spec-yellow-600">
             Project Goals &amp; Objectives
-          </h1>
+          </span>
         </div>
         <p>
           <ol className="list-decimal">
@@ -111,9 +111,9 @@ const MicroCredentialPage = () => {
       </section>
 
       <div className="grid place-content-center">
-        <h1 className="text-4xl font-bold text-spec-turquoise-600 mb-5">
+        <span className="text-4xl md:text-5xl font-bold text-spec-turquoise-600 mb-5">
           Impact
-        </h1>
+        </span>
         <p className="text-white">
           <ul className="list-disc pl-7">
             <li># of OC contributions</li>
@@ -125,10 +125,10 @@ const MicroCredentialPage = () => {
 
       <div className="grid grid-cols-1 md:grid-cols-2 md:col-span-2 align-items-center justify-items-center bg-spec-black-600 md:p-10">
         <div className="cols-span-1 md:justify-self-end md:pr-4">
-          <div className="text-4xl font-bold text-spec-yellow-600 mb-5">
-            <h1 className="text-center md:text-left mb-5 md:w-24">
+          <div className="pt-8 text-4xl md:text-5xl font-bold text-spec-yellow-600 mb-5">
+            <span className="text-center md:text-left mb-5 md:w-24">
               At a Glance
-            </h1>
+            </span>
           </div>
           <StatBox
             borderColor="spec-yellow-600"
@@ -182,7 +182,7 @@ const MicroCredentialPage = () => {
         <StatBox
           borderColor="spec-yellow-600"
           height="h-48"
-          width="md:w-3/4"
+          width="md:w-3/5"
           statColor="spec-turquoise-600"
           inputStat="6500+"
         >
