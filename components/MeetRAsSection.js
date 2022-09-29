@@ -1,3 +1,4 @@
+import { profileData } from "./content/profileContent"
 import RaSquares from "./RaSquares"
 
 export default function MeetRAs() {
@@ -20,7 +21,7 @@ export default function MeetRAs() {
           established the Center to Advance Racial Equity Policy in 2020.
         </p>
       </section>
-      <RaSquares />
+      <RaSquares profileData={profileData}/>
     </div>
   )
 };

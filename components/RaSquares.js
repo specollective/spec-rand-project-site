@@ -3,6 +3,7 @@ import Image from "next/future/image";
 import Link from "next/link";
 
 function RaSquares({ profileData }) {
+  if(!profileData) return <></>;
   return (
     <div className="align-content-center justify-center">
       <div className="grid grid-cols-2 align-content-center gap-2 p-2 md:mx-4 justify-items-center lg:grid-cols-4">
