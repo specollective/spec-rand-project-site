@@ -29,16 +29,18 @@ const MicroCredentialPage = () => {
         </div>
       </div>
 
-      <div className="grid justify-center place-items-center">
+      <section className="grid justify-center place-items-center">
         <h1 className="font-bold text-4xl mt-10">Microcredential Development</h1>
         <p>Project</p>
-      </div>
+      </section>
 
-      <div className="grid m-10 px-20 md:px-40 md:m-20">
-        <h1 className="justify-start text-spec-yellow-600 font-extrabold text-4xl leading-relaxed">
-          Intro
-        </h1>
-        <div className="pl-20">
+      <section className="grid m-10 md:px-20 lg:px-40 md:m-20">
+        <div>
+          <span className="md:justify-start text-spec-yellow-600 font-extrabold text-4xl md:text-5xl leading-relaxed">
+            Intro
+          </span>
+        </div>
+        <div>
           <p className="text-spec-white-600">
             The COVID19 pandemic has highlighted existing disparities in access
             to computer and communication technologies. The effect of the
@@ -49,41 +51,44 @@ const MicroCredentialPage = () => {
             the classroom.
           </p>
         </div>
-      </div>
+      </section>
 
-      <div className="grid grid-cols-2 justify-center m-10 md:m-20">
-        <div className="pl-20 justify-end">
+      <section className="lg:flex m-10 md:px-20 lg:px-40 md:m-20">
+        <div className="justify-end pr-20">
           <Image src={squiggle} alt="squiggly-line" />
         </div>
-        <div className="mb-20">
-          <h1 className="text-spec-yellow-600 font-bold text-4xl md:pl-20 md:pr-40 leading-relaxed">
+
+        <div className="mb-10">
+          <span className="text-left font-bold text-4xl md:text-5xl md:pr-40 leading-relaxed text-spec-yellow-600">
             Problem Statement
-          </h1>
+          </span>
           <p className="text-spec-white-600">
             RAND CAREP requires a learning platform capable of scaling to
             hundreds to thousands of adopting institutions and millions of
             learners.
           </p>
         </div>
-      </div>
+      </section>
 
-      <div className="grid m-10 md:m-20">
-        <h1 className="justify-start text-spec-yellow-600 font-bold text-4xl px-20 md:px-40 leading-relaxed">
-          Solution
-        </h1>
-        <div className="pl-20">
-          <p className="text-spec-white-600 px-30 md:px-40">
+      <section className="grid m-10 md:px-20 lg:px-40 md:m-20">
+        <div>
+          <span className="text-left font-bold text-4xl md:text-5xl md:pr-40 leading-relaxed text-spec-yellow-600">
+            Solution
+          </span>
+        </div>
+        <div>
+          <p className="text-spec-white-600">
             SPEC will take a multimethodological approach to developing the
             learning platform and microcredentials.
           </p>
         </div>
-      </div>
+      </section>
 
-      <div className="grid grid-cols-2 m-10 md:m-20">
+      <section className="lg:flex m-10 md:px-20 lg:px-40 md:m-20">
         <div>
-          <h1 className="text-spec-yellow-600 font-bold text-4xl md:px-40 leading-relaxed">
+          <span className="text-left font-bold text-4xl md:text-5xl md:pr-40 leading-relaxed text-spec-yellow-600">
             Project Goals &amp; Objectives
-          </h1>
+          </span>
         </div>
         <p>
           <ol className="list-decimal">
@@ -107,12 +112,12 @@ const MicroCredentialPage = () => {
             </li>
           </ol>
         </p>
-      </div>
+      </section>
 
       <div className="grid place-content-center">
-        <h1 className="text-4xl font-bold text-spec-turquoise-600 mb-5">
+        <span className="text-4xl md:text-5xl font-bold text-spec-turquoise-600 mb-5">
           Impact
-        </h1>
+        </span>
         <p className="text-white">
           <ul className="list-disc pl-7">
             <li># of OC contributions</li>
@@ -124,10 +129,10 @@ const MicroCredentialPage = () => {
 
       <div className="grid grid-cols-1 md:grid-cols-2 md:col-span-2 align-items-center justify-items-center bg-spec-black-600 md:p-10">
         <div className="cols-span-1 md:justify-self-end md:pr-4">
-          <div className="text-4xl font-bold text-spec-yellow-600 mb-5">
-            <h1 className="text-center md:text-left mb-5 md:w-24">
+          <div className="pt-8 text-4xl md:text-5xl font-bold text-spec-yellow-600 mb-5">
+            <span className="text-center md:text-left mb-5 md:w-24">
               At a Glance
-            </h1>
+            </span>
           </div>
           <StatBox
             borderColor="spec-yellow-600"
@@ -181,7 +186,7 @@ const MicroCredentialPage = () => {
         <StatBox
           borderColor="spec-yellow-600"
           height="h-48"
-          width="md:w-3/4"
+          width="md:w-3/5"
           statColor="spec-turquoise-600"
           inputStat="6500+"
         >
