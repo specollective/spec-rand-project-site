@@ -5,6 +5,7 @@ import ReflectionCarousel from "../components/reflection-carousel";
 import StatBox from "../components/stat-box";
 import { microcredentialsObjList } from "../components/content/carouselContent";
 import squiggle from "../public/squiggle.svg";
+import microHeaderImg from '../public/microcredential_dev_img.svg'
 
 const MicroCredentialPage = () => {
   return (
@@ -16,7 +17,12 @@ const MicroCredentialPage = () => {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <section>
+      <div className='bg-spec-black-600'>
+        <div className='px-20 text-center'>
+          <Image layout="responsive" src={microHeaderImg} />
+        </div>
         <h1>Microcredential Page</h1>
+      </div>
         <div className="grid place-content-center">
           <h1 className="text-4xl font-bold text-spec-turquoise-600 mb-5">
             {" "}
