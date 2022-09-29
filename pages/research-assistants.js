@@ -1,6 +1,7 @@
 import Head from 'next/head'
 import RAprofile from '../components/RAprofile'
 import Dropdown from '../components/RAsDropdown'
+import { profileData } from '../components/content/profileContent'
 
 const ResearchAssistantPage = () => {
   return (
@@ -23,7 +24,7 @@ const ResearchAssistantPage = () => {
           </div>
         </div>
         <div className='w-2/3 m-auto text-center md:text-left'>
-          <Dropdown />
+          <Dropdown dropdownOptions={profileData}/>
         </div>
       </section>
       <section>
