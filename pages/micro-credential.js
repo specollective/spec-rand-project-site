@@ -7,9 +7,6 @@ import { microcredentialsObjList } from "../components/content/carouselContent";
 import squiggle from "../public/squiggle.svg";
 import microHeaderImg from '../public/microcredential_dev_img.svg';
 import BreakLine from "../components/break-line";
-import MicroCredentialRASquares from "../components/MicroCredentialRASquares";
-import { MicroCredentialRASquareContent } from "../components/content/RASquares/RASquareContent";
-import RAprofile from "../components/RAprofile";
 import { profileData } from "../components/content/profileContent";
 import RaSquares from "../components/RaSquares";
 

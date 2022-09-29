@@ -9,6 +9,7 @@ import ReflectionCarousel from "../components/reflection-carousel";
 import ScrollButton from "../components/scroll-button";
 import { microcredentialsObjList } from "../components/content/carouselContent";
 import { profileData } from "../components/content/profileContent";
+import RaSquares from '../components/RaSquares';
 
 export default function Home() {
   return (
