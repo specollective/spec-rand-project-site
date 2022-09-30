@@ -93,39 +93,25 @@ const MicroCredentialPage = () => {
         <p>
           <ol className="list-decimal">
             <li>
-              Create new learning programs in the areas of DEI and Mass Atrocity
-              Prevention that are designed for CAREP’s internal stakeholders
+              Create new learning programs in the areas of DEI and professional development designed for CAREP's internal stakeholders
             </li>
             <li>
-              Create new learning programs in the area of professional
-              development that are designed for use by educational organizations
-              that use Moodle
-            </li>
-            <li>
-              Deliver new learning programs in the area of professional
-              development for CAREP’s internal stakeholders
-            </li>
-            <li>Expand access to educational game technologies</li>
-            <li>
-              Establish a sustainable funding plan to continue research and
-              program development in the micro credential space
+              Create new learning programs in the areas of DEI and professional development that are designed for use by educational organizations that use Moodle
             </li>
           </ol>
         </p>
       </section>
 
-      <div className="grid place-content-center">
-        <span className="text-4xl md:text-5xl font-bold text-spec-turquoise-600 mb-5">
-          Impact
-        </span>
-        <p className="text-white">
-          <ul className="list-disc pl-7">
-            <li># of OC contributions</li>
-            <li>Upskilling in Moodle</li>
-            <li>Boost resumes</li>
-          </ul>
-        </p>
-      </div>
+      <section className="lg:flex m-10 md:px-20 lg:px-40 md:m-20">
+        <div className="grid place-content-center">
+          <span className="text-4xl md:text-5xl font-bold text-spec-turquoise-600 mb-5">
+            Impact
+          </span>
+          <p className="text-white">
+            The project allowed RA's from underrepresented backgrounds to create course content and implement the courses in the Moodle Platform. The content team worked collaboratively, building research and editing skills. The development team worked in the back end of the Moodle platform and gained valuable Learning Management System (LMS) experience. All have gained transferable skills that will boost their resumes.
+          </p>
+        </div>
+      </section>
 
       <div className="grid grid-cols-1 md:grid-cols-2 md:col-span-2 align-items-center justify-items-center bg-spec-black-600 md:p-10">
         <div className="cols-span-1 md:justify-self-end md:pr-4">
