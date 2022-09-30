@@ -84,7 +84,7 @@ function ProjectsSection() {
 				<h3 className="text-center md:col-span-3 text-lg basis-1/3">CAREP Pillar III - Policy Leadership</h3>
 			</section>
 
-			<p className="py-4 md:20 lg:px-44 text-lg text-center">
+			<p className="py-4 md:20 text-lg text-center">
 				Embodying all three pillars while moving through the project phase allowed the SPEC and CAREP teams to learn and
 				grow while creating tangible deliverables that will accelerate learning and up-skilling in pertinent knowledge
 				areas.
