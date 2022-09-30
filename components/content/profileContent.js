@@ -9,6 +9,7 @@ import Joe from "./RASquares/Rectangle_Joe.svg";
 import Menoukha from "./RASquares/Rectangle_Menoukha.svg";
 import Ollie from "./RASquares/Rectangle_Ollie.svg";
 import Lu from "./RASquares/Rectangle_Lu.svg";
+import Dennis from "./RASquares/Rectangle_Dennis.svg";
 import Link from "next/link";
 
 
@@ -48,7 +49,7 @@ export const profileData = [
     pic: Alicia,
     alt: "Alicia pic",
     linkedInLink: "https://www.linkedin.com/in/alicia-bong-a4400896/",
-    text: "Alicia is a project manager focusing on team building and open communication. Her experience comes from multiple software adjacent roles in customer success and project management. She received her Bachelor’s Degree in English from SUNY Oneonta. Alicia presented at the first New Critics Undergraduate Literature and Composition Conference and was the Vice President of their chapter of the Sigma Tau Delta English Honors Society. Her interest in sustainability and social justice has led her to join the team at SPEC.",
+    text: "Alicia is a project manager focusing on team building and open communication. Her experience comes from multiple software adjacent roles in customer success and project management. She received her Bachelor's Degree in English from SUNY Oneonta. Alicia presented at the first New Critics Undergraduate Literature and Composition Conference and was the Vice President of their chapter of the Sigma Tau Delta English Honors Society. Her interest in sustainability and social justice has led her to join the team at SPEC.",
     projects: [projectsHash['microcredential'], projectsHash['gamingProj'], projectsHash['impactProj']],
   },
   {
@@ -68,7 +69,7 @@ export const profileData = [
     pic: Ilia,
     alt: "Ilia pic",
     linkedInLink: "https://www.linkedin.com/in/iliadeleon/",
-    text: "Ilia started off as a research associate with a focus in user experience design. She has since moved into the Design Lead role. She has a bachelor’s degree in Information Science and Policy from the University at Albany. Ilia has spent many years working with companies overseas collaborating on various sourcing, production, and logistics projects. More recently, Ilia has been focused on researching, understanding, and empathizing with users on their journey through digital products to create better experiences with usability, accessibility, and inclusiveness in mind.",
+    text: "Ilia started off as a research associate with a focus in user experience design. She has since moved into the Design Lead role. She has a bachelor's degree in Information Science and Policy from the University at Albany. Ilia has spent many years working with companies overseas collaborating on various sourcing, production, and logistics projects. More recently, Ilia has been focused on researching, understanding, and empathizing with users on their journey through digital products to create better experiences with usability, accessibility, and inclusiveness in mind.",
     projects: [projectsHash['gamingProj'], projectsHash['impactProj']],
   },
   {
@@ -88,7 +89,7 @@ export const profileData = [
     pic: Marcus,
     alt: "Marcus pic",
     linkedInLink: "https://www.linkedin.com/in/msteiner12/",
-    text: "Marcus Steiner is the LMS Manager for SPEC. He has a Bachelor’s Degree in Insurance and Risk Management and a Master’s degree in Global Comparative History. He has spent the entirety of his nonprofit career working with and leading human rights andequity-focused organizations as a Program Director, Operations/Development Director, and CEO. Marcus sits on the boards of the Sentinel Project and of Advocates Creating Change, organizations committed to creating peace and equality around the world. Currently, Marcus’ work examines how technology can be used both in human rights work and in DEI.",
+    text: "Marcus Steiner is the LMS Manager for SPEC. He has a Bachelor's Degree in Insurance and Risk Management and a Master's degree in Global Comparative History. He has spent the entirety of his nonprofit career working with and leading human rights andequity-focused organizations as a Program Director, Operations/Development Director, and CEO. Marcus sits on the boards of the Sentinel Project and of Advocates Creating Change, organizations committed to creating peace and equality around the world. Currently, Marcus' work examines how technology can be used both in human rights work and in DEI.",
     projects: [projectsHash['microcredential'], projectsHash['gamingProj']],
   },
   {
@@ -98,7 +99,7 @@ export const profileData = [
     pic: Menoukha,
     alt: "Menouka pic",
     linkedInLink: "https://www.linkedin.com/in/menoukha-robin-case-982a611b4/",
-    text: "Dr. Menoukha Robin Case is a SUNY Professor Emerita who holds an MA in Women’s & Gender Studies, an MA in Creative Writing, and a Ph.D. in English from SUNY University at Albany. Her dissertation addresses African Diaspora literature via Yoruba philosophy; her post-graduate work emphasizes Indigenous Studies. Academic publications include Introduction to Feminist Thought and Action (Routledge) and Weaving the Legacy: Remembering Paula Gunn Allen (West End Press). Creative publications include “Bead by Bead” in Talking Stick Native Arts Quarterly and “Burying Grandma” in Tidal Basin Review, awarded the Editors’ Prize for Best Prose in 2011. She serves on the boards of the Hamilton Hill Arts Center and the Ndakinna Education Center and on the Steering Committee of SPEC.",
+    text: "Dr. Menoukha Robin Case is a SUNY Professor Emerita who holds an MA in Women's & Gender Studies, an MA in Creative Writing, and a Ph.D. in English from SUNY University at Albany. Her dissertation addresses African Diaspora literature via Yoruba philosophy; her post-graduate work emphasizes Indigenous Studies. Academic publications include Introduction to Feminist Thought and Action (Routledge) and Weaving the Legacy: Remembering Paula Gunn Allen (West End Press). Creative publications include “Bead by Bead” in Talking Stick Native Arts Quarterly and “Burying Grandma” in Tidal Basin Review, awarded the Editors' Prize for Best Prose in 2011. She serves on the boards of the Hamilton Hill Arts Center and the Ndakinna Education Center and on the Steering Committee of SPEC.",
     projects: [projectsHash['microcredential'], projectsHash['gamingProj'], projectsHash['impactProj']],
   },
   {
@@ -138,7 +139,7 @@ export const profileData = [
     pic: Yoline,
     alt: "Yoline pic",
     linkedInLink: "https://www.linkedin.com/in/yolineb/",
-    text: "Yoline Banerjee is a research associate for SPEC. With a B.A. in Sociology and a minor in Education from UC Berkeley, Yoline has worked in various educational roles. She then went into Health Services by managing COVID testing sites. After experiencing different programs and web applications that had her thinking, “there has to be a better way,” she pivoted into the tech industry and graduated from Hackbright’s software engineering program. She is excited to combine her passion for working with the community and developing her coding skills to build systems that will help people learn, grow, and thrive.",
+    text: "Yoline Banerjee is a research associate for SPEC. With a B.A. in Sociology and a minor in Education from UC Berkeley, Yoline has worked in various educational roles. She then went into Health Services by managing COVID testing sites. After experiencing different programs and web applications that had her thinking, “there has to be a better way,” she pivoted into the tech industry and graduated from Hackbright's software engineering program. She is excited to combine her passion for working with the community and developing her coding skills to build systems that will help people learn, grow, and thrive.",
     projects: [projectsHash['microcredential'], projectsHash['impactProj']],
   },
   {
@@ -148,7 +149,17 @@ export const profileData = [
     pic: Lu,
     alt: "Lu pic",
     linkedInLink: "https://www.linkedin.com/in/ludaley/",
-    text: "Lu Daley is a research associate/software developer at SPEC. Lu’s research involves researching, creating, and testing full-stack solutions with accessibility in mind. His team is currently building a front-end design system, a full-stack learning management system, and contributing to other open source social justice, economic growth, and environmental sustainability projects.",
+    text: "Lu Daley is a research associate/software developer at SPEC. Lu's research involves researching, creating, and testing full-stack solutions with accessibility in mind. His team is currently building a front-end design system, a full-stack learning management system, and contributing to other open source social justice, economic growth, and environmental sustainability projects.",
+    projects: [projectsHash['microcredential'], projectsHash['impactProj']],
+  },
+  {
+    fullName: "Dennis Morgan",
+    firstName: "Dennis",
+    title: "Senior Game Designer",
+    pic: Dennis,
+    alt: "Dennis pic",
+    linkedInLink: "https://www.linkedin.com/in/dennisrmorgan/",
+    text: "Dennis Morgan is the founder of Harlem CoLab, a digital workforce augmentation agency and social-impact organization that aims to bridge the digital divide in underserved communities. The organization builds a pipeline of talent for technology companies and drives a culture of innovation in New York City's underserved communities. Mr. Morgan is an A'leilia Bundles Community Scholar at Columbia University.",
     projects: [projectsHash['gamingProj']],
   }
 ];
