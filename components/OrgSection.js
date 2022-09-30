@@ -55,7 +55,7 @@ function OrgColumnData({ data, style = blue }) {
 	};
 
 	return (
-		<div className="text-center pb-8 md:pl-3 lg:px-12">
+		<div className="text-center pb-8 md:pl-5">
 			<Image src={data.imageSrc} />
 			<h3 className={`pb-8 font-Poppins ${styleHash[style]}`}>{data.header}</h3>
 			<p>{data.textBody}</p>
@@ -74,7 +74,7 @@ function OrgSection() {
 
 	return (
 		<section className="bg-spec-black-600 p-10 md:p-20">
-			<div className="md:grid md:grid-cols-3 md:grid-rows-4 md:w-4/5 xl:w-1/2 md:m-auto">
+			<div className="gap-4 md:grid md:grid-cols-3 md:grid-rows-4 md:w-4/5 lg:w-3/4 xl:w-2/3 2xl:w-1/2 md:m-auto">
 				<div className="p-12 text-center col-span-3">
 					<Image alt="spec logo" width={120} height={120} src={SpecLogo} />
 					<h1 className="text-3xl text-extrabold pb-2 font-Poppins">Sustainable Progress & Equality Collective</h1>

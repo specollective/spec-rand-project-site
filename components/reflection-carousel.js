@@ -9,7 +9,7 @@ const buttonStyle = {
 
 export default function ReflectionCarousel({ reflectionObjList, borderColor }) {
 	return (
-		<section className="flex justify-center items-center md:w-1/3	p-10 md:p-20">
+		<section className="flex justify-center items-center md:w-4/5 lg:w-3/4 xl:w-2/3 2xl:w-1/2 md:m-auto max-w-lg">
 			<div id="carouselExampleIndicators" className="carousel carousel-fade relative" data-bs-ride="carousel">
 				<section className="carousel-inner relative w-full">
 					{reflectionObjList.map((reflectionObj, index) => {

@@ -71,7 +71,7 @@ function ProjectsSection() {
 	];
 
 	return (
-		<div className="bg-spec-black-600 font-Poppins p-10 md:p-20 md:w-4/5 xl:w-1/2 md:m-auto">
+		<div className="bg-spec-black-600 font-Poppins p-10 md:p-20 md:w-4/5 lg:w-3/4 xl:w-2/3 2xl:w-1/2 md:m-auto">
 			<h2 className="text-6xl md:text-10xl font-bold mb-10 text-center">Projects</h2>
 
 			<section className="grid xs:grid-cols-1 md:grid-cols-11 text-spec-yellow-600 font-medium items-center">

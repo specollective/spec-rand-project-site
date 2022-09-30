@@ -6,7 +6,7 @@ import RAND from '../public/@RAND.svg';
 function TopHeroComponent() {
 	return (
 		<div className="bg-hero-img bg-cover h-auto md:pt-4 lg:pt-10 bg-center text-center font-Poppins lg:pb-32 p-10 md:p-20">
-			<div className="xs:px-10 xs:pt-10 lg:px-20 md:w-4/5 xl:w-1/2 md:m-auto">
+			<div className="xs:px-10 xs:pt-10 lg:px-20 md:w-4/5 lg:w-3/4 xl:w-2/3 2xl:w-1/2 md:m-auto">
 				<div>
 					<Image className="object-scale-down" src={SpecCollab} alt="logo" />
 				</div>
@@ -18,13 +18,13 @@ function TopHeroComponent() {
 						<Image className="object-scale-down" src={RAND} alt="randLogo" />
 					</div>
 				</div>
-				<div className="mt-8 xs:pb-4 md:text-xl lg:pb-8 xl:px-40 2xl:px-60 text-white">
+				<div className="mt-8 xs:pb-4 md:text-xl lg:pb-8 text-white">
 					<p>
 						In February 2022, Sustainable Progress and Equality Collective (SPEC) announced a partnership with the RAND
 						Center to Advance Racial Equity Policy to create and implement CAREP’s flagship Microcredential program.{' '}
 					</p>
 				</div>
-				<div className="md:text-xl xl:px-40 2xl:px-60 text-white">
+				<div className="md:text-xl text-white">
 					<p>
 						A special class of SPEC/RAND Research Associates was comprised of a diverse group of individuals with
 						experience in academic, healthcare, corporate, government, and nonprofit settings to gain in-depth
