@@ -1,4 +1,3 @@
-import Image from 'next/image';
 import ProjectsAccordion from './projects-accordion';
 
 import microcredSnap from '../public/snap_microcredential.svg';
@@ -72,16 +71,17 @@ function ProjectsSection() {
 	];
 
 	return (
-		<div className="bg-spec-black-600 font-Poppins p-10 md:p-20">
-			<h2 className="text-6xl md:text-10xl font-bold py-4 text-center">Projects</h2>
+		<div className="bg-spec-black-600 font-Poppins p-10 md:p-20 md:w-4/5 xl:w-1/2 md:m-auto">
+			<h2 className="text-6xl md:text-10xl font-bold mb-10 text-center">Projects</h2>
 
 			<section className="grid xs:grid-cols-1 md:grid-cols-11 text-spec-yellow-600 font-medium items-center">
-				<h3 className="md:col-span-3 text-lg basis-1/3">CAREP Pillar I - Methods and Action </h3>
+				<h3 className="text-center md:col-span-3 text-lg basis-1/3">CAREP Pillar I - Methods and Action </h3>
 				<span className="xs:hidden md:inline-block rounded-full bg-spec-white-600 h-1.5 w-1.5 align-middle place-self-center"></span>
 
-				<h3 className="md:col-span-3 text-lg  basis-1/3">CAREP Pillar II - Dialogue and Change</h3>
+				<h3 className="text-center md:col-span-3 text-lg basis-1/3">CAREP Pillar II - Dialogue and Change</h3>
 				<span className="xs:hidden md:inline-block rounded-full bg-spec-white-600 h-1.5 w-1.5 align-middle place-self-center"></span>
-				<h3 className="md:col-span-3 text-lg  basis-1/3">CAREP Pillar III - Policy Leadership</h3>
+
+				<h3 className="text-center md:col-span-3 text-lg basis-1/3">CAREP Pillar III - Policy Leadership</h3>
 			</section>
 
 			<p className="py-4 md:20 lg:px-44 text-lg text-center">
