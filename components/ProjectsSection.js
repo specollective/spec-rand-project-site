@@ -5,6 +5,7 @@ import microcredSnap from "../public/snap_microcredential.svg";
 import meepleSnap from "../public/snap_meeple.svg";
 import digitalGallerySnap from "../public/snap_digital_gallery.svg";
 import joERSnap from "../public/snap_JoER.svg";
+import realTimeCollaborationSnap from "../public/real_time_collaboration.svg";
 
 function ProjectsSection() {
   const projectsData = [
@@ -62,11 +63,11 @@ function ProjectsSection() {
       tag: "Created with love through a partnership with Of Ash and Fire",
       info: "This website was designed with love by Ilia de Leon. Nan Eileen Mead headed content creation. The site was built from scratch by development RA’s Crystal Shamsi, Yoline Banerjee, and Victoria Lo. Their process was graciously guided through a partnership with Of Ash and Fire. The site is hosted on GitHub and is open source.",
       pic: {
-        alt: "JoER-image",
-        url: joERSnap,
+        alt: "real-time-collaboration-image",
+        url: realTimeCollaborationSnap,
       },
-      linkLine: "Visit the Journal >>",
-      link: "https://medium.com/journal-of-engaged-research",
+      linkLine: "View the Github Repository >>",
+      link: "https://github.com/specollective/spec-website",
     },
   ];
 
