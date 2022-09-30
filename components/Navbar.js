@@ -36,7 +36,7 @@ function Navbar() {
                 "underline font-bold text-spec-turquoise-600"
             )}
           >
-            Meeple
+            Gaming Project
           </a>
         </Link>
       </div>
@@ -50,7 +50,7 @@ function Navbar() {
                 "underline font-bold text-spec-turquoise-600"
             )}
           >
-            Micro Credential
+            Microcredentials
           </a>
         </Link>
       </div>
