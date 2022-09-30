@@ -1,6 +1,5 @@
-import Image from "next/image"
-import wordCloud from '../public/article_word_cloud.svg'
-
+import Image from 'next/image';
+import wordCloud from '../public/article_word_cloud.svg';
 
 export default function ResearchArticle() {
 	return (
@@ -24,8 +23,9 @@ export default function ResearchArticle() {
 						<p className="font-bold pt-10">Release Date: October 31, 2022</p>
 					</div>
 				</div>
-
-        </div>
+				<div className="md:m-auto md:col-span-2">
+					<Image src={wordCloud} alt="word-cloud" className="flex-grow" />
+				</div>
 			</div>
 		</div>
 	);
