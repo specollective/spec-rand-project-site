@@ -5,14 +5,15 @@ import microcredSnap from "../public/snap_microcredential.svg";
 import meepleSnap from "../public/snap_meeple.svg";
 import digitalGallerySnap from "../public/snap_digital_gallery.svg";
 import joERSnap from "../public/snap_JoER.svg";
+import realTimeCollaborationSnap from "../public/real_time_collaboration.svg";
 
 function ProjectsSection() {
   const projectsData = [
     {
       id: 1,
       name: "Microcredential Project",
-      tag: "Learning Management System",
-      info: "CAREP and SPEC have partnered together on this project with the aim of expanding access to education in the areas of diversity, equity, inclusion (DEI), mass atrocity prevention, game-based learning, and professional development. This project kicked off: November 2021 ",
+      tag: "Expanding access to digital learning resources",
+      info: "This project aimed to expand access to education and professional development in the areas of diversity, equity, inclusion (DEI), mass atrocity prevention, and workplace collaboration and communication. SPEC brought in individuals from diverse backgrounds to develop a series of mini-courses aimed at building these sought-after skills.",
       pic: {
         alt: "mircocred-image",
         url: microcredSnap,
@@ -24,7 +25,7 @@ function ProjectsSection() {
       id: 2,
       name: "Gaming Project",
       tag: "Socio-cultural game-based learning",
-      info: "The aim of this project, funded by RAND's Center to Advance Racial Equity Policy, is to engage and educate the public on topics related to racial equity policy through socio-cultural game-based learning.This project kicked off: December 2021",
+      info: "The aim of this project, funded by RAND's Center to Advance Racial Equity Policy, is to engage and educate the public on topics related to racial equity policy through socio-cultural game-based learning.",
       pic: {
         alt: "meeple-image",
         url: meepleSnap,
@@ -36,16 +37,7 @@ function ProjectsSection() {
       id: 3,
       name: "Digital Expressions Gallery",
       tag: "Digital Expressions of Mass Incarceration Online Gallery",
-      info: (
-        <span>
-          Incarceration can be a particularly traumatizing experience for LGBTQ+
-          individuals. Studies of prison art programs suggest that artistic
-          activities have several benefits for prisoner rehabilitation and
-          institutional management. This gallery of work by LGBTQ+ incarcerated
-          artists was produced during the CAREP/SPEC partnership in
-          collaboration with advocacy group ABO Comix.
-        </span>
-      ),
+      info: "Incarceration can be a particularly traumatizing experience for LGBTQ+ individuals. Studies of prison art programs suggest that artistic activities have several benefits for prisoner rehabilitation and institutional management. This gallery of work by LGBTQ+ incarcerated artists was produced during the CAREP/SPEC partnership in collaboration with advocacy group ABO Comix.",
       pic: {
         alt: "digital-gallery-image",
         url: digitalGallerySnap,
@@ -57,13 +49,25 @@ function ProjectsSection() {
       id: 4,
       name: "Journal of Engaged Research",
       tag: "Sharing Knowledge. Building Communities.",
-      info: "The diversity of the publishing sector does not reflect that of the US population. The Journal of Engaged Research (JoER) elevates the perspectives of emerging scholars, students, artists and activists from historically marginalized groups. During the CAREP/SPEC partnership, collaborators from the Pardee RAND Graduate School, Wabash College and a CAREP Public Discourse Fellow worked with the co editors of JoER to publish articles.",
+      info: "The diversity of the publishing sector does not reflect that of the US population. The Journal of Engaged Research (JoER) elevates the perspectives of emerging scholars, students, artists and activists from historically marginalized groups. During the CAREP/SPEC partnership, collaborators from the Pardee RAND Graduate School, Wabash College and a CAREP Public Discourse Fellow worked with the co-editors of JoER to publish articles.",
       pic: {
         alt: "JoER-image",
         url: joERSnap,
       },
       linkLine: "Visit the Journal >>",
       link: "https://medium.com/journal-of-engaged-research",
+    },
+    {
+      id: 5,
+      name: "Impact Website",
+      tag: "Created with love through a partnership with Of Ash and Fire",
+      info: "This website was designed with love by Ilia de Leon. Nan Eileen Mead headed content creation. The site was built from scratch by development RA’s Crystal Shamsi, Yoline Banerjee, and Victoria Lo. Their process was graciously guided through a partnership with Of Ash and Fire. The site is hosted on GitHub and is open source.",
+      pic: {
+        alt: "real-time-collaboration-image",
+        url: realTimeCollaborationSnap,
+      },
+      linkLine: "View the Github Repository >>",
+      link: "https://github.com/specollective/spec-website",
     },
   ];
 
@@ -82,10 +86,10 @@ function ProjectsSection() {
         <h3 className="md:col-span-3 text-lg  basis-1/3">CAREP Pillar III - Policy Leadership</h3>
       </section>
 
-      <p className="py-4 md:20 lg:px-44  text-lg text-center">
+      <p className="py-4 md:20 lg:px-44 text-lg text-center">
         Embodying all three pillars while moving through the project phase
-        allowed both the SPEC and CAREP teams to learn and grow while creating
-        tangible deliverables which will accelerate learning and up-skilling in
+        allowed the SPEC and CAREP teams to learn and grow while creating
+        tangible deliverables that will accelerate learning and up-skilling in
         pertinent knowledge areas.
       </p>
 
