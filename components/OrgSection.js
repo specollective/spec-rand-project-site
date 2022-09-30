@@ -73,7 +73,7 @@ function OrgSection() {
 	));
 
 	return (
-		<section className="bg-spec-black-600">
+		<section className="bg-spec-black-600 p-10 md:p-20">
 			<div className="md:grid md:grid-cols-3 md:grid-rows-4 md:w-4/5 xl:w-1/2 md:m-auto">
 				<div className="p-12 text-center col-span-3">
 					<Image alt="spec logo" width={120} height={120} src={SpecLogo} />

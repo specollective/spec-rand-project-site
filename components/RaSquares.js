@@ -4,7 +4,7 @@ import Link from 'next/link';
 
 function RaSquares({ profileData }) {
 	return (
-		<div className="align-content-center justify-center md:w-4/5 xl:w-1/2 md:m-auto">
+		<div className="align-content-center justify-center md:w-4/5 xl:w-1/2 md:m-auto p-10 md:p-20">
 			<div className="grid grid-cols-2 align-content-center gap-2 p-2 md:mx-4 justify-items-center lg:grid-cols-4">
 				{profileData.map((profile, id) => {
 					return (
