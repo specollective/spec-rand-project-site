@@ -20,8 +20,8 @@ function RaSquares({ profileData }) {
 								</div>
 							</div>
 							<Image alt={profile.fullName} src={profile.pic} height={280} width={280} layout="responsive" />
-							<div className="md:hidden text-black text-base font-bold text-center">{profile.fullName}</div>
-							<div className="md:hidden text-black text-xs text-center">{profile.title}</div>
+							<div className="md:hidden text-white text-base font-bold text-center">{profile.fullName}</div>
+							<div className="md:hidden text-white text-xs text-center">{profile.title}</div>
 							<div className="flex justify-center p-1 md:hidden">
 								<Link href="/research-assistants">
 									<a className="text-center text-sm">Learn More {'>>'}</a>
