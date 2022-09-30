@@ -29,23 +29,27 @@ const specData = [
 ];
 
 const policyData = [
-	{
-		imageSrc: PillarOne,
-		header: 'Methods and action',
-		textBody:
-			'Identifying the most effective combination of approaches that can have enduring impact on systemic racism.',
-	},
-	{
-		imageSrc: PillarTwo,
-		header: 'Dialogue and change',
-		textBody: 'Changing the narrative around how we talk about racial equity in systems and policies.',
-	},
-	{
-		imageSrc: PillarThree,
-		header: 'Policy leadership',
-		textBody:
-			'Preparing policy leaders and those that influence them to debate, design, and address racial equity going forward.',
-	},
+  {
+    key: "1",
+    imageSrc: RacialEquity,
+    header: <span>Pillar I <br/> Methods and action</span>,
+    textBody:
+      "Identifying the most effective combination of approaches that can have enduring impact on systemic racism.",
+  },
+  {
+    key: "2",
+    imageSrc: RacialEquity,
+    header: <span>Pillar II <br/> Dialogue and change</span>,
+    textBody:
+      "Changing the narrative around how we talk about racial equity in systems and policies.",
+  },
+  {
+    key: "1",
+    imageSrc: RacialEquity,
+    header: <span>Pillar III<br/>Policy leadership</span>,
+    textBody:
+      "Preparing policy leaders and those that influence them to debate, design, and address racial equity going forward.",
+  },
 ];
 
 function OrgColumnData({ data, style = blue }) {
@@ -54,13 +58,21 @@ function OrgColumnData({ data, style = blue }) {
 		yellow: 'text-spec-yellow-600',
 	};
 
-	return (
-		<div className="text-center pb-8 md:pl-5">
-			<Image src={data.imageSrc} />
-			<h3 className={`pb-8 font-Poppins ${styleHash[style]}`}>{data.header}</h3>
-			<p>{data.textBody}</p>
-		</div>
-	);
+  return (
+    <div className="flex flex-col pb-8 md:px-12 lg:px-24">
+      <Image src={data.imageSrc} height={60} width={60} />
+      <h3 className={`font-semibold pt-1 text-lg pb-4 font-Poppins ${styleHash[style]}`}>{data.header}</h3>
+      <p>{data.textBody}</p>
+    </div>
+  );
+}
+
+function Highlight ({children}) {
+  return (
+    <span className="text-spec-yellow-600 font-semibold">
+      {children}
+    </span>
+  )
 }
 
 function OrgSection() {
@@ -68,28 +80,38 @@ function OrgSection() {
 		<OrgColumnData data={data} style="blue" key={`${data.header.replace(' ', '-')}-${index}}`} />
 	));
 
-	const policyDataBody = policyData.map((data, index) => (
-		<OrgColumnData data={data} style="yellow" key={`${data.header.replace(' ', '-')}-${index}}`} />
-	));
+  const policyDataBody = policyData.map((data, index) => (
+    <OrgColumnData data={data} style="yellow" key={data.key}/>
+  ));
 
-	return (
-		<section className="bg-spec-black-600 p-10 md:p-20">
-			<div className="gap-4 md:grid md:grid-cols-3 md:grid-rows-4 md:w-4/5 lg:w-3/4 xl:w-2/3 2xl:w-1/2 md:m-auto">
-				<div className="p-12 text-center col-span-3">
-					<Image alt="spec logo" width={120} height={120} src={SpecLogo} />
-					<h1 className="text-3xl text-extrabold pb-2 font-Poppins">Sustainable Progress & Equality Collective</h1>
-					<p>The center's work is focused on three key components.</p>
-				</div>
-				{specDataBody}
-				<div className="p-12 text-center col-span-3">
-					<Image alt="equity icon" height={120} width={120} src={RacialEquity} />
-					<h2 className="text-3xl text-extrabold pb-2 font-Poppins">Center to Advance Racial Equity Policy</h2>
-					<p>The center's work is focused on three key components.</p>
-				</div>
-				{policyDataBody}
-			</div>
-		</section>
-	);
+  return (
+    <section className="bg-spec-black-600">
+      <div className="container mx-auto text-xl font-medium">
+        <div className="px-4 md:py-16 m-auto md:w-1/2">
+          <p className="tracking-wider text-center">
+            In February 2022, <Highlight>Sustainable Progress and Equality Collective (SPEC) </Highlight>
+            announced a partnership with the RAND Center to Advance Racial Equity Policy to create and implement
+            CAREP's <Highlight>digital educational initiatives</Highlight>. A unique cohort of SPEC/RAND Research
+            Associates was brought in to contribute technical and subject matter expertise to RAND's decades of
+            research to create open and <Highlight>accessible</Highlight> courses focused on bridging
+            the <Highlight>Digital Divide</Highlight> and creating a more <Highlight>inclusive </Highlight>
+            and <Highlight>equitable</Highlight> world.
+          </p>
+        </div>
+      </div>
+      
+      <div>
+        <div className="md:grid md:grid-cols-3 lg:px-36 text-center">
+          {specDataBody}
+        </div>
+      </div>
+      <div>
+        <div className="md:grid md:grid-cols-3 lg:px-36 pb-8 text-center ">
+          {policyDataBody}
+        </div>
+      </div>
+    </section>
+  );
 }
 
 export default OrgSection;
