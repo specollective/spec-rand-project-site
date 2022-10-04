@@ -5,7 +5,7 @@ import hero_left from "../public/homepage_hero_assets/HeroLeft.png";
 
 function TopHeroComponent() {
   return (
-    <div className="md:grid md:grid-cols-2 my-2 md:my-0">
+    <div className="md:grid md:grid-cols-2 md:w-4/5 lg:w-3/4 md:m-auto p-5 md:px-10">
       <div className="cols-span-1">
         <Image src={hero_left} alt="hero left side"/>
       </div>
