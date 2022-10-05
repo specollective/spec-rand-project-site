@@ -64,7 +64,7 @@ function Navbar() {
                 "underline font-bold text-spec-turquoise-600"
             )}
           >
-            Research Assistants
+            Research Program
           </a>
         </Link>
       </div>
