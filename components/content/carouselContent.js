@@ -13,7 +13,7 @@ export const reflectionObjList = [
       name: "Crystal Shamsi",
       image: crystal,
       quote:
-        "Sagittis viverra integer et mauris, sapien enim. Eget quis congue suspendisse elit. Nisi bibendum nisl diam nulla velit, magna eget tincidunt ornare. Et integer rhoncus, magnis quisque ut sollicitudin quam mauris aenean.",
+        "I'm so grateful to be a part of the SPEC team and to have had the opportunity to work on several projects for the RAND corporation. Meeting with Dr. Rhianna Rogers gave me invaluable insight into cultivating cultural competence and how to begin development with the end-user in mind, thereby focusing first and foremost on inclusiveness and accessibility. Having a personal understanding of these principles and how they serve as a foundation for promoting social justice and racial equity online helped guide my vision when I began contributing to RAND-SPEC software development projects. As an associate developer, the mentorship and support I've received from the SPEC and Of Ash and Fire teams have been instrumental to my growth and success.",
       title: "Research Associate",
     },
     {
