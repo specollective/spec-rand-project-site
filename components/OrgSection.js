@@ -59,9 +59,9 @@ function OrgColumnData({ data, style = blue }) {
 	};
 
   return (
-    <div className="flex flex-col pb-8 md:px-12 lg:px-24">
+    <div className="flex flex-col pb-8 gap-4 md:px-12 lg:px-24">
       <Image src={data.imageSrc} height={60} width={60} />
-      <h3 className={`font-semibold pt-1 text-lg pb-4 font-Poppins ${styleHash[style]}`}>{data.header}</h3>
+      <h3 className={`font-semibold pt-1 text-lg pb-2 font-Poppins ${styleHash[style]}`}>{data.header}</h3>
       <p>{data.textBody}</p>
     </div>
   );
@@ -85,9 +85,9 @@ function OrgSection() {
   ));
 
   return (
-    <section className="bg-spec-black-600">
-      <div className="container mx-auto text-xl font-medium">
-        <div className="px-4 md:py-16 m-auto md:w-1/2">
+    <section className="bg-spec-black-600 px-10 md:px-20 py-5 md:py-10">
+      <div className="container mx-auto md:text-xl font-medium">
+        <div className="px-4 py-4 md:py-8 md:mx-auto md:w-1/2">
           <p className="tracking-wider text-center">
             In February 2022, <Highlight>Sustainable Progress and Equality Collective (SPEC) </Highlight>
             announced a partnership with the RAND Center to Advance Racial Equity Policy to create and implement
@@ -101,12 +101,12 @@ function OrgSection() {
       </div>
       
       <div>
-        <div className="md:grid md:grid-cols-3 lg:px-36 text-center">
+        <div className="md:grid md:grid-cols-3 py-2 md:py-10 lg:px-36 text-center">
           {specDataBody}
         </div>
       </div>
       <div>
-        <div className="md:grid md:grid-cols-3 lg:px-36 pb-8 text-center ">
+        <div className="md:grid md:grid-cols-3 py-2 md:py-10 lg:px-36 text-center ">
           {policyDataBody}
         </div>
       </div>
