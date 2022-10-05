@@ -44,7 +44,7 @@ const policyData = [
       "Changing the narrative around how we talk about racial equity in systems and policies.",
   },
   {
-    key: "1",
+    key: "3",
     imageSrc: RacialEquity,
     header: <span>Pillar III<br/>Policy leadership</span>,
     textBody:
