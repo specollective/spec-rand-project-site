@@ -44,7 +44,7 @@ function Footer() {
   return (
     <footer className="hidden md:block h-60 font-Poppins bg-spec-yellow-600">
       <section className="flex justify-evenly text-spec-black-600">
-        <div className="pt-14 w-44 text-center">
+        <div className="pt-10 w-44 text-center">
           <div className="text-center">
             <Image src={SpecLogo} />
           </div>
@@ -53,17 +53,17 @@ function Footer() {
         <div className="h-50 space-y-6 pt-10">
           <Link href="/meeple">
             <a className="block">
-              Meeple
+             Socio-cultural Gaming
             </a>
           </Link>
           <Link href="/micro-credential">
             <a className="block">
-              Micro Credential
+              Microcredential
             </a>
           </Link>
           <Link href="/research-assistants">
             <a className="block">
-              Research Assistants
+              Research Program
             </a>
           </Link>
         </div>
