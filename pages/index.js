@@ -7,7 +7,7 @@ import ReflectionCarousel from '../components/reflection-carousel';
 import ResearchArticle from '../components/researchArticle';
 import ScrollButton from '../components/scroll-button';
 import TopHeroComponent from '../components/TopHeroComponent';
-import { microcredentialsObjList } from '../components/content/carouselContent';
+import { reflectionObjList } from '../components/content/carouselContent';
 import { profileData } from '../components/content/profileContent';
 
 export default function Home() {
@@ -26,7 +26,7 @@ export default function Home() {
 			</div>
 			<ByTheNumbers />
 			<section className="bg-spec-teal-600 flex mt-6 px-8 py-12 justify-center">
-				<ReflectionCarousel reflectionObjList={microcredentialsObjList} borderColor="spec-yellow-600" />
+				<ReflectionCarousel reflectionObjList={reflectionObjList} borderColor="spec-yellow-600" />
 			</section>
 			<ScrollButton />
 		</section>
