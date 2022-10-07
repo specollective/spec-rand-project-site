@@ -3,11 +3,11 @@ import RAprofile from '../components/RAprofile'
 import Dropdown from '../components/RAsDropdown'
 import { profileData } from '../components/content/profileContent'
 
-const ResearchAssistantPage = () => {
+const ResearchProgramPage = () => {
   return (
     <>
       <Head>
-        <title>Research Assistant | Sustainable Progress Equality Collective</title>
+        <title>Research Program</title>
         <link rel="icon" href="/favicon.ico" />
       </Head> 
       <section className='w-screen h-auto md:p-20 bg-spec-black-600'>
@@ -16,11 +16,15 @@ const ResearchAssistantPage = () => {
           <h1 className='text-[50px] md:text-[70px] text-spec-yellow-600 font-extrabold'>
             Meet
             <br />the<br />
-            <span className='text-[65px] md:text-[85px] text-spec-turquoise-600 font-bold'>RAs</span>
+            <span className='text-[65px] md:text-[85px] text-spec-turquoise-600 font-bold'>Team</span>
           </h1>
           </div>
           <div className='inline-block h-auto px-8 md:px-0 md:pt-40 md:text-lg'>
-            <p className=''>The SPEC / CAREP Research associates used open collaboration throughout the project-building process and are excited to continue to share knowledge, and resources, and collaboratively innovate to create systemic change.</p>
+            <p className=''>
+              The SPEC / CAREP research program was led by a diverse and distributed team of researchers, developers, and domain experts
+              from across the United States. Through open collaboration senior contributors worked with SPEC research associates (RA) to
+              share knowledge, develop job skills, and innovate toward systems change.
+            </p>
           </div>
         </div>
         <div className='w-2/3 m-auto text-center md:text-left'>
@@ -39,4 +43,4 @@ const ResearchAssistantPage = () => {
 }
 
 
-export default ResearchAssistantPage
+export default ResearchProgramPage

@@ -56,12 +56,12 @@ function Footer() {
              Socio-cultural Gaming
             </a>
           </Link>
-          <Link href="/micro-credential">
+          <Link href="/microcredentials">
             <a className="block">
               Microcredentials
             </a>
           </Link>
-          <Link href="/research-assistants">
+          <Link href="/research-program">
             <a className="block">
               Research Program
             </a>
