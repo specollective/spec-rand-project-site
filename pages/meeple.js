@@ -42,10 +42,10 @@ const MeeplePage = () => {
           <div className="py-12 md:px-60 lg:px-60 xl:px-96 text-left">
             <p>
               • Develop socio-cultural minigames based on RAND research on
-              racial equity{" "}
+              racial equity
             </p>
             <p>
-              • Develop a new methodological framework that is equity centered{" "}
+              • Develop a new methodological framework that is equity centered
             </p>
             <p>
               • Assess the immediate impact of game-based learning to create
