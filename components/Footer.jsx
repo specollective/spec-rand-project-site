@@ -58,7 +58,7 @@ function Footer() {
           </Link>
           <Link href="/micro-credential">
             <a className="block">
-              Microcredential
+              Microcredentials
             </a>
           </Link>
           <Link href="/research-assistants">

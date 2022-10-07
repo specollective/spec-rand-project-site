@@ -5,7 +5,7 @@ import ReflectionCarousel from '../components/reflection-carousel';
 import StatBox from '../components/stat-box';
 import { microcredentialsObjList } from '../components/content/carouselContent';
 import squiggle from '../public/squiggle.svg';
-import microHeaderImg from '../public/microcredential_dev_img.svg';
+import microHeaderImg from '../public/microcredential_hero.svg';
 import BreakLine from '../components/break-line';
 import { profileData } from '../components/content/profileContent';
 import RaSquares from '../components/RaSquares';
@@ -21,16 +21,18 @@ const MicroCredentialPage = () => {
 				<link rel="icon" href="/favicon.ico" />
 			</Head>
 
-			<Image layout="responsive" src={microHeaderImg} />
+			<section className="hidden md:block">
+				<Image layout="responsive" src={microHeaderImg} />
+			</section>
 
-			<section className="text-center px-5 md:w-4/5 lg:w-3/4 xl:w-2/3 max-w-4xl md:m-auto">
+			<section className="md:hidden text-center px-5 md:w-4/5 lg:w-3/4 xl:w-2/3 max-w-4xl md:m-auto">
 				<h1 className="font-bold text-4xl mt-10">
 					Microcredential Development <br />
 					<small className="text-md font-thin">Project</small>
 				</h1>
 			</section>
 
-			<section className="px-8 mb-10 grid md:w-4/5 lg:w-3/4 xl:w-2/3 max-w-4xl md:m-auto">
+			<section className="px-8 py-4 mb-10 grid md:w-4/5 lg:w-3/4 xl:w-2/3 max-w-4xl md:m-auto">
 				<div>
 					<h2 className="md:justify-start text-spec-yellow-600 font-extrabold text-4xl md:text-5xl leading-relaxed">
 						Intro
@@ -77,7 +79,7 @@ const MicroCredentialPage = () => {
 						Project Goals &amp; Objectives
 					</span>
 				</div>
-				<p>
+				<div className="px-6">
 					<ol className="list-decimal">
 						<li>
 							Create new learning programs in the areas of DEI and professional development designed for CAREP's
@@ -88,7 +90,7 @@ const MicroCredentialPage = () => {
 							educational organizations that use Moodle
 						</li>
 					</ol>
-				</p>
+				</div>
 			</section>
 
 			<section className="lg:flex px-8 mb-10 md:w-4/5 lg:w-3/4 xl:w-2/3 max-w-4xl md:m-auto">
@@ -161,7 +163,7 @@ const MicroCredentialPage = () => {
 					statColor="spec-turquoise-600"
 					inputStat="6500+"
 				>
-					<p>Research Associates (RAs) placed at jobs; externally or through SPEC</p>
+					<p>data points collected</p>
 				</StatBox>
 			</section>
 
