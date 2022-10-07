@@ -4,6 +4,8 @@ import ilia from "./RACircles/ilia_sm_bubble.svg"
 import joeGolden from "./RACircles/joe_g_sm_bubble.svg"
 import luDaley from "./RACircles/lu_sm_bubble.svg"
 import marcus from "./RACircles/marcus_sm_bubble.svg"
+import menoukha from "./RACircles/menoukha_sm_bubble.svg"
+import nan from "./RACircles/nan_sm_bubble.svg"
 import victoria from "./RACircles/victoria_sm_bubble.svg";
 import yoline from "./RACircles/yoline_sm_bubble.svg";
 
@@ -65,11 +67,18 @@ export const reflectionObjList = [
       title: "",
     },
     {
-      name: "",
-      image: joeGolden,
+      name: "Menoukha Robin Case",
+      image: menoukha,
       quote:
-        "",
-      title: "",
+        "I am a Ph.D. Content Advisor and developer of online mini-credentials for SPEC. Over the past 13 years, I've worked with many individuals and several institutions to develop and teach online college courses at undergrad and grad levels. The development process at SPEC is an exceptional pleasure because of its egalitarian intern program. Hearing the voices and sharing content development with people who have diverse approaches, diverse knowledge sources, and stakes in varying outcomes is illuminating. It helped us build inclusive, welcoming courses that have demonstrated strong learning outcomes. Adapting the product of this egalitarian process for an institution such as RAND has also been educational. I appreciate the opportunity.",
+      title: "Ph.D. Content Advisor",
+    },
+    {
+      name: "Nan Eileen Mead",
+      image: nan,
+      quote:
+        "This spring at SPEC, we developed content for a series of microcredentials supporting professionals in the workplace for RAND CAREP. Previously, I worked as a contributing professional in traditional corporate and government hierarchical structures interacting with line managers or department heads. However, this project involved deep collaboration as a team of content developers and one Project Manager. Our team works 100% remotely, but we weren't siloed; many meetings were in-depth strategy sessions discussing the best way to approach the next phase of the project. Our team hails from various academic disciplines across the humanities, social sciences, and different work backgrounds; each brought their content expertise and perspective to the table. Because we operated on a flat structure, we could connect ideas in a way that we would not have if each of us were working alone. It was interesting (and challenging!) to collaborate in this way.",
+      title: "Research Lead",
     },
   ];
 

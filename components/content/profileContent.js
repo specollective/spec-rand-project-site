@@ -92,7 +92,7 @@ export const profileData = [
 	{
 		fullName: 'Menoukha Robin Case',
 		firstName: 'Menoukha',
-		title: 'Content Advisor',
+		title: 'Ph.D. Content Advisor',
 		pic: Menoukha,
 		alt: 'Menouka pic',
 		linkedInLink: 'https://www.linkedin.com/in/menoukha-robin-case-982a611b4/',
