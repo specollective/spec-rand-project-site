@@ -2,7 +2,7 @@ import Head from 'next/head';
 import ByTheNumbers from '../components/byTheNumbers';
 import OrgSection from '../components/OrgSection';
 import ProjectsSection from '../components/ProjectsSection';
-import RaSquares from '../components/RaSquares';
+import MeetRAsSection from '../components/MeetRAsSection';
 import ReflectionCarousel from '../components/reflection-carousel';
 import ResearchArticle from '../components/researchArticle';
 import ScrollButton from '../components/scroll-button';
@@ -21,9 +21,7 @@ export default function Home() {
 			<OrgSection />
 			<ResearchArticle />
 			<ProjectsSection />
-			<div className="bg-spec-teal-600 xs:p-6 md:px-24 md:py-12">
-				<RaSquares profileData={profileData} />
-			</div>
+      <MeetRAsSection />
 			<ByTheNumbers />
 			<section className="bg-spec-teal-600 flex mt-6 px-8 py-12 justify-center">
 				<ReflectionCarousel reflectionObjList={reflectionObjList} borderColor="spec-yellow-600" />
