@@ -77,7 +77,7 @@ const MicroCredentialPage = () => {
 						Project Goals &amp; Objectives
 					</span>
 				</div>
-				<p>
+				<p className="px-6">
 					<ol className="list-decimal">
 						<li>
 							Create new learning programs in the areas of DEI and professional development designed for CAREP's
@@ -161,7 +161,7 @@ const MicroCredentialPage = () => {
 					statColor="spec-turquoise-600"
 					inputStat="6500+"
 				>
-					<p>Research Associates (RAs) placed at jobs; externally or through SPEC</p>
+					<p>data points collected</p>
 				</StatBox>
 			</section>
 
