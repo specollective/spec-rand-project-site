@@ -5,7 +5,7 @@ import ReflectionCarousel from '../components/reflection-carousel';
 import StatBox from '../components/stat-box';
 import { microcredentialsObjList } from '../components/content/carouselContent';
 import squiggle from '../public/squiggle.svg';
-import microHeaderImg from '../public/microcredential_dev_img.svg';
+import microHeaderImg from '../public/microcredential_hero.svg';
 import BreakLine from '../components/break-line';
 import { profileData } from '../components/content/profileContent';
 import RaSquares from '../components/RaSquares';
