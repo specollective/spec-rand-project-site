@@ -3,7 +3,7 @@ import Head from 'next/head';
 import Subfooter from '../components/sub-footer';
 import ReflectionCarousel from '../components/reflection-carousel';
 import StatBox from '../components/stat-box';
-import { microcredentialsObjList } from '../components/content/carouselContent';
+import {reflectionObjList} from '../components/content/carouselContent';
 import squiggle from '../public/squiggle.svg';
 import microHeaderImg from '../public/microcredential_hero.svg';
 import BreakLine from '../components/break-line';
@@ -177,7 +177,7 @@ const MicroCredentialPage = () => {
 			<BreakLine lineWidth="96" lineHeight="1" color="spec-white-600" />
 
 			<section className="flex my-12 justify-center">
-				<ReflectionCarousel reflectionObjList={microcredentialsObjList} borderColor="spec-turquoise-600" />
+				<ReflectionCarousel reflectionObjList={reflectionObjList} borderColor="spec-turquoise-600" />
 			</section>
 			<Subfooter />
 		</section>

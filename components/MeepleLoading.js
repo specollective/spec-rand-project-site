@@ -6,8 +6,8 @@ import MeepleCheck from '../public/meeple_checkmark.svg'
 import MeepleBullet from '../public/meeple_bullet.svg'
 
 function MeepleLoading() {
-  const meepleCheckmark = <div className="text-center inline-block pr-2"><Image width={20} height={20} src={MeepleCheck} /></div>
-  const meepleBullet = <div className="inline-block align-middle pr-2"><Image width={20} height={20} src={MeepleBullet} /></div>
+  const meepleCheckmark = <span className="text-center inline-block pr-2"><Image width={20} height={20} src={MeepleCheck} /></span>
+  const meepleBullet = <span className="inline-block align-middle pr-2"><Image width={20} height={20} src={MeepleBullet} /></span>
 
   const loadingColOne = ['Identify goals & objectives', 'Literature review on RAND research', 'Selection of game topic', 'Selection of game mechanic', 'Produced a development process']
   const loadingColTwo = ['Game design direction ', 'Create moodboards for look and feel', 'Produce UI wireframes']

@@ -1,9 +1,10 @@
 import Head from "next/head";
 import Image from "next/image";
+import BreakLine from '../components/break-line';
 import MeepleMetaverse from "../public/MeepleMetaverse.svg";
 import Meeples from "../public/meeples.svg";
 import ReflectionCarousel from "../components/reflection-carousel";
-import {meepleObjList} from "../components/content/carouselContent";
+import {reflectionObjList} from "../components/content/carouselContent";
 import MeepleLoading from '../components/MeepleLoading';
 import { profileData } from "../components/content/profileContent";
 import RaSquares from "../components/RaSquares";
@@ -41,10 +42,10 @@ const MeeplePage = () => {
           <div className="py-12 md:px-60 lg:px-60 xl:px-96 text-left">
             <p>
               • Develop socio-cultural minigames based on RAND research on
-              racial equity{" "}
+              racial equity
             </p>
             <p>
-              • Develop a new methodological framework that is equity centered{" "}
+              • Develop a new methodological framework that is equity centered
             </p>
             <p>
               • Assess the immediate impact of game-based learning to create
@@ -89,9 +90,12 @@ const MeeplePage = () => {
       </div>
 
       </div>
+
+      <BreakLine lineWidth="96" lineHeight="1" color="spec-white-600" />
+      
       <section className="flex my-12 justify-center">
         <ReflectionCarousel
-          reflectionObjList={meepleObjList}
+          reflectionObjList={reflectionObjList}
           borderColor="spec-turquoise-600"
         />
       </section>
