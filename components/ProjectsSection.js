@@ -18,7 +18,7 @@ function ProjectsSection() {
 				url: microcredSnap,
 			},
 			linkLine: 'View Project Details >>',
-			link: '/micro-credential',
+			link: '/microcredentials',
 		},
 		{
 			id: 2,

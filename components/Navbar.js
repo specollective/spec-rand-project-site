@@ -42,7 +42,7 @@ function Navbar() {
       </div>
 
       <div className="relative inline-block text-left">
-        <Link href="/micro-credential">
+        <Link href="/microcredentials">
           <a
             className={clsx(
               "inline-flex w-full justify-center rounded-md px-4 py-2 text-lg font-medium shadow-sm focus:outline-none hover:underline",
@@ -56,7 +56,7 @@ function Navbar() {
       </div>
 
       <div className="relative inline-block text-left">
-        <Link href="/research-assistants">
+        <Link href="/research-program">
           <a
             className={clsx(
               "inline-flex w-full justify-center rounded-md px-4 py-2 text-lg font-medium shadow-sm focus:outline-none hover:underline",
