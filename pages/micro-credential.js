@@ -21,16 +21,18 @@ const MicroCredentialPage = () => {
 				<link rel="icon" href="/favicon.ico" />
 			</Head>
 
-			<Image layout="responsive" src={microHeaderImg} />
+			<section className="hidden md:block">
+				<Image layout="responsive" src={microHeaderImg} />
+			</section>
 
-			<section className="text-center px-5 md:w-4/5 lg:w-3/4 xl:w-2/3 max-w-4xl md:m-auto">
+			<section className="md:hidden text-center px-5 md:w-4/5 lg:w-3/4 xl:w-2/3 max-w-4xl md:m-auto">
 				<h1 className="font-bold text-4xl mt-10">
 					Microcredential Development <br />
 					<small className="text-md font-thin">Project</small>
 				</h1>
 			</section>
 
-			<section className="px-8 mb-10 grid md:w-4/5 lg:w-3/4 xl:w-2/3 max-w-4xl md:m-auto">
+			<section className="px-8 py-4 mb-10 grid md:w-4/5 lg:w-3/4 xl:w-2/3 max-w-4xl md:m-auto">
 				<div>
 					<h2 className="md:justify-start text-spec-yellow-600 font-extrabold text-4xl md:text-5xl leading-relaxed">
 						Intro
