@@ -52,7 +52,7 @@ export const profileData = [
 	{
 		fullName: 'Crystal Shamsi',
 		firstName: 'Crystal',
-		title: 'Research Associate / Design Lead',
+		title: 'Research Associate / Software Engineer',
 		pic: Crystal,
 		alt: 'Crystal pic',
 		linkedInLink: 'https://www.linkedin.com/in/crystalshamsi/',
@@ -62,7 +62,7 @@ export const profileData = [
 	{
 		fullName: 'Ilia de Leon',
 		firstName: 'Ilia',
-		title: 'Research Associate',
+		title: 'Research Associate / Design Lead',
 		pic: Ilia,
 		alt: 'Ilia pic',
 		linkedInLink: 'https://www.linkedin.com/in/iliadeleon/',
@@ -72,7 +72,7 @@ export const profileData = [
 	{
 		fullName: 'Joe Golden',
 		firstName: 'Joe',
-		title: 'Research Associate',
+		title: 'Research Associate / Curator',
 		pic: Joe,
 		alt: 'Joe pic',
 		linkedInLink: 'https://www.linkedin.com/in/joseph-golden-36a0465a/',
@@ -82,7 +82,7 @@ export const profileData = [
 	{
 		fullName: 'Marcus Steiner',
 		firstName: 'Marcus',
-		title: 'Operations Lead',
+		title: 'LMS Manager',
 		pic: Marcus,
 		alt: 'Marcus pic',
 		linkedInLink: 'https://www.linkedin.com/in/msteiner12/',
@@ -92,7 +92,7 @@ export const profileData = [
 	{
 		fullName: 'Menoukha Robin Case',
 		firstName: 'Menoukha',
-		title: 'Content Advisor',
+		title: 'Ph.D. Content Advisor',
 		pic: Menoukha,
 		alt: 'Menouka pic',
 		linkedInLink: 'https://www.linkedin.com/in/menoukha-robin-case-982a611b4/',
@@ -112,7 +112,7 @@ export const profileData = [
 	{
 		fullName: 'Ollie Oliver',
 		firstName: 'Ollie',
-		title: 'Title',
+		title: 'Research Associate / Curator',
 		pic: Ollie,
 		alt: 'Ollie pic',
 		linkedInLink: 'https://www.linkedin.com/in/naneileenmead/',
