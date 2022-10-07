@@ -1,6 +1,8 @@
-import yoline from "../../public/yoline_sm_bubble.svg";
-import crystal from "../../public/crystal_sm_bubble.svg";
-import victoria from "../../public/victoria_sm_bubble.svg";
+import alicia from "./RACircles/alicia_sm_bubble.svg";
+import crystal from "./RACircles/crystal_sm_bubble.svg";
+import ilia from "./RACircles/ilia_sm_bubble.svg"
+import victoria from "./RACircles/victoria_sm_bubble.svg";
+import yoline from "./RACircles/yoline_sm_bubble.svg";
 
 export const reflectionObjList = [
     {
@@ -25,11 +27,18 @@ export const reflectionObjList = [
       title: "Research Associate",
     },
     {
-      name: "Crystal Shamsi",
-      image: crystal,
+      name: "Alicia Bong",
+      image: alicia,
       quote:
-        "Sagittis viverra integer et mauris, sapien enim. Eget quis congue suspendisse elit. Nisi bibendum nisl diam nulla velit, magna eget tincidunt ornare. Et integer rhoncus, magnis quisque ut sollicitudin quam mauris aenean.",
-      title: "Research Associate",
+        "I came to SPEC interested in growing my project management skills and was happy to join the RA cohort working with RAND on building microcredentials and developing educational games. I've received mentorship through this collaboration, helping me become a better leader for the SPEC team. Improving asynchronous communication habits, motivating individual members, and working on projects that advance the greater good has been the best part of this position. There were differences in opinion at times, and working collaboratively to find common ground was especially rewarding. It is astounding to see how much our team and I have grown and accomplished during the past few months while helping create valuable educational resources to improve diversity, equity, and inclusion-centered training.",
+      title: "Project Manager",
+    },
+    {
+      name: "Ilia de Leon",
+      image: ilia,
+      quote:
+        "Working on the RAND gaming project has been such an informative experience for me. I began helping with research and learned new methods and knowledge about RAND and each potential topic for the game idea. Once the game topic was chosen, it was great to be able to dive deeper into the research articles on that topic to gain more insight into the game direction. I was also offered the opportunity to participate in and complete the CITI Program training. During this course, I learned about the history and principles of research on human subjects. Not only did this help me on the RAND gaming project but also in future opportunities. I am so grateful for this experience. The leaders and mentors have guided me through the process, and I have gained new knowledge. I know I am now a better researcher, designer, and team member.",
+      title: "",
     },
   ];
 
