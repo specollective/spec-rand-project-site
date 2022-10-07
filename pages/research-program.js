@@ -8,7 +8,7 @@ const ResearchProgramPage = () => {
     <>
       <Head>
         <title>Research Program</title>
-        <link rel="icon" href="/favicon.ico" />
+        <link rel="icon" type="image/png" href="/favicon-16x16.png"/>
       </Head> 
       <section className='w-screen h-auto md:p-20 bg-spec-black-600'>
         <div className='md:flex md:space-x-24 lg:px-60'>

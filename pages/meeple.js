@@ -18,7 +18,7 @@ const MeeplePage = () => {
     <section className="bg-spec-black-600">
       <Head>
         <title>Meeple | Sustainable Progress Equality Collective</title>
-        <link rel="icon" href="/favicon.ico" />
+        <link rel="icon" type="image/png" href="/favicon-16x16.png"/>
       </Head>
       <div className="p-12 bg-spec-black-600 text-center">
         <div className="pb-8 lg:py-32">

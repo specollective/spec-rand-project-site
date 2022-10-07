@@ -15,7 +15,7 @@ export default function Home() {
 		<section className="bg-spec-blue-600">
 			<Head>
 				<title>Sustainable Progress Equality Collective</title>
-				<link rel="icon" href="/favicon.ico" />
+				<link rel="icon" type="image/png" href="/favicon-16x16.png"/>
 			</Head>
 			<TopHeroComponent />
 			<OrgSection />
