@@ -1,9 +1,10 @@
 import Head from "next/head";
 import Image from "next/image";
+import BreakLine from '../components/break-line';
 import MeepleMetaverse from "../public/MeepleMetaverse.svg";
 import Meeples from "../public/meeples.svg";
 import ReflectionCarousel from "../components/reflection-carousel";
-import {meepleObjList} from "../components/content/carouselContent";
+import {reflectionObjList} from "../components/content/carouselContent";
 import MeepleLoading from '../components/MeepleLoading';
 import { profileData } from "../components/content/profileContent";
 import RaSquares from "../components/RaSquares";
@@ -89,9 +90,12 @@ const MeeplePage = () => {
       </div>
 
       </div>
+
+      <BreakLine lineWidth="96" lineHeight="1" color="spec-white-600" />
+      
       <section className="flex my-12 justify-center">
         <ReflectionCarousel
-          reflectionObjList={meepleObjList}
+          reflectionObjList={reflectionObjList}
           borderColor="spec-turquoise-600"
         />
       </section>
