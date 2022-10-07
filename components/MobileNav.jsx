@@ -55,7 +55,7 @@ function MobileNav() {
 						<br />
 						<Link href="/meeple">Socio-cultural Gaming</Link>
 						<br />
-						<Link href="/micro-credential">Microcredentials</Link>
+						<Link href="/microcredentials">Microcredentials</Link>
 						<br />
 						<Link href="/research-assistants">Research Program</Link>
 						<br />
