@@ -79,7 +79,7 @@ const MicroCredentialPage = () => {
 						Project Goals &amp; Objectives
 					</span>
 				</div>
-				<p className="px-6">
+				<div className="px-6">
 					<ol className="list-decimal">
 						<li>
 							Create new learning programs in the areas of DEI and professional development designed for CAREP's
@@ -90,7 +90,7 @@ const MicroCredentialPage = () => {
 							educational organizations that use Moodle
 						</li>
 					</ol>
-				</p>
+				</div>
 			</section>
 
 			<section className="lg:flex px-8 mb-10 md:w-4/5 lg:w-3/4 xl:w-2/3 max-w-4xl md:m-auto">
