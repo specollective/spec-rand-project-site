@@ -8,6 +8,7 @@ import {reflectionObjList} from "../components/content/carouselContent";
 import MeepleLoading from '../components/MeepleLoading';
 import { profileData } from "../components/content/profileContent";
 import RaSquares from "../components/RaSquares";
+import Subfooter from '../components/sub-footer';
 
 
 const MeeplePage = () => {
@@ -99,6 +100,8 @@ const MeeplePage = () => {
           borderColor="spec-turquoise-600"
         />
       </section>
+
+      <Subfooter />
     </section>
   );
 };
