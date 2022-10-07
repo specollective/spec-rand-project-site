@@ -6,7 +6,6 @@ import MeetRAsSection from '../components/MeetRAsSection';
 import ReflectionCarousel from '../components/reflection-carousel';
 import ResearchArticle from '../components/researchArticle';
 import Subfooter from '../components/sub-footer';
-import ScrollButton from '../components/scroll-button';
 import TopHeroComponent from '../components/TopHeroComponent';
 import { reflectionObjList } from '../components/content/carouselContent';
 import { profileData } from '../components/content/profileContent';
@@ -28,7 +27,6 @@ export default function Home() {
 				<ReflectionCarousel reflectionObjList={reflectionObjList} borderColor="spec-yellow-600" />
 			</section>
 			<Subfooter color="spec-teal-600"/>
-			<ScrollButton />
 		</section>
 	);
 }
