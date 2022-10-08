@@ -51,7 +51,7 @@ function Footer() {
           {socialLinks}
         </div>
         <div className="h-50 space-y-6 pt-10">
-          <Link href="/meeple">
+          <Link href="/socio-cultural-gaming">
             <a className="block">
              Socio-cultural Gaming
             </a>
