@@ -3,11 +3,13 @@ export default function Subfooter({
 }) {
   return (
     <div
-      className={`bg-${color} flex justify-center p-20 md:p-10 px-4 text-center text-sm text-slate-100 font-medium`}
+      className={`bg-${color} px-10 pb-10 md:text-center content-center text-sm text-slate-100 font-medium`}
     >
-      Funding for this research was provided by unrestricted gifts from RAND
-      supporters and income from operations, with which RAND established the
-      Center to Advance Racial Equity Policy in 2020.
+      <p className="m-auto md:w-3/6 text-lg font-normal">
+        Funding for this research was provided by unrestricted gifts from RAND
+        supporters and income from operations, with which RAND established the
+        Center to Advance Racial Equity Policy in 2020.
+      </p>
     </div>
   );
 }
