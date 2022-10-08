@@ -19,7 +19,7 @@ const projectsHash = {
 	},
 	gamingProj: {
 		name: 'gamingProj',
-		path: '/meeple',
+		path: '/socio-cultural-gaming',
 		content: 'Gaming Project',
 	},
 	impactProj: {

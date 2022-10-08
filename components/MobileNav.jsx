@@ -53,11 +53,11 @@ function MobileNav() {
 						</button>
 						<Link href="/">Home</Link>
 						<br />
-						<Link href="/meeple">Socio-cultural Gaming</Link>
+						<Link href="/socio-cultural-gaming">Socio-cultural Gaming</Link>
 						<br />
 						<Link href="/microcredentials">Microcredentials</Link>
 						<br />
-						<Link href="/research-assistants">Research Program</Link>
+						<Link href="/research-program">Research Program</Link>
 						<br />
 					</div>
 				</div>
