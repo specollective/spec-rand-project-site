@@ -14,7 +14,7 @@ function RaSquares({ profileData }) {
 								<p className="mx-auto">{profile.title}</p>
 								<br></br>
 								<div className="xs:hidden md:inline-block">
-									<Link href="/research-assistants">
+									<Link href="/research-program">
 										<a className="mx-auto text-sm hover:underline">Learn More {'>>'}</a>
 									</Link>
 								</div>
@@ -23,7 +23,7 @@ function RaSquares({ profileData }) {
 							<div className="md:hidden text-white text-base font-bold text-center">{profile.fullName}</div>
 							<div className="md:hidden text-white text-xs text-center">{profile.title}</div>
 							<div className="flex justify-center p-1 md:hidden">
-								<Link href="/research-assistants">
+								<Link href="/research-program">
 									<a className="text-center text-sm">Learn More {'>>'}</a>
 								</Link>
 							</div>
