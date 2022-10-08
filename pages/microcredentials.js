@@ -18,7 +18,7 @@ const MicroCredentialPage = () => {
 		<section className="bg-spec-black-600">
 			<Head>
 				<title>Microcredentials | Sustainable Progress Equality Collective</title>
-				<link rel="icon" href="/favicon.ico" />
+				<link rel="icon" type="image/png" href="/favicon-16x16.png"/>
 			</Head>
 
 			<section className="hidden md:block">
