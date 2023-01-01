@@ -30,7 +30,7 @@ function ProjectsSection() {
 				url: meepleSnap,
 			},
 			linkLine: 'View Project Details >>',
-			link: '/meeple',
+			link: '/socio-cultural-gaming',
 		},
 		{
 			id: 3,
