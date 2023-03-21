@@ -90,7 +90,7 @@ function OrgSection() {
         <div className="px-4 py-4 md:py-8 md:mx-auto md:w-1/2">
           <p className="tracking-wider text-center">
             In February 2022, <Highlight>Sustainable Progress and Equality Collective (SPEC) </Highlight>
-            announced a partnership with the RAND Center to Advance Racial Equity Policy to create and implement
+            announced a partnership with the RAND Corporation's Center to Advance Racial Equity Policy to create and implement
             CAREP's <Highlight>digital educational initiatives</Highlight>. A unique cohort of SPEC/RAND Research
             Associates was brought in to contribute technical and subject matter expertise to RAND's decades of
             research to create open and <Highlight>accessible</Highlight> courses focused on bridging
