@@ -19,7 +19,7 @@ export default function ByTheNumbers() {
 			>
 				<p>
 					of individuals inside the organization come from diverse backgrounds; that might include visible/invisible
-					diabilities, LGBTQ+, women, people of color.
+					disabilities, LGBTQ+, women, people of color.
 				</p>
 			</StatBox>
 			<StatBox
