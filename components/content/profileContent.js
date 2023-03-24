@@ -143,6 +143,20 @@ export const profileData = [
       "Victoria Lo graduated from San Jose State University with a B.S. in Health Science Administration. She has spent six years in Operations for health start-ups. She is curious by nature and fueled by the need to help others. Using websites, applications, and other technologies, she went from helping thousands of people in one clinic to millions across the nation. With that scale of impact, she knew coding would be her next journey. Victoria then completed a full-stack software engineering program to havedirect experience in building products that scale. With grit and armed with new skills, she is ready for a new challenge.",
     projects: [projectsHash["microcredential"], projectsHash["impactProj"]],
   },
+
+  {
+    fullName: "Sharleen Loh",
+    firstName: "Sharleen",
+    title: " ",
+    pic: Sharleen,
+    alt: "Sharleen pic",
+    linkedInLink: "https://www.linkedin.com/in/sharleen-loh/",
+    text:
+      "Sharleen is an educational game design MS student at Columbia University Teachers College. She received a bachelor’s degree in psychology from Harvard University. She is passionate about making lifelong learning playful and accessible.",
+    projects: [
+      projectsHash["gamingProj"],
+    ],
+  },
   {
     fullName: "Nan Eileen Mead",
     firstName: "Nan",
@@ -200,7 +214,7 @@ export const profileData = [
     linkedInLink: "https://www.linkedin.com/in/jie-jolin-shen-4333b61b9/",
     text:
       "Jolin is a first-year master's student at Teachers College, Columbia University where she is majoring in Communication and Education. Jolin graduated from the University of Washington, Seattle in 2021 with a BA, double major in Communication and Cinema and Media Studies. She is interested in studying the role of communication technologies in education and has worked for various companies in the communication field.",
-    projects: [ projectsHash["gamingProj"]],
+    projects: [projectsHash["gamingProj"]],
   },
   {
     fullName: "Marcus Steiner",
