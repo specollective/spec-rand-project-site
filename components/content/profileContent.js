@@ -192,6 +192,17 @@ export const profileData = [
     projects: [projectsHash["microcredential"], projectsHash["impactProj"]],
   },
   {
+    fullName: "Jie (Jolin) Shen",
+    firstName: "Jolin",
+    title: " ",
+    pic: Jolin,
+    alt: "Jolin pic",
+    linkedInLink: "https://www.linkedin.com/in/jie-jolin-shen-4333b61b9/",
+    text:
+      "Jolin is a first-year master's student at Teachers College, Columbia University where she is majoring in Communication and Education. Jolin graduated from the University of Washington, Seattle in 2021 with a BA, double major in Communication and Cinema and Media Studies. She is interested in studying the role of communication technologies in education and has worked for various companies in the communication field.",
+    projects: [ projectsHash["gamingProj"]],
+  },
+  {
     fullName: "Marcus Steiner",
     firstName: "Marcus",
     title: "LMS Manager",
