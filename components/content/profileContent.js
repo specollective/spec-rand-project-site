@@ -161,12 +161,12 @@ export const profileData = [
   {
     fullName: "Dennis Morgan",
     firstName: "Dennis",
-    title: "Senior Game Designer",
+    title: "Lead Game Designer",
     pic: Dennis,
     alt: "Dennis pic",
     linkedInLink: "https://www.linkedin.com/in/dennisrmorgan/",
     text:
-      "Dennis Morgan is the founder of Harlem CoLab, a digital workforce augmentation agency and social-impact organization that aims to bridge the digital divide in underserved communities. The organization builds a pipeline of talent for technology companies and drives a culture of innovation in New York City's underserved communities. Mr. Morgan is an A'leilia Bundles Community Scholar at Columbia University.",
+      "Dennis is a game designer with over 20 years of design, production, and development experience in education/serious games and games for entertainment. He is also the founder of Harlem CoLab, a digital workforce augmentation agency and social-impact organization that aims to bridge the digital divide in underserved communities. The organization builds a pipeline of talent for technology companies and drives a culture of innovation in New York City’s underserved communities. Mr. Morgan is an A’leilia Bundles Community Scholar at Columbia University.",
     projects: [projectsHash["gamingProj"]],
   },
   {
