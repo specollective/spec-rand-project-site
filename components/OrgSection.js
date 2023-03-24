@@ -89,17 +89,31 @@ function OrgSection() {
       <div className="container mx-auto md:text-xl font-medium">
         <div className="px-4 py-4 md:py-8 md:mx-auto md:w-1/2">
           <p className="tracking-wider text-center">
-            In February 2022, <Highlight>Sustainable Progress and Equality Collective (SPEC) </Highlight>
-            announced a partnership with the RAND Center to Advance Racial Equity Policy to create and implement
-            CAREP's <Highlight>digital educational initiatives</Highlight>. A unique cohort of SPEC/RAND Research
-            Associates was brought in to contribute technical and subject matter expertise to RAND's decades of
-            research to create open and <Highlight>accessible</Highlight> courses focused on bridging
-            the <Highlight>Digital Divide</Highlight> and creating a more <Highlight>inclusive </Highlight>
-            and <Highlight>equitable</Highlight> world.
+            {/* In February 2022,{" "}
+            <Highlight>
+              Sustainable Progress and Equality Collective (SPEC){" "}
+            </Highlight>
+            announced a partnership with the RAND Center to Advance Racial
+            Equity Policy to create and implement CAREP's{" "}
+            <Highlight>digital educational initiatives</Highlight>. A unique
+            cohort of SPEC/RAND Research Associates was brought in to contribute
+            technical and subject matter expertise to RAND's decades of research
+            to create open and <Highlight>accessible</Highlight> courses focused
+            on bridging the <Highlight>Digital Divide</Highlight> and creating a
+            more <Highlight>inclusive </Highlight>
+            and <Highlight>equitable</Highlight> world.*/}{" "}
+            In February 2022,{" "}
+            <Highlight>
+              the Sustainable Progress and Equality Collective (SPEC) and the
+              RAND Corporation’s Center to Advance Racial Equity Policy
+            </Highlight>{" "}
+          established a <Highlight> four year {" "}</Highlight>partnership centered
+            on <Highlight>digital educational initiatives,</Highlight> with SPEC
+            leading content development and RAND providing research oversight.
           </p>
         </div>
       </div>
-      
+
       <div>
         <div className="md:grid md:grid-cols-3 py-2 md:py-10 lg:px-36 text-center">
           {specDataBody}
