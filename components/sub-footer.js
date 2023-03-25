@@ -6,9 +6,11 @@ export default function Subfooter({
       className={`bg-${color} px-10 pb-10 md:text-center content-center text-sm text-slate-100 font-medium`}
     >
       <p className="m-auto md:w-3/6 text-lg font-normal">
-        Funding for this research was provided by unrestricted gifts from RAND
-        supporters and income from operations, with which RAND established the
-        Center to Advance Racial Equity Policy in 2020.
+        This research was funded by the RAND Center to Advance Racial Equity
+        Policy, which was established in 2020 with funding from donor
+        contributions and the RAND Corporation’s own resources.The work produced
+        by the collaborative does not necessarily reflect the views of RAND
+        Corporation or its research sponsors.
       </p>
     </div>
   );
