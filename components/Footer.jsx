@@ -52,26 +52,21 @@ function Footer() {
         </div>
         <div className="h-50 space-y-6 pt-10">
           <Link href="/socio-cultural-gaming">
-            <a className="block">
-             Socio-cultural Gaming
-            </a>
+            <a className="block">Socio-cultural Gaming</a>
           </Link>
           <Link href="/microcredentials">
-            <a className="block">
-              Microcredentials
-            </a>
+            <a className="block">Microcredentials</a>
           </Link>
           <Link href="/research-program">
-            <a className="block">
-              Research Program
-            </a>
+            <a className="block">Research Program</a>
           </Link>
         </div>
         <div className="h-50 space-y-6 pt-10">
           <Link href="https://opencollective.com/spec/contribute">
-            <a className="block">
-              Donate
-            </a>
+            <a className="block">Donate: SPEC</a>
+          </Link>
+          <Link href="https://campaign.rand.org/give/">
+            <a className="block">Donate: RAND/CAREP</a>
           </Link>
         </div>
       </section>
