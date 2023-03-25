@@ -89,6 +89,8 @@ function OrgSection() {
       <div className="container mx-auto md:text-xl font-medium">
         <div className="px-4 py-4 md:py-8 md:mx-auto md:w-1/2">
           <p className="tracking-wider text-center">
+
+
          
             In February 2022,{" "}
             <Highlight>
@@ -98,6 +100,7 @@ function OrgSection() {
           established a <Highlight> four year {" "}</Highlight>partnership centered
             on <Highlight>digital educational initiatives,</Highlight> with SPEC
             leading content development and RAND providing research oversight.
+
           </p>
         </div>
       </div>
