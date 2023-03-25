@@ -9,7 +9,8 @@ function MeepleLoading() {
   const meepleCheckmark = <span className="text-center inline-block pr-2"><Image width={20} height={20} src={MeepleCheck} /></span>
   const meepleBullet = <span className="inline-block align-middle pr-2"><Image width={20} height={20} src={MeepleBullet} /></span>
 
-  const loadingColOne = ['Identify goals & objectives', 'Literature review on RAND research', 'Selection of game topic', 'Selection of game mechanic', 'Produced a development process']
+  const loadingColOne = ['Identify goals & objectives', 'Literature review on 
+   research', 'Selection of game topic', 'Selection of game mechanic', 'Produced a development process']
   const loadingColTwo = ['Game design direction ', 'Create moodboards for look and feel', 'Produce UI wireframes']
   const loadingColThree = ['Final content approved', 'Alpha game delivered', 'Produce UI wireframes', 'Initial testing and responses']
 
