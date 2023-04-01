@@ -1,11 +1,10 @@
 import Head from "next/head";
 import Image from "next/image";
 import BreakLine from '../components/break-line';
-import MeepleMetaverse from "../public/MeepleMetaverse.svg";
-import Meeples from "../public/meeples.svg";
-import ReflectionCarousel from "../components/reflection-carousel";
-import {reflectionObjList} from "../components/content/carouselContent";
-import MeepleLoading from '../components/MeepleLoading';
+
+import NCEI from "../public/NCEI.svg";
+import NCEILogo from "../public/NCEI_Logo_Transparent.svg";
+import NCEIGroup from "../public/NCEI_group.svg";
 import { profileData } from "../components/content/profileContent";
 import RaSquares from "../components/RaSquares";
 import Subfooter from '../components/sub-footer';
@@ -22,7 +21,7 @@ const NationalCoaltionEquityImpactPage = () => {
       </Head>
       <div className="p-12 bg-spec-black-600 text-center">
         <div className="pb-8 lg:py-32">
-          <Image src={MeepleMetaverse} alt="meeple hero" />
+          <Image src={NCEI} alt="meeple hero" />
         </div>
         <div className="md:grid md:grid-cols-2 lg:px-24 xl:px-60 text-left">
           <h1 className="pb-8 px-8 xs:text-center md:text-left text-5xl text-spec-yellow-600">
@@ -40,7 +39,7 @@ const NationalCoaltionEquityImpactPage = () => {
         </div>
         <div>
           <div className="text-center">
-            <Image src={Meeples} alt="meeples" />
+            <Image src={NCEIGroup} alt="meeples" />
           </div>
         </div>
         <div className="py-20 md:grid md:grid-cols-2 lg:px-24 xl:px-60 text-left">
@@ -59,17 +58,24 @@ const NationalCoaltionEquityImpactPage = () => {
             </p>
           </div>
         </div>
-        <MeepleLoading />
+
+        <h1 className="pb-8 px-8 text-5xl xs:text-center md:text-center text-spec-yellow-600">
+          Logo Design
+        </h1>
+        <div className="text-center">
+          <Image src={NCEILogo} alt="NCEILogo" />
+        </div>
+ 
       </div>
 
       <BreakLine lineWidth="96" lineHeight="1" color="spec-white-600" />
 
-      <section className="flex my-12 justify-center">
+      {/* <section className="flex my-12 justify-center">
         <ReflectionCarousel
           reflectionObjList={reflectionObjList}
           borderColor="spec-turquoise-600"
         />
-      </section>
+      </section> */}
 
       <Subfooter />
     </section>
