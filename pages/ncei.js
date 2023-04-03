@@ -20,29 +20,31 @@ const NationalCoaltionEquityImpactPage = () => {
         <title>Meeple | Sustainable Progress Equality Collective</title>
         <link rel="icon" type="image/png" href="/favicon-16x16.png" />
       </Head>
+
       <div className="p-12 bg-spec-black-600 text-center">
         <div className="pb-8 lg:py-32">
           <Image src={NCEI} alt="NCEI logo" />
         </div>
         <div className="md:grid md:grid-cols-2 lg:px-24 xl:px-60 text-left">
-          <h1 className="pb-8 px-8 xs:text-center md:text-left text-5xl text-spec-yellow-600">
-            Intro
-          </h1>
-          <p>
-            Conversations of racial and gender equity are advancing to the
-            forefront in the living room and the boardroom. The collective
-            consciousness around systemic inequities and identity has expanded.
-            To meet this expansion, Diversity, Equity, and Inclusion (DEI) work
-            across sectors has exploded, as has the number of practitioners
-            engaging in DEI work. NCEI was formed to create a community of
-            people who want to change the world!
-          </p>
-        </div>
-        <div>
           <div className="text-center">
             <Image src={NCEIGroup} alt="meeples" />
           </div>
+          <div>
+            <h1 className="pb-8 px-8 xs:text-center md:text-left text-5xl text-spec-yellow-600">
+              Intro
+            </h1>
+            <p>
+              Conversations of racial and gender equity are advancing to the
+              forefront in the living room and the boardroom. The collective
+              consciousness around systemic inequities and identity has
+              expanded. To meet this expansion, Diversity, Equity, and Inclusion
+              (DEI) work across sectors has exploded, as has the number of
+              practitioners engaging in DEI work. NCEI was formed to create a
+              community of people who want to change the world!
+            </p>
+          </div>
         </div>
+        <div></div>
         <div className="py-20 md:grid md:grid-cols-2 lg:px-24 xl:px-60 text-left">
           <h1 className="pb-8 px-8 text-5xl xs:text-center md:text-left text-spec-yellow-600">
             Project Overview
