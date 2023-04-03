@@ -7,13 +7,12 @@ import NCEILogo from "../public/NCEI_Logo_Transparent.svg";
 import NCEIGroup from "../public/NCEI_group.svg";
 import designDraft1 from "../public/designDraft1.svg";
 import designDraft2 from "../public/designDraft2.svg";
-
 import RaSquares from "../components/RaSquares";
 import Subfooter from "../components/sub-footer";
 
 const NationalCoaltionEquityImpactPage = () => {
   const nceiProfiles = profileData.filter((profile) => {
-    return profile.projects.find(project => project.name === "journalProj")
+    return profile.projects.find(project => project.name === "NCEIProj")
   })
   return (
     <section className="bg-spec-black-600">

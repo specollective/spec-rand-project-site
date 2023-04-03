@@ -39,6 +39,11 @@ const projectsHash = {
 		name: 'journalProj',
 		path: 'https://medium.com/journal-of-engaged-research',
 		content: 'Journal of Engaged Research',
+  },
+  NCEIProj: {
+		name: 'NCEIProj',
+		path: '',
+		content: 'National Coalition for Equity Impact',
 	},
 };
 
@@ -52,7 +57,7 @@ export const profileData = [
     linkedInLink: "https://www.linkedin.com/in/yolineb/",
     text:
       "Yoline Banerjee is a research associate for SPEC. With a B.A. in Sociology and a minor in Education from UC Berkeley, Yoline has worked in various educational roles. She then went into Health Services by managing COVID testing sites. After experiencing different programs and web applications that had her thinking, “there has to be a better way,” she pivoted into the tech industry and graduated from Hackbright’s software engineering program. She is excited to combine her passion for working with the community and developing her coding skills to build systems that will help people learn, grow, and thrive.",
-    projects: [projectsHash["microcredential"], projectsHash["impactProj"]],
+    projects: [projectsHash["microcredential"], projectsHash["impactProj"], projectsHash["NCEIProj"]],
   },
   {
     fullName: "Alicia Bong",
@@ -130,7 +135,7 @@ export const profileData = [
     linkedInLink: "https://www.linkedin.com/in/iliadeleon/",
     text:
       "Ilia started off as a research associate with a focus in user experience design. She has since moved into the Design Lead role. She has a bachelor’s degree in Information Science and Policy from the University at Albany. Ilia has spent many years working with companies overseas collaborating on various sourcing, production, and logistics projects. More recently, Ilia has been focused on researching, understanding, and empathizing with users on their journey through digital products to create better experiences with usability, accessibility, and inclusiveness in mind.",
-    projects: [projectsHash["gamingProj"], projectsHash["impactProj"]],
+    projects: [projectsHash["gamingProj"], projectsHash["impactProj"], projectsHash["NCEIProj"]],
   },
   {
     fullName: "Victoria Lo",
