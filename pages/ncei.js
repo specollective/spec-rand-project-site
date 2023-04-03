@@ -44,7 +44,7 @@ const NationalCoaltionEquityImpactPage = () => {
             </p>
           </div>
         </div>
-        <div></div>
+
         <div className="py-20 md:grid md:grid-cols-2 lg:px-24 xl:px-60 text-left">
           <h1 className="pb-8 px-8 text-5xl xs:text-center md:text-left text-spec-yellow-600">
             Project Overview
@@ -61,10 +61,11 @@ const NationalCoaltionEquityImpactPage = () => {
             </p>
           </div>
         </div>
+
+        <h1 className="pb-8 px-8 text-5xl xs:text-center md:text-center text-spec-yellow-600">
+          Logo Design
+        </h1>
         <div className="py-20 md:grid md:grid-cols-2 lg:px-24 xl:px-60 text-left">
-          <h1 className="pb-8 px-8 text-5xl xs:text-center md:text-center text-spec-yellow-600">
-            Logo Design
-          </h1>
           <div className="text-right">
             <Image src={NCEILogo} alt="NCEILogo" />
           </div>
@@ -89,10 +90,10 @@ const NationalCoaltionEquityImpactPage = () => {
         </div>
       </div>
 
+      <h1 className="pb-8 px-8 text-5xl xs:text-center md:text-center text-spec-yellow-600">
+        Design Drafts
+      </h1>
       <div className="py-20 md:grid md:grid-cols-2 lg:px-24 xl:px-60 text-left">
-        <h1 className="pb-8 px-8 text-5xl xs:text-center md:text-center text-spec-yellow-600">
-          Design Drafts
-        </h1>
         <Image src={designDraft1} alt="designDraft" />
         <Image src={designDraft2} alt="designDraft2" />
       </div>
