@@ -30,7 +30,7 @@ const NationalCoaltionEquityImpactPage = () => {
             <Image src={NCEIGroup} alt="meeples" />
           </div>
           <div>
-            <h1 className="pb-8 px-8 xs:text-center md:text-left text-5xl text-spec-yellow-600">
+            <h1 className="pb-8 px-8 xs:text-center md:text-left text-5xl text-spec-yellow-600 font-bold">
               Intro
             </h1>
             <p>
@@ -46,7 +46,7 @@ const NationalCoaltionEquityImpactPage = () => {
         </div>
 
         <div className="py-20 md:grid md:grid-cols-2 lg:px-24 xl:px-60 text-left">
-          <h1 className="pb-8 px-8 text-5xl xs:text-center md:text-left text-spec-yellow-600">
+          <h1 className="pb-8 px-8 text-5xl xs:text-center md:text-left text-spec-yellow-600 font-bold">
             Project Overview
           </h1>
           <div>
@@ -62,7 +62,7 @@ const NationalCoaltionEquityImpactPage = () => {
           </div>
         </div>
 
-        <h1 className="pb-8 px-8 text-5xl xs:text-center md:text-center text-spec-yellow-600">
+        <h1 className="pb-8 px-8 text-5xl xs:text-center md:text-center text-spec-yellow-600 font-bold">
           Logo Design
         </h1>
         <div className="py-20 md:grid md:grid-cols-2 lg:px-24 xl:px-60 text-left">
@@ -90,7 +90,7 @@ const NationalCoaltionEquityImpactPage = () => {
         </div>
       </div>
 
-      <h1 className="pb-8 px-8 text-5xl xs:text-center md:text-center text-spec-yellow-600">
+      <h1 className="pb-8 px-8 text-5xl xs:text-center md:text-center text-spec-yellow-600 font-bold">
         Design Drafts
       </h1>
       <div className="py-20 md:grid md:grid-cols-2 lg:px-24 xl:px-60 text-left">
@@ -99,7 +99,7 @@ const NationalCoaltionEquityImpactPage = () => {
       </div>
 
       <div className="grid m-10 md:m-20">
-        <h2 className="justify-start text-spec-yellow-600 font-bold text-4xl px-20 md:px-40 leading-relaxed text-left">
+        <h2 className="justify-start text-spec-yellow-600 font-bold text-4xl px-20 md:px-40 leading-relaxed text-center">
           The Team
         </h2>
         <div>
