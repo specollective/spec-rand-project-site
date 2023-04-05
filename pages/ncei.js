@@ -25,7 +25,7 @@ const NationalCoaltionEquityImpactPage = () => {
         <div className="pb-8 lg:py-32">
           <Image src={NCEI} alt="NCEI logo" />
         </div>
-        <div className="md:grid md:grid-cols-2 lg:p-24 xl:p-60 text-left">
+        <div className="md:grid md:grid-cols-2 lg:p-24 xl:p-40 text-left">
           <div className="text-center">
             <Image src={NCEIGroup} alt="meeples" />
           </div>
@@ -62,33 +62,36 @@ const NationalCoaltionEquityImpactPage = () => {
           </div>
         </div>
 
-        <h1 className="pb-8 px-8 text-5xl xs:text-center md:text-center text-spec-yellow-600 font-bold">
-          Logo Design
-        </h1>
-        <div className="py-20 md:grid md:grid-cols-2 lg:px-24 xl:px-60 text-left">
-          <div className="text-right content-center">
-            <Image src={NCEILogo} alt="NCEILogo" />
-          </div>
+        <div className="py-20 lg:p-24 xl:p-24">
+          <h1 className="pb-8 px-8 text-5xl xs:text-center md:text-center text-spec-yellow-600 font-bold">
+            Logo Design
+          </h1>
+          <div className="py-20 md:grid md:grid-cols-2 lg:px-24 xl:px-60 text-left">
+            <div className="flex flex-col justify-center items-center ">
+              <Image src={NCEILogo} alt="NCEILogo" />
+            </div>
 
-          <div className="">
-            <p>
-              Inspired by the Seventh Generation Principle to promote true
-              sustainability.{" "}
-            </p>
-            <p>
-              The Seventh Generation Principle is an Indigenous Concept, to
-              think of the 7th generation coming after you in your words, work
-              and actions, and to remember the seventh generation who came
-              before you.
-            </p>
-            <p>
-              Roots signify the 7 generations before us Branches signify the 7
-              generations ahead of us Colorful leaves representing the people we
-              are uniting and impacting
-            </p>
+            <div className="flex flex-col justify-center items-center lg:px-14 xl:px-14">
+              <p>
+                Inspired by the Seventh Generation Principle to promote true
+                sustainability.{" "}
+              </p>
+              <p>
+                The Seventh Generation Principle is an Indigenous Concept, to
+                think of the 7th generation coming after you in your words, work
+                and actions, and to remember the seventh generation who came
+                before you.
+              </p>
+              <p>
+                Roots signify the 7 generations before us Branches signify the 7
+                generations ahead of us Colorful leaves representing the people
+                we are uniting and impacting
+              </p>
+            </div>
           </div>
         </div>
       </div>
+
       <div className="py-20 lg:p-24 xl:p-60">
         <h1 className="pb-8 px-8 text-5xl xs:text-center md:text-center text-spec-yellow-600 font-bold">
           Design Drafts
