@@ -76,16 +76,33 @@ const NationalCoaltionEquityImpactPage = () => {
                 Inspired by the Seventh Generation Principle to promote true
                 sustainability.{" "}
               </p>
-              <p>
+              <p className="mt-6">
                 The Seventh Generation Principle is an Indigenous Concept, to
                 think of the 7th generation coming after you in your words, work
                 and actions, and to remember the seventh generation who came
                 before you.
               </p>
-              <p>
-                Roots signify the 7 generations before us Branches signify the 7
-                generations ahead of us Colorful leaves representing the people
-                we are uniting and impacting
+
+              <ul className="list-disc mt-6">
+                <li>Roots signify the 7 generations before us</li>
+                <li>Branches signify the 7 generations ahead of us</li>
+                <li>
+                  {" "}
+                  Colorful leaves representing the people we are uniting and
+                  impacting
+                </li>
+              </ul>
+
+              <p className="mt-6">
+                To learn more about this concept, follow this link:
+                <a
+                  href="https://fisherpub.sjf.edu/cgi/viewcontent.cgi?article=1278&context=education_etd"
+                  className="underline underline-offset-0"
+                >
+                  Lyman-Wright, K. (2016). A Survey of the Educational Practices
+                  of the Haudenosaunee Confederacy and the Implications for
+                  Cultural Sovereignty.
+                </a>
               </p>
             </div>
           </div>
