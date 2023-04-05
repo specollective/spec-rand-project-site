@@ -25,7 +25,7 @@ const NationalCoaltionEquityImpactPage = () => {
         <div className="pb-8 lg:py-32">
           <Image src={NCEI} alt="NCEI logo" />
         </div>
-        <div className="md:grid md:grid-cols-2 lg:px-24 xl:px-60 text-left">
+        <div className="md:grid md:grid-cols-2 lg:p-24 xl:p-60 text-left">
           <div className="text-center">
             <Image src={NCEIGroup} alt="meeples" />
           </div>
@@ -45,7 +45,7 @@ const NationalCoaltionEquityImpactPage = () => {
           </div>
         </div>
 
-        <div className="py-20 md:grid md:grid-cols-2 lg:px-24 xl:px-60 text-left">
+        <div className="py-20 md:grid md:grid-cols-2 lg:p-24 xl:p-60 text-left">
           <h1 className="pb-8 px-8 text-5xl xs:text-center md:text-left text-spec-yellow-600 font-bold">
             Project Overview
           </h1>
@@ -66,11 +66,11 @@ const NationalCoaltionEquityImpactPage = () => {
           Logo Design
         </h1>
         <div className="py-20 md:grid md:grid-cols-2 lg:px-24 xl:px-60 text-left">
-          <div className="text-right">
+          <div className="text-right content-center">
             <Image src={NCEILogo} alt="NCEILogo" />
           </div>
 
-          <div>
+          <div className="">
             <p>
               Inspired by the Seventh Generation Principle to promote true
               sustainability.{" "}
@@ -89,13 +89,14 @@ const NationalCoaltionEquityImpactPage = () => {
           </div>
         </div>
       </div>
-
-      <h1 className="pb-8 px-8 text-5xl xs:text-center md:text-center text-spec-yellow-600 font-bold">
-        Design Drafts
-      </h1>
-      <div className="py-20 md:grid md:grid-cols-2 lg:px-24 xl:px-60 text-left">
-        <Image src={designDraft1} alt="designDraft" />
-        <Image src={designDraft2} alt="designDraft2" />
+      <div className="py-20 lg:p-24 xl:p-60">
+        <h1 className="pb-8 px-8 text-5xl xs:text-center md:text-center text-spec-yellow-600 font-bold">
+          Design Drafts
+        </h1>
+        <div className="py-20 md:grid md:grid-cols-2 lg:px-24 xl:px-60 text-left">
+          <Image src={designDraft1} alt="designDraft" />
+          <Image src={designDraft2} alt="designDraft2" />
+        </div>
       </div>
 
       <div className="grid m-10 md:m-20">
