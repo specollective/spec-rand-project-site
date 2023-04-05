@@ -3,7 +3,8 @@
   "scripts": {
     "dev": "next dev",
     "build": "next build",
-    "start": "next start"
+    "start": "next start",
+     "export": "npm run build && next export -o _static"
   },
   "dependencies": {
     "@fortawesome/fontawesome-svg-core": "^6.1.2",
