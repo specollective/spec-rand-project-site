@@ -1,5 +1,5 @@
 import Image from 'next/image';
-import wordCloud from '../public/article_word_cloud.svg';
+import wordCloud from '../public/WordCloud.svg';
 
 export default function ResearchArticle() {
 	return (
