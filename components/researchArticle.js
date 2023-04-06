@@ -22,7 +22,7 @@ export default function ResearchArticle() {
               development. SPEC’s core team worked alongside CAREP to develop
               micro-credentials and gaming.
             </p>
-            <p className="font-bold pt-10">Release Date: Coming Soon!</p>
+            <p className="font-bold pt-10">Release Date: April 2023!</p>
           </div>
         </div>
         <div className="md:m-auto md:col-span-2">
