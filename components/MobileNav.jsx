@@ -57,10 +57,11 @@ function MobileNav() {
 						<br />
 						<Link href="/microcredentials">Microcredentials</Link>
 						<br />
-						<Link href="/research-program">Research Program</Link>
-						<br />
 						<Link href="/ncei">NCEI</Link>
 						<br />
+						<Link href="/research-program">Research Program</Link>
+						<br />
+						
 					</div>
 				</div>
 			</div>
