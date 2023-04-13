@@ -56,20 +56,6 @@ function Navbar() {
       </div>
 
       <div className="relative inline-block text-left">
-        <Link href="/research-program">
-          <a
-            className={clsx(
-              "inline-flex w-full justify-center rounded-md px-4 py-2 text-lg font-medium shadow-sm focus:outline-none hover:underline",
-              pathname?.includes("research") &&
-                "underline font-bold text-spec-turquoise-600"
-            )}
-          >
-            Research Program
-          </a>
-        </Link>
-      </div>
-
-      <div className="relative inline-block text-left">
         <Link href="/ncei">
           <a
             className={clsx(
@@ -79,6 +65,20 @@ function Navbar() {
             )}
           >
             NCEI
+          </a>
+        </Link>
+      </div>
+
+      <div className="relative inline-block text-left">
+        <Link href="/research-program">
+          <a
+            className={clsx(
+              "inline-flex w-full justify-center rounded-md px-4 py-2 text-lg font-medium shadow-sm focus:outline-none hover:underline",
+              pathname?.includes("research") &&
+                "underline font-bold text-spec-turquoise-600"
+            )}
+          >
+            Research Program
           </a>
         </Link>
       </div>

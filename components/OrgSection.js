@@ -87,31 +87,27 @@ function OrgSection() {
   return (
     <section className="bg-spec-black-600 px-10 md:px-20 py-5 md:py-10">
       <div className="container mx-auto md:text-xl font-medium">
-        <div className="px-4 py-4 md:py-8 md:mx-auto md:w-1/2">
+        <div className="px-4 py-4 md:py-8 md:mx-auto md:w-1/2 lg:py-14">
           <p className="tracking-wider text-center">
-
-
-         
             In February 2022,{" "}
             <Highlight>
               the Sustainable Progress and Equality Collective (SPEC) and the
               RAND Corporation’s Center to Advance Racial Equity Policy
             </Highlight>{" "}
-          established a <Highlight> four year {" "}</Highlight>partnership centered
+            established a <Highlight> two year </Highlight>partnership centered
             on <Highlight>digital educational initiatives,</Highlight> with SPEC
             leading content development and RAND providing research oversight.
-
           </p>
         </div>
       </div>
 
       <div>
-        <div className="md:grid md:grid-cols-3 py-2 md:py-10 lg:px-36 text-center">
+        <div className="md:grid md:grid-cols-3 py-2 md:py-10 md:m-12 lg:m-16 lg:px-36 text-center">
           {specDataBody}
         </div>
       </div>
       <div>
-        <div className="md:grid md:grid-cols-3 py-2 md:py-10 lg:px-36 text-center ">
+        <div className="md:grid md:grid-cols-3 py-2 md:py-10 md:m-12 lg:m-16 lg:px-36 text-center ">
           {policyDataBody}
         </div>
       </div>
