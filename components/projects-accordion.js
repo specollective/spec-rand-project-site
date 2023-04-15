@@ -47,40 +47,49 @@ function ProjectsAccordion({ projectsData }) {
 	};
 
 	return (
-		<section className="py-14 md:py-30">
-			{projectsData.map((project, index) => (
-				<div key={`${project.name}-${index}`}>
-					<section className="hidden lg:block">
-						<div className="cursor-pointer" onClick={() => showProject(index)}>
-							<div className="grid grid-rows-3 grid-flow-col place-content-between items-end">
-								<h3 className="row-span-2 col-span-1 text-4xl text-whte-600">{project.name}</h3>
-								<p className="col-span-2 text-spec-yellow-600">{project.tag}</p>
-								<button className="row-span-3" aria-expanded={isClicked === index ? 'true' : 'false'}>
-									{toggleBtn(index)}
-								</button>
-							</div>
-							<BreakLine color="spec-teal-600" lineWidth="full" />
-						</div>
-						{
-							<section className={isClicked === index ? 'block' : 'hidden'}>
-								<ProjectsDisplay project={project} />
-							</section>
-						}
-					</section>
+    <section className="py-14 md:py-30">
+      {projectsData.map((project, index) => (
+        <div key={`${project.name}-${index}`}>
+          <section className="hidden lg:block">
+            <div className="cursor-pointer" onClick={() => showProject(index)}>
+              <div className="grid grid-rows-3 grid-flow-col place-content-between items-end">
+                <h3 className="row-span-2 col-span-1 text-4xl text-whte-600">
+                  {project.name}
+                </h3>
+                <p className="col-span-2 text-spec-yellow-600">{project.tag}</p>
+                <button
+                  className="row-span-3"
+                  aria-expanded={isClicked === index ? "true" : "false"}
+                >
+                  {toggleBtn(index)}
+                </button>
+              </div>
+              <BreakLine color="spec-teal-600" lineWidth="full" />
+            </div>
+            {
+              <section className={isClicked === index ? "block" : "hidden"}>
+                <ProjectsDisplay project={project} />
+              </section>
+            }
+          </section>
 
-					<section className="visible lg:hidden">
-						<div className="flex place-content-between py-2">
-							<h3 className="text-2xl text-whte-600">{project.name}</h3>
-							<a href={project.link} className="h-[40px] w-[40px]" target="_blank">
-								<Image alt="right-arrow" src={rightArrow} />
-							</a>
-						</div>
-						<BreakLine color="spec-teal-600" lineWidth="full" />
-					</section>
-				</div>
-			))}
-		</section>
-	);
+          <section className="visible lg:hidden">
+            <div className="flex place-content-between py-2">
+              <h3 className="text-2xl text-whte-600">{project.name}</h3>
+              <a
+                href={project.link}
+                target="_blank"
+                className="h-[40px] w-[40px]"
+              >
+                <Image alt="right-arrow" src={rightArrow} />
+              </a>
+            </div>
+            <BreakLine color="spec-teal-600" lineWidth="full" />
+          </section>
+        </div>
+      ))}
+    </section>
+  );
 }
 
 export default ProjectsAccordion;
