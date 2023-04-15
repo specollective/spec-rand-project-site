@@ -98,6 +98,17 @@ function OrgSection() {
             on <Highlight>digital educational initiatives,</Highlight> with SPEC
             leading content development and RAND providing research oversight.
           </p>
+         <div className=" mt-4 space-y-4">
+          <p className="tracking-wider text-center ">
+            SPEC is an open learning organization that empowers individuals to
+            be catalysts for positive change.
+          </p>
+          <p className="tracking-wider text-center">
+            The RAND Center to Advance Racial Equity Policy aims to develop and
+            apply approaches and solutions that build racial equity in systems
+            and policies for the future.
+            </p>
+          </div>
         </div>
       </div>
 
