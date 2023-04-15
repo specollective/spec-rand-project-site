@@ -15,7 +15,7 @@ import Megan from "./RASquares/Rectangle_Megan.svg";
 import Sharleen from "./RASquares/Rectangle_Sharleen.svg";
 import Zaire from "./RASquares/Rectangle_Zaire.svg";
 import Zara from "./RASquares/Rectangle_Zara.svg";
-import Karishma from "./RASquares/Rectangle_Karishma.svg";
+import Karishma from "./RASquares/Rectangle_Karishma2.svg";
 
 const projectsHash = {
 	microcredential: {
@@ -193,7 +193,7 @@ export const profileData = [
     pic: Karishma,
     alt: "Karishma pic",
     linkedInLink: "https://www.linkedin.com/in/karishma-mehta-a7703338/",
-    text: "Vitae aliquam turpis et, donec auctor posuere sagittis. Placerat nibh facilisis nulla placerat amet. Eros faucibus fringilla rhoncus elit sed dolor. Consequat condimentum praesent sem diam felis facilisis. Tristique sit aliquet ut in gravida vulputate porttitor et. Ultrices libero, neque gravida amet, erat odio maecenas. Eget aliquet diam nisl, potenti elit. Vestibulum lacus a dictumst facilisi elit diam dui at at. Magna lorem et accumsan, venenatis. ",
+    text: "Ms. Karishma Mehta (she/her) is a technical analyst at the RAND Corporation who works on projects related to terrorism, intelligence, national security, and homeland security implementing the lens of process mapping. She started her career at RAND as a research assistant working on projects that related to Air Force acquisition, Air Force force modernization and employment, war games, and other national security related topics. She comes back to RAND working as government contractor for DHS ICE HSI. Ms. Mehta was also Co-Chair for Enrichment for Asian American and Pacific Islander Culture and Heritage (EACH) from December 2020 to March 2023, which is one of the inaugural Employee Resource Groups (ERG) at RAND. During her tenure as Co-Chair, she has worked across RAND’s research departments and divisions and RAND’s operations to highlight the culture and issues of the AAPI community. Ms. Mehta has a M.S. in Terrorism and Homeland Security from American University, a Postgraduate Diploma in Discrete Mathematics from the University of Essex, and B.S. in Applied Mathematics from Loyola Marymount University. ",
     projects: [projectsHash["gamingProj"], projectsHash["microcredential"]],
   },
   {
