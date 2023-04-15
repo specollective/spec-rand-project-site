@@ -7,7 +7,7 @@ import Victoria from './RASquares/Rectangle_Victoria.svg';
 import Crystal from './RASquares/Rectangle_Crystal.svg';
 import Joe from './RASquares/Rectangle_Joe.svg';
 import Menoukha from './RASquares/Rectangle_Menoukha.svg';
-import Ollie from './RASquares/Rectangle_Ollie.svg';
+import Ollie from './RASquares/Rectangle_Ollie2.svg';
 import Lu from './RASquares/Rectangle_Lu.svg';
 import Dennis from "./RASquares/Rectangle_Dennis.svg";
 import Jolin from "./RASquares/Rectangle_Joline.svg"
