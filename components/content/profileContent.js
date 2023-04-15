@@ -213,7 +213,7 @@ export const profileData = [
     pic: Ollie,
     alt: "Ollie pic",
     linkedInLink: "https://www.linkedin.com/in/naneileenmead/",
-    text: "Vitae aliquam turpis et, donec auctor posuere sagittis. Placerat nibh facilisis nulla placerat amet. Eros faucibus fringilla rhoncus elit sed dolor. Consequat condimentum praesent sem diam felis facilisis. Tristique sit aliquet ut in gravida vulputate porttitor et. Ultrices libero, neque gravida amet, erat odio maecenas. Eget aliquet diam nisl, potenti elit. Vestibulum lacus a dictumst facilisi elit diam dui at at. Magna lorem et accumsan, venenatis. Nullam vitae risus tincidunt sit suspendisse.",
+    text: "Ollie Oliver (they/them) is also a Research Associate and Art Curator with the Sustainable Progress and Equality Collective (SPEC). Their background is in communes/intentional communities, eco-villages, sustainable building, human rights/ LGBTQ activism, non-profits, performance, and architectural and visual arts. They aim to blend these topics in an accessible way that gets people excited about sustainability. Ollie is passionate about their research on LGBTQ experiences, healing education and therapy for incarcerated LGBTQ+ people.",
     projects: [projectsHash["expressionsProj"]],
   },
   {
