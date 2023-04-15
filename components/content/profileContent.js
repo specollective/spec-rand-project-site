@@ -7,7 +7,7 @@ import Victoria from './RASquares/Rectangle_Victoria.svg';
 import Crystal from './RASquares/Rectangle_Crystal.svg';
 import Joe from './RASquares/Rectangle_Joe.svg';
 import Menoukha from './RASquares/Rectangle_Menoukha.svg';
-import Ollie from './RASquares/Rectangle_Ollie.svg';
+import Ollie from './RASquares/Rectangle_Ollie2.svg';
 import Lu from './RASquares/Rectangle_Lu.svg';
 import Dennis from "./RASquares/Rectangle_Dennis.svg";
 import Jolin from "./RASquares/Rectangle_Joline.svg"
@@ -15,7 +15,8 @@ import Megan from "./RASquares/Rectangle_Megan.svg";
 import Sharleen from "./RASquares/Rectangle_Sharleen.svg";
 import Zaire from "./RASquares/Rectangle_Zaire.svg";
 import Zara from "./RASquares/Rectangle_Zara.svg";
-import Karishma from "./RASquares/Rectangle_Karishma.svg";
+import Karishma from "./RASquares/Rectangle_Karishma2.svg";
+import Najwana from "./RASquares/Rectangle_Najwana.svg";
 
 const projectsHash = {
 	microcredential: {
@@ -165,7 +166,7 @@ export const profileData = [
   {
     fullName: "Sharleen Loh",
     firstName: "Sharleen",
-    title: " ",
+    title: "Research Intern ",
     pic: Sharleen,
     alt: "Sharleen pic",
     linkedInLink: "https://www.linkedin.com/in/sharleen-loh/",
@@ -193,7 +194,7 @@ export const profileData = [
     pic: Karishma,
     alt: "Karishma pic",
     linkedInLink: "https://www.linkedin.com/in/karishma-mehta-a7703338/",
-    text: "Vitae aliquam turpis et, donec auctor posuere sagittis. Placerat nibh facilisis nulla placerat amet. Eros faucibus fringilla rhoncus elit sed dolor. Consequat condimentum praesent sem diam felis facilisis. Tristique sit aliquet ut in gravida vulputate porttitor et. Ultrices libero, neque gravida amet, erat odio maecenas. Eget aliquet diam nisl, potenti elit. Vestibulum lacus a dictumst facilisi elit diam dui at at. Magna lorem et accumsan, venenatis. ",
+    text: "Ms. Karishma Mehta (she/her) is a technical analyst at the RAND Corporation who works on projects related to terrorism, intelligence, national security, and homeland security implementing the lens of process mapping. She started her career at RAND as a research assistant working on projects that related to Air Force acquisition, Air Force force modernization and employment, war games, and other national security related topics. She comes back to RAND working as government contractor for DHS ICE HSI. Ms. Mehta was also Co-Chair for Enrichment for Asian American and Pacific Islander Culture and Heritage (EACH) from December 2020 to March 2023, which is one of the inaugural Employee Resource Groups (ERG) at RAND. During her tenure as Co-Chair, she has worked across RAND’s research departments and divisions and RAND’s operations to highlight the culture and issues of the AAPI community. Ms. Mehta has a M.S. in Terrorism and Homeland Security from American University, a Postgraduate Diploma in Discrete Mathematics from the University of Essex, and B.S. in Applied Mathematics from Loyola Marymount University. ",
     projects: [projectsHash["gamingProj"], projectsHash["microcredential"]],
   },
   {
@@ -207,13 +208,23 @@ export const profileData = [
     projects: [projectsHash["gamingProj"]],
   },
   {
+    fullName: "Najwana Nashmin",
+    firstName: "Najwana",
+    title: "Research Associate / Software Engineer",
+    pic: Najwana,
+    alt: "Najwana pic",
+    linkedInLink: "https://www.linkedin.com/in/nnashmin/",
+    text: " Najwana serves as a software engineer for SPEC, a non-profit learning organization and as Director of Programs for Program Equity, the OSS teaching organization behind Amplify. Amplify is a web application that supports advocacy groups and climate change policies.In previous cycles of her career, she has served in program and product management splitting time between non- profit healthcare systems and larger tech companies(i.e.Microsoft and Amazon)",
+    projects: [projectsHash["impactProj"], projectsHash["NCEIProj"]],
+  },
+  {
     fullName: "Ollie Oliver",
     firstName: "Ollie",
     title: "Research Associate / Curator",
     pic: Ollie,
     alt: "Ollie pic",
-    linkedInLink: "https://www.linkedin.com/in/naneileenmead/",
-    text: "Vitae aliquam turpis et, donec auctor posuere sagittis. Placerat nibh facilisis nulla placerat amet. Eros faucibus fringilla rhoncus elit sed dolor. Consequat condimentum praesent sem diam felis facilisis. Tristique sit aliquet ut in gravida vulputate porttitor et. Ultrices libero, neque gravida amet, erat odio maecenas. Eget aliquet diam nisl, potenti elit. Vestibulum lacus a dictumst facilisi elit diam dui at at. Magna lorem et accumsan, venenatis. Nullam vitae risus tincidunt sit suspendisse.",
+    linkedInLink: " ",
+    text: "Ollie Oliver (they/them) is also a Research Associate and Art Curator with the Sustainable Progress and Equality Collective (SPEC). Their background is in communes/intentional communities, eco-villages, sustainable building, human rights/ LGBTQ activism, non-profits, performance, and architectural and visual arts. They aim to blend these topics in an accessible way that gets people excited about sustainability. Ollie is passionate about their research on LGBTQ experiences, healing education and therapy for incarcerated LGBTQ+ people.",
     projects: [projectsHash["expressionsProj"]],
   },
   {
@@ -239,7 +250,7 @@ export const profileData = [
   {
     fullName: "Jie (Jolin) Shen",
     firstName: "Jolin",
-    title: " ",
+    title: "Research Intern ",
     pic: Jolin,
     alt: "Jolin pic",
     linkedInLink: "https://www.linkedin.com/in/jie-jolin-shen-4333b61b9/",
