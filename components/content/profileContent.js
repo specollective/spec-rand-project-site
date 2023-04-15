@@ -16,6 +16,7 @@ import Sharleen from "./RASquares/Rectangle_Sharleen.svg";
 import Zaire from "./RASquares/Rectangle_Zaire.svg";
 import Zara from "./RASquares/Rectangle_Zara.svg";
 import Karishma from "./RASquares/Rectangle_Karishma2.svg";
+import Najwana from "./RASquares/Rectangle_Najwana.svg";
 
 const projectsHash = {
 	microcredential: {
@@ -165,7 +166,7 @@ export const profileData = [
   {
     fullName: "Sharleen Loh",
     firstName: "Sharleen",
-    title: " ",
+    title: "Research Intern ",
     pic: Sharleen,
     alt: "Sharleen pic",
     linkedInLink: "https://www.linkedin.com/in/sharleen-loh/",
@@ -207,6 +208,16 @@ export const profileData = [
     projects: [projectsHash["gamingProj"]],
   },
   {
+    fullName: "Najwana Nashmin",
+    firstName: "Najwana",
+    title: "Research Associate / Software Engineer",
+    pic: Najwana,
+    alt: "Najwana pic",
+    linkedInLink: "https://www.linkedin.com/in/nnashmin/",
+    text: " Najwana serves as a software engineer for SPEC, a non-profit learning organization and as Director of Programs for Program Equity, the OSS teaching organization behind Amplify. Amplify is a web application that supports advocacy groups and climate change policies.In previous cycles of her career, she has served in program and product management splitting time between non- profit healthcare systems and larger tech companies(i.e.Microsoft and Amazon)",
+    projects: [projectsHash["impactProj"], projectsHash["NCEIProj"]],
+  },
+  {
     fullName: "Ollie Oliver",
     firstName: "Ollie",
     title: "Research Associate / Curator",
@@ -239,7 +250,7 @@ export const profileData = [
   {
     fullName: "Jie (Jolin) Shen",
     firstName: "Jolin",
-    title: " ",
+    title: "Research Intern ",
     pic: Jolin,
     alt: "Jolin pic",
     linkedInLink: "https://www.linkedin.com/in/jie-jolin-shen-4333b61b9/",
