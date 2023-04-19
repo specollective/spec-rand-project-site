@@ -41,7 +41,7 @@ export default function ByTheNumbers() {
         statColor="spec-yellow-600"
         inputStat="12"
       >
-        <p>Research Associates (RAs) went through this program</p>
+        <p>Research Interns (RIs) went through this program</p>
       </StatBox>
       <StatBox
         className="my-4 md:my-0 max-w-[24rem]"
@@ -52,7 +52,7 @@ export default function ByTheNumbers() {
         inputStat="6"
       >
         <p>
-          Research Associates (RAs) placed at jobs; externally or through SPEC
+          Research Interns (RIs) placed at jobs; externally or through SPEC
         </p>
       </StatBox>
     </div>

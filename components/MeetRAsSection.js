@@ -17,7 +17,7 @@ export default function MeetRAs() {
           CAREP Pillar III - Policy Leadership
         </h2>
         <p className="row-span-2 text-base md:text-lg tracking-wide">
-          A unique cohort of SPEC/RAND Research Associates was brought in to
+          A unique cohort of SPEC/RAND Research Interns was brought in to
           contribute technical and subject matter expertise to RAND's decades of
           research to create <Highlight>open and accessible </Highlight> courses
           focused on <Highlight>bridging the Digital Divide </Highlight>and

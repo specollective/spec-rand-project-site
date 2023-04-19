@@ -22,7 +22,7 @@ const ResearchProgramPage = () => {
           <div className='inline-block h-auto px-8 md:px-0 md:pt-40 md:text-lg'>
             <p className=''>
               The SPEC / CAREP research program was led by a diverse and distributed team of researchers, developers, and domain experts
-              from across the United States. Through open collaboration senior contributors worked with SPEC research associates (RA) to
+              from across the United States. Through open collaboration senior contributors worked with SPEC research interns (RI) to
               share knowledge, develop job skills, and innovate toward systems change.
             </p>
           </div>

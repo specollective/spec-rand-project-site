@@ -143,7 +143,7 @@ const MicroCredentialPage = () => {
 					statColor="spec-turquoise-600"
 					inputStat="8"
 				>
-					<p>Research Associates (RAs) worked on this project</p>
+					<p>Research Interns (RIs) worked on this project</p>
 				</StatBox>
 				<StatBox
 					className="max-w-[24rem]"

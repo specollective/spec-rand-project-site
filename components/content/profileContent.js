@@ -65,11 +65,11 @@ export const profileData = [
   {
     fullName: "Yoline Banerjee",
     firstName: "Yoline",
-    title: "Research Associate / Software Engineer",
+    title: "Research Intern / Software Engineer",
     pic: Yoline,
     alt: "Yoline pic",
     linkedInLink: "https://www.linkedin.com/in/yolineb/",
-    text: "Yoline Banerjee is a research associate for SPEC. With a B.A. in Sociology and a minor in Education from UC Berkeley, Yoline has worked in various educational roles. She then went into Health Services by managing COVID testing sites. After experiencing different programs and web applications that had her thinking, “there has to be a better way,” she pivoted into the tech industry and graduated from Hackbright’s software engineering program. She is excited to combine her passion for working with the community and developing her coding skills to build systems that will help people learn, grow, and thrive.",
+    text: "Yoline Banerjee is a research intern for SPEC. With a B.A. in Sociology and a minor in Education from UC Berkeley, Yoline has worked in various educational roles. She then went into Health Services by managing COVID testing sites. After experiencing different programs and web applications that had her thinking, “there has to be a better way,” she pivoted into the tech industry and graduated from Hackbright’s software engineering program. She is excited to combine her passion for working with the community and developing her coding skills to build systems that will help people learn, grow, and thrive.",
     projects: [
       projectsHash["microcredential"],
       projectsHash["impactProj"],
@@ -107,21 +107,21 @@ export const profileData = [
   {
     fullName: "Lu Daley",
     firstName: "Lu",
-    title: "Research Associate / Software Engineer",
+    title: "Research Intern / Software Engineer",
     pic: Lu,
     alt: "Lu pic",
     linkedInLink: "https://www.linkedin.com/in/ludaley/",
-    text: "Lu Daley is a research associate/software developer at SPEC. Lu’s research involves researching, creating, and testing full-stack solutions with accessibility in mind. His team is currently building a front-end design system, a full-stack learning management system, and contributing to other open source social justice, economic growth, and environmental sustainability projects.",
+    text: "Lu Daley is a research intern/software developer at SPEC. Lu’s research involves researching, creating, and testing full-stack solutions with accessibility in mind. His team is currently building a front-end design system, a full-stack learning management system, and contributing to other open source social justice, economic growth, and environmental sustainability projects.",
     projects: [projectsHash["gamingProj"]],
   },
   {
     fullName: "Joe Golden",
     firstName: "Joe",
-    title: "Research Associate / Curator",
+    title: "Research Intern / Curator",
     pic: Joe,
     alt: "Joe pic",
     linkedInLink: "https://www.linkedin.com/in/joseph-golden-36a0465a/",
-    text: "Joseph Golden is a research associate at SPEC and the organizations Arts & Equity virtual gallery curator. His research concentrates on the benefits of artmaking as a valuable means of self-representation and self-exploration, providing opportunities to discover and interpret ones identity. Joseph earned a masters degree in adult learning from SUNY Empire State College. He was awarded the Deans Medal for Excellence, recognizing his endeavors for leadership, service, knowledge, and practice in the field. Joseph is the co-editor of the Journal of Engaged Research, a SPEC publication featuring the work from marginalized voices.",
+    text: "Joseph Golden is a Research Intern at SPEC and the organizations Arts & Equity virtual gallery curator. His research concentrates on the benefits of artmaking as a valuable means of self-representation and self-exploration, providing opportunities to discover and interpret ones identity. Joseph earned a masters degree in adult learning from SUNY Empire State College. He was awarded the Deans Medal for Excellence, recognizing his endeavors for leadership, service, knowledge, and practice in the field. Joseph is the co-editor of the Journal of Engaged Research, a SPEC publication featuring the work from marginalized voices.",
     projects: [
       projectsHash["microcredential"],
       projectsHash["expressionsProj"],
@@ -141,11 +141,11 @@ export const profileData = [
   {
     fullName: "Ilia de Leon",
     firstName: "Ilia",
-    title: "Research Associate / Design Lead",
+    title: "Research Intern / Design Lead",
     pic: Ilia,
     alt: "Ilia pic",
     linkedInLink: "https://www.linkedin.com/in/iliadeleon/",
-    text: "Ilia started off as a research associate with a focus in user experience design. She has since moved into the Design Lead role. She has a bachelor’s degree in Information Science and Policy from the University at Albany. Ilia has spent many years working with companies overseas collaborating on various sourcing, production, and logistics projects. More recently, Ilia has been focused on researching, understanding, and empathizing with users on their journey through digital products to create better experiences with usability, accessibility, and inclusiveness in mind.",
+    text: "Ilia started off as a research intern with a focus in user experience design. She has since moved into the Design Lead role. She has a bachelor’s degree in Information Science and Policy from the University at Albany. Ilia has spent many years working with companies overseas collaborating on various sourcing, production, and logistics projects. More recently, Ilia has been focused on researching, understanding, and empathizing with users on their journey through digital products to create better experiences with usability, accessibility, and inclusiveness in mind.",
     projects: [
       projectsHash["gamingProj"],
       projectsHash["impactProj"],
@@ -155,7 +155,7 @@ export const profileData = [
   {
     fullName: "Victoria Lo",
     firstName: "Victoria",
-    title: "Research Associate / Software Engineer",
+    title: "Research Intern / Software Engineer",
     pic: Victoria,
     alt: "Victoria pic",
     linkedInLink: "https://www.linkedin.com/in/victoria-lo/",
@@ -210,7 +210,7 @@ export const profileData = [
   {
     fullName: "Najwana Nashmin",
     firstName: "Najwana",
-    title: "Research Associate / Software Engineer",
+    title: "Research Intern / Software Engineer",
     pic: Najwana,
     alt: "Najwana pic",
     linkedInLink: "https://www.linkedin.com/in/nnashmin/",
@@ -220,11 +220,11 @@ export const profileData = [
   {
     fullName: "Ollie Oliver",
     firstName: "Ollie",
-    title: "Research Associate / Curator",
+    title: "Research Intern / Curator",
     pic: Ollie,
     alt: "Ollie pic",
     linkedInLink: " ",
-    text: "Ollie Oliver (they/them) is also a Research Associate and Art Curator with the Sustainable Progress and Equality Collective (SPEC). Their background is in communes/intentional communities, eco-villages, sustainable building, human rights/ LGBTQ activism, non-profits, performance, and architectural and visual arts. They aim to blend these topics in an accessible way that gets people excited about sustainability. Ollie is passionate about their research on LGBTQ experiences, healing education and therapy for incarcerated LGBTQ+ people.",
+    text: "Ollie Oliver (they/them) is also a Research Intern and Art Curator with the Sustainable Progress and Equality Collective (SPEC). Their background is in communes/intentional communities, eco-villages, sustainable building, human rights/ LGBTQ activism, non-profits, performance, and architectural and visual arts. They aim to blend these topics in an accessible way that gets people excited about sustainability. Ollie is passionate about their research on LGBTQ experiences, healing education and therapy for incarcerated LGBTQ+ people.",
     projects: [projectsHash["expressionsProj"]],
   },
   {
@@ -240,11 +240,11 @@ export const profileData = [
   {
     fullName: "Crystal Shamsi",
     firstName: "Crystal",
-    title: "Research Associate / Software Engineer",
+    title: "Research Intern / Software Engineer",
     pic: Crystal,
     alt: "Crystal pic",
     linkedInLink: "https://www.linkedin.com/in/crystalshamsi/",
-    text: "Crystal lives in Steamboat Springs, CO, and is a research associate at SPEC. She recently graduated from Hackbright Academy, learning full-stack web development and computer  science fundamentals. Crystal earned her M.S. in occupational therapy from Nova Southeastern University in 2013. As an occupational therapist, she dedicated herself to helping individuals gain the skills and tools necessary to achieve their utmost functional potential. Passionate about equality, empowerment, and justice for all people and populations, she is excited to blend her therapeutic and technological skills to expand her agency for positive impact.",
+    text: "Crystal lives in Steamboat Springs, CO, and is a research intern at SPEC. She recently graduated from Hackbright Academy, learning full-stack web development and computer  science fundamentals. Crystal earned her M.S. in occupational therapy from Nova Southeastern University in 2013. As an occupational therapist, she dedicated herself to helping individuals gain the skills and tools necessary to achieve their utmost functional potential. Passionate about equality, empowerment, and justice for all people and populations, she is excited to blend her therapeutic and technological skills to expand her agency for positive impact.",
     projects: [projectsHash["microcredential"], projectsHash["impactProj"]],
   },
   {
