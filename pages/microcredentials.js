@@ -97,7 +97,7 @@ const MicroCredentialPage = () => {
 				<div className="grid place-content-center">
 					<span className="text-4xl md:text-5xl font-bold text-spec-turquoise-600 mb-5">Impact</span>
 					<p className="text-white">
-						The project allowed RA's from underrepresented backgrounds to create course content and implement the
+						The project allowed RI's from underrepresented backgrounds to create course content and implement the
 						courses in the Moodle Platform. The content team worked collaboratively, building research and editing
 						skills. The development team worked in the back end of the Moodle platform and gained valuable Learning
 						Management System (LMS) experience. All have gained transferable skills that will boost their resumes.
@@ -143,7 +143,7 @@ const MicroCredentialPage = () => {
 					statColor="spec-turquoise-600"
 					inputStat="8"
 				>
-					<p>Research Associates (RAs) worked on this project</p>
+					<p>Research Interns (RIs) worked on this project</p>
 				</StatBox>
 				<StatBox
 					className="max-w-[24rem]"
