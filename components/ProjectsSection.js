@@ -1,5 +1,4 @@
 import ProjectsAccordion from './projects-accordion';
-
 import microcredSnap from '../public/snap_microcredential.svg';
 import meepleSnap from '../public/snap_meeple.svg';
 import digitalGallerySnap from '../public/snap_digital_gallery.svg';

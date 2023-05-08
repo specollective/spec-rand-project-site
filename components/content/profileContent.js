@@ -17,6 +17,7 @@ import Zaire from "./RASquares/Rectangle_Zaire.svg";
 import Zara from "./RASquares/Rectangle_Zara.svg";
 import Karishma from "./RASquares/Rectangle_Karishma2.svg";
 import Najwana from "./RASquares/Rectangle_Najwana.svg";
+import Zoey from "./RASquares/Rectangle_Zoey.svg";
 
 const projectsHash = {
 	microcredential: {
@@ -153,6 +154,16 @@ export const profileData = [
     ],
   },
   {
+    fullName: "Zoey Liu",
+    firstName: "Zoey",
+    title: "Research Intern / Software Engineer",
+    pic: Zoey,
+    alt: "Zoey pic",
+    linkedInLink: "https://www.linkedin.com/in/zoeyliu/",
+    text: "Zoey Yichen Liu is a M.Ed. Candidate for Instructional Technology focusing on Social Emotional Learning, Environmental Relationships, and Artistic Development. Zoey has a strong background in curriculum development for K-12 girls as well as classroom and online education. Her journey with education began as a music teacher and surf instructor.",
+    projects: [projectsHash["gamingProj"]],
+  },
+  {
     fullName: "Victoria Lo",
     firstName: "Victoria",
     title: "Research Intern / Software Engineer",
@@ -162,7 +173,6 @@ export const profileData = [
     text: "Victoria Lo graduated from San Jose State University with a B.S. in Health Science Administration. She has spent six years in Operations for health start-ups. She is curious by nature and fueled by the need to help others. Using websites, applications, and other technologies, she went from helping thousands of people in one clinic to millions across the nation. With that scale of impact, she knew coding would be her next journey. Victoria then completed a full-stack software engineering program to havedirect experience in building products that scale. With grit and armed with new skills, she is ready for a new challenge.",
     projects: [projectsHash["microcredential"], projectsHash["impactProj"]],
   },
-
   {
     fullName: "Sharleen Loh",
     firstName: "Sharleen",
