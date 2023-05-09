@@ -1,8 +1,6 @@
 import { useState } from 'react';
-
 import Image from 'next/image';
 import BreakLine from './break-line';
-
 import downArrow from '../public/arrow_down.svg';
 import upArrow from '../public/arrow_up.svg';
 import rightArrow from '../public/arrow_right.svg';
