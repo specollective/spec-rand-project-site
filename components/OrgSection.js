@@ -90,23 +90,45 @@ function OrgSection() {
         <div className="px-4 py-4 md:py-8 md:mx-auto md:w-1/2 lg:py-14">
           <p className="tracking-wider text-center">
             In February 2022,{" "}
-            <Highlight>
-              the Sustainable Progress and Equality Collective (SPEC) and the
-              RAND Corporation’s Center to Advance Racial Equity Policy
-            </Highlight>{" "}
-            established a <Highlight> two year </Highlight>partnership centered
-            on <Highlight>digital educational initiatives,</Highlight> with SPEC
-            leading content development and RAND providing research oversight.
+            <React.Fragment>
+              <Highlight>
+                the{" "}
+                <a href="https://www.specollective.org"
+                  target="_blank"
+                >
+                  Sustainable Progress and Equality Collective (SPEC){" "}
+                </a>
+              </Highlight>
+              and the{" "}
+              <Highlight>
+                <a href=" https://www.rand.org/" target="_blank">
+                  RAND
+                </a>{" "}
+                Corporation’s Center to Advance Racial Equity Policy
+              </Highlight>{" "}
+              established a <Highlight> two year </Highlight>partnership
+              centered on{" "}
+              <Highlight>digital educational initiatives,</Highlight> with SPEC
+              leading content development and RAND providing research oversight.
+            </React.Fragment>
           </p>
-         <div className=" mt-4 space-y-4">
-          <p className="tracking-wider text-center ">
-            SPEC is an open learning organization that empowers individuals to
-            be catalysts for positive change.
-          </p>
-          <p className="tracking-wider text-center">
-            The RAND Center to Advance Racial Equity Policy aims to develop and
-            apply approaches and solutions that build racial equity in systems
-            and policies for the future.
+          <div className=" mt-4 space-y-4">
+            <p className="tracking-wider text-center ">
+              SPEC is an open learning organization that empowers individuals to
+              be catalysts for positive change.
+            </p>
+            <p className="tracking-wider text-center">
+              The RAND{" "}
+              <Highlight>
+                <a
+                  href="https://www.rand.org/well-being/racial-equity-policy.html"
+                  target="_blank"
+                >
+                  Center to Advance Racial Equity Policy
+                </a>
+              </Highlight>{" "}
+              aims to develop and apply approaches and solutions that build
+              racial equity in systems and policies for the future.
             </p>
           </div>
         </div>
