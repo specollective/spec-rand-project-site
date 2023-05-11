@@ -93,22 +93,26 @@ function OrgSection() {
             <React.Fragment>
               <Highlight>
                 the{" "}
-                <a href="https://www.specollective.org"
+                <a
+                  href="https://www.specollective.org"
                   target="_blank"
+                  className="underline text-decoration-style:solid"
                 >
                   Sustainable Progress and Equality Collective (SPEC){" "}
                 </a>
               </Highlight>
               and the{" "}
               <Highlight>
-                <a href=" https://www.rand.org/" target="_blank">
-                  RAND
+                <a
+                  href=" https://www.rand.org/"
+                  target="_blank"
+                  className="underline text-decoration-style:solid"
+                >
+                  RAND Corporation’s
                 </a>{" "}
-                Corporation’s Center to Advance Racial Equity Policy
-              </Highlight>{" "}
-              established a <Highlight> two year </Highlight>partnership
-              centered on{" "}
-              <Highlight>digital educational initiatives,</Highlight> with SPEC
+              </Highlight>
+              Center to Advance Racial Equity Policy established a two year
+              partnership centered on digital educational initiatives, with SPEC
               leading content development and RAND providing research oversight.
             </React.Fragment>
           </p>
@@ -123,6 +127,7 @@ function OrgSection() {
                 <a
                   href="https://www.rand.org/well-being/racial-equity-policy.html"
                   target="_blank"
+                  className="underline text-decoration-style:solid"
                 >
                   Center to Advance Racial Equity Policy
                 </a>
