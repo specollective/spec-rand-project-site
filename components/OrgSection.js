@@ -92,7 +92,7 @@ function OrgSection() {
             In February 2022,{" "}
             <React.Fragment>
               <Highlight>
-                the{" "}
+                {" "}
                 <a
                   href="https://www.specollective.org"
                   target="_blank"
@@ -108,7 +108,7 @@ function OrgSection() {
                   target="_blank"
                   className="underline text-decoration-style:solid"
                 >
-                  RAND Corporation’s
+                  RAND Corporation
                 </a>{" "}
               </Highlight>
               Center to Advance Racial Equity Policy established a two year
