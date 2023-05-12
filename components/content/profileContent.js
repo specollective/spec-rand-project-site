@@ -156,7 +156,7 @@ export const profileData = [
   {
     fullName: "Zoey Liu",
     firstName: "Zoey",
-    title: "Research Intern / Software Engineer",
+    title: "Research Intern",
     pic: Zoey,
     alt: "Zoey pic",
     linkedInLink: "https://www.linkedin.com/in/zoeyliu/",
