@@ -6,6 +6,7 @@
    experimental: {
      images: { unoptimized: true, allowFutureImage: true },
    },
+   trailingSlash: true
  };
 
 module.exports = nextConfig
