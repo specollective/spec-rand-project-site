@@ -12,21 +12,31 @@ import { profileData } from '../components/content/profileContent';
 
 export default function Home() {
 	return (
-		<section className="bg-spec-blue-600">
-			<Head>
-				<title>Sustainable Progress Equality Collective</title>
-				<link rel="icon" type="image/png" href="/favicon-16x16.png"/>
-			</Head>
-			<TopHeroComponent />
-			<OrgSection />
-			<ResearchArticle />
-			<ProjectsSection />
+    <section className="bg-spec-blue-600">
+      <Head>
+        <title>Sustainable Progress Equality Collective</title>
+        <link rel="icon" type="image/png" href="/favicon-16x16.png" />
+        <meta property="og:title" content="SPEC CAREP website" />
+        <meta property="og:image" content="/public/caerp.svg" />
+        <meta name="twitter:card" content="/public/caerp.svg" />
+        <meta
+          property="og:description"
+          content="SPEC and the RAND Corporation Center to Advance Racial Equity Policy established a two year partnership centered on digital educational initiatives,"
+        />
+      </Head>
+      <TopHeroComponent />
+      <OrgSection />
+      <ResearchArticle />
+      <ProjectsSection />
       <MeetRAsSection />
-			<ByTheNumbers />
-			<section className="bg-spec-teal-600 flex mt-6 px-8 py-12 justify-center">
-				<ReflectionCarousel reflectionObjList={reflectionObjList} borderColor="spec-yellow-600" />
-			</section>
-			<Subfooter color="spec-teal-600"/>
-		</section>
-	);
+      <ByTheNumbers />
+      <section className="bg-spec-teal-600 flex mt-6 px-8 py-12 justify-center">
+        <ReflectionCarousel
+          reflectionObjList={reflectionObjList}
+          borderColor="spec-yellow-600"
+        />
+      </section>
+      <Subfooter color="spec-teal-600" />
+    </section>
+  );
 }
