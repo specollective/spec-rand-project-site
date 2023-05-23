@@ -17,8 +17,9 @@ export default function Home() {
         <title>Sustainable Progress Equality Collective</title>
         <link rel="icon" type="image/png" href="/favicon-16x16.png" />
         <meta property="og:title" content="SPEC CAREP website" />
-        <meta property="og:image" content="/public/homePageMeta.png" />
-        <meta name="twitter:card" content="/public/homePageMeta.png" />
+        <meta property="og:url" content="https://carep.specollective.org/" />
+        <meta property="og:image" content="/TwitterPost.png" />
+        <meta name="twitter:card" content="/TwitterPost.png" />
         <meta
           property="og:description"
           content="SPEC and the RAND Corporation Center to Advance Racial Equity Policy established a two year partnership centered on digital educational initiatives,"
