@@ -18,8 +18,16 @@ export default function Home() {
         <link rel="icon" type="image/png" href="/favicon-16x16.png" />
         <meta property="og:title" content="SPEC CAREP website" />
         <meta property="og:url" content="https://carep.specollective.org/" />
-        <meta property="og:image" content="/TwitterPost.png" />
-        <meta name="twitter:card" content="/TwitterPost.png" />
+        <meta
+          property="og:image"
+          content="https://spec-bucket.nyc3.cdn.digitaloceanspaces.com/TwitterPost.png"
+        />
+        <meta
+          name="twitter:card"
+          content="https://spec-bucket.nyc3.cdn.digitaloceanspaces.com/TwitterPost.png"
+				/>
+		<meta name="twitter:title" content="Parade of Fans for Houston’s Funeral"></meta>		
+		<meta name="twitter:card" content="summary_large_image"/>
         <meta
           property="og:description"
           content="SPEC and the RAND Corporation Center to Advance Racial Equity Policy established a two year partnership centered on digital educational initiatives,"
