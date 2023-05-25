@@ -23,15 +23,15 @@ export default function Home() {
           content="https://spec-bucket.nyc3.cdn.digitaloceanspaces.com/TwitterPost.png"
         />
         <meta
+          property="og:description"
+          content="SPEC and the RAND Corporation Center to Advance Racial Equity Policy established a two year partnership centered on digital educational initiatives."
+        />
+        <meta
           name="twitter:card"
           content="https://spec-bucket.nyc3.cdn.digitaloceanspaces.com/TwitterPost.png"
-				/>
-		<meta name="twitter:title" content="SPEC CAREP Website"></meta>		
-		<meta name="twitter:card" content="summary_large_image"/>
-        <meta
-          property="og:description"
-          content="SPEC and the RAND Corporation Center to Advance Racial Equity Policy established a two year partnership centered on digital educational initiatives,"
         />
+        <meta name="twitter:title" content="SPEC CAREP Website"></meta>
+        <meta name="twitter:card" content="summary_large_image" />
       </Head>
       <TopHeroComponent />
       <OrgSection />
