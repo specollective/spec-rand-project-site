@@ -30,8 +30,7 @@ export default function Home() {
           name="twitter:card"
           content="https://spec-bucket.nyc3.cdn.digitaloceanspaces.com/TwitterPost.png"
         />
-        <meta name="twitter:title" content="SPEC CAREP Website"></meta>
-        <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:title" content="SPEC CAREP Website" />
       </Head>
       <TopHeroComponent />
       <OrgSection />
