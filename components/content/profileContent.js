@@ -132,7 +132,7 @@ export const profileData = [
   {
     fullName: "Megan Kim",
     firstName: "Megan",
-    title: "Senior Game Designer",
+    title: "Research Intern",
     pic: Megan,
     alt: "Megan pic",
     linkedInLink: "https://www.linkedin.com/in/megan-kim-9475b179/",
